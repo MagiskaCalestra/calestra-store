@@ -1,31 +1,12 @@
-import Head from "next/head";
-import products from "../data/products";
-import ProductCard from "../components/ProductCard";
+// pages/index.js
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Calestra Store</title>
-        <meta name="description" content="Välkommen till Magiska Calestra Store!" />
-        <link rel="icon" href="/images/logo.png" />
-      </Head>
-
-      <main style={{ padding: "2rem" }}>
-        <h1 style={{ textAlign: "center", fontSize: "2rem", marginBottom: "2rem" }}>
-          Välkommen till Calestra Store
-        </h1>
-
-        <div style={{ 
-          display: "grid", 
-          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", 
-          gap: "1.5rem" 
-        }}>
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
-      </main>
-    </>
+    <div style={{ padding: "4rem", textAlign: "center" }}>
+      <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>
+        Välkommen till Calestra Store ✨
+      </h1>
+      <p>Butiken öppnar 24 augusti. Förhandsvisning aktiv.</p>
+    </div>
   );
-}// Startsida med produktlista
+}
