@@ -1,0 +1,20 @@
+[
+  {
+    "id": "day-pass",
+    "name": "Dagspass",
+    "desc": "Entré till valfri park en dag.",
+    "fromSEK": 699
+  },
+  {
+    "id": "multi-day",
+    "name": "Flerdagar",
+    "desc": "2–3 dagar med flexibel planering.",
+    "fromSEK": 1290
+  },
+  {
+    "id": "annual",
+    "name": "Årskort",
+    "desc": "Fri entré året runt + förmåner.",
+    "fromSEK": 2990
+  }
+]

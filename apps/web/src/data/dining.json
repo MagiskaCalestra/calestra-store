@@ -1,0 +1,26 @@
+[
+  {
+    "id": "celestial-dining-room",
+    "name": "Celestial Dining Room",
+    "type": "Bokningsbar",
+    "blurb": "Kvällsmeny i tre akter, live piano vissa kvällar.",
+    "tags": ["À la carte", "Allergivänligt"],
+    "image": "/src/assets/portal-neutral.jpg"
+  },
+  {
+    "id": "starlight-cafe",
+    "name": "Starlight Café",
+    "type": "Casual",
+    "blurb": "Lätta rätter, barnmeny, fika och varma drycker.",
+    "tags": ["Barnmeny", "Vegetariskt"],
+    "image": "/src/assets/hall.jpg"
+  },
+  {
+    "id": "amore-lounge",
+    "name": "Amoré Lounge",
+    "type": "Vuxenzon",
+    "blurb": "Lugn lounge, signaturmocktails och små rätter.",
+    "tags": ["18+", "Kvällstid"],
+    "image": "/src/assets/realms-gate.jpg"
+  }
+]

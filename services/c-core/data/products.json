@@ -1,0 +1,226 @@
+[
+  {
+    "id": "tee-001",
+    "slug": "black-star-tee",
+    "title": "Black Star Tee",
+    "description": "Klassisk unisex-t-shirt med Harmonic Star. Mjuk, hållbar och lätt att matcha.",
+    "price": 299,
+    "currency": "SEK",
+    "feelings": ["everyday", "dreamy", "practical"],
+    "limited": false,
+    "popularity": 90,
+    "stock": 36,
+    "season": "all",
+    "createdAt": "2025-09-08T10:00:00.000Z",
+    "variants": [
+      { "size": "S", "color": "black", "sku": "TEE001-S-BLK", "qty": 9 },
+      { "size": "M", "color": "black", "sku": "TEE001-M-BLK", "qty": 9 },
+      { "size": "L", "color": "black", "sku": "TEE001-L-BLK", "qty": 9 },
+      { "size": "XL", "color": "black", "sku": "TEE001-XL-BLK", "qty": 9 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/tee/black-star-tee-001-hero.jpg" },
+      { "type": "thumb", "image": "/images/tee/black-star-tee-001-packshot.jpg" },
+      { "type": "gallery", "image": "/images/tee/black-star-tee-001-lifestyle.jpg" },
+      { "type": "gallery", "image": "/images/tee/black-star-tee-001-model-male.jpg" },
+      { "type": "gallery", "image": "/images/tee/black-star-tee-001-flatlay.jpg" }
+    ]
+  },
+  {
+    "id": "hoodie-001",
+    "slug": "black-star-hoodie",
+    "title": "Black Star Hoodie",
+    "description": "Varm hoodie med stjärnemblem – perfekt för kvällar och resor.",
+    "price": 599,
+    "currency": "SEK",
+    "feelings": ["cozy", "warm", "gift"],
+    "limited": false,
+    "popularity": 95,
+    "stock": 18,
+    "season": "all",
+    "createdAt": "2025-09-10T09:00:00.000Z",
+    "variants": [
+      { "size": "S", "color": "black", "sku": "HD001-S-BLK", "qty": 4 },
+      { "size": "M", "color": "black", "sku": "HD001-M-BLK", "qty": 6 },
+      { "size": "L", "color": "black", "sku": "HD001-L-BLK", "qty": 5 },
+      { "size": "XL", "color": "black", "sku": "HD001-XL-BLK", "qty": 3 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/hoodie/black-star-hoodie-001-hero.jpg" },
+      { "type": "thumb", "image": "/images/hoodie/black-star-hoodie-001-packshot.jpg" },
+      { "type": "gallery", "image": "/images/hoodie/black-star-hoodie-001-lifestyle.jpg" },
+      { "type": "gallery", "image": "/images/hoodie/black-star-hoodie-001-model.jpg" },
+      { "type": "gallery", "image": "/images/hoodie/black-star-hoodie-001-flatlay.png" }
+    ]
+  },
+  {
+    "id": "tote-001",
+    "slug": "black-star-tote",
+    "title": "Black Star Tote",
+    "description": "Rymlig totebag i canvas. Bär dagen med lätthet.",
+    "price": 199,
+    "currency": "SEK",
+    "feelings": ["practical", "everyday", "gift"],
+    "limited": false,
+    "popularity": 80,
+    "stock": 40,
+    "season": "all",
+    "createdAt": "2025-09-07T12:00:00.000Z",
+    "variants": [
+      { "size": "One size", "color": "black", "sku": "TOTE001-OS-BLK", "qty": 40 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/tote/black-star-tote-001-hero.jpg" },
+      { "type": "thumb", "image": "/images/tote/black-star-tote-001-packshot.jpg" },
+      { "type": "gallery", "image": "/images/tote/black-star-tote-001-lifestyle.jpg" },
+      { "type": "gallery", "image": "/images/tote/black-star-tote-001-model-female.jpg" },
+      { "type": "gallery", "image": "/images/tote/black-star-tote-001-flatlay.jpg" }
+    ]
+  },
+  {
+    "id": "mug-001",
+    "slug": "black-star-mug",
+    "title": "Black Star Mug",
+    "description": "Keramikkopp för sena idépass – stjärnljus i varje klunk.",
+    "price": 149,
+    "currency": "SEK",
+    "feelings": ["cozy", "gift", "everyday"],
+    "limited": true,
+    "popularity": 98,
+    "stock": 3,
+    "season": "all",
+    "createdAt": "2025-09-05T08:30:00.000Z",
+    "variants": [
+      { "size": "One size", "color": "black", "sku": "MUG001-OS-BLK", "qty": 3 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/mug/black-star-mug-001-zoom-2.png" },
+      { "type": "thumb", "image": "/images/mug/black-star-mug-001-hero.jpg" },
+      { "type": "gallery", "image": "/images/mug/black-star-mug-001-zoom.png" },
+      { "type": "gallery", "image": "/images/mug/black-star-mug-001-detail.png" },
+      { "type": "gallery", "image": "/images/mug/black-star-mug-001-flatlay.jpg" }
+    ]
+  },
+  {
+    "id": "cap-001",
+    "slug": "black-star-cap",
+    "title": "Black Star Cap",
+    "description": "Strukturerad keps med diskret stjärna – vardagsstil med edge.",
+    "price": 249,
+    "currency": "SEK",
+    "feelings": ["everyday", "practical"],
+    "limited": false,
+    "popularity": 72,
+    "stock": 12,
+    "season": "summer",
+    "createdAt": "2025-08-30T10:00:00.000Z",
+    "variants": [
+      { "size": "One size", "color": "black", "sku": "CAP001-OS-BLK", "qty": 12 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/cap/black-star-cap-001-herzoomo.jpg" },
+      { "type": "thumb", "image": "/images/cap/black-star-cap-001-hero.jpg" },
+      { "type": "gallery", "image": "/images/cap/black-star-cap-001-lifestyle.jpg" },
+      { "type": "gallery", "image": "/images/cap/black-star-cap-001-model-male.jpg" },
+      { "type": "gallery", "image": "/images/cap/black-star-cap-001-model-femaile.jpg" }
+    ]
+  },
+  {
+    "id": "set-001",
+    "slug": "black-star-collection-001",
+    "title": "Black Star Collection – Set",
+    "description": "Presentset: tee + tote + mug. Begränsad upplaga.",
+    "price": 999,
+    "currency": "SEK",
+    "feelings": ["gift", "dreamy", "warm"],
+    "limited": true,
+    "popularity": 99,
+    "stock": 7,
+    "season": "xmas",
+    "createdAt": "2025-09-15T14:00:00.000Z",
+    "variants": [
+      { "size": "M", "color": "mix", "sku": "SET001-M-MIX", "qty": 3 },
+      { "size": "L", "color": "mix", "sku": "SET001-L-MIX", "qty": 2 },
+      { "size": "XL", "color": "mix", "sku": "SET001-XL-MIX", "qty": 2 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/sets/black-star-collection-001-promo.jpg" },
+      { "type": "thumb", "image": "/images/sets/black-star-set-001-showcase.jpg" },
+      { "type": "gallery", "image": "/images/tee/black-star-tee-001-hero.jpg" },
+      { "type": "gallery", "image": "/images/tote/black-star-tote-001-hero.jpg" },
+      { "type": "gallery", "image": "/images/mug/black-star-mug-001-hero.jpg" }
+    ]
+  },
+  {
+    "id": "support-001",
+    "slug": "support-light-pack",
+    "title": "Support Light Pack",
+    "description": "Digital supporterbadge + tack i release-notiser. Ett enkelt sätt att tända fler lampor.",
+    "price": 49,
+    "currency": "SEK",
+    "feelings": ["gift", "everyday", "practical"],
+    "limited": false,
+    "popularity": 70,
+    "stock": 1000,
+    "season": "all",
+    "createdAt": "2025-09-20T09:00:00.000Z",
+    "variants": [
+      { "size": "One size", "color": "digital", "sku": "SUP-001-DIG", "qty": 1000 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/sets/black-star-collection-001-promo.jpg" },
+      { "type": "thumb", "image": "/images/sets/black-star-collection-001-promo.jpg" },
+      { "type": "gallery", "image": "/images/sets/black-star-set-001-showcase.jpg" }
+    ]
+  },
+  {
+    "id": "support-002",
+    "slug": "support-dream-pack",
+    "title": "Support Dream Pack (Tee + Badge)",
+    "description": "Black Star Tee + digital badge. Ditt köp för oss närmare nästa milstolpe.",
+    "price": 299,
+    "currency": "SEK",
+    "feelings": ["everyday", "gift", "warm"],
+    "limited": false,
+    "popularity": 85,
+    "stock": 40,
+    "season": "all",
+    "createdAt": "2025-09-20T09:00:00.000Z",
+    "variants": [
+      { "size": "S", "color": "black", "sku": "SUP-002-S", "qty": 10 },
+      { "size": "M", "color": "black", "sku": "SUP-002-M", "qty": 10 },
+      { "size": "L", "color": "black", "sku": "SUP-002-L", "qty": 10 },
+      { "size": "XL", "color": "black", "sku": "SUP-002-XL", "qty": 10 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/tee/black-star-tee-001-hero.jpg" },
+      { "type": "thumb", "image": "/images/tee/black-star-tee-001-packshot.jpg" },
+      { "type": "gallery", "image": "/images/tee/black-star-tee-001-lifestyle.jpg" }
+    ]
+  },
+  {
+    "id": "support-003",
+    "slug": "support-star-pack",
+    "title": "Support Star Pack (Hoodie + Kod)",
+    "description": "Black Star Hoodie + exklusiv supporter-kod för framtida benefits.",
+    "price": 599,
+    "currency": "SEK",
+    "feelings": ["cozy", "warm", "gift"],
+    "limited": false,
+    "popularity": 88,
+    "stock": 16,
+    "season": "all",
+    "createdAt": "2025-09-20T09:00:00.000Z",
+    "variants": [
+      { "size": "S", "color": "black", "sku": "SUP-003-S", "qty": 4 },
+      { "size": "M", "color": "black", "sku": "SUP-003-M", "qty": 4 },
+      { "size": "L", "color": "black", "sku": "SUP-003-L", "qty": 4 },
+      { "size": "XL", "color": "black", "sku": "SUP-003-XL", "qty": 4 }
+    ],
+    "images": [
+      { "type": "hero", "image": "/images/hoodie/black-star-hoodie-001-hero.jpg" },
+      { "type": "thumb", "image": "/images/hoodie/black-star-hoodie-001-packshot.jpg" },
+      { "type": "gallery", "image": "/images/hoodie/black-star-hoodie-001-lifestyle.jpg" }
+    ]
+  }
+]

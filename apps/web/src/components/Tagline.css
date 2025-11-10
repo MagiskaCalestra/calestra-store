@@ -1,0 +1,11 @@
+/* apps/web/src/components/Tagline.css */
+.tagline {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ffffffcc;
+  letter-spacing: 0.5px;
+  margin-top: 0.75rem;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}

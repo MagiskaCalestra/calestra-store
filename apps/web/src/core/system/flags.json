@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "modules": {
+    "booking":   { "enabled": true,  "mode": "auto" },
+    "table":     { "enabled": true,  "mode": "auto" },
+    "wish":      { "enabled": true,  "mode": "auto" },
+    "journal":   { "enabled": false, "mode": "manual" },
+    "places":    { "enabled": true,  "mode": "auto" },
+    "dreamcircle": { "enabled": true, "mode": "auto" },
+    "audio":     { "enabled": true,  "mode": "auto" },
+    "affiliates":{ "enabled": true,  "mode": "manual" }
+  },
+  "modes": ["auto", "semi", "manual"],
+  "notes": "Local overrides kan sparas i localStorage under nyckeln cw_flags_override."
+}

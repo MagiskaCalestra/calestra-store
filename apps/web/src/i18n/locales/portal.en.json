@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Welcome to Calestra",
+    "lead": "A place where every feeling finds a home and every guest becomes a co-creator.",
+    "feelings": { "stillhet": "Stillness", "glädje": "Joy", "äventyr": "Adventure", "kärlek": "Love" }
+  },
+  "planner": {
+    "date": "Date",
+    "nights": "Nights",
+    "adults": "Adults",
+    "kids": "Kids",
+    "package": "Package",
+    "packages": { "tickets": "Tickets only", "hotelTickets": "Hotel + tickets", "dining": "Dining package" },
+    "tip": "Tip: “Hotel + tickets” gives bundle pricing and bonus points.",
+    "cta": "Plan your visit"
+  },
+  "plan": { "title": "Plan your visit" },
+  "trust": { "secure": "Secure payment", "flex": "Free rebooking*", "rating": "{rating} guest rating" },
+  "store": {
+    "title": "Store: Calestra Collections",
+    "lead": "Music, art, merch and exclusive digital experiences.",
+    "open": "Open Store",
+    "live": "Go to live store",
+    "view": "View collection",
+    "cards": {
+      "1": { "eyebrow": "Harmony", "title": "Harmonic Skies", "body": "Dreamlike scenes from the world’s calm zones." },
+      "2": { "eyebrow": "Portals", "title": "Gates of Light", "body": "Symbols, gateways and guides in gold and jade." },
+      "3": { "eyebrow": "City life", "title": "Evening Plaza", "body": "Warm nights, music and stories in motion." }
+    }
+  },
+  "progress": {
+    "title": "Global Progress — Collections fund the next step",
+    "more": "Read about our goals",
+    "rows": { "goal": "Goal", "total": "Total", "storeShare": "Store share" },
+    "supporters": "Supporters: {n}",
+    "sidebar": {
+      "eyebrow": "Support the journey",
+      "title": "Your support matters",
+      "body": "Revenue goes directly to developing the park and experiences.",
+      "ctaStore": "Shop the Store",
+      "ctaSupport": "Support directly"
+    }
+  },
+  "cta": { "tickets": "Tickets", "hotels": "Hotels", "plan": "Plan", "dining": "Dining" },
+  "tone": {
+    "hint": "Tone: warm, confident, universal. See the Tone Bible.",
+    "link": "Open Tone Bible",
+    "dismiss": "Dismiss"
+  }
+}

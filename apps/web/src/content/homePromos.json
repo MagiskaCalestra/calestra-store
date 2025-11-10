@@ -1,0 +1,24 @@
+[
+  {
+    "id": "evenings",
+    "title": "Magiska kvällar",
+    "text": "Stanna till sent. Kvällsbiljetter från 349 kr.",
+    "cta": "Se biljetter",
+    "to": "/tickets"
+  },
+  {
+    "id": "cstay",
+    "title": "C-Stay™",
+    "text": "Bo gångavstånd från porten. Poäng i DreamCircle.",
+    "cta": "Utforska hotell",
+    "to": "/hotels"
+  },
+  {
+    "id": "world3d",
+    "title": "World-3D",
+    "text": "Förhandskika vår 3D-värld. Portaler öppnas löpande.",
+    "cta": "Öppna World-3D",
+    "to": "/world-3d",
+    "accent": true
+  }
+]

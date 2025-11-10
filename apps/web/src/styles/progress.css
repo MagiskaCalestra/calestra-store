@@ -1,0 +1,33 @@
+/* Progress meter */
+.meter {
+  --bg: rgba(255,255,255,0.08);
+  --bar: linear-gradient(90deg, #7bd5ff, #7bffbd);
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--bg);
+  overflow: hidden;
+}
+.meter .bar {
+  height: 100%;
+  background: var(--bar);
+  border-radius: 999px;
+  transition: width .4s ease;
+}
+
+/* Topbar småjusteringar */
+.topbar {
+  position: sticky; top: 0; z-index: 30;
+  background: rgba(10,12,16,.7); backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.topbar .brand { display: inline-flex; align-items: center; gap: .5rem; font-weight: 600; }
+.topbar .brand-dot { width: .6rem; height: .6rem; border-radius: 999px; background: #7bd5ff; box-shadow: 0 0 16px #7bd5ff; }
+.topbar .nav { display: flex; gap: .25rem; flex-wrap: wrap; }
+.menu {
+  position: absolute; top: 110%;
+  background: #121418; border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 6px; z-index: 40;
+}
+.menu .menu-item { width: 100%; text-align: left; padding: 8px 10px; border-radius: 8px; }
+.menu .menu-item:hover { background: rgba(255,255,255,0.06); }

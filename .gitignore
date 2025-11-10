@@ -1,0 +1,11 @@
+﻿node_modules/
+dist/
+build/
+.vite/
+.turbo/
+.cache/
+*.log
+.env
+.env.*.local
+backups/
+apps/store-classic/backups/

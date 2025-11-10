@@ -1,0 +1,199 @@
+openapi: 3.0.3
+info:
+  title: C-Core Booking API
+  version: 0.1.0
+servers:
+  - url: https://api.calestra.local
+paths:
+  /booking/availability/tickets:
+    get:
+      summary: Check ticket availability & base pricing
+      parameters:
+        - in: query
+          name: date
+          schema: { type: string, format: date }
+          required: true
+        - in: query
+          name: parkId
+          schema: { type: string }
+          required: false
+        - in: query
+          name: currency
+          schema: { type: string, default: SEK }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date: { type: string, format: date }
+                  available: { type: boolean }
+                  capacityLeft: { type: integer }
+                  products:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Product"
+  /booking/cart:
+    post:
+      summary: Create a booking cart
+      requestBody:
+        required: false
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Cart" }
+  /booking/cart/{cartId}:
+    get:
+      summary: Get cart
+      parameters:
+        - in: path
+          name: cartId
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Cart" }
+  /booking/cart/{cartId}/tickets:
+    put:
+      summary: Set ticket selection (date, guests)
+      parameters:
+        - in: path
+          name: cartId
+          required: true
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [date, guests]
+              properties:
+                date: { type: string, format: date }
+                parkId: { type: string }
+                guests:
+                  type: object
+                  properties:
+                    adults: { type: integer, minimum: 0 }
+                    children: { type: integer, minimum: 0 }
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Cart" }
+  /booking/cart/{cartId}/price:
+    get:
+      summary: Price the current cart
+      parameters:
+        - in: path
+          name: cartId
+          required: true
+          schema: { type: string }
+        - in: query
+          name: currency
+          schema: { type: string, default: SEK }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Pricing" }
+  /booking/cart/{cartId}/hold:
+    post:
+      summary: Place a short hold on inventory
+      parameters:
+        - in: path
+          name: cartId
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  holdId: { type: string }
+                  expiresAt: { type: string, format: date-time }
+  /booking/order:
+    post:
+      summary: Confirm order (after payment auth)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [cartId, paymentToken]
+              properties:
+                cartId: { type: string }
+                paymentToken: { type: string }
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Order" }
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id: { type: string }
+        name: { type: string }
+        desc: { type: string }
+        basePrice: { type: number }
+        currency: { type: string }
+    CartItem:
+      type: object
+      properties:
+        kind: { type: string, enum: [TICKET, DINING, HOTEL] }
+        date: { type: string, format: date }
+        parkId: { type: string }
+        guests:
+          type: object
+          properties:
+            adults: { type: integer }
+            children: { type: integer }
+    Cart:
+      type: object
+      properties:
+        id: { type: string }
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/CartItem" }
+        totals:
+          type: object
+          properties:
+            subtotal: { type: number }
+            currency: { type: string }
+    Pricing:
+      type: object
+      properties:
+        currency: { type: string }
+        lines:
+          type: array
+          items:
+            type: object
+            properties:
+              label: { type: string }
+              amount: { type: number }
+        total: { type: number }
+    Order:
+      type: object
+      properties:
+        id: { type: string }
+        cartId: { type: string }
+        amount: { type: number }
+        currency: { type: string }
+        status: { type: string, enum: [CREATED, PAID, CANCELLED] }

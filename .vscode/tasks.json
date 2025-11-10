@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Mock API", "type": "shell", "command": "npx", "args": ["json-server","--watch","db.json","--port","3001"], "options": { "cwd": "services/mock-api" } },
+    { "label": "Infinity", "type": "process", "command": "npm", "args": ["run","dev"], "options": { "cwd": "services/infinity" } },
+    { "label": "Nexus", "type": "process", "command": "npm", "args": ["run","dev"], "options": { "cwd": "services/nexus" } },
+    { "label": "Store Classic", "type": "process", "command": "npm", "args": ["run","dev"], "options": { "cwd": "apps/store-classic" } },
+    { "label": "Run All", "dependsOn": ["Mock API","Infinity","Nexus","Store Classic"], "dependsOrder": "parallel" }
+  ]
+}

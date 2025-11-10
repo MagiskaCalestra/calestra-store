@@ -1,0 +1,23 @@
+{
+  "EU": {
+    "label": "Europe",
+    "locales": ["sv", "en"],
+    "defaultLocale": "sv",
+    "currency": "SEK",
+    "timezone": "Europe/Stockholm"
+  },
+  "GLOBAL": {
+    "label": "Global Beta",
+    "locales": ["en"],
+    "defaultLocale": "en",
+    "currency": "USD",
+    "timezone": "UTC"
+  },
+  "INTL": {
+    "label": "International",
+    "locales": ["en", "tr", "sv"],
+    "defaultLocale": "en",
+    "currency": "USD",
+    "timezone": "UTC"
+  }
+}

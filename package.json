@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "calestra",
+  "version": "1.0.0",
+  "description": "Calestra monorepo",
+  "license": "MIT",
+  "scripts": {
+    "sys:scan": "node scripts/gen-system-map.cjs",
+    "sys:png": "npx -y @mermaid-js/mermaid-cli -i docs/system-map.mmd -o docs/system-map.png -b transparent -s 1.2",
+    "sys:svg": "npx -y @mermaid-js/mermaid-cli -i docs/system-map.mmd -o docs/system-map.svg -b transparent -s 1.2",
+    "sys:all": "node scripts/gen-system-map.cjs && npx -y @mermaid-js/mermaid-cli -i docs/system-map.mmd -o docs/system-map.png -b transparent -s 1.2",
+    "state-lock:win": "powershell -ExecutionPolicy Bypass -File scripts/state-lock/STATE-LOCK.ps1",
+    "state-lock:unix": "bash scripts/state-lock/STATE-LOCK.sh",
+    "store:dev": "pnpm --filter store-classic dev",
+    "store:build": "pnpm --filter store-classic build",
+    "store:preview": "pnpm --filter store-classic preview",
+    "store:i18n:check": "pnpm --filter store-classic i18n:check"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "react-router-dom": "^7.0.4"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.9.1",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0",
+    "vite": "^5.4.0"
+  }
+}

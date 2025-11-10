@@ -1,0 +1,23 @@
+[
+  {
+    "id": "amore-hotel",
+    "name": "Amoré Hotel™",
+    "stars": 5,
+    "blurb": "Romantiskt, lugnt – kvällsprogram och à la carte.",
+    "image": "/src/assets/portal-neutral.jpg"
+  },
+  {
+    "id": "harmonic-star-lodge",
+    "name": "Harmonic Star Lodge™",
+    "stars": 4,
+    "blurb": "Familjenära, kort gångavstånd till paradingången.",
+    "image": "/src/assets/realms-gate.jpg"
+  },
+  {
+    "id": "quiet-light-spa-suites",
+    "name": "Quiet Light Spa Suites™",
+    "stars": 5,
+    "blurb": "Spa-inspirerat med separata relaxdelar.",
+    "image": "/src/assets/hall.jpg"
+  }
+]

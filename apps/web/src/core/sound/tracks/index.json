@@ -1,0 +1,4 @@
+{
+  "/": { "url": "/audio/cw_theme_main.mp3", "vol": 0.0 },
+  "/world3d": { "url": "/audio/cw_theme_portal.mp3", "vol": 0.18 }
+}

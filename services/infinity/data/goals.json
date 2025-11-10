@@ -1,0 +1,22 @@
+{
+  "currentMain": "CW-2025-EP1",
+  "goals": [
+    {
+      "id": "CW-2025-EP1",
+      "title": "Episode I — Arrival Plaza",
+      "metric": "points",
+      "target": 100000,
+      "publicMode": "percent",
+      "stages": [
+        { "id": "S1", "title": "Ljusporten",  "target": 20000,  "reward": "Teaser-frame #1",  "summary": "Första portalen tänds.",        "percent": 0 },
+        { "id": "S2", "title": "Musikskiss",  "target": 50000,  "reward": "Lyra-theme (30s)",  "summary": "Vi låser upp ledmotivet.",      "percent": 0 },
+        { "id": "S3", "title": "Plaza-mock",  "target": 100000, "reward": "3D-walk beta",      "summary": "Promenera i plaza-prototypen.", "percent": 0 }
+      ]
+    }
+  ],
+  "totals": {
+    "points": 19980000,
+    "supporters": 1342,
+    "bySource": { "store": 19980000, "partners": 0 }
+  }
+}

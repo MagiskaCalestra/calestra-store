@@ -1,0 +1,17 @@
+{
+  "goalSEK": 5000000,
+  "totalsSEK": 19980000,
+  "bySourceSEK": {
+    "store": 19980000
+  },
+  "log": [
+    {
+      "ts": "2025-10-27T18:37:02.777Z",
+      "source": "store",
+      "currency": "SEK",
+      "amount": 19980000,
+      "amountSEK": 19980000,
+      "orderId": "CWS-1761590222661-O380YQ"
+    }
+  ]
+}

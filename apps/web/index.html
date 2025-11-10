@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="description" content="Calestra — en levande portal till känslor, magi och ljus. Planera ditt besök och följ vår resa." />
+    <meta name="theme-color" content="#0b0f1c" />
+
+    <!-- Preconnects (fonts/CDN om ni lägger till senare) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Preload hero-bild (webp) -->
+    <link
+      rel="preload"
+      as="image"
+      href="/images/world/portal-hero.webp"
+      imagesrcset="/images/world/portal-hero.webp type('image/webp'), /images/world/portal-hero.jpg type('image/jpeg')"
+    />
+
+    <link rel="icon" href="/brand/harmonic-star.svg" type="image/svg+xml" />
+    <title>Calestra — Portal</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

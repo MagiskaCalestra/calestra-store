@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Calestra'ya Hoş Geldiniz",
+    "lead": "Her duygunun bir yuva bulduğu, her misafirin ortak yaratıcı olduğu bir yer.",
+    "feelings": { "stillhet": "Sükûnet", "glädje": "Neşe", "äventyr": "Macera", "kärlek": "Sevgi" }
+  },
+  "planner": {
+    "date": "Tarih",
+    "nights": "Gece",
+    "adults": "Yetişkin",
+    "kids": "Çocuk",
+    "package": "Paket",
+    "packages": { "tickets": "Sadece bilet", "hotelTickets": "Otel + bilet", "dining": "Yemek paketi" },
+    "tip": "İpucu: “Otel + bilet” paket fiyatı ve bonus puan verir.",
+    "cta": "Ziyaretini planla"
+  },
+  "plan": { "title": "Ziyaretini planla" },
+  "trust": { "secure": "Güvenli ödeme", "flex": "Ücretsiz değişiklik*", "rating": "{rating} misafir puanı" },
+  "store": {
+    "title": "Mağaza: Calestra Koleksiyonları",
+    "lead": "Müzik, sanat, ürünler ve özel dijital deneyimler.",
+    "open": "Mağazayı aç",
+    "live": "Canlı mağazaya git",
+    "view": "Koleksiyonu gör",
+    "cards": {
+      "1": { "eyebrow": "Ahenk", "title": "Harmonic Skies", "body": "Dünyanın sakin bölgelerinden düşsel sahneler." },
+      "2": { "eyebrow": "Geçitler", "title": "Gates of Light", "body": "Altın ve yeşim içinde semboller ve rehberler." },
+      "3": { "eyebrow": "Şehir", "title": "Evening Plaza", "body": "Sıcak akşamlar, müzik ve hareketli hikayeler." }
+    }
+  },
+  "progress": {
+    "title": "Küresel İlerleme — Koleksiyonlar bir sonraki adımı finanse eder",
+    "more": "Hedeflerimizi oku",
+    "rows": { "goal": "Hedef", "total": "Toplam", "storeShare": "Mağaza payı" },
+    "supporters": "Destekleyen: {n}",
+    "sidebar": {
+      "eyebrow": "Yolculuğu destekle",
+      "title": "Katkın önemli",
+      "body": "Gelir doğrudan park ve deneyimlerin geliştirilmesine gider.",
+      "ctaStore": "Mağazada alışveriş yap",
+      "ctaSupport": "Doğrudan destekle"
+    }
+  },
+  "cta": { "tickets": "Biletler", "hotels": "Oteller", "plan": "Planla", "dining": "Yemek" },
+  "tone": {
+    "hint": "Ton: sıcak, kendinden emin, evrensel. Tone Bible’a göz at.",
+    "link": "Tone Bible’ı aç",
+    "dismiss": "Kapat"
+  }
+}

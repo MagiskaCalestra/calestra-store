@@ -1,0 +1,22 @@
+{
+  "name": "cfinance",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext js --exec \"node src/server.js\"",
+    "start": "node src/server.js",
+    "health": "node -e \"require('http').get('http://localhost:'+ (process.env.PORT||14600) +'/healthz',r=>r.statusCode===200?process.exit(0):process.exit(1))\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "stripe": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

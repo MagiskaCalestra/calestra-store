@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "sky":   { "path": "/images/hero/sky.jpg",   "type": "image/jpeg", "role": "bg 16:9 distant star + stardust arc", "size_hint": "2880x1620" },
+    "castle":{ "path": "/images/hero/castle.png","type": "image/png",   "role": "foreground silhouette, transparent", "size_hint": "2000w" }
+  },
+  "ui": {
+    "phone": { "path": "/images/ui/phone.png", "type": "image/png", "role": "device mock, transparent", "size_hint": "1200h" },
+    "lyra":  { "path": "/images/ui/lyra.png",   "type": "image/png", "role": "character, transparent",   "size_hint": "1800h" }
+  },
+  "store": {
+    "hoodie": { "path": "/images/store/hoodie.png", "type": "image/png", "role": "product mock, transparent" },
+    "mug":    { "path": "/images/store/mug.png",    "type": "image/png", "role": "product mock, transparent" },
+    "book":   { "path": "/images/store/book.png",   "type": "image/png", "role": "product mock, transparent" }
+  }
+}

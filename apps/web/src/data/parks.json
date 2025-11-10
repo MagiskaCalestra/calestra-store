@@ -1,0 +1,23 @@
+[
+  {
+    "id": "harmonic-star-park",
+    "name": "Harmonic Star Park™",
+    "tagline": "Känslozoner, parader och kvällsshow.",
+    "blurb": "Vår centrala park där berättelserna väcks till liv genom zoner, musik och ljus.",
+    "hero": "/src/assets/realms-gate.jpg"
+  },
+  {
+    "id": "tomorrowvale",
+    "name": "Tomorrowvale™",
+    "tagline": "Framtid, hopp och kreativ energi.",
+    "blurb": "Upplevelser som blickar framåt med teknik, fantasi och värme.",
+    "hero": "/src/assets/starfield.jpg"
+  },
+  {
+    "id": "the-quiet-light",
+    "name": "The Quiet Light™",
+    "tagline": "Vila, ro och läkande platser.",
+    "blurb": "Stillhet mitt i magin – vackra promenader, rogivande musik och vatten.",
+    "hero": "/src/assets/hall.jpg"
+  }
+]

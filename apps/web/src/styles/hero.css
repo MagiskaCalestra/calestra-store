@@ -1,0 +1,46 @@
+/* apps/web/src/styles/hero.css */
+.hero {
+  min-height: 48vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-align: center;
+  padding: 64px 16px;
+  background-image:
+    linear-gradient(180deg, rgba(10,12,24,0.55), rgba(10,12,24,0.85)),
+    image-set(
+      url("/images/world/portal-hero.webp") type("image/webp"),
+      url("/images/world/portal-hero.jpg") type("image/jpeg")
+    );
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-inner { max-width: 900px; }
+.hero-title  { font-size: 42px; margin: 0 0 12px; }
+.hero-lead   { font-size: 18px; opacity: .9; }
+
+/* simple grid cards used lower on page */
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+@media (max-width: 900px) {
+  .portal-grid { grid-template-columns: 1fr; }
+}
+
+.portal-card {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  color: #ffffffcc;
+  padding: 16px;
+}
+
+/* high-contrast focus for a11y */
+:where(a, button, select, input, [tabindex]) :focus,
+:where(a, button, select, input, [tabindex]):focus {
+  outline: 2px solid #cfd6ff;
+  outline-offset: 2px;
+}

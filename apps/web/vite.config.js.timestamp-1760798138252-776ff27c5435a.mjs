@@ -1,0 +1,17 @@
+// apps/web/vite.config.js
+import react from "file:///D:/Mina%20Mappar/Jobb%20och%20f%C3%B6retag/Calestra/apps/web/node_modules/@vitejs/plugin-react/dist/index.js";
+import { defineConfig } from "file:///D:/Mina%20Mappar/Jobb%20och%20f%C3%B6retag/Calestra/apps/web/node_modules/vite/dist/node/index.js";
+var vite_config_default = defineConfig({
+  plugins: [react()],
+  server: {
+    host: true,
+    port: 5175,
+    // WEB = 5175
+    strictPort: true,
+    open: false
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiYXBwcy93ZWIvdml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJEOlxcXFxNaW5hIE1hcHBhclxcXFxKb2JiIG9jaCBmXHUwMEY2cmV0YWdcXFxcQ2FsZXN0cmFcXFxcYXBwc1xcXFx3ZWJcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkQ6XFxcXE1pbmEgTWFwcGFyXFxcXEpvYmIgb2NoIGZcdTAwRjZyZXRhZ1xcXFxDYWxlc3RyYVxcXFxhcHBzXFxcXHdlYlxcXFx2aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vRDovTWluYSUyME1hcHBhci9Kb2JiJTIwb2NoJTIwZiVDMyVCNnJldGFnL0NhbGVzdHJhL2FwcHMvd2ViL3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHJlYWN0IGZyb20gXCJAdml0ZWpzL3BsdWdpbi1yZWFjdFwiO1xyXG5pbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tIFwidml0ZVwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHtcclxuICBwbHVnaW5zOiBbcmVhY3QoKV0sXHJcbiAgc2VydmVyOiB7XHJcbiAgICBob3N0OiB0cnVlLFxyXG4gICAgcG9ydDogNTE3NSwgICAgICAvLyBXRUIgPSA1MTc1XHJcbiAgICBzdHJpY3RQb3J0OiB0cnVlLFxyXG4gICAgb3BlbjogZmFsc2UsXHJcbiAgfSxcclxufSk7XHJcbiJdLAogICJtYXBwaW5ncyI6ICI7QUFBNFYsT0FBTyxXQUFXO0FBQzlXLFNBQVMsb0JBQW9CO0FBRTdCLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVMsQ0FBQyxNQUFNLENBQUM7QUFBQSxFQUNqQixRQUFRO0FBQUEsSUFDTixNQUFNO0FBQUEsSUFDTixNQUFNO0FBQUE7QUFBQSxJQUNOLFlBQVk7QUFBQSxJQUNaLE1BQU07QUFBQSxFQUNSO0FBQ0YsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "logo": "/brand/harmonic-star.svg",
+  "url": "https://example.com/",
+  "tracked": "partner_generic",
+  "eyebrow": {
+    "en": "Featured Partner",
+    "sv": "Utvald partner",
+    "tr": "Öne çıkan partner"
+  },
+  "title": {
+    "en": "A partner that shares our vision",
+    "sv": "En partner som delar vår vision",
+    "tr": "Vizyonumuzu paylaşan bir partner"
+  },
+  "text": {
+    "en": "Together we build a kinder, more magical world.",
+    "sv": "Tillsammans bygger vi en varmare och mer magisk värld.",
+    "tr": "Birlikte daha sihirli, daha nazik bir dünya kuruyoruz."
+  },
+  "ctaLabel": {
+    "en": "Learn more",
+    "sv": "Läs mer",
+    "tr": "Daha fazla bilgi"
+  }
+}

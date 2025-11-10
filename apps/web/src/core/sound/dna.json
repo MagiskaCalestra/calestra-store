@@ -1,0 +1,125 @@
+{
+  "$schema": "https://calestra.world/schemas/sound-dna.v1.json",
+  "brand": {
+    "name": "Calestra",
+    "version": "1.0.0",
+    "language": "sv",
+    "goals": [
+      "Universell, filmisk och hoppfull klang",
+      "Kulturellt neutral (ingen specifik folktradition eller religiösa markörer)",
+      "Lugn, inbjudande premiumkänsla som fungerar i webben och på plats i parken"
+    ]
+  },
+
+  "core_motif": {
+    "label": "Vågen",
+    "notes": ["C4","D4","E4","D4"],
+    "rhythm": ["8n","8n","8n","8n"],
+    "comment": "Stegvis uppåt och tillbaka; sökande och vänlig."
+  },
+
+  "harmony": {
+    "key": "C",
+    "scale": "Ionian (C major)",
+    "default_progression": ["Cmaj7","Fmaj7","Gmaj7","Cmaj7"],
+    "alt_progressions": [
+      { "id": "soft-rise",  "chords": ["Cmaj7","Fmaj7","G6","Cmaj7"] },
+      { "id": "gentle-loop","chords": ["Cmaj7","Fmaj7","Cmaj7","Gmaj7"] }
+    ],
+    "cadences": {
+      "soft_close": ["Fmaj7","Gmaj7","Cmaj7"],
+      "loop_seam": ["Cmaj7","Fmaj7","Gmaj7","(back to) Cmaj7"]
+    },
+    "bass_guidelines": "Använd främst grundtoner; undvik aggressiva gångar. Pentatoniska fills ok mycket lågt i mix."
+  },
+
+  "tempo": {
+    "recommended_bpm": {
+      "portal_theme": 60,
+      "retail_bgm": 85,
+      "queue_ambi": 72
+    },
+    "ranges": {
+      "slow": [56, 68],
+      "moderate": [72, 92]
+    }
+  },
+
+  "instrumentation": {
+    "palette": [
+      { "name": "Solo Cello", "role": "motif / lead", "style": "dolce, legato, minimal vibrato" },
+      { "name": "Grand Piano", "role": "harmony / arpeggios", "style": "mjuka pedaler, lågt velocity-spann" },
+      { "name": "Warm Pad", "role": "bed / space", "style": "lång attack, lång release, låg cutoff" },
+      { "name": "Rhodes EP", "role": "retail harmony", "style": "rounded bell, chorus lätt" },
+      { "name": "Nylon Guitar", "role": "soft rhythm", "style": "fingerpicked, inga hårda accenter" },
+      { "name": "Brush Kit", "role": "percussion texture", "style": "brush swirls, inga snare hits" }
+    ],
+    "forbidden": [
+      "hårda cymbaler",
+      "distade gitarrer",
+      "dominanta etniska soloinstrument",
+      "aggressiva synkoper som triggar stress"
+    ]
+  },
+
+  "dynamics": {
+    "global_target_lufs": -18,
+    "web_bus_lufs": -20,
+    "park_bus_lufs": -16,
+    "max_peak_dbfs": -1,
+    "automation": "Långsamma kurvor; fade-ins 300–800ms, fade-outs 1200–2500ms."
+  },
+
+  "space_and_fx": {
+    "reverb": {
+      "type": "hall / plate hybrid",
+      "pre_delay_ms": 12,
+      "decay_seconds": 2.4,
+      "mix_percent": 12
+    },
+    "delay": {
+      "type": "tape subtle",
+      "sync": "1/8 dotted",
+      "mix_percent": 6
+    }
+  },
+
+  "arranging_rules": {
+    "motif_usage": "Spela motivet i takt 1 vid intro; repetera var 2–4:e takt i portaltemat, var 8:e i retail.",
+    "piano_voicings": "Maj7 i täta öppna voicings, undvik hårda tior; gärna spritt mellan låga/mellanregister.",
+    "pad_behavior": "Sustained, filtrerad, låg RMS. Ska kännas som stjärn-dimma.",
+    "percussion": "Endast brush-textur i retail; portaltemat helt utan slagverk.",
+    "looping": "Sömlös övergång kräver identisk bar-alignment och svans under 80ms vid loop-punkten."
+  },
+
+  "web_impl": {
+    "json_track_shape": {
+      "track_id": "string",
+      "track_title": "string",
+      "duration_seconds": "number",
+      "loopable": "boolean",
+      "fade_out_milliseconds": "number (optional)",
+      "loop_point_start_seconds": "number (optional)",
+      "loop_point_end_seconds": "number (optional)",
+      "instruments_used": ["string"],
+      "chord_progression": ["string"]
+    },
+    "file_conventions": {
+      "audio_folder": "/audio",
+      "filenames": "lower-kebab, e.g. cw_theme_main.mp3",
+      "stems_optional": ["cello","piano","pad","rhodes","guitar","brush"]
+    }
+  },
+
+  "safety_and_ethics": {
+    "neutrality": "Undvik melodiska gester som uppfattas som religiösa eller nationella fanfarer.",
+    "comfort": "Ingen plötslig fortissimo, inga jump-scares.",
+    "accessibility": "Håll grundtempot stabilt; undvik komplex polymeter."
+  },
+
+  "legal": {
+    "copyright": "Calestra World ©",
+    "license": "Intern användning; återanvändning kräver godkännande.",
+    "ai_guidelines": "AI-genererat material måste kvalitetssäkras och mixas av människa före publicering."
+  }
+}

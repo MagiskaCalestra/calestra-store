@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "Välkommen till Calestra",
+    "lead": "En plats där varje känsla får ett hem och varje gäst blir medskapare.",
+    "feelings": { "stillhet": "Stillhet", "glädje": "Glädje", "äventyr": "Äventyr", "kärlek": "Kärlek" }
+  },
+  "planner": {
+    "date": "Datum",
+    "nights": "Nätter",
+    "adults": "Vuxna",
+    "kids": "Barn",
+    "package": "Upplägg",
+    "packages": { "tickets": "Endast biljetter", "hotelTickets": "Hotell + biljetter", "dining": "Middagspaket" },
+    "tip": "Tips: “Hotell + biljetter” ger paketpris och bonuspoäng.",
+    "cta": "Planera ditt besök"
+  },
+  "plan": { "title": "Planera ditt besök" },
+  "trust": { "secure": "Säker betalning", "flex": "Gratis ombokning*", "rating": "{rating} gästbetyg" },
+  "store": {
+    "title": "Store: Calestra Collections",
+    "lead": "Musik, konst, merch och exklusiva digitala upplevelser.",
+    "open": "Öppna Store",
+    "live": "Gå till live-butiken",
+    "view": "Visa kollektion",
+    "cards": {
+      "1": { "eyebrow": "Harmoni", "title": "Harmonic Skies", "body": "Drömlika motiv från världens lugna zoner." },
+      "2": { "eyebrow": "Portaler", "title": "Gates of Light", "body": "Symboler, portar och ledsagare i guld och jade." },
+      "3": { "eyebrow": "Stadsliv", "title": "Evening Plaza", "body": "Varma kvällar, musik och berättelser i rörelse." }
+    }
+  },
+  "progress": {
+    "title": "Global Progress — Calestra Collections finansierar nästa steg",
+    "more": "Läs mer om våra mål",
+    "rows": { "goal": "Mål", "total": "Totalt", "storeShare": "Butikens andel" },
+    "supporters": "Supporters: {n}",
+    "sidebar": {
+      "eyebrow": "Stöd resan i Store",
+      "title": "Ditt stöd gör skillnad",
+      "body": "Intäkter går direkt till utvecklingen av parken och upplevelser.",
+      "ctaStore": "Handla i Store",
+      "ctaSupport": "Stöd direkt"
+    }
+  },
+  "cta": { "tickets": "Biljetter", "hotels": "Hotell", "plan": "Planera", "dining": "Boka bord" },
+  "tone": {
+    "hint": "Ton: varm, självsäker, universell. Se Tone Bible.",
+    "link": "Öppna Tone Bible",
+    "dismiss": "Stäng"
+  }
+}

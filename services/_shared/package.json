@@ -1,0 +1,6 @@
+﻿{
+  "name": "calestra-shared",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=18" }
+}

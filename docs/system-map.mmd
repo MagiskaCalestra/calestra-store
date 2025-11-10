@@ -1,0 +1,20 @@
+flowchart TB
+
+subgraph Client["🧑‍💻 Webbläsare (användare)"]
+  UI["Store-Classic<br/>(Vite 5175/5288)"]
+end
+
+subgraph Services["★ Backend-tjänster"]
+  CORE["c-core<br/>http://localhost:15000<br/>/health ✓"]:::u
+  INFY["infinity<br/>http://localhost:14500<br/>/progress/summary, /progress ✓"]:::u
+  NEXUS["nexus<br/>http://localhost:14000<br/>(router / mellanlager) ✓"]:::u
+  MOCK["mock-api<br/>http://localhost:5399<br/>(dev-fake) ✓"]:::u
+end
+
+UI -->|via @core/api/index.js| CORE
+UI -->|progress meter| INFY
+UI -. optional .-> NEXUS
+NEXUS -->|proxy| CORE
+NEXUS -->|proxy| INFY
+
+classDef u fill:#153,stroke:#0f5,stroke-width:1.4,color:#fff;

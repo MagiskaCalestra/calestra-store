@@ -1,0 +1,12 @@
+<!-- apps/web/public/brand/harmonic-star.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e1" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#4c6fff" stop-opacity="0.1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#glow)"/>
+  <polygon points="100,20 118,80 180,80 130,120 150,180 100,145 50,180 70,120 20,80 82,80"
+           fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+</svg>
