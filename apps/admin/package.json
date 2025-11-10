@@ -1,22 +1,10 @@
 {
-  "name": "calestra-admin",
-  "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 5179"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2"
-  },
   "devDependencies": {
+    "vite": "^5.4.21",
     "@vitejs/plugin-react": "^4.7.0",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.17",
-    "vite": "^5.4.21"
+    "tailwindcss": "^3.4.18",
+    "postcss": "^8.4.41",
+    "autoprefixer": "^10.4.20"
   }
 }
