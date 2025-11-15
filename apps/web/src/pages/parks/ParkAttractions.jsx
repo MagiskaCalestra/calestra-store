@@ -22,7 +22,7 @@ export default function ParkAttractions() {
   return (
     <section className="page">
       <div className="wrap">
-        <h1>{park.name} – Attraktioner</h1>
+        <h1>{park.name} â€“ Attraktioner</h1>
         {list.length === 0 ? (
           <div className="empty">Inga attraktioner inlagda ännu.</div>
         ) : (

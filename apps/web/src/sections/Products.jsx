@@ -33,7 +33,7 @@ export default function Products(){
         </div>
 
         <div className="row" style={{justifyContent:'center', marginTop:18}}>
-          <a className="btn" href="#">Till Store Office ↗</a>
+          <a className="btn" href="#">Till Store Office â†—</a>
           <a className="btn" href="#">Konserter & merch</a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 /**
  * Enkel, GPU-snäll parallax som manipulerar ett lager med translate3d.
- * strength: 0..1 (0.15–0.25 känns lagom)
+ * strength: 0..1 (0.15â€“0.25 känns lagom)
  */
 export default function useParallax({ strength = 0.2 } = {}) {
   const containerRef = useRef(null);

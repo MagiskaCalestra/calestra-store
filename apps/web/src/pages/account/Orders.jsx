@@ -55,9 +55,9 @@ export default function AccountOrders() {
                   {active.contact && (
                     <>
                       <h3>Kontakt</h3>
-                      <p><strong>Namn:</strong> {active.contact.name || "—"}</p>
-                      <p><strong>E-post:</strong> {active.contact.email || "—"}</p>
-                      <p><strong>Telefon:</strong> {active.contact.phone || "—"}</p>
+                      <p><strong>Namn:</strong> {active.contact.name || "â€”"}</p>
+                      <p><strong>E-post:</strong> {active.contact.email || "â€”"}</p>
+                      <p><strong>Telefon:</strong> {active.contact.phone || "â€”"}</p>
                     </>
                   )}
 

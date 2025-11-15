@@ -1,4 +1,4 @@
-// C-Wish – mock för armband/app-nyckel. Aktivering + status lokalt.
+// C-Wish â€“ mock för armband/app-nyckel. Aktivering + status lokalt.
 import { emit } from "../eventBus";
 const LS_WISH = "ccore_wish_band";
 

@@ -9,8 +9,8 @@ export default function SystemHealth() {
     core.healthAll().then(setData).catch(e => setErr(String(e)));
   }, []);
 
-  if (err) return <div className="card" style={{ color: "#ff9f9f" }}>❌ Fel: {err}</div>;
-  if (!data) return <div className="card" style={{ color: "#a8b0c3" }}>Kontrollerar tjänster…</div>;
+  if (err) return <div className="card" style={{ color: "#ff9f9f" }}>âŒ Fel: {err}</div>;
+  if (!data) return <div className="card" style={{ color: "#a8b0c3" }}>Kontrollerar tjänsterâ€¦</div>;
 
   return (
     <div className="card" style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
@@ -21,7 +21,7 @@ export default function SystemHealth() {
           borderRadius: 10, padding: "6px 10px",
           color: v.ok ? "#9ff59f" : "#ff9f9f"
         }}>
-          {k.toUpperCase()} {v.ok ? "✅" : "❌"}
+          {k.toUpperCase()} {v.ok ? "âœ…" : "âŒ"}
         </div>
       ))}
     </div>

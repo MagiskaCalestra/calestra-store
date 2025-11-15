@@ -55,6 +55,6 @@ export function importRules(jsonText) {
     const parsed = JSON.parse(jsonText);
     return setRules(parsed);
   } catch (e) {
-    throw new Error("Ogiltig JSON – kunde inte importera regler.");
+    throw new Error("Ogiltig JSON â€“ kunde inte importera regler.");
   }
 }

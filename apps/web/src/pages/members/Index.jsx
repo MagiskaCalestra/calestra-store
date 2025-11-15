@@ -54,7 +54,7 @@ export default function MembersIndex() {
 
   function exportMonthlyReport() {
     const html = buildMonthlyReportHTML({
-      title: `Calestra – Monthly Report ${dateKey()}`,
+      title: `Calestra â€“ Monthly Report ${dateKey()}`,
       snapshot: snap,
       bankDirectory: bankDir,
       myRef
@@ -83,11 +83,11 @@ export default function MembersIndex() {
         <div>
           <div className="h2">Min sida (Affiliates & Ambassadörer)</div>
           <div className="small">
-            Ref: <b>{myRef || "–"}</b> • Senaste körning: {snap?.ts ? new Date(snap.ts).toLocaleString() : "–"}
+            Ref: <b>{myRef || "â€“"}</b> â€¢ Senaste körning: {snap?.ts ? new Date(snap.ts).toLocaleString() : "â€“"}
           </div>
           {showBankWarning && (
             <div className="small" style={{ marginTop: 6, color: "#f5c84b" }}>
-              ⚠️ Utbetalningsuppgifter saknas för <b>{myRef}</b>. Be admin lägga till på{" "}
+              âš ï¸ Utbetalningsuppgifter saknas för <b>{myRef}</b>. Be admin lägga till på{" "}
               <a className="small" href="/admin/payouts" style={{ textDecoration: "underline" }}>Admin: Utbetalningar</a>.
             </div>
           )}
@@ -97,12 +97,12 @@ export default function MembersIndex() {
           <button className="btn" onClick={exportMonthlyReport}>Månadsrapport (HTML/PDF)</button>
           <button className="btn" onClick={exportCSV}>Utbetalningskö (CSV)</button>
           <button className="btn btn-acc" onClick={syncNow} disabled={loading}>
-            {loading ? "Synkar…" : "Uppdatera nu"}
+            {loading ? "Synkarâ€¦" : "Uppdatera nu"}
           </button>
         </div>
       </div>
 
-      {/* KPI – SEK */}
+      {/* KPI â€“ SEK */}
       <div className="card" style={{ marginTop: 14 }}>
         <div className="card-pad-lg">
           <div className="row" style={{ justifyContent: "space-between" }}>
@@ -116,7 +116,7 @@ export default function MembersIndex() {
             <Kpi label="Orders (godkända)" value={snap?.earnings?.totals?.countApproved || 0} />
           </div>
 
-          {/* KPI – FX */}
+          {/* KPI â€“ FX */}
           {fxBlock.some(x => x.appr != null) && (
             <>
               <div className="h3" style={{ marginTop: 16 }}>Valutavy (beräknad från SEK)</div>
@@ -128,11 +128,11 @@ export default function MembersIndex() {
                       <div className="row" style={{ gap: 14, marginTop: 4 }}>
                         <div>
                           <div className="small" style={{ opacity: .75 }}>Approved</div>
-                          <div className="h2">{appr != null ? appr.toLocaleString("sv-SE") : "–"}</div>
+                          <div className="h2">{appr != null ? appr.toLocaleString("sv-SE") : "â€“"}</div>
                         </div>
                         <div>
                           <div className="small" style={{ opacity: .75 }}>Pending</div>
-                          <div className="h2">{pend != null ? pend.toLocaleString("sv-SE") : "–"}</div>
+                          <div className="h2">{pend != null ? pend.toLocaleString("sv-SE") : "â€“"}</div>
                         </div>
                       </div>
                     </div>
@@ -318,7 +318,7 @@ function AdminCsvPanel() {
 
 function csvEsc(s=""){ const needs = /[",\n]/.test(String(s)); return needs ? `"${String(s).replace(/"/g,'""')}"` : String(s); }
 
-// Minimal normalisering – mappar vanliga kolumner från olika nätverk.
+// Minimal normalisering â€“ mappar vanliga kolumner från olika nätverk.
 // (Vi kan lätt utöka denna med fler nätverk eller specialfall.)
 function normalizeCSV(text, network, flow){
   const lines = (text||"").split(/\r?\n/).filter(Boolean);

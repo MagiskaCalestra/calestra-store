@@ -18,7 +18,6 @@ import EventsIndex from "./pages/EventsIndex";
 import NotFound from "./pages/NotFound";
 
 import "./styles/globals.css";
-import "./i18n/index.jsx";
 
 export default function App() {
   return (

@@ -31,7 +31,7 @@ export default function DiningPlanner(){
             <input className="input" type="time" value={row.time} onChange={e=> setRow(i,"time", e.target.value)} />
             <input className="input" type="number" min={1} max={12} value={row.people} onChange={e=> setRow(i,"people", Number(e.target.value))} />
             <select className="select" value={row.restaurant} onChange={e=> setRow(i,"restaurant", e.target.value)}>
-              <option value="">— Restaurang —</option>
+              <option value="">â€” Restaurang â€”</option>
               {RESTAURANTS.filter(r=>!r.exclusive).map(r=> <option key={r.id} value={r.id}>{r.name}</option>)}
             </select>
           </div>

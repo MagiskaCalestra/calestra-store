@@ -13,7 +13,7 @@ export default function EventsIndex() {
             <div className="desc">Exklusiv afton med förlängda tider och specialmeny.</div>
           </li>
           <li>
-            <div className="title">Crystal Hall – Ljusfestival</div>
+            <div className="title">Crystal Hall â€“ Ljusfestival</div>
             <div className="desc">Ljusinstallationer och musik, begränsade platser.</div>
           </li>
         </ul>

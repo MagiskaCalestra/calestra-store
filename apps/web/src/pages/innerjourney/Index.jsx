@@ -4,8 +4,8 @@ import { CCoreSDK } from "../../core/ccore";
 import { useAuth } from "../../core/AuthContext";
 
 function emojiFor(m) {
-  const map = {1:"🌧️",2:"🌥️",3:"⭐",4:"✨",5:"🌈"};
-  return map[m] || "⭐";
+  const map = {1:"ðŸŒ§ï¸",2:"ðŸŒ¥ï¸",3:"â­",4:"âœ¨",5:"ðŸŒˆ"};
+  return map[m] || "â­";
 }
 
 export default function InnerJourney() {
@@ -28,7 +28,7 @@ export default function InnerJourney() {
   const onNew = () => {
     setEditing({
       id: null, date: new Date().toISOString().slice(0,10),
-      mood: 4, moodEmoji: "✨", title: "", text: "", tags: [], links: {}
+      mood: 4, moodEmoji: "âœ¨", title: "", text: "", tags: [], links: {}
     });
   };
   const onEdit = (e) => setEditing({...e});
@@ -87,7 +87,7 @@ export default function InnerJourney() {
 
         {count === 0 ? (
           <div className="empty">
-            Inga anteckningar ännu. Börja din <em>inre resa</em> – klicka “Nytt inlägg”.
+            Inga anteckningar ännu. Börja din <em>inre resa</em> â€“ klicka â€œNytt inläggâ€.
           </div>
         ) : (
           <ul className="list">
@@ -108,7 +108,7 @@ export default function InnerJourney() {
                   {masked ? (
                     <div className="mask">[Dolt i offentligt läge]</div>
                   ) : (
-                    <p>{e.text?.slice(0, 240) || <span className="muted">—</span>}</p>
+                    <p>{e.text?.slice(0, 240) || <span className="muted">â€”</span>}</p>
                   )}
                   {e.tags?.length > 0 && (
                     <div className="tags">{e.tags.map(t => <span key={t} className="tag">#{t}</span>)}</div>
@@ -123,7 +123,7 @@ export default function InnerJourney() {
           <textarea
             className="ta"
             rows={8}
-            placeholder='Klistra in exporterat JSON här för import…'
+            placeholder='Klistra in exporterat JSON här för importâ€¦'
             value={importText}
             onChange={(e)=>setImportText(e.target.value)}
           />
@@ -195,12 +195,12 @@ function Editor({ editing, setEditing, onSave, masked }) {
 
         <label className="lbl">
           Rubrik
-          <input className="inp" maxLength={120} value={editing.title} onChange={e=>set("title", e.target.value)} placeholder="En mening om stunden…" />
+          <input className="inp" maxLength={120} value={editing.title} onChange={e=>set("title", e.target.value)} placeholder="En mening om stundenâ€¦" />
         </label>
 
         <label className="lbl">
           Text
-          <textarea className="ta2" rows={5} maxLength={5000} value={editing.text} onChange={e=>set("text", e.target.value)} placeholder="Beskriv känslan, platsen eller minnet…" />
+          <textarea className="ta2" rows={5} maxLength={5000} value={editing.text} onChange={e=>set("text", e.target.value)} placeholder="Beskriv känslan, platsen eller minnetâ€¦" />
         </label>
 
         <label className="lbl">
@@ -211,7 +211,7 @@ function Editor({ editing, setEditing, onSave, masked }) {
         <div className="row">
           <button className="btn primary" onClick={onSave} disabled={masked}>Spara</button>
           <button className="btn ghost" onClick={()=>setEditing(null)}>Avbryt</button>
-          {masked && <span className="warn">Offentligt läge – redigering avstängd</span>}
+          {masked && <span className="warn">Offentligt läge â€“ redigering avstängd</span>}
         </div>
       </div>
 

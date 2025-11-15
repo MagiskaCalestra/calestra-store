@@ -1,4 +1,4 @@
-// Enkel “schemaläggare” i front-end (localStorage + setInterval).
+// Enkel â€œschemaläggareâ€ i front-end (localStorage + setInterval).
 // Säkerställer att ingest körs max 1 gång / 24h i denna webbläsare.
 // Kan senare bytas mot riktig cron/server.
 

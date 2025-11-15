@@ -1,12 +1,15 @@
-const express = require("express");
-const { applySecurity } = require("../_shared/security");
+import express from "express";
+import cors from "cors";
+import helmet from "helmet";
+import rateLimit from "express-rate-limit";
 
-const PORT = Number(process.env.ORDERS_PORT || 15200);
 const app = express();
-applySecurity(app, { corsOrigins: "*" });
+app.use(express.json());
+app.use(helmet({ crossOriginResourcePolicy: { policy: "same-origin" } }));
+app.use(cors({ origin: ["http://localhost:5175","http://localhost:5288"], credentials: false }));
+app.use(rateLimit({ windowMs: 60_000, max: 300 }));
 
-app.get("/health", (_, res) => res.json({ ok: true, service: "orders" }));
+app.get("/status", (_, res) => res.json({ ok: true, service: process.env.SERVICE || "unknown" }));
 
-app.listen(PORT, () => {
-  console.log(`[orders] listening on http://localhost:${PORT}`);
-});
+const PORT = process.env.PORT || 14000;
+app.listen(PORT, () => console.log(`[${process.env.SERVICE || "svc"}] listening on port ${PORT}`));

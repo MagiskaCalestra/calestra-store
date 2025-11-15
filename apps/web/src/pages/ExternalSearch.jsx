@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { clickTrack } from "@core/AffiliateManager";
 
 /**
- * Minimal partner-sök (vi förmedlar vidare – inte säljansvar).
+ * Minimal partner-sök (vi förmedlar vidare â€“ inte säljansvar).
  */
 export default function ExternalSearch() {
   const [q, setQ] = useState("");
@@ -42,7 +42,7 @@ export default function ExternalSearch() {
             onClick={()=>go(p)}
             className="btn btn-ghost"
           >
-            {p.label} • {p.name}
+            {p.label} â€¢ {p.name}
           </button>
         ))}
       </div>

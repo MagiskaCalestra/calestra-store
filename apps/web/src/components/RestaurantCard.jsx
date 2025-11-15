@@ -4,9 +4,9 @@ export default function RestaurantCard({ r, onPick }){
     <article className="rest-card">
       <header>
         <h3>{r.name}</h3>
-        <span className="muted">{r.zone} {r.exclusive ? "· 🌟 Exklusiv" : ""}</span>
+        <span className="muted">{r.zone} {r.exclusive ? "Â· ðŸŒŸ Exklusiv" : ""}</span>
       </header>
-      <p className="muted">Märkning: {r.tags.join(" · ")}</p>
+      <p className="muted">Märkning: {r.tags.join(" Â· ")}</p>
       <div className="job-actions" style={{marginTop:8}}>
         {r.exclusive ? (
           <a className="btn outline" href="tel:+46000000000">Ring concierge</a>

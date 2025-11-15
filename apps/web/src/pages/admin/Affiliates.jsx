@@ -30,7 +30,7 @@ export default function AffiliatesAdmin() {
   return (
     <section className="page">
       <div className="wrap">
-        <h1>Affiliates – Partnerinställningar</h1>
+        <h1>Affiliates â€“ Partnerinställningar</h1>
         <p className="lead">Sätt partner-ID, aktivera/avaktivera leverantörer och välj compliance-läge (affiliate-only / operator).</p>
 
         <div className="card">
@@ -40,7 +40,7 @@ export default function AffiliatesAdmin() {
               Affiliate-only (externa länkar, ingen paketering)
             </Radio>
             <Radio name="policy" value="operator" cur={cfg.policy} onChange={()=>setPolicy("operator")}>
-              Operator (intern bokning, paket – kräver resegaranti)
+              Operator (intern bokning, paket â€“ kräver resegaranti)
             </Radio>
           </div>
           <div className="hint">Aktuellt läge: <strong>{cfg.policy}</strong></div>
@@ -76,7 +76,7 @@ export default function AffiliatesAdmin() {
               <div className="row">
                 <button className={"btn "+(p.enabled?"on":"off")} onClick={()=>toggle(i)}>{p.enabled ? "Aktiv" : "Avstängd"}</button>
               </div>
-              <div className="hint">Params: {p.params?.join(", ") || "—"} • {p.payoutHint}</div>
+              <div className="hint">Params: {p.params?.join(", ") || "â€”"} â€¢ {p.payoutHint}</div>
             </div>
           ))}
         </div>

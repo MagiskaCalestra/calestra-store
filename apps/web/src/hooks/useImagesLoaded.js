@@ -22,7 +22,7 @@ export default function useImagesLoaded(urls = []) {
     };
 
     const onError = () => {
-      // Vi failar inte preload – markerar ändå som loaded när alla försökt
+      // Vi failar inte preload â€“ markerar ändå som loaded när alla försökt
       done += 1;
       if (mounted && done >= urls.length) setReady(true);
     };

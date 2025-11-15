@@ -18,7 +18,7 @@ export default function AccountMenu() {
 
   const initials = user?.name?.split(" ").map(s=>s[0]).join("").slice(0,2).toUpperCase() || "IJ";
 
-  // ⬇️ Byt "Mitt konto" → "InnerJourney" som defaultetikett
+  // â¬‡ï¸ Byt "Mitt konto" â†’ "InnerJourney" som defaultetikett
   const label = user ? user.name : "InnerJourney";
 
   return (

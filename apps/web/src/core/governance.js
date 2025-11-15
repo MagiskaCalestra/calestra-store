@@ -1,10 +1,10 @@
 // apps/web/src/core/governance.js
-// Styrelseläge för konserter m.m. – allt sparas lokalt så vi kan byta senare.
+// Styrelseläge för konserter m.m. â€“ allt sparas lokalt så vi kan byta senare.
 const LS_KEY = "calestra_governance_v1";
 
 export const ConcertMode = Object.freeze({
   UNDECIDED: "undecided",       // inget beslut fattat
-  INCLUDED: "included",          // ingår i parkentré (EPCOT-modell)
+  INCLUDED: "included",          // ingår i parkentrÃ© (EPCOT-modell)
   NIGHT_TICKET: "night_ticket",  // fristående kvällsbiljett
   BOTH: "both",                  // båda varianterna parallellt
 });
@@ -19,7 +19,7 @@ const DEFAULTS = {
   concerts: {
     mode: ConcertMode.UNDECIDED,
     alcoholPolicy: AlcoholPolicy.ZONED,
-    diningPackageEnabled: true,      // “mat + reserverad zon”
+    diningPackageEnabled: true,      // â€œmat + reserverad zonâ€
     dreamCirclePerks: true,          // förköp/poängboost för medlemmar
   }
 };

@@ -33,7 +33,7 @@ export default function World3D(){
         <fog attach="fog" args={["#060a0f", 6, 14]} />
         <ambientLight intensity={0.4} />
         <directionalLight intensity={1.15} position={[2.2, 2.6, 2]} />
-        <Suspense fallback={<Html center>Loading…</Html>}>
+        <Suspense fallback={<Html center>Loadingâ€¦</Html>}>
           <Stars radius={50} depth={20} count={2500} factor={2} fade speed={0.4} />
           <group position={[0,0,-0.02]}>
             <mesh>

@@ -11,7 +11,7 @@
     "kids": "Barn",
     "package": "Upplägg",
     "packages": { "tickets": "Endast biljetter", "hotelTickets": "Hotell + biljetter", "dining": "Middagspaket" },
-    "tip": "Tips: “Hotell + biljetter” ger paketpris och bonuspoäng.",
+    "tip": "Tips: â€œHotell + biljetterâ€ ger paketpris och bonuspoäng.",
     "cta": "Planera ditt besök"
   },
   "plan": { "title": "Planera ditt besök" },
@@ -29,7 +29,7 @@
     }
   },
   "progress": {
-    "title": "Global Progress — Calestra Collections finansierar nästa steg",
+    "title": "Global Progress â€” Calestra Collections finansierar nästa steg",
     "more": "Läs mer om våra mål",
     "rows": { "goal": "Mål", "total": "Totalt", "storeShare": "Butikens andel" },
     "supporters": "Supporters: {n}",

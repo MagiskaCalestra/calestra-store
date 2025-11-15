@@ -26,8 +26,8 @@ export default function AdSlot({ slot = "mid", mode = "auto", partnerId }) {
     return (
       <a href="/ads" className="block rounded-2xl ring-1 ring-white/10 bg-gradient-to-r from-amber-400/15 to-amber-300/10 hover:from-amber-400/25 hover:to-amber-300/20 transition p-5">
         <div className="text-sm opacity-70">Annonsyta</div>
-        <div className="text-lg font-medium">Köp denna plats – nå Calestras publik</div>
-        <div className="text-sm opacity-80 mt-1">Premiumplacering • Rapportering • Kreativ assistans</div>
+        <div className="text-lg font-medium">Köp denna plats â€“ nå Calestras publik</div>
+        <div className="text-sm opacity-80 mt-1">Premiumplacering â€¢ Rapportering â€¢ Kreativ assistans</div>
       </a>
     );
   }

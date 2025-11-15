@@ -41,7 +41,7 @@ export default function PartnerSlot({ data }) {
             href={data.url || "#"}
             rel="noopener noreferrer"
             target="_blank"
-            aria-label={`${data.ctaLabel} — ${data.title}`}
+            aria-label={`${data.ctaLabel} â€” ${data.title}`}
             data-track={data.tracked}
           >
             {data.ctaLabel}

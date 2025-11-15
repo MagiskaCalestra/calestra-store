@@ -47,9 +47,9 @@ export default function MusicProvider({ children }) {
     audioRef.current = a;
 
     // Försök autostarta muted (tillåtet av de flesta browsers)
-    a.play().catch(() => { /* ignore – vi väntar på gest */ });
+    a.play().catch(() => { /* ignore â€“ vi väntar på gest */ });
 
-    // På första mänskliga gesten – slå på ljud om användaren vill ha musik
+    // På första mänskliga gesten â€“ slå på ljud om användaren vill ha musik
     const arm = () => {
       const el = audioRef.current;
       if (!el) return;

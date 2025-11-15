@@ -11,7 +11,7 @@
     "kids": "Kids",
     "package": "Package",
     "packages": { "tickets": "Tickets only", "hotelTickets": "Hotel + tickets", "dining": "Dining package" },
-    "tip": "Tip: “Hotel + tickets” gives bundle pricing and bonus points.",
+    "tip": "Tip: â€œHotel + ticketsâ€ gives bundle pricing and bonus points.",
     "cta": "Plan your visit"
   },
   "plan": { "title": "Plan your visit" },
@@ -23,13 +23,13 @@
     "live": "Go to live store",
     "view": "View collection",
     "cards": {
-      "1": { "eyebrow": "Harmony", "title": "Harmonic Skies", "body": "Dreamlike scenes from the world’s calm zones." },
+      "1": { "eyebrow": "Harmony", "title": "Harmonic Skies", "body": "Dreamlike scenes from the worldâ€™s calm zones." },
       "2": { "eyebrow": "Portals", "title": "Gates of Light", "body": "Symbols, gateways and guides in gold and jade." },
       "3": { "eyebrow": "City life", "title": "Evening Plaza", "body": "Warm nights, music and stories in motion." }
     }
   },
   "progress": {
-    "title": "Global Progress — Collections fund the next step",
+    "title": "Global Progress â€” Collections fund the next step",
     "more": "Read about our goals",
     "rows": { "goal": "Goal", "total": "Total", "storeShare": "Store share" },
     "supporters": "Supporters: {n}",

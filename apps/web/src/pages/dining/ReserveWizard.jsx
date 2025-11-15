@@ -2,10 +2,10 @@ import React, { useMemo, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useBooking } from "../../core/BookingContext";
 
-/** samma lista som i Dining – i riktig app: hämta via API  */
+/** samma lista som i Dining â€“ i riktig app: hämta via API  */
 const LOOKUP = {
   gg: { id:"gg", name:"Garden Grove", area:"Elderwood" },
-  rs: { id:"rs", name:"River’s Song", area:"Aqua Vale" },
+  rs: { id:"rs", name:"Riverâ€™s Song", area:"Aqua Vale" },
   sm: { id:"sm", name:"Star Meadow Market", area:"Grand Calestra" },
 };
 
@@ -24,7 +24,7 @@ export default function ReserveWizard(){
   const [slots, setSlots] = useState(booking.tempSlots || []);
 
   useEffect(()=>{
-    // om man kom direkt utan söksida – skapa “alla” slots
+    // om man kom direkt utan söksida â€“ skapa â€œallaâ€ slots
     if (!slots.length) setSlots(TIMES.filter((_,i)=> i%2===0));
   },[]);
 
@@ -53,7 +53,7 @@ export default function ReserveWizard(){
   return (
     <div className="container py-10">
       <div className="row space wrap" style={{gap:12}}>
-        <h1 className="h1">Boka bord – {restaurant?.name || "Restaurang"}</h1>
+        <h1 className="h1">Boka bord â€“ {restaurant?.name || "Restaurang"}</h1>
         <div className="chip">
           <span className="glow-dot" /> <strong>Steg {step} / 4</strong>
         </div>
@@ -97,7 +97,7 @@ export default function ReserveWizard(){
                     {t}
                   </button>
                 ))}
-                {!slots.length && <div className="notice">Inga tider – prova annat datum.</div>}
+                {!slots.length && <div className="notice">Inga tider â€“ prova annat datum.</div>}
               </div>
             </>
           )}
@@ -113,8 +113,8 @@ export default function ReserveWizard(){
                   </div>
                   <div>
                     <p><strong>Gäster</strong><br/>{party}</p>
-                    <p><strong>Datum</strong><br/>{date || "—"}</p>
-                    <p><strong>Tid</strong><br/>{time || "—"}</p>
+                    <p><strong>Datum</strong><br/>{date || "â€”"}</p>
+                    <p><strong>Tid</strong><br/>{time || "â€”"}</p>
                   </div>
                 </div>
                 <p className="muted" style={{marginTop:10}}>
@@ -130,7 +130,7 @@ export default function ReserveWizard(){
           <h3 className="h3">Bra att veta</h3>
           <ul style={{margin:"8px 0 0 18px", color:"var(--muted)"}}>
             <li>Avbokning möjlig t.o.m. 24h före sittning.</li>
-            <li>Allergier? Meddela i nästa steg – köket anpassar menyn.</li>
+            <li>Allergier? Meddela i nästa steg â€“ köket anpassar menyn.</li>
             <li>Matplan/poäng dras automatiskt i kassan.</li>
           </ul>
         </aside>

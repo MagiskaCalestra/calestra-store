@@ -17,7 +17,7 @@ const SEED = {
     { id: "rg_portal", parkId: "realms-gate", type: "attraction", name: "Realms Portal", tags:["iconic","family"], brief:"Porten mellan världar.", rating: 4.7 },
     { id: "rg_brasserie", parkId: "realms-gate", type: "restaurant", name: "RG Brasserie", tags:["dinner","premium"], brief:"Signaturkök vid porten.", rating: 4.5 },
     { id: "sd_comet", parkId: "star-dunes", type: "ride", name: "Comet Run", tags:["thrill"], brief:"Hög hastighet över dyner.", rating: 4.6 },
-    { id: "sd_cafe_aurora", parkId: "star-dunes", type: "cafe", name: "Aurora Café", tags:["coffee","sweets"], brief:"Bakverk under stjärnhimmel.", rating: 4.2 },
+    { id: "sd_cafe_aurora", parkId: "star-dunes", type: "cafe", name: "Aurora CafÃ©", tags:["coffee","sweets"], brief:"Bakverk under stjärnhimmel.", rating: 4.2 },
     { id: "ch_crystals", parkId: "crystal-hall", type: "show", name: "Crystals of Light", tags:["evening","music"], brief:"Ljus & musik i hallens hjärta.", rating: 4.4 },
     { id: "gw_starter", parkId: "gateway", type: "shop", name: "Gateway Gifts", tags:["merch"], brief:"Starta resan med minnen.", rating: 4.1 },
   ]

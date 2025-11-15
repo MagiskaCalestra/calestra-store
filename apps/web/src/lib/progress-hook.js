@@ -38,7 +38,7 @@ export function useKpiProgress(pollMs = 15000) {
     }
   }
 
-  // enkel poller (utan React – kan anropas från useEffect)
+  // enkel poller (utan React â€“ kan anropas från useEffect)
   function start(onTick) {
     let t;
     const tick = async () => {

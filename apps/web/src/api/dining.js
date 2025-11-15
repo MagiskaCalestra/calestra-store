@@ -1,10 +1,10 @@
 // apps/web/src/api/dining.js
-// Minimock – byt mot riktiga endpoints senare.
+// Minimock â€“ byt mot riktiga endpoints senare.
 
 export const DINING = [
   {
     id: "jaleo",
-    name: "Jaleo by José Andrés",
+    name: "Jaleo by JosÃ© AndrÃ©s",
     type: ["Table Service","Signature"],
     area: "Disney Springs",
     price: "$$$",
@@ -45,7 +45,7 @@ export function filterRestaurants(q) {
   });
 }
 
-// Förenklad “availability”: generera fasta slotar per dag och ta bort några slumpmässigt.
+// Förenklad â€œavailabilityâ€: generera fasta slotar per dag och ta bort några slumpmässigt.
 export function getAvailability(restaurantId, range, party) {
   if (!range.start || !range.end) return [];
   const DAY = 24*60*60*1000;

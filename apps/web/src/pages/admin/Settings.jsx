@@ -13,7 +13,7 @@ export default function AdminSettings(){
 
   return (
     <div className="container section-lg">
-      <div className="h2">Admin – Inställningar</div>
+      <div className="h2">Admin â€“ Inställningar</div>
       <div className="card" style={{marginTop:12}}>
         <div className="card-pad-lg">
           <div className="row" style={{gap:12, flexWrap:"wrap"}}>

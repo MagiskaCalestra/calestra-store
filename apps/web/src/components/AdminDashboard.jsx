@@ -49,7 +49,7 @@ export default function AdminDashboard({ onClose }) {
 
   const pct = useMemo(() => {
     if (!summary?.summary?.totals) return 0;
-    // anta 100 som mål – justera om Infinity skickar mål
+    // anta 100 som mål â€“ justera om Infinity skickar mål
     return Math.min(100, summary.summary.totals ?? 0);
   }, [summary]);
 
@@ -110,7 +110,7 @@ export default function AdminDashboard({ onClose }) {
                 cursor: "pointer",
               }}
             >
-              {busy ? "Uppdaterar…" : "Uppdatera"}
+              {busy ? "Uppdaterarâ€¦" : "Uppdatera"}
             </button>
             <button
               onClick={onClose}
@@ -139,7 +139,7 @@ export default function AdminDashboard({ onClose }) {
           <h4 style={{ margin: "0 0 6px 0", color: "rgba(255,255,255,0.8)" }}>Global Progress</h4>
           <Bar value={pct} />
           <div style={{ marginTop: 6, fontSize: 13, opacity: 0.8 }}>
-            {typeof pct === "number" ? `${pct}% finansierat av nästa steg` : "—"}
+            {typeof pct === "number" ? `${pct}% finansierat av nästa steg` : "â€”"}
           </div>
         </div>
 

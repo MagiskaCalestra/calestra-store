@@ -70,25 +70,25 @@ export default function HeroBooking() {
 
       <div className="hb-wrap">
         <div className="hb-star" aria-hidden />
-        <h1 className="hb-title display">Somewhere… it waits for you</h1>
+        <h1 className="hb-title display">Somewhereâ€¦ it waits for you</h1>
         <p className="hb-sub">Välj hur du vill uppleva Calestra.</p>
 
         {/* Ikonrad */}
         <ul className="hero-links" aria-label="Snabbval">
-          <li><Link to="/booking" className="link">🎟 Boka ditt magiska paket</Link></li>
-          <li><a className="link" href="http://localhost:5175/" target="_blank" rel="noopener noreferrer">🛍 Calestra Store ↗</a></li>
-          <li><Link className="link" to="/concerts">🎵 Musik & konserter</Link></li>
-          <li><Link className="link" to="/experiences">📜 Våra berättelser</Link></li>
-          <li><Link className="link" to="/wish">✨ C-Wish® Access</Link></li>
+          <li><Link to="/booking" className="link">ðŸŽŸ Boka ditt magiska paket</Link></li>
+          <li><a className="link" href="http://localhost:5175/" target="_blank" rel="noopener noreferrer">ðŸ› Calestra Store â†—</a></li>
+          <li><Link className="link" to="/concerts">ðŸŽµ Musik & konserter</Link></li>
+          <li><Link className="link" to="/experiences">ðŸ“œ Våra berättelser</Link></li>
+          <li><Link className="link" to="/wish">âœ¨ C-WishÂ® Access</Link></li>
         </ul>
 
         {/* Kort motor */}
         <div className="hb-card">
           <div className="hb-modes" role="radiogroup" aria-label="Välj bokningsläge">
-            <ModeBtn id="park"    cur={mode} onSelect={setMode} label="🎟 Park" />
-            <ModeBtn id="hotel"   cur={mode} onSelect={setMode} label="🏨 Hotell" />
-            <ModeBtn id="package" cur={mode} onSelect={setMode} label="✨ Paket" />
-            <ModeBtn id="custom"  cur={mode} onSelect={setMode} label="🧩 Skapa själv" />
+            <ModeBtn id="park"    cur={mode} onSelect={setMode} label="ðŸŽŸ Park" />
+            <ModeBtn id="hotel"   cur={mode} onSelect={setMode} label="ðŸ¨ Hotell" />
+            <ModeBtn id="package" cur={mode} onSelect={setMode} label="âœ¨ Paket" />
+            <ModeBtn id="custom"  cur={mode} onSelect={setMode} label="ðŸ§© Skapa själv" />
           </div>
 
           <div className="hb-grid">

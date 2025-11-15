@@ -1,4 +1,4 @@
-// Calestra — AudioRouter (hel fil)
+// Calestra â€” AudioRouter (hel fil)
 // Växlar musikkanal efter route och visar musikknapp.
 
 import React, { useEffect, useState } from "react";
@@ -32,7 +32,7 @@ export default function AudioRouter() {
         aria-label={enabled ? "Stäng av musik" : "Sätt på musik"}
         onClick={toggle}
       >
-        ♪ Musik {enabled ? "på" : "av"}
+        â™ª Musik {enabled ? "på" : "av"}
       </button>
     </div>
   );

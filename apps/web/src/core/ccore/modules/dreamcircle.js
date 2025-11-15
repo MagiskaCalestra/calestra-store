@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/dreamcircle.js
-// Calestra DreamCircle™ — Medlemskap (C-Pass), nivåer och poäng. Lokal mock + event-hooks.
+// Calestra DreamCircleâ„¢ â€” Medlemskap (C-Pass), nivåer och poäng. Lokal mock + event-hooks.
 import { emit, on } from "../eventBus";
 
 const LS_DC = "ccore_dreamcircle_v1";
@@ -11,7 +11,7 @@ const TIERS = [
   { id: "luminary", name: "DreamCircle Luminary", min: 20000, perks: ["Concierge of Light", "Inbjudna evenemang"] },
 ];
 
-// 1 poäng / 10 SEK (mock—kan styras via Rule Engine senare)
+// 1 poäng / 10 SEK (mockâ€”kan styras via Rule Engine senare)
 const POINTS_PER_SEK = 0.1;
 
 function uid() { return Math.random().toString(36).slice(2, 10); }
@@ -72,14 +72,14 @@ export function earnForOrder({ amount, currency = "SEK", orderId }) {
     id: "h_"+uid(),
     kind: "order",
     delta: pts,
-    note: `Order ${orderId || "-"} · ${amount} ${currency} → +${pts}p`,
+    note: `Order ${orderId || "-"} Â· ${amount} ${currency} â†’ +${pts}p`,
     at: new Date().toISOString()
   });
   return save(s);
 }
 
 export function earnForWishActivation() {
-  const pts = 50; // litet “band-aktivt” bonus
+  const pts = 50; // litet â€œband-aktivtâ€ bonus
   const s = getState();
   s.points += pts;
   s.tierId = tierFor(s.points);

@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/affiliates.js
-// C-Affiliates™ – partnerlänkar + compliance-läge (affiliate-only | operator)
+// C-Affiliatesâ„¢ â€“ partnerlänkar + compliance-läge (affiliate-only | operator)
 import { emit, on } from "../eventBus";
 import * as DreamCircle from "./dreamcircle";
 
@@ -12,7 +12,7 @@ export const AffiliatePolicy = Object.freeze({
 });
 
 const DEFAULT_CFG = {
-  policy: AffiliatePolicy.AFFILIATE_ONLY, // ⬅️ standard: förmedlande länkar, ingen paketering
+  policy: AffiliatePolicy.AFFILIATE_ONLY, // â¬…ï¸ standard: förmedlande länkar, ingen paketering
   utm: { source: "calestra", medium: "affiliate", campaign: "default" },
   providers: [
     {
@@ -23,7 +23,7 @@ const DEFAULT_CFG = {
       baseUrl: "https://partner.example.com/flights/search",
       params: ["from","to","depart","return","adults","children"],
       tags: ["resor","transport"],
-      payoutHint: "CPS/CPA (1–3%)"
+      payoutHint: "CPS/CPA (1â€“3%)"
     },
     {
       id: "hotels",
@@ -33,7 +33,7 @@ const DEFAULT_CFG = {
       baseUrl: "https://partner.example.com/hotels/search",
       params: ["city","checkin","checkout","rooms","guests"],
       tags: ["boende"],
-      payoutHint: "CPS (3–6%)"
+      payoutHint: "CPS (3â€“6%)"
     },
     {
       id: "transport",
@@ -63,7 +63,7 @@ const DEFAULT_CFG = {
       baseUrl: "https://partner.example.com/experiences/search",
       params: ["city","date","adults","children"],
       tags: ["turer","biljetter"],
-      payoutHint: "CPS (8–12%)"
+      payoutHint: "CPS (8â€“12%)"
     }
   ]
 };
@@ -121,7 +121,7 @@ export function setProviderEnabled(id, enabled) {
 export function buildLink(providerId, search = {}, opts = {}) {
   const cfg = getConfig();
   if (cfg.policy === AffiliatePolicy.OPERATOR) {
-    throw new Error("Operatörsläge aktivt – använd interna bokningsflöden.");
+    throw new Error("Operatörsläge aktivt â€“ använd interna bokningsflöden.");
   }
 
   const p = cfg.providers.find(x => x.id === providerId);
@@ -145,7 +145,7 @@ export function buildLink(providerId, search = {}, opts = {}) {
     url: url.toString(), meta: { search }
   });
 
-  try { DreamCircle.addPoints(5, `Affiliate click · ${p.name}`); } catch {}
+  try { DreamCircle.addPoints(5, `Affiliate click Â· ${p.name}`); } catch {}
 
   return url.toString();
 }
@@ -169,7 +169,7 @@ export function initAutoEarn() {
 export function policyBannerText() {
   const pol = getPolicy();
   if (pol === AffiliatePolicy.AFFILIATE_ONLY) {
-    return "Calestra Travel Partner™ – vi visar externa reselänkar. Du bokar och betalar direkt hos partnern. Calestra är inte arrangör.";
+    return "Calestra Travel Partnerâ„¢ â€“ vi visar externa reselänkar. Du bokar och betalar direkt hos partnern. Calestra är inte arrangör.";
   }
-  return "Calestra Travel Division™ – intern bokning. Paket och transport kan säljas av Calestra (resegaranti krävs).";
+  return "Calestra Travel Divisionâ„¢ â€“ intern bokning. Paket och transport kan säljas av Calestra (resegaranti krävs).";
 }

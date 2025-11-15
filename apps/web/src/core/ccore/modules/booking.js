@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/booking.js
-// Booking SDK – availability + hold + cart + order, nu med Rule Engine-stöd + betalningsmetadata.
+// Booking SDK â€“ availability + hold + cart + order, nu med Rule Engine-stöd + betalningsmetadata.
 import { emit } from "../eventBus";
 import { addDays, dayOfWeek, endOfMonth, fmtDateISO, startOfMonth } from "../date";
 import { getRules } from "./rules";
@@ -127,7 +127,7 @@ function loadOrders() {
 function saveOrders(list) { localStorage.setItem(LS_ORDERS, JSON.stringify(list)); }
 
 /**
- * confirmOrder – skapar en mock-order.
+ * confirmOrder â€“ skapar en mock-order.
  * @param {{contact: object, payment?: {token:string, provider:string}}} param0
  */
 export function confirmOrder({ contact, payment } = {}) {

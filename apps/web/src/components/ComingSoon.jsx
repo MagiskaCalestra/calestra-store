@@ -2,21 +2,19 @@ import React from "react";
 
 /**
  * ComingSoon
- * En snygg, återanvändbar “under utveckling”-panel med systemstatus.
+ * En snygg, återanvändbar â€œunder utvecklingâ€-panel med systemstatus.
  * - title: rubrik
  * - lead: kort förklaring
  * - primaryHref: primär knapp (t.ex. hem)
  * - secondaryHref: sekundär knapp (t.ex. butik)
  */
-export default function ComingSoon({
-  title = "Den här delen är på väg ✨",
-  lead = "Vi bygger klart funktionen. Under tiden kan du fortsätta upptäcka Calestra World.",
-  primaryHref = "/",
-  primaryLabel = "Till startsidan",
-  secondaryHref = "/store",
-  secondaryLabel = "Gå till butiken",
-  status = { ok: true, mock: true, status: 200 },
-}) {
+export default function ComingSoon({ label = "Coming soon" }) {
+  return (
+    <div className="px-6 py-10 text-center">
+      <h2 className="text-2xl font-semibold">{label}</h2>
+      <p className="opacity-70 mt-2">Detta område är på väg in. âœ¨</p>
+    </div>
+  );
   return (
     <div className="max-w-3xl mx-auto mt-10">
       <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 shadow-2xl p-6">

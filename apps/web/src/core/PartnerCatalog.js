@@ -4,7 +4,7 @@ const KEY = "cw.partner.catalog";
 const DEFAULTS = [
   {
     id: "google",
-    title: "Google – Annonsytor",
+    title: "Google â€“ Annonsytor",
     desc: "Strategiska ytor i portalen.",
     url: "https://ads.google.com/",
     partnerKey: "google",
@@ -13,7 +13,7 @@ const DEFAULTS = [
   },
   {
     id: "temu",
-    title: "Temu – Kampanjer",
+    title: "Temu â€“ Kampanjer",
     desc: "Externa deals under uppbyggnaden.",
     url: "https://www.temu.com/",
     partnerKey: "temu",

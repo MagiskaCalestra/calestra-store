@@ -13,31 +13,31 @@ export default function AffiliatesIndex() {
 
   return (
     <div className="container section-lg">
-      <div className="h2">Affiliates – två vägar att tjäna</div>
+      <div className="h2">Affiliates â€“ två vägar att tjäna</div>
       <div className="small" style={{ marginTop: 4 }}>
-        Din ref: <b>{myRef || "–"}</b>
+        Din ref: <b>{myRef || "â€“"}</b>
       </div>
 
-      {/* 1. Inbound – vi betalar dig */}
+      {/* 1. Inbound â€“ vi betalar dig */}
       <div className="card" style={{ marginTop: 14 }}>
         <div className="card-pad-lg">
           <div className="h3">1) Tjäna när du säljer våra produkter (inbound)</div>
           <p className="small" style={{ marginTop: 6 }}>
-            Dela din personliga länk till Calestra Store. När din publik köper – får du provision.
+            Dela din personliga länk till Calestra Store. När din publik köper â€“ får du provision.
           </p>
           <div className="row" style={{ gap: 8, marginTop: 10 }}>
             <a className="btn btn-acc" href={storeDeepLink}>Öppna Store med min ref</a>
             <a className="btn" href="/members">Se intjäning på Min sida</a>
           </div>
           <ul className="small" style={{ marginTop: 12 }}>
-            <li>Standardprov: 10–20% per godkänt köp (tier-baserat)</li>
+            <li>Standardprov: 10â€“20% per godkänt köp (tier-baserat)</li>
             <li>30-dagars cookie, last-click attribution</li>
             <li>Godkända köp betalas ut enligt utbetalningskö</li>
           </ul>
         </div>
       </div>
 
-      {/* 2. Outbound – vi tjänar via partners */}
+      {/* 2. Outbound â€“ vi tjänar via partners */}
       <div className="card" style={{ marginTop: 14 }}>
         <div className="card-pad-lg">
           <div className="h3">2) Hjälp oss driva partnertrafik (outbound)</div>
@@ -46,12 +46,12 @@ export default function AffiliatesIndex() {
             Den intjäningen syns i systemet som <b>outbound</b>. (Vill du få del av outbound? Ansök som ambassadör.)
           </p>
           <div className="row" style={{ gap: 8, marginTop: 10 }}>
-            <button className="btn btn-acc" onClick={partnerGoogle}>Google – Partneryta</button>
-            <button className="btn" onClick={partnerTemu}>Temu – Kampanjer</button>
+            <button className="btn btn-acc" onClick={partnerGoogle}>Google â€“ Partneryta</button>
+            <button className="btn" onClick={partnerTemu}>Temu â€“ Kampanjer</button>
           </div>
           <ul className="small" style={{ marginTop: 12 }}>
-            <li>Outbound visas i Min sida med typ “outbound”</li>
-            <li>Inga kundköp i vår butik krävs – intjänas hos partner</li>
+            <li>Outbound visas i Min sida med typ â€œoutboundâ€</li>
+            <li>Inga kundköp i vår butik krävs â€“ intjänas hos partner</li>
             <li>Ambassadörer kan få %-andel av outbound (enligt avtal)</li>
           </ul>
         </div>

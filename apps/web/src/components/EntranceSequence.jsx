@@ -25,7 +25,7 @@ export default function EntranceSequence({ onDone }) {
     <div className="entrance" role="dialog" aria-modal="true" aria-label="Calestra World Intro" onClick={finish}>
       <div className="halo" aria-hidden />
       <div className="star" aria-hidden />
-      <h1 className="title">Somewhere… it waits for you</h1>
+      <h1 className="title">Somewhereâ€¦ it waits for you</h1>
       <p className="sub">Tryck här för att gå in</p>
       <button className="cta" onClick={finish}>Kliv in</button>
 

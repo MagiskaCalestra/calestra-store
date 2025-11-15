@@ -42,7 +42,7 @@ export default function AudioToggle() {
 
   return (
     <button className={"audio "+(enabled?"on":"off")} onClick={toggle} aria-label="Ljudkontroll">
-      {enabled ? "🔊" : "🔈"}
+      {enabled ? "ðŸ”Š" : "ðŸ”ˆ"}
       <style>{`
         .audio {
           position: fixed; right: 14px; bottom: 14px; z-index: 50;

@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/transport.js
-// C-Transport™ – skelett för framtida intern bokning (operator-läge)
+// C-Transportâ„¢ â€“ skelett för framtida intern bokning (operator-läge)
 import { emit } from "../eventBus";
 import { getPolicy, AffiliatePolicy } from "./affiliates";
 

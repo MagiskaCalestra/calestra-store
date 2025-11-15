@@ -18,9 +18,9 @@ export default function Goals(){
           <div className="cw-card-pad-lg">
             <h3>Nivåer & belöningar (exempel)</h3>
             <ul style={{ marginTop: 8, lineHeight: 1.6 }}>
-              <li>✅ 1 000 supporters – första community-droppet</li>
-              <li>✅ 10 000 supporters – utökad digital värld</li>
-              <li>🏗️ 100 000 supporters – parkens första byggsteg</li>
+              <li>âœ… 1 000 supporters â€“ första community-droppet</li>
+              <li>âœ… 10 000 supporters â€“ utökad digital värld</li>
+              <li>ðŸ—ï¸ 100 000 supporters â€“ parkens första byggsteg</li>
             </ul>
           </div>
         </div>

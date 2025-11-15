@@ -19,13 +19,13 @@ export default function AdminDashboard(){
   }, []);
 
   return (
-    <AdminShell title="Calestra Admin – Dashboard">
+    <AdminShell title="Calestra Admin â€“ Dashboard">
       <div className="cards">
         <article className="card"><div className="card-pad">
           <div className="h3">Systemstatus</div>
           <ul className="small" style={{marginTop:6}}>
             <li>Autosync: var {s.autosyncMinutes} minut(er)</li>
-            <li>Senaste snapshot: {snap?.ts ? new Date(snap.ts).toLocaleString() : "–"}</li>
+            <li>Senaste snapshot: {snap?.ts ? new Date(snap.ts).toLocaleString() : "â€“"}</li>
             <li>Antal transaktioner i snapshot: {snap?.salesCount ?? 0}</li>
           </ul>
         </div></article>
@@ -42,8 +42,8 @@ export default function AdminDashboard(){
                   <tr key={i} style={{borderBottom:"1px solid var(--ring)"}}>
                     <td style={td}>{j.name}</td>
                     <td style={td}>{j.intervalMs}</td>
-                    <td style={td}>{j.lastRun ? new Date(j.lastRun).toLocaleString() : "–"}</td>
-                    <td style={td}>{j.error ? <span style={{color:"#e86"}}>{j.error}</span> : "–"}</td>
+                    <td style={td}>{j.lastRun ? new Date(j.lastRun).toLocaleString() : "â€“"}</td>
+                    <td style={td}>{j.error ? <span style={{color:"#e86"}}>{j.error}</span> : "â€“"}</td>
                   </tr>
                 ))}
                 {!jobs.length && <tr><td colSpan="4" style={td}>Inga jobb ännu.</td></tr>}

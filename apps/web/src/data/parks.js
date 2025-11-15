@@ -6,9 +6,9 @@ const PARKS = [
 ];
 
 export const ADDONS = [
-  { id: "c-reserve", name: "C-Reserve™ (köplats)", price: 190 },
-  { id: "c-hour", name: "Calestra Hour™ (kvällsaccess)", price: 280 },
-  { id: "c-photo", name: "C-Photo™ (karaktärsminnen)", price: 160 }
+  { id: "c-reserve", name: "C-Reserveâ„¢ (köplats)", price: 190 },
+  { id: "c-hour", name: "Calestra Hourâ„¢ (kvällsaccess)", price: 280 },
+  { id: "c-photo", name: "C-Photoâ„¢ (karaktärsminnen)", price: 160 }
 ];
 
 export default PARKS;

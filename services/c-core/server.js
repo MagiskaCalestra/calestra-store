@@ -1,18 +1,15 @@
-const path = require("path");
-const express = require("express");
-const { applySecurity } = require("../_shared/security");
+import express from "express";
+import cors from "cors";
+import helmet from "helmet";
+import rateLimit from "express-rate-limit";
 
-const PORT = Number(process.env.C_CORE_PORT || 15000);
 const app = express();
-applySecurity(app, { corsOrigins: ["http://localhost:5175","http://localhost:5288","http://localhost:5173","http://localhost:5174"] });
+app.use(express.json());
+app.use(helmet({ crossOriginResourcePolicy: { policy: "same-origin" } }));
+app.use(cors({ origin: ["http://localhost:5175","http://localhost:5288"], credentials: false }));
+app.use(rateLimit({ windowMs: 60_000, max: 300 }));
 
-app.get("/health", (_, res) => res.json({ ok: true, service: "c-core" }));
+app.get("/status", (_, res) => res.json({ ok: true, service: process.env.SERVICE || "unknown" }));
 
-// exempel-API
-app.get("/progress/summary", (_, res) => {
-  res.json({ ok:true, total: 0, updatedAt: Date.now() });
-});
-
-app.listen(PORT, () => {
-  console.log(`[c-core] listening on http://localhost:${PORT}`);
-});
+const PORT = process.env.PORT || 14000;
+app.listen(PORT, () => console.log(`[${process.env.SERVICE || "svc"}] listening on port ${PORT}`));

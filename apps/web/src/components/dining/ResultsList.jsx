@@ -16,7 +16,7 @@ export default function ResultsList(){
           <div className="row space">
             <div>
               <h3 className="h3">{r.name}</h3>
-              <div className="muted small">{r.area} · {r.type.join(", ")} · {r.price}</div>
+              <div className="muted small">{r.area} Â· {r.type.join(", ")} Â· {r.price}</div>
             </div>
             <button className="btn" onClick={()=>setOpenId(openId===r.id ? null : r.id)}>
               {openId===r.id ? "Dölj tider" : "Visa tider"}
@@ -25,7 +25,7 @@ export default function ResultsList(){
           {openId===r.id && <div className="mt-8"><AvailabilityGrid restaurant={r}/></div>}
         </div>
       ))}
-      {!results.length && <div className="muted">Inga träffar – justera filtren.</div>}
+      {!results.length && <div className="muted">Inga träffar â€“ justera filtren.</div>}
     </div>
   );
 }

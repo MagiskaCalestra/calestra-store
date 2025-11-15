@@ -10,7 +10,7 @@ export async function runNightlySync() {
   // 1) Sync externa nätverk
   const sales = await syncExternalSales();
 
-  // 2) FX (mock – kan bytas till riktig kurs via API)
+  // 2) FX (mock â€“ kan bytas till riktig kurs via API)
   const fx = KV.get(FX_KEY, { USD_SEK: 10.5 });
 
   // 3) Räkna

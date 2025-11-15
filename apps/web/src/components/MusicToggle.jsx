@@ -5,7 +5,7 @@ export default function MusicToggle() {
   const music = useMusic();
   if (!music) return null;
 
-  // Text/logik: visa “På” när det faktiskt hörs, annars “Av”
+  // Text/logik: visa â€œPåâ€ när det faktiskt hörs, annars â€œAvâ€
   const label = music.enabled ? "På" : "Av";
 
   return (
@@ -19,7 +19,7 @@ export default function MusicToggle() {
         title="Musik på/av"
         style={{ borderRadius: 999, width: 46, height: 46 }}
       >
-        ♪ {label}
+        â™ª {label}
       </button>
       {music.wanted && (
         <button
@@ -28,7 +28,7 @@ export default function MusicToggle() {
           title="Nästa låt"
           style={{ borderRadius: 999, width: 46, height: 46 }}
         >
-          ⏭
+          â­
         </button>
       )}
     </div>

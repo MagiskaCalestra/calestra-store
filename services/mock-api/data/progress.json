@@ -1,0 +1,11 @@
+{
+  "currency": "SEK",
+  "goal": 3500000,
+  "raised": 125000,
+  "milestones": [
+    { "label": "Första batchen", "value": 250000 },
+    { "label": "Q1-expansion", "value": 750000 },
+    { "label": "C-World prototyp", "value": 1500000 }
+  ],
+  "updatedAt": "2025-11-12T10:00:00Z"
+}

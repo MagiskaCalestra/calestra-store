@@ -1,7 +1,7 @@
 const HOTELS = [
   {
     id: "lyra-light",
-    name: "Lyra’s Light Haven™",
+    name: "Lyraâ€™s Light Havenâ„¢",
     zone: "Kärlek",
     rating: 5,
     perks: ["Frukost", "Spa-tillgång", "Kvällsljus-ceremoni"],
@@ -10,7 +10,7 @@ const HOTELS = [
   },
   {
     id: "neri-spa",
-    name: "Neri’s Whisper Spa Hotel™",
+    name: "Neriâ€™s Whisper Spa Hotelâ„¢",
     zone: "Stillhet",
     rating: 4,
     perks: ["Spa", "Tysta våningar", "Te-ceremoni"],
@@ -19,7 +19,7 @@ const HOTELS = [
   },
   {
     id: "celeste-crown",
-    name: "The Celeste Crown™",
+    name: "The Celeste Crownâ„¢",
     zone: "Äventyr",
     rating: 5,
     perks: ["C-Lux lounge", "Kvällsaccess", "AI Concierge"],

@@ -12,7 +12,7 @@ export default function Header() {
         <Link to="/" className="logo-group" aria-label="Go to start">
           <img
             src="/brand/harmonic-star.svg"
-            alt="Calestra – The Harmonic Star"
+            alt="Calestra â€“ The Harmonic Star"
             className="logo"
             width="48"
             height="48"

@@ -36,7 +36,7 @@ export default function AdminAudio() {
 
   const preview = useMemo(() => {
     const examples = ["/", "/concerts", "/concerts/123", "/store", "/parks/alpha/attractions"];
-    return examples.map((p) => [p, pickTrack(rules, p) || "—"]);
+    return examples.map((p) => [p, pickTrack(rules, p) || "â€”"]);
   }, [rules]);
 
   return (
@@ -55,7 +55,7 @@ export default function AdminAudio() {
         </label>
         <label className="lbl">Spår
           <select className="inp" value={track} onChange={(e)=>setTrack(e.target.value)}>
-            {TRACKS.map((t) => <option key={t.id} value={t.id}>{t.id} — {t.title}</option>)}
+            {TRACKS.map((t) => <option key={t.id} value={t.id}>{t.id} â€” {t.title}</option>)}
           </select>
         </label>
         <button className="btn" onClick={add}>Lägg till / uppdatera</button>
@@ -72,8 +72,8 @@ export default function AdminAudio() {
               <td><code>{r.pattern}</code></td>
               <td>{r.track}</td>
               <td>
-                <button className="btn sm" onClick={()=>testPlay(r.track)}>▶︎</button>
-                <button className="btn sm ghost" onClick={stop}>■</button>
+                <button className="btn sm" onClick={()=>testPlay(r.track)}>â–¶ï¸Ž</button>
+                <button className="btn sm ghost" onClick={stop}>â– </button>
               </td>
               <td><button className="btn sm warn" onClick={()=>del(i)}>Radera</button></td>
             </tr>

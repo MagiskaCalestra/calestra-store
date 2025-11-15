@@ -2,15 +2,15 @@ import React, { useState } from "react";
 
 /**
  * Ads/Index
- * - Sälj in ytor vi äger (house ads) + “förfrågan” i mock-läge
+ * - Sälj in ytor vi äger (house ads) + â€œförfråganâ€ i mock-läge
  * - Paket: Hero, Spotlight, Sidebar, Footer-strip
  */
 
 const PACKS = [
   { id: "hero",    name: "Hero Premium", desc: "Toppen på startsidan (stor enhet).", price: "fr. 25 000 SEK/vecka" },
   { id: "spot",    name: "Spotlight",    desc: "Partner Spotlight (roterande modul).", price: "fr. 12 000 SEK/vecka" },
-  { id: "sidebar", name: "Sidebar",      desc: "Sekundära sidor – hög synlighet.",    price: "fr. 6 000 SEK/vecka" },
-  { id: "footer",  name: "Footer Strip", desc: "Logoremsa – stora varumärken.",       price: "fr. 4 000 SEK/vecka" },
+  { id: "sidebar", name: "Sidebar",      desc: "Sekundära sidor â€“ hög synlighet.",    price: "fr. 6 000 SEK/vecka" },
+  { id: "footer",  name: "Footer Strip", desc: "Logoremsa â€“ stora varumärken.",       price: "fr. 4 000 SEK/vecka" },
 ];
 
 export default function AdsIndex(){

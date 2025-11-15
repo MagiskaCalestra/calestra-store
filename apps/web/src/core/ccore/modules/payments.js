@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/payments.js
-// PSP-hook (mock) – kan bytas mot Stripe/Adyen utan att påverka UI.
+// PSP-hook (mock) â€“ kan bytas mot Stripe/Adyen utan att påverka UI.
 export async function initPayment({ amount, currency = "SEK", cartId }) {
   // Mock: returnera en fejkad token.
   await new Promise(r => setTimeout(r, 200));

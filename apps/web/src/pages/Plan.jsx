@@ -39,7 +39,7 @@ export default function Plan() {
     <main style={{ maxWidth: 1200, margin: "24px auto", padding: "0 16px", color: "#fff" }}>
       <h2 style={{ marginBottom: 12 }}>{t("plan.pageTitle", "Your plan")}</h2>
       <p style={{ marginTop: 0, color: "#ffffffc0" }}>
-        {t("plan.pageLead", "Adjust details below — the URL updates automatically.")}
+        {t("plan.pageLead", "Adjust details below â€” the URL updates automatically.")}
       </p>
 
       <section

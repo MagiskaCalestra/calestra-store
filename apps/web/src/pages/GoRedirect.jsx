@@ -20,7 +20,7 @@ export default function GoRedirect() {
 
   return (
     <div className="container section-lg">
-      <div className="h2">Öppnar partnerlänk…</div>
+      <div className="h2">Öppnar partnerlänkâ€¦</div>
       <p className="small">Ett ögonblick.</p>
     </div>
   );

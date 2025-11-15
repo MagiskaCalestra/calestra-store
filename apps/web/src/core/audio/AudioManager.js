@@ -1,4 +1,4 @@
-// Calestra — AudioManager (hel fil)
+// Calestra â€” AudioManager (hel fil)
 // Singleton som överlever HMR/route-byten och lagrar användarens val.
 
 const STORAGE_KEY = "cw_audio_enabled";

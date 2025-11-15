@@ -40,7 +40,7 @@ export default function PartnerWidget() {
 
   return (
     <aside className="partner card">
-      <h3>Resa & boende – partners</h3>
+      <h3>Resa & boende â€“ partners</h3>
       <p className="muted">{policyText}</p>
 
       <div className="fields">
@@ -80,37 +80,37 @@ export default function PartnerWidget() {
         <button
           className="btn"
           disabled={operator}
-          title={operator ? "Operatörsläge – extern länk avstängd" : "Öppnas i ny flik"}
+          title={operator ? "Operatörsläge â€“ extern länk avstängd" : "Öppnas i ny flik"}
           onClick={()=>open("hotels", { city, checkin, checkout })}
         >
-          Sök hotell ↗
+          Sök hotell â†—
         </button>
 
         <button
           className="btn"
           disabled={operator}
-          title={operator ? "Operatörsläge – extern länk avstängd" : "Öppnas i ny flik"}
+          title={operator ? "Operatörsläge â€“ extern länk avstängd" : "Öppnas i ny flik"}
           onClick={()=>open("flights", { from, to, depart, return: ret, adults:1 })}
         >
-          Sök flyg ↗
+          Sök flyg â†—
         </button>
 
         <button
           className="btn"
           disabled={operator}
-          title={operator ? "Operatörsläge – extern länk avstängd" : "Öppnas i ny flik"}
+          title={operator ? "Operatörsläge â€“ extern länk avstängd" : "Öppnas i ny flik"}
           onClick={()=>open("transport", { city, date: checkin, time:"10:00", type:"airport" })}
         >
-          Flygtransfer / Transport ↗
+          Flygtransfer / Transport â†—
         </button>
 
         <button
           className="btn ghost"
           disabled={operator}
-          title={operator ? "Operatörsläge – extern länk avstängd" : "Öppnas i ny flik"}
+          title={operator ? "Operatörsläge â€“ extern länk avstängd" : "Öppnas i ny flik"}
           onClick={()=>open("experiences", { city, date: checkin, adults:1 })}
         >
-          Stadsturer & upplevelser ↗
+          Stadsturer & upplevelser â†—
         </button>
       </div>
 

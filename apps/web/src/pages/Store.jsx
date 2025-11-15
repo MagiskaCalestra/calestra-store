@@ -16,7 +16,7 @@ export default function Store(){
       <div className="store-cards">
         <article className="s-card">
           <div className="s-thumb" />
-          <h3>Butikslåten – “Calestra Shop Loop”</h3>
+          <h3>Butikslåten â€“ â€œCalestra Shop Loopâ€</h3>
           <p className="muted">Instrumental butikstema som rullar mjukt i bakgrunden när du handlar.</p>
         </article>
         <article className="s-card">

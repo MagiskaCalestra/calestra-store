@@ -3,15 +3,15 @@ import React from "react";
 export default function Ambassadors() {
   return (
     <div className="container">
-      <h1>Bli Calestra-ambassadör ✨</h1>
+      <h1>Bli Calestra-ambassadör âœ¨</h1>
       <p>
-        Sprid magin – få betalt per såld vara. Du får en personlig länk och kod som spårar varje köp.
+        Sprid magin â€“ få betalt per såld vara. Du får en personlig länk och kod som spårar varje köp.
       </p>
 
       <ul className="bullets">
-        <li>💰 Provision: <b>10–15 % av varje såld vara</b></li>
-        <li>📤 Utbetalning sker månadsvis (Swish/PayPal)</li>
-        <li>🌍 Inga krav på exklusivitet – bara respektfullt och äkta innehåll</li>
+        <li>ðŸ’° Provision: <b>10â€“15 % av varje såld vara</b></li>
+        <li>ðŸ“¤ Utbetalning sker månadsvis (Swish/PayPal)</li>
+        <li>ðŸŒ Inga krav på exklusivitet â€“ bara respektfullt och äkta innehåll</li>
       </ul>
 
       <h2>Ansök här</h2>

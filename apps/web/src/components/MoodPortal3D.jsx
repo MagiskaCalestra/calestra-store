@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
-/** Minimal “GlowGate” som overlay. Låg risk för konsolfel. */
+/** Minimal â€œGlowGateâ€ som overlay. Låg risk för konsolfel. */
 function GlowGate(){
   return (
     <mesh>

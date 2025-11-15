@@ -22,7 +22,7 @@ export default function ProgressMeter({ label, current = 0, goal = 100 }) {
           overflow: "hidden",
           height: 14
         }}
-        title={`${label} — ${pct}%`}
+        title={`${label} â€” ${pct}%`}
       >
         <div
           style={{

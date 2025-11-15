@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 /**
- * The Harmonic Star – interaktiv, klickbar och animerad.
+ * The Harmonic Star â€“ interaktiv, klickbar och animerad.
  * Klick => fade ut + navigera till /world-3d
  */
 export default function Star() {

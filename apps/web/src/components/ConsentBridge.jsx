@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { getConsent, hasConsent } from "@utils/consent";
 
-// Din enkla analytics-loader — ersätt med GA/GTM vid behov
+// Din enkla analytics-loader â€” ersätt med GA/GTM vid behov
 function bootAnalytics() {
   if (window.__analyticsBooted) return;
   window.__analyticsBooted = true;

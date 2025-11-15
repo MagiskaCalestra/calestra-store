@@ -31,7 +31,7 @@ export default function ProgressPage() {
   return (
     <main className="container">
       <h1>Progress</h1>
-      <p>Huvudmål och etapper. Vi visar procent och supporters – inga belopp.</p>
+      <p>Huvudmål och etapper. Vi visar procent och supporters â€“ inga belopp.</p>
 
       {data.goals.map(g => (
         <section key={g.id} className="goal">

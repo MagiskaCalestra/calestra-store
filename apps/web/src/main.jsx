@@ -1,5 +1,5 @@
-// init i18n FÖRST
-import "@i18n/index.jsx";
+// init i18n först (använd lokala sökvägen eller aliasen, men bara EN av dem)
+import "./i18n/index.js"; // ✅ behåll denna
 import i18n from "i18next";
 
 import React, { useEffect, Suspense } from "react";
@@ -66,7 +66,6 @@ function HtmlLangSync() {
   useHtmlLangSync(lang);
   return null;
 }
-
 function Root() {
   useEffect(() => {
     const initLang = detectInitialLang();
@@ -89,5 +88,4 @@ function Root() {
     </LangProvider>
   );
 }
-
 ReactDOM.createRoot(document.getElementById("root")).render(<Root />);

@@ -1,21 +1,21 @@
 const RESTAURANTS = [
   {
     id: "lyra-lantern",
-    name: "Lyra’s Lantern Café™",
+    name: "Lyraâ€™s Lantern CafÃ©â„¢",
     zone: "Kärlek",
     exclusive: false,
     tags: ["Vegetariskt", "Halal", "Barnvänligt"]
   },
   {
     id: "harmonic-feast",
-    name: "The Harmonic Feast™",
+    name: "The Harmonic Feastâ„¢",
     zone: "Glädje",
     exclusive: false,
     tags: ["Show", "Allergivänligt"]
   },
   {
     id: "celeste-lounge",
-    name: "Celeste Lounge™",
+    name: "Celeste Loungeâ„¢",
     zone: "Äventyr",
     exclusive: true,
     tags: ["Exklusiv", "C-Lux"]

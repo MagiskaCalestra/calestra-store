@@ -27,7 +27,7 @@ export function withTracking(rawUrl, ctx = {}) {
     u.search = qs.toString();
     return u.toString();
   } catch {
-    return rawUrl; // om ogiltig URL – returnera original
+    return rawUrl; // om ogiltig URL â€“ returnera original
   }
 }
 

@@ -11,7 +11,7 @@ export default function LyraSection() {
       <div className="wrap">
         <div className="panel hero-card glass">
           <h2>Välkommen tillbaka, Mira!</h2>
-          <p>Din nästa parkresa börjar snart – vill du fortsätta där du slutade?</p>
+          <p>Din nästa parkresa börjar snart â€“ vill du fortsätta där du slutade?</p>
           <div className="cta-row">
             <Link to="/plan" className="btn pill">Visa alternativ</Link>
             <Link to="/account/orders" className="btn ghost">Mina bokningar</Link>
@@ -23,9 +23,9 @@ export default function LyraSection() {
           <div className="phone glass">
             <img src="/images/ui/phone.png" alt="" aria-hidden="true" />
             <div className="phone-copy">
-              <div className="star">✶</div>
+              <div className="star">âœ¶</div>
               <div className="line1">Välkommen tillbaka.</div>
-              <div className="line2">Fortsätt din resa →</div>
+              <div className="line2">Fortsätt din resa â†’</div>
             </div>
           </div>
         </div>

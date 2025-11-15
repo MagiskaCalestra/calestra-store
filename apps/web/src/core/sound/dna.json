@@ -67,7 +67,7 @@
     "web_bus_lufs": -20,
     "park_bus_lufs": -16,
     "max_peak_dbfs": -1,
-    "automation": "Långsamma kurvor; fade-ins 300–800ms, fade-outs 1200–2500ms."
+    "automation": "Långsamma kurvor; fade-ins 300â€“800ms, fade-outs 1200â€“2500ms."
   },
 
   "space_and_fx": {
@@ -85,7 +85,7 @@
   },
 
   "arranging_rules": {
-    "motif_usage": "Spela motivet i takt 1 vid intro; repetera var 2–4:e takt i portaltemat, var 8:e i retail.",
+    "motif_usage": "Spela motivet i takt 1 vid intro; repetera var 2â€“4:e takt i portaltemat, var 8:e i retail.",
     "piano_voicings": "Maj7 i täta öppna voicings, undvik hårda tior; gärna spritt mellan låga/mellanregister.",
     "pad_behavior": "Sustained, filtrerad, låg RMS. Ska kännas som stjärn-dimma.",
     "percussion": "Endast brush-textur i retail; portaltemat helt utan slagverk.",
@@ -118,7 +118,7 @@
   },
 
   "legal": {
-    "copyright": "Calestra World ©",
+    "copyright": "Calestra World Â©",
     "license": "Intern användning; återanvändning kräver godkännande.",
     "ai_guidelines": "AI-genererat material måste kvalitetssäkras och mixas av människa före publicering."
   }

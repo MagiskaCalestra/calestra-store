@@ -6,7 +6,7 @@ export default function Dining() {
     <section className="page dining">
       <div className="wrap">
         <h1>Mat & Restaurang</h1>
-        <p className="lead">Snabbmat, caféer och bokningsbara restauranger – Calestra TableMagic™ kommer här.</p>
+        <p className="lead">Snabbmat, cafÃ©er och bokningsbara restauranger â€“ Calestra TableMagicâ„¢ kommer här.</p>
 
         <ul className="grid">
           {data.map((r) => (

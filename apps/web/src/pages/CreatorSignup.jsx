@@ -21,7 +21,7 @@ export default function CreatorSignup() {
   if (done) {
     return (
       <div className="max-w-2xl mx-auto px-4 py-10 text-white">
-        <h1 className="text-2xl font-semibold">Välkommen som Calestra Creator™</h1>
+        <h1 className="text-2xl font-semibold">Välkommen som Calestra Creatorâ„¢</h1>
         <p className="opacity-80 mt-2">Din delningslänk:</p>
         <code className="block mt-2 p-3 rounded-lg bg-black/40 ring-1 ring-white/10">
           {`${window.location.origin}/?ref=${user}`}
@@ -36,7 +36,7 @@ export default function CreatorSignup() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-10 text-white">
-      <h1 className="text-2xl font-semibold">Bli Calestra Creator™</h1>
+      <h1 className="text-2xl font-semibold">Bli Calestra Creatorâ„¢</h1>
       <p className="opacity-80 mt-2">Tjäna provision per såld vara. Fyll i dina uppgifter för att få din ref-kod.</p>
       <form onSubmit={submit} className="mt-6 space-y-3">
         <input value={name} onChange={e=>setName(e.target.value)} placeholder="Namn"

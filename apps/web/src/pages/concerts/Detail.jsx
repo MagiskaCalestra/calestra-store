@@ -24,13 +24,13 @@ export default function ConcertDetail() {
   return (
     <section className="page">
       <div className="wrap">
-        <Link to="/concerts" className="btn ghost">← Till konserter</Link>
+        <Link to="/concerts" className="btn ghost">â† Till konserter</Link>
         <h1>{c.title}</h1>
-        <p className="lead">{c.artist || "—"}</p>
+        <p className="lead">{c.artist || "â€”"}</p>
 
         <div className="meta">
           <span className={"badge "+avail.status}>{avail.status.toUpperCase()}</span>
-          <span className="pill">{c.date} • {c.time} • {c.durationMin} min</span>
+          <span className="pill">{c.date} â€¢ {c.time} â€¢ {c.durationMin} min</span>
           {v && <span className="pill">Scen: {v.name}</span>}
           <span className="pill">{policyText(c.policy)}</span>
         </div>
@@ -77,5 +77,5 @@ function label(kind){
 function policyText(p){
   const m = { undecided:"Läge: ej beslutat", included:"Läge: ingår i park", night_ticket:"Läge: kvällsbiljett", both:"Läge: både och" }[p.mode];
   const a = { none:"Alkoholfritt", zoned:"Zonad servering", limited:"Begränsad servering" }[p.alcoholPolicy];
-  return `${m} • ${a}`;
+  return `${m} â€¢ ${a}`;
 }

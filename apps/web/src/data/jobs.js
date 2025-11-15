@@ -1,4 +1,4 @@
-// Calestra Careers — exempelroller (svenska + korsande titlar)
+// Calestra Careers â€” exempelroller (svenska + korsande titlar)
 const JOBS = [
   {
     id: "lg-host-001",
@@ -9,7 +9,7 @@ const JOBS = [
     type: "Heltid",
     tags: ["Frontline", "Service", "Evenemang"],
     summary:
-      "Du möter gäster i våra glädjezoner och bär ljuset vidare – med värme, tydlighet och lekfullhet.",
+      "Du möter gäster i våra glädjezoner och bär ljuset vidare â€“ med värme, tydlighet och lekfullhet.",
   },
   {
     id: "sv-ride-002",
@@ -53,7 +53,7 @@ const JOBS = [
     type: "Projekt",
     tags: ["Scen", "Musik", "Performance"],
     summary:
-      "Du förhöjer stunden med musik och rörelse. Korta set i zonerna – alltid nära gästens resa.",
+      "Du förhöjer stunden med musik och rörelse. Korta set i zonerna â€“ alltid nära gästens resa.",
   },
 ];
 

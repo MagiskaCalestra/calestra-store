@@ -1,4 +1,4 @@
-// Calestra — Bridge till c-core/nexus/infinity (eller fallback)
+// Calestra â€” Bridge till c-core/nexus/infinity (eller fallback)
 // Normaliserar publish/subscribe så UI inte bryr sig om vilken buss som finns.
 
 const hasFn = (obj, fn) => obj && typeof obj[fn] === "function";
@@ -51,13 +51,13 @@ export const Bus = resolveBus();
 
 // Hjälpfunktioner för konsekventa ämnesnamn (topics)
 export const Topics = {
-  // UI → Central
+  // UI â†’ Central
   PROGRESS_UPDATE: "cw/progress/update",   // { source, set?, delta? } (0..1)
-  // Central → UI (snapshot eller inkrementell)
+  // Central â†’ UI (snapshot eller inkrementell)
   PROGRESS_SNAPSHOT: "cw/progress/snapshot", // { sources: { [source]: 0..1 }, total?: 0..1 }
 };
 
-// OBS: vi exponerar också en “window bridge” för äldre klienter som redan sänder CustomEvent.
+// OBS: vi exponerar också en â€œwindow bridgeâ€ för äldre klienter som redan sänder CustomEvent.
 if (typeof window !== "undefined") {
   window.addEventListener("cw:progress", (e) => {
     const { source, set, delta } = e.detail || {};

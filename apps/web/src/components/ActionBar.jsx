@@ -16,8 +16,8 @@ export default function ActionBar() {
       <div className="cw-ctaRow">
         <Btn href="#" variant="ghost">Boka ditt magiska paket</Btn>
         <Btn href="http://localhost:5175/">Calestra Store</Btn>
-        <Btn href="#" variant="ghost">Streama Calestra ♪</Btn>
-        <Btn href="#" variant="ghost">C-Wish ✧</Btn>
+        <Btn href="#" variant="ghost">Streama Calestra â™ª</Btn>
+        <Btn href="#" variant="ghost">C-Wish âœ§</Btn>
       </div>
     </section>
   );

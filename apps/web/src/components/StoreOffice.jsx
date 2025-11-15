@@ -7,9 +7,9 @@ export default function StoreOffice() {
       <div className="wrap">
         <div className="card">
           <div className="text">
-            <h2>Calestra Store Office®</h2>
-            <p>DIV muggar • Interaktiv docka • Signatur-kollektion m.m.</p>
-            <a className="btn" href="http://localhost:5175/" target="_blank" rel="noopener noreferrer">DIY-mall  ↗</a>
+            <h2>Calestra Store OfficeÂ®</h2>
+            <p>DIV muggar â€¢ Interaktiv docka â€¢ Signatur-kollektion m.m.</p>
+            <a className="btn" href="http://localhost:5175/" target="_blank" rel="noopener noreferrer">DIY-mall  â†—</a>
           </div>
           <div className="merch" aria-hidden />
         </div>

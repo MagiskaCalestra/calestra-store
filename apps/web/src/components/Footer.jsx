@@ -30,15 +30,15 @@ export default function Footer() {
             borderRadius: 10
           }}
         >
-          <strong>Calestra {cfg.label}</strong> — Global Beta Coming Soon.
+          <strong>Calestra {cfg.label}</strong> â€” Global Beta Coming Soon.
         </div>
       )}
 
       <div style={{ maxWidth: 1200, margin: "0 auto", fontSize: 14 }}>
-        © {new Date().getFullYear()} Calestra. All rights reserved.
+        Â© {new Date().getFullYear()} Calestra. All rights reserved.
       </div>
       <div style={{ maxWidth: 1200, margin: "8px auto 0", fontSize: 12 }}>
-        Region: {regionKey} · Locale default: {cfg.defaultLocale} · Currency:{" "}
+        Region: {regionKey} Â· Locale default: {cfg.defaultLocale} Â· Currency:{" "}
         {cfg.currency}
       </div>
     </footer>

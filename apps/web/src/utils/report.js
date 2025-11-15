@@ -1,7 +1,7 @@
 // Bygger enkel HTML-rapport av snapshot + bankDirectory.
 import { fmtMoneySEK, fmtMoneyCCY } from "@core/FX";
 
-export function buildMonthlyReportHTML({ title = "Calestra – Monthly Report", snapshot, bankDirectory, myRef }) {
+export function buildMonthlyReportHTML({ title = "Calestra â€“ Monthly Report", snapshot, bankDirectory, myRef }) {
   const snap = snapshot || {};
   const rows = snap?.earnings?.rows || [];
   const tot  = snap?.earnings?.totals || {};
@@ -47,7 +47,7 @@ export function buildMonthlyReportHTML({ title = "Calestra – Monthly Report", 
     </tr>`).join("");
 
   const bankWarn = myRef && !bankDirectory?.[myRef]
-    ? `<div class="small" style="color:#cc8800">⚠ Utbetalningsuppgifter saknas för <b>${esc(myRef)}</b>.</div>` : "";
+    ? `<div class="small" style="color:#cc8800">âš  Utbetalningsuppgifter saknas för <b>${esc(myRef)}</b>.</div>` : "";
 
   return `
   <!doctype html><html><head>${head}</head><body>

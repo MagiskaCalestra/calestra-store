@@ -7,7 +7,7 @@ import * as Payments from "./modules/payments";
 import * as Journal from "./modules/journal";
 import * as Places from "./modules/places";
 import * as DreamCircle from "./modules/dreamcircle";
-import * as Sound from "../sound"; // ⬅️ NY
+import * as Sound from "../sound"; // â¬…ï¸ NY
 import { emit, on } from "./eventBus";
 
 export const CCoreSDK = {
@@ -21,5 +21,5 @@ export const CCoreSDK = {
   Journal,
   Places,
   DreamCircle,
-  Sound, // ⬅️ NY
+  Sound, // â¬…ï¸ NY
 };

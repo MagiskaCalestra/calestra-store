@@ -14,7 +14,7 @@ export default function Tagline() {
   const taglines = {
     sv: "Hitta ditt ljus inom dig.",
     en: "Feel the World Inside You.",
-    tr: "Dünyayı İçinde Hisset.",
+    tr: "DÃ¼nyayÄ± Ä°Ã§inde Hisset.",
   };
 
   return (

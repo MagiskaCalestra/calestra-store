@@ -25,11 +25,11 @@ export default function AdminPayouts(){
   return (
     <div className="container section-lg">
       <div className="row" style={{justifyContent:"space-between", alignItems:"baseline"}}>
-        <div className="h2">Admin – Utbetalningar</div>
+        <div className="h2">Admin â€“ Utbetalningar</div>
         <button className="btn" onClick={exportCSV}>Exportera bankkatalog (CSV)</button>
       </div>
 
-      {!refs.length && <div className="small" style={{marginTop:8, opacity:.8}}>Tom katalog – lägg in första ref nedan.</div>}
+      {!refs.length && <div className="small" style={{marginTop:8, opacity:.8}}>Tom katalog â€“ lägg in första ref nedan.</div>}
 
       <div className="card" style={{marginTop:12}}>
         <div className="card-pad-lg">

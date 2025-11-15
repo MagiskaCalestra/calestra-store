@@ -12,14 +12,14 @@ export default function LoreStrip(){
             <img src={lore1} alt="Glödande symbol inristad i metall, subtil och sofistikerad" />
             <div className="card__body">
               <h3 style={{margin:"0 0 6px"}}>Harmonic Star</h3>
-              <p>Vår centrala symbol — enkel geometri, lugn energi, aldrig överarbetad.</p>
+              <p>Vår centrala symbol â€” enkel geometri, lugn energi, aldrig överarbetad.</p>
             </div>
           </article>
           <article className="card">
             <img src={lore2} alt="Varmt ljus som reflekteras i textila material" />
             <div className="card__body">
               <h3 style={{margin:"0 0 6px"}}>Material & ljus</h3>
-              <p>Vi blandar praktiska texturer med mjuka reflexer — vardagsdugligt men drömskt.</p>
+              <p>Vi blandar praktiska texturer med mjuka reflexer â€” vardagsdugligt men drömskt.</p>
             </div>
           </article>
         </div>

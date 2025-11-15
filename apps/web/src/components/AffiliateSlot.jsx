@@ -2,7 +2,7 @@ import React from "react";
 import { clickTrack } from "@core/AffiliateManager";
 
 /**
- * Visar en säljbar “slot” som du kan erbjuda Google, Temu m.fl.
+ * Visar en säljbar â€œslotâ€ som du kan erbjuda Google, Temu m.fl.
  * Props:
  *  - title, body, cta, image, url, partner
  */
@@ -11,7 +11,7 @@ export default function AffiliateSlot({ title, body, cta, image, url, partner })
     <article className="rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5 hover:bg-white/7 transition">
       <div className="aspect-[16/10] bg-cover bg-center" style={{ backgroundImage: `url(${image})` }} />
       <div className="p-4">
-        <div className="text-xs opacity-60">Partner Slot • {partner}</div>
+        <div className="text-xs opacity-60">Partner Slot â€¢ {partner}</div>
         <h3 className="text-lg font-medium mt-1">{title}</h3>
         <p className="text-sm opacity-80 mt-1">{body}</p>
         <div className="mt-3">

@@ -5,10 +5,10 @@ export default function PlaceCard({ place }) {
     <article className="pcard">
       <div className="head">
         <div className="type">{typeLabel(place.type)}</div>
-        <div className="rating">{star(place.rating)} <span>{place.rating?.toFixed(1) ?? "—"}</span></div>
+        <div className="rating">{star(place.rating)} <span>{place.rating?.toFixed(1) ?? "â€”"}</span></div>
       </div>
       <h3 className="name">{place.name}</h3>
-      <p className="brief">{place.brief || "—"}</p>
+      <p className="brief">{place.brief || "â€”"}</p>
       {place.tags?.length ? (
         <div className="tags">{place.tags.map(t => <span className="tag" key={t}>#{t}</span>)}</div>
       ) : null}
@@ -32,14 +32,14 @@ function typeLabel(t) {
     attraction: "Attraktion",
     ride: "Karusell",
     restaurant: "Restaurang",
-    cafe: "Café",
+    cafe: "CafÃ©",
     shop: "Butik",
     show: "Show"
   }[t] || t);
 }
 
 function star(r) {
-  if (!r) return "☆";
+  if (!r) return "â˜†";
   const full = Math.round(Math.min(5, Math.max(0, r)) );
-  return "★".repeat(full) + "☆".repeat(5-full);
+  return "â˜…".repeat(full) + "â˜†".repeat(5-full);
 }

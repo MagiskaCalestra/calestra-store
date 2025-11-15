@@ -1,7 +1,7 @@
 import React from "react";
 
 /**
- * Calestra Guardians — korsande titlar i känslofantasi.
+ * Calestra Guardians â€” korsande titlar i känslofantasi.
  * Visas som en enkel sektion på förstasidan (informativ + varumärkesbyggande).
  */
 
@@ -62,7 +62,7 @@ export default function GuardiansSection() {
                 className="dot"
                 style={{ background: g.color, boxShadow: `0 0 16px ${g.color}` }}
               />
-              <strong>{g.titleEmotion}</strong> <span>– {g.titleFunction}</span>
+              <strong>{g.titleEmotion}</strong> <span>â€“ {g.titleFunction}</span>
             </div>
             <p className="muted">{g.blurb}</p>
           </article>
@@ -71,7 +71,7 @@ export default function GuardiansSection() {
 
       <p className="muted guardians-foot">
         Våra Väktare (Guardians) kan även möta dig i parken, ibland
-        överraskande – inte bara i fasta möten. Ibland bär de ledtrådar till
+        överraskande â€“ inte bara i fasta möten. Ibland bär de ledtrådar till
         hemliga portar. Håll ögonen öppna.
       </p>
     </section>

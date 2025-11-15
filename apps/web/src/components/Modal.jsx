@@ -8,7 +8,7 @@ export default function Modal({ open, onClose, title, children, footer }) {
       <div className="m-card">
         <div className="m-head">
           <strong>{title}</strong>
-          <button className="m-x" onClick={onClose} aria-label="Stäng">×</button>
+          <button className="m-x" onClick={onClose} aria-label="Stäng">Ã—</button>
         </div>
         <div className="m-body">{children}</div>
         {footer ? <div className="m-foot">{footer}</div> : null}

@@ -51,7 +51,7 @@ export default function Checkout() {
         <section className="card">
           <h2>Betalning</h2>
           <div className="grid-2">
-            <label>Kortnummer<input required placeholder="•••• •••• •••• ••••"/></label>
+            <label>Kortnummer<input required placeholder="â€¢â€¢â€¢â€¢ â€¢â€¢â€¢â€¢ â€¢â€¢â€¢â€¢ â€¢â€¢â€¢â€¢"/></label>
             <label>Namn på kort<input required/></label>
             <label>Giltigt till<input required placeholder="MM/YY"/></label>
             <label>CVC<input required placeholder="123"/></label>

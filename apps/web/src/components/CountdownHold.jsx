@@ -26,7 +26,7 @@ export default function CountdownHold({ expiresAt, onExpire }) {
   return (
     <div className="hold-timer">
       <span className="dot" aria-hidden />
-      Hållning aktiv – släpper om <strong>{mm}:{ss}</strong>
+      Hållning aktiv â€“ släpper om <strong>{mm}:{ss}</strong>
       <style>{`
         .hold-timer { display:flex; align-items:center; gap:8px; 
           background:rgba(26,32,64,.85); border:1px solid #2c3aa0; color:#e8ecff;

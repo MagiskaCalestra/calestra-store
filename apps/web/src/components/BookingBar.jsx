@@ -1,4 +1,4 @@
-// Calestra — BookingBar (auto-close för barnpanel + förbättrad UX)
+// Calestra â€” BookingBar (auto-close för barnpanel + förbättrad UX)
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
@@ -18,7 +18,7 @@ export default function BookingBar(){
   const [kidsOpen, setKidsOpen] = useState(false);
 
   useEffect(() => {
-    // synka antal barn ↔ ålderslistan
+    // synka antal barn â†” ålderslistan
     setChildAges(prev => {
       const next = prev.slice(0, children);
       while (next.length < children) next.push(null);
@@ -60,7 +60,7 @@ export default function BookingBar(){
       packageType,
       level,
     };
-    console.log("START BOOKING →", payload);
+    console.log("START BOOKING â†’", payload);
     // TODO: navigate till /booking med state
   };
 
@@ -131,9 +131,9 @@ export default function BookingBar(){
         <div className="actions">
           <button type="submit" className="btn-primary">Planera ditt besök</button>
           <div className="trust">
-            <span>🔒 Säker betalning</span>
-            <span>🔁 Gratis ombokning*</span>
-            <span>⭐ Gästbetyg 4,8/5</span>
+            <span>ðŸ”’ Säker betalning</span>
+            <span>ðŸ” Gratis ombokning*</span>
+            <span>â­ Gästbetyg 4,8/5</span>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ export default function BookingBar(){
       <div className="helper-row" aria-live="polite">
         {packageType !== "tickets"
           ? <span>Biljett-detaljer (t.ex. Hopper) väljer du i nästa steg.</span>
-          : <span>Tips: “Hotell + biljetter” ger paketpris och bonuspoäng.</span>}
+          : <span>Tips: â€œHotell + biljetterâ€ ger paketpris och bonuspoäng.</span>}
       </div>
     </form>
   );

@@ -1,4 +1,4 @@
-// apps/web/src/router.jsx (UTDRAG – lägg till denna route)
+// apps/web/src/router.jsx (UTDRAG â€“ lägg till denna route)
 import ProgressPage from "./pages/Progress.jsx";
 
 // ...

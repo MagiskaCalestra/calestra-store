@@ -1,4 +1,4 @@
-// C-Table (TableMagic) – mock API som vi byter till real senare.
+// C-Table (TableMagic) â€“ mock API som vi byter till real senare.
 import { emit } from "../eventBus";
 const LS_TABLE = "ccore_table_res";
 

@@ -13,7 +13,7 @@ export default function MembershipBadge() {
   }, []);
 
   return (
-    <span className={"memb "+p.tier.id} title={`C-Pass ${p.cpassId} · ${p.points}p`}>
+    <span className={"memb "+p.tier.id} title={`C-Pass ${p.cpassId} Â· ${p.points}p`}>
       {shortTier(p.tier.id)} {p.points}p
       <style>{`
         .memb { padding:4px 8px; border-radius:999px; border:1px solid #2b315e; font-size:.85rem; }

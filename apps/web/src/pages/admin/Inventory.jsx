@@ -45,12 +45,12 @@ export default function AdminInventory() {
           <button className="btn" onClick={()=>{
             const d = new Date(y, m - 1, 1);
             setYM({ y: d.getFullYear(), m: d.getMonth() });
-          }}>‹ Föregående</button>
+          }}>â€¹ Föregående</button>
           <div className="title">{monthLabel}</div>
           <button className="btn" onClick={()=>{
             const d = new Date(y, m + 1, 1);
             setYM({ y: d.getFullYear(), m: d.getMonth() });
-          }}>Nästa ›</button>
+          }}>Nästa â€º</button>
         </div>
 
         <div className="grid">
@@ -74,7 +74,7 @@ export default function AdminInventory() {
                     <div key={iso} className={classes}>
                       <div className="n">{day.getDate()}</div>
                       {status !== "blackout" && <div className="cap">{cap}</div>}
-                      {status === "blackout" && <div className="cap">—</div>}
+                      {status === "blackout" && <div className="cap">â€”</div>}
                     </div>
                   );
                 })}

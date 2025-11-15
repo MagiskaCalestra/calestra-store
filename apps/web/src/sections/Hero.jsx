@@ -7,16 +7,16 @@ export default function Hero(){
       <div className="cw-hero__vignette" aria-hidden />
       <div className="cw-hero__content container">
         <h1>
-          <span className="kicker">Somewhere…</span>
+          <span className="kicker">Somewhereâ€¦</span>
           <span className="title">it waits for you</span>
         </h1>
 
         <div className="quick">
-          <button className="btn">✨ Boka ditt magiska paket</button>
-          <button className="btn">📸 Calestra Store</button>
-          <button className="btn">🎵 Musik & konserter</button>
-          <button className="btn">📖 Våra berättelser</button>
-          <button className="btn">🗺️ Världar</button>
+          <button className="btn">âœ¨ Boka ditt magiska paket</button>
+          <button className="btn">ðŸ“¸ Calestra Store</button>
+          <button className="btn">ðŸŽµ Musik & konserter</button>
+          <button className="btn">ðŸ“– Våra berättelser</button>
+          <button className="btn">ðŸ—ºï¸ Världar</button>
         </div>
 
         <div className="booking">

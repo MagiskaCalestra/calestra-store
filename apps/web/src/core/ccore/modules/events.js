@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/events.js
-// Konserter (C-Live) – mockdatabas + policyintegration
+// Konserter (C-Live) â€“ mockdatabas + policyintegration
 import { getGovernance, AlcoholPolicy, ConcertMode } from "../../governance";
 
 const LS_EVENTS = "ccore_events_seed_v1";
@@ -26,7 +26,7 @@ const SEED = {
       tags:["family","lightshow"],
       hero:"#", // byt till bild när du har
       capacity: 3500,
-      // prisnivåer (vi använder dessa som display – availability är mock)
+      // prisnivåer (vi använder dessa som display â€“ availability är mock)
       pricing: [
         { kind:"included", amount:0, currency:"SEK" },  // om mode = INCLUDED/BOTH
         { kind:"night", amount:295, currency:"SEK" },   // om mode = NIGHT_TICKET/BOTH

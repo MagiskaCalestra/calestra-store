@@ -3,7 +3,7 @@ import { apiGet } from "@/utils/api";
 
 /**
  * Visas när en route/feature inte finns än, eller är under uppbyggnad.
- * Försöker hämta lite status från /api/health – fungerar även med mock.
+ * Försöker hämta lite status från /api/health â€“ fungerar även med mock.
  */
 export default function Fallback() {
   const [status, setStatus] = useState(null);
@@ -19,7 +19,7 @@ export default function Fallback() {
       <div className="container">
         <div className="card" style={{ marginTop: 18 }}>
           <div className="card-pad-lg">
-            <div className="h2">Den här delen är på väg ✨</div>
+            <div className="h2">Den här delen är på väg âœ¨</div>
             <p className="small" style={{ marginTop: 6 }}>
               Vi bygger klart funktionen. Under tiden kan du fortsätta upptäcka Calestra World.
             </p>

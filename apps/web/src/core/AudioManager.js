@@ -1,5 +1,5 @@
 /* 
- * Calestra AudioManager – singelton som överlever HMR och route-byten.
+ * Calestra AudioManager â€“ singelton som överlever HMR och route-byten.
  * - Startar först efter första användargest (autoplay-policy)
  * - Behåller "enabled" i localStorage (nyckel: cw_audio_enabled)
  * - Byter spår baserat på "channel" (t.ex. 'default', 'store')
@@ -8,7 +8,7 @@
 
 const STORAGE_KEY = "cw_audio_enabled";
 
-// Peka på dina statiska mp3 i /public/audio (Vite/CRA serverar dem på /audio/…)
+// Peka på dina statiska mp3 i /public/audio (Vite/CRA serverar dem på /audio/â€¦)
 const TRACKS = {
   default: "/audio/cw_theme_main.mp3",   // landningslåt
   store:   "/audio/cw_theme_store.mp3",  // butikslåt
@@ -50,7 +50,7 @@ class AudioManager {
     this.audio.volume = Math.max(0, Math.min(1, v));
   }
 
-  /** Byt “kanal” (vilket spår) och spela om musiken är på */
+  /** Byt â€œkanalâ€ (vilket spår) och spela om musiken är på */
   async switchChannel(channel = "default") {
     if (!TRACKS[channel]) channel = "default";
     if (this.channel === channel && this.audio.src.endsWith(TRACKS[channel])) {
@@ -70,7 +70,7 @@ class AudioManager {
     try {
       await this.audio.play();
     } catch {
-      // Ofta pga autoplay-policy – beväpna på nytt
+      // Ofta pga autoplay-policy â€“ beväpna på nytt
       this._armAutoplay();
     }
   }
@@ -93,7 +93,7 @@ class AudioManager {
     ["pointerdown","click","keydown","touchstart"].forEach(ev =>
       window.addEventListener(ev, this._boundResume, { once: true, capture: true })
     );
-    // Om användaren byter tillbaka flik – försök igen
+    // Om användaren byter tillbaka flik â€“ försök igen
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "visible" && this.enabled) this._safePlay();
     });

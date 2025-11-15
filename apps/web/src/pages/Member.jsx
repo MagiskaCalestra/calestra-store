@@ -16,10 +16,10 @@ export default function Member() {
           <p className="text-sm opacity-80 mt-1">Inlogg: lokal mock (ingen backend ännu).</p>
           <div className="mt-3 text-sm">
             <div className="opacity-70">Ref-kod i bruk:</div>
-            <div className="mt-1 p-2 rounded bg-black/40 ring-1 ring-white/10">{ref || "—"}</div>
+            <div className="mt-1 p-2 rounded bg-black/40 ring-1 ring-white/10">{ref || "â€”"}</div>
             <div className="opacity-70 mt-3">Delningslänk:</div>
             <div className="mt-1 p-2 rounded bg-black/40 ring-1 ring-white/10">
-              {ref ? `${window.location.origin}/?ref=${ref}` : "—"}
+              {ref ? `${window.location.origin}/?ref=${ref}` : "â€”"}
             </div>
           </div>
           <div className="mt-4">
@@ -28,10 +28,10 @@ export default function Member() {
         </section>
 
         <section className="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">
-          <h2 className="text-lg font-semibold">DreamPoints™</h2>
+          <h2 className="text-lg font-semibold">DreamPointsâ„¢</h2>
           <p className="text-sm opacity-80 mt-1">Poängsystem mock (v1). Uppdateras efter lansering.</p>
           <div className="mt-3 text-3xl font-bold">320</div>
-          <div className="text-xs opacity-60 mt-1">* demo – ej bindande saldo</div>
+          <div className="text-xs opacity-60 mt-1">* demo â€“ ej bindande saldo</div>
         </section>
 
         <section className="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">
@@ -40,7 +40,7 @@ export default function Member() {
             <p className="text-sm opacity-70 mt-2">Inga beställningar ännu.</p>
           ) : (
             <ul className="mt-2 text-sm opacity-90 space-y-1">
-              {orders.map(o => <li key={o.id}>#{o.id} • {o.total} • {o.date}</li>)}
+              {orders.map(o => <li key={o.id}>#{o.id} â€¢ {o.total} â€¢ {o.date}</li>)}
             </ul>
           )}
         </section>
@@ -54,7 +54,7 @@ export default function Member() {
           <ul className="mt-2 grid sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm opacity-90">
             {creators.map(c => (
               <li key={c.id} className="p-2 rounded bg-black/40 ring-1 ring-white/10">
-                {c.name} — <span className="opacity-70">{c.id}</span>
+                {c.name} â€” <span className="opacity-70">{c.id}</span>
               </li>
             ))}
           </ul>

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import ProgressMeter from "../components/ProgressMeter";
 import Planner from "../components/Planner";
 import SkipLink from "../components/SkipLink";
-import { fetchProgress } from "../api/progress";
+import { fetchProgressSummary } from "../api/progress";
 import { parsePlanParams } from "../utils/planParams";
 import { loadPartner } from "../core/partner";
 import PartnerSlot from "../components/PartnerSlot";
@@ -98,7 +98,7 @@ export default function PortalLanding() {
 
           {loading && (
             <div style={{ color: "#ffffffcc", fontSize: 14 }}>
-              {t("progress.loading", "Loading progress…")}
+              {t("progress.loading", "Loading progressâ€¦")}
             </div>
           )}
 
@@ -113,7 +113,7 @@ export default function PortalLanding() {
             >
               {t(
                 "progress.error",
-                "We can’t reach the progress service right now. Showing safe fallback."
+                "We canâ€™t reach the progress service right now. Showing safe fallback."
               )}
             </div>
           )}
@@ -131,7 +131,7 @@ export default function PortalLanding() {
           {!loading && updated && (
             <div style={{ color: "#ffffff90", fontSize: 12, marginTop: 6 }}>
               {t("progress.updated", "Updated")}: {updated}
-              {error === "fallback" ? " · fallback" : ""}
+              {error === "fallback" ? " Â· fallback" : ""}
             </div>
           )}
         </section>

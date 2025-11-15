@@ -42,7 +42,7 @@ export default function Tickets() {
               />
               <div>
                 <strong>Flow Hopper</strong>
-                <div className="muted">Vår egen – känn efter under dagen och byt när du vill.</div>
+                <div className="muted">Vår egen â€“ känn efter under dagen och byt när du vill.</div>
               </div>
             </label>
             <label className="radio-tile">

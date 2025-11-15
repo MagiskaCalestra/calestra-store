@@ -1,16 +1,19 @@
-import { defineConfig } from "vite";
+﻿import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "tailwindcss";
+import autoprefixer from "autoprefixer";
 import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  server: { port: 5288 },
+  server: { port: 5288, strictPort: true },
+  preview: { port: 5288, strictPort: true },
   resolve: {
     alias: {
-      "@assets": path.resolve(__dirname, "src/assets"),
-      "@hooks": path.resolve(__dirname, "src/hooks"),
+      "@i18n": path.resolve(__dirname, "src/i18n"),
       "@components": path.resolve(__dirname, "src/components"),
-      "@core": path.resolve(__dirname, "src/core")
-    }
-  }
+      "@pages": path.resolve(__dirname, "src/pages"),
+    },
+  },
+  css: { postcss: { plugins: [tailwindcss(), autoprefixer()] } },
 });

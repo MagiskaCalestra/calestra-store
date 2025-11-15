@@ -40,7 +40,7 @@ export function decorateAnchors(root = document) {
   } catch {}
 }
 
-/** Init: spara ref/utm från URL → localStorage */
+/** Init: spara ref/utm från URL â†’ localStorage */
 export function bootstrapAffiliate() {
   try {
     const url = new URL(window.location.href);
@@ -52,7 +52,7 @@ export function bootstrapAffiliate() {
 /** Track + öppna länk (om given) */
 export function clickTrack(name, url, meta = {}) {
   try {
-    // Enkel logg – byt mot riktig analytics när som helst
+    // Enkel logg â€“ byt mot riktig analytics när som helst
     console.info("[track] click", { name, url, ...meta, ref: ensureRef() });
   } catch {}
   if (url) {

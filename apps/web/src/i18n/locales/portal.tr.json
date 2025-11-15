@@ -1,50 +1,50 @@
 {
   "hero": {
-    "title": "Calestra'ya Hoş Geldiniz",
-    "lead": "Her duygunun bir yuva bulduğu, her misafirin ortak yaratıcı olduğu bir yer.",
-    "feelings": { "stillhet": "Sükûnet", "glädje": "Neşe", "äventyr": "Macera", "kärlek": "Sevgi" }
+    "title": "Calestra'ya HoÅŸ Geldiniz",
+    "lead": "Her duygunun bir yuva bulduÄŸu, her misafirin ortak yaratÄ±cÄ± olduÄŸu bir yer.",
+    "feelings": { "stillhet": "SÃ¼kÃ»net", "glädje": "NeÅŸe", "äventyr": "Macera", "kärlek": "Sevgi" }
   },
   "planner": {
     "date": "Tarih",
     "nights": "Gece",
-    "adults": "Yetişkin",
-    "kids": "Çocuk",
+    "adults": "YetiÅŸkin",
+    "kids": "Ã‡ocuk",
     "package": "Paket",
     "packages": { "tickets": "Sadece bilet", "hotelTickets": "Otel + bilet", "dining": "Yemek paketi" },
-    "tip": "İpucu: “Otel + bilet” paket fiyatı ve bonus puan verir.",
+    "tip": "Ä°pucu: â€œOtel + biletâ€ paket fiyatÄ± ve bonus puan verir.",
     "cta": "Ziyaretini planla"
   },
   "plan": { "title": "Ziyaretini planla" },
-  "trust": { "secure": "Güvenli ödeme", "flex": "Ücretsiz değişiklik*", "rating": "{rating} misafir puanı" },
+  "trust": { "secure": "GÃ¼venli ödeme", "flex": "Ãœcretsiz deÄŸiÅŸiklik*", "rating": "{rating} misafir puanÄ±" },
   "store": {
-    "title": "Mağaza: Calestra Koleksiyonları",
-    "lead": "Müzik, sanat, ürünler ve özel dijital deneyimler.",
-    "open": "Mağazayı aç",
-    "live": "Canlı mağazaya git",
+    "title": "MaÄŸaza: Calestra KoleksiyonlarÄ±",
+    "lead": "MÃ¼zik, sanat, Ã¼rÃ¼nler ve özel dijital deneyimler.",
+    "open": "MaÄŸazayÄ± aÃ§",
+    "live": "CanlÄ± maÄŸazaya git",
     "view": "Koleksiyonu gör",
     "cards": {
-      "1": { "eyebrow": "Ahenk", "title": "Harmonic Skies", "body": "Dünyanın sakin bölgelerinden düşsel sahneler." },
-      "2": { "eyebrow": "Geçitler", "title": "Gates of Light", "body": "Altın ve yeşim içinde semboller ve rehberler." },
-      "3": { "eyebrow": "Şehir", "title": "Evening Plaza", "body": "Sıcak akşamlar, müzik ve hareketli hikayeler." }
+      "1": { "eyebrow": "Ahenk", "title": "Harmonic Skies", "body": "DÃ¼nyanÄ±n sakin bölgelerinden dÃ¼ÅŸsel sahneler." },
+      "2": { "eyebrow": "GeÃ§itler", "title": "Gates of Light", "body": "AltÄ±n ve yeÅŸim iÃ§inde semboller ve rehberler." },
+      "3": { "eyebrow": "Åžehir", "title": "Evening Plaza", "body": "SÄ±cak akÅŸamlar, mÃ¼zik ve hareketli hikayeler." }
     }
   },
   "progress": {
-    "title": "Küresel İlerleme — Koleksiyonlar bir sonraki adımı finanse eder",
+    "title": "KÃ¼resel Ä°lerleme â€” Koleksiyonlar bir sonraki adÄ±mÄ± finanse eder",
     "more": "Hedeflerimizi oku",
-    "rows": { "goal": "Hedef", "total": "Toplam", "storeShare": "Mağaza payı" },
+    "rows": { "goal": "Hedef", "total": "Toplam", "storeShare": "MaÄŸaza payÄ±" },
     "supporters": "Destekleyen: {n}",
     "sidebar": {
-      "eyebrow": "Yolculuğu destekle",
-      "title": "Katkın önemli",
-      "body": "Gelir doğrudan park ve deneyimlerin geliştirilmesine gider.",
-      "ctaStore": "Mağazada alışveriş yap",
-      "ctaSupport": "Doğrudan destekle"
+      "eyebrow": "YolculuÄŸu destekle",
+      "title": "KatkÄ±n önemli",
+      "body": "Gelir doÄŸrudan park ve deneyimlerin geliÅŸtirilmesine gider.",
+      "ctaStore": "MaÄŸazada alÄ±ÅŸveriÅŸ yap",
+      "ctaSupport": "DoÄŸrudan destekle"
     }
   },
   "cta": { "tickets": "Biletler", "hotels": "Oteller", "plan": "Planla", "dining": "Yemek" },
   "tone": {
-    "hint": "Ton: sıcak, kendinden emin, evrensel. Tone Bible’a göz at.",
-    "link": "Tone Bible’ı aç",
+    "hint": "Ton: sÄ±cak, kendinden emin, evrensel. Tone Bibleâ€™a göz at.",
+    "link": "Tone Bibleâ€™Ä± aÃ§",
     "dismiss": "Kapat"
   }
 }

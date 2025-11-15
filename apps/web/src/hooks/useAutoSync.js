@@ -16,7 +16,7 @@ export default function useAutoSync(fn = () => {}, intervalMs = 5 * 60 * 1000) {
       try {
         await fn();
       } catch (e) {
-        // svälj fel – autosync ska inte krascha appen
+        // svälj fel â€“ autosync ska inte krascha appen
         console.warn("[useAutoSync] sync error:", e?.message || e);
       }
     }

@@ -240,7 +240,7 @@ const ThreeGateway = forwardRef(function ThreeGateway({ onReady, onEnterComplete
       {isEntering && (
         <div className="entering-overlay" aria-live="polite">
           <div className="bar" />
-          <span>Entering the Park…</span>
+          <span>Entering the Parkâ€¦</span>
         </div>
       )}
       <style>{`

@@ -7,7 +7,7 @@ const TYPES = [
   { id:"attraction", label:"Attraktioner" },
   { id:"ride", label:"Karuseller" },
   { id:"restaurant", label:"Restauranger" },
-  { id:"cafe", label:"Caféer" },
+  { id:"cafe", label:"CafÃ©er" },
   { id:"shop", label:"Butiker" },
   { id:"show", label:"Shower" },
 ];
@@ -32,7 +32,7 @@ export default function PlacesIndex() {
     <section className="page places">
       <div className="wrap">
         <h1>Platser & upplevelser</h1>
-        <p className="lead">Attraktioner, restauranger, caféer, butiker och mer. Filtrera per park och typ.</p>
+        <p className="lead">Attraktioner, restauranger, cafÃ©er, butiker och mer. Filtrera per park och typ.</p>
 
         <div className="filters">
           <select className="inp" value={parkId} onChange={e=>setParkId(e.target.value)}>
@@ -44,7 +44,7 @@ export default function PlacesIndex() {
             {TYPES.map(t => <option key={t.id} value={t.id}>{t.label}</option>)}
           </select>
 
-          <input className="inp" placeholder="Sök namn, tagg…" value={query} onChange={e=>setQuery(e.target.value)} />
+          <input className="inp" placeholder="Sök namn, taggâ€¦" value={query} onChange={e=>setQuery(e.target.value)} />
         </div>
 
         {list.length === 0 ? (

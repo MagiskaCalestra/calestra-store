@@ -1,4 +1,4 @@
-// Bygger en enkel utbetalningskö från snapshot (approved → earningsSek)
+// Bygger en enkel utbetalningskö från snapshot (approved â†’ earningsSek)
 import { getSnapshot } from "./C-Core";
 
 export function buildPayoutQueue({ bankDirectory = {} } = {}) {

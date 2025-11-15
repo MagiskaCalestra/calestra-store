@@ -24,7 +24,7 @@ export default function Support(){
             <div className="cw-card-pad-lg">
               <h3>Direktstöd</h3>
               <p className="cw-meter-val" style={{ marginTop: 6 }}>
-                Swisha, PayPal eller kort – välj det som passar dig.
+                Swisha, PayPal eller kort â€“ välj det som passar dig.
               </p>
               <div style={{ display:"flex", gap:8, marginTop:10 }}>
                 <button className="cw-btn cw-btn-ghost">Swish</button>
@@ -47,7 +47,7 @@ export default function Support(){
             <details style={{ marginTop: 8 }}>
               <summary>Kan företag bli partner?</summary>
               <p className="cw-meter-val" style={{ marginTop: 6 }}>
-                Ja – kontakta oss för partnerskap och sponsring.
+                Ja â€“ kontakta oss för partnerskap och sponsring.
               </p>
             </details>
           </div>

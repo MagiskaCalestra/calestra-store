@@ -1,16 +1,16 @@
 import React from "react";
-import ComingSoon from "@components/ComingSoon";
+import ComingSoon from "../components/ComingSoon.jsx"; // eller med alias â€“ se punkt c
 
 /**
  * Hotels (placeholder v1)
  * - Hero-rubrik
- * - Tre kort med “kommer snart” (skelettons)
+ * - Tre kort med â€œkommer snartâ€ (skelettons)
  * - ComingSoon-panel längst ner för tydlig kommunikation
  */
 export default function Hotels() {
   const cards = [
     {
-      title: "Calestra Amoré Hotel™",
+      title: "Calestra AmorÃ© Hotelâ„¢",
       body: "Romantisk signatur med kvällskonserter och sjöutsikt.",
     },
     {
@@ -72,7 +72,7 @@ export default function Hotels() {
 
         <ComingSoon
           title="Hotellbokning lanseras snart"
-          lead="Vi lägger till rumstyper, datum och paket med C-Wish™-förmåner. Anmäl intresse i butiken så får du e-post när bokningen öppnar."
+          lead="Vi lägger till rumstyper, datum och paket med C-Wishâ„¢-förmåner. Anmäl intresse i butiken så får du e-post när bokningen öppnar."
           primaryHref="/"
           primaryLabel="Planera resa"
           secondaryHref="/store"

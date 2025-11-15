@@ -21,5 +21,5 @@ export default function GoRedirect() {
     try { window.location.replace(url); } catch { window.location.href = url; }
   }, [sp]);
 
-  return <div className="container section-lg">Skickar vidare…</div>;
+  return <div className="container section-lg">Skickar vidareâ€¦</div>;
 }

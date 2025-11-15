@@ -33,12 +33,12 @@ if (typeof window !== "undefined" && !window.__CAL_API_SHIM__) {
         return ok({ added });
       }
 
-      // Klickspårning – no-op i dev
+      // Klickspårning â€“ no-op i dev
       if (url.startsWith("/api/affiliate/track")) {
         return ok({ tracked: true });
       }
 
-      // Webhooks – låt oss lägga in enstaka rader manuellt
+      // Webhooks â€“ låt oss lägga in enstaka rader manuellt
       if (url.startsWith("/api/webhooks/")) {
         if ((init.method || "GET").toUpperCase() !== "POST") {
           return bad("Use POST for /api/webhooks/*", 405);

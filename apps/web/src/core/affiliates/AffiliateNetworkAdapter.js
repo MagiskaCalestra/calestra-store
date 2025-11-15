@@ -4,7 +4,7 @@ import { KV } from "@core/Storage";
 
 /**
  * Hämtar externa försäljningar från nätverk, normaliserar och sparar
- * KEY: 'c-core.sales'   → [{id, network, ref, amount, currency, status, ts}]
+ * KEY: 'c-core.sales'   â†’ [{id, network, ref, amount, currency, status, ts}]
  */
 const SALES_KEY = "c-core.sales";
 

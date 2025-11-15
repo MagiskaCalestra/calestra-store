@@ -1,4 +1,4 @@
-// Calestra — ProgressContext (global aggregerad progress för alla motorer)
+// Calestra â€” ProgressContext (global aggregerad progress för alla motorer)
 // API:
 //   const { total, sources, report, reset } = useProgress();
 //   report("store", { delta: 0.02 });      // +2%

@@ -2,7 +2,7 @@ import { tierFor } from "./TierEngine";
 
 /**
  * Räknar intjänat per ref över alla försäljningar
- * - konverterar grovt till SEK (mock: USD→SEK ~ 10.5 om ingen kurs satt)
+ * - konverterar grovt till SEK (mock: USDâ†’SEK ~ 10.5 om ingen kurs satt)
  */
 export function computeEarnings({ sales, fx = { USD_SEK: 10.5 } }) {
   const perRef = new Map(); // ref -> { totalApprovedSek, totalPendingSek, countApproved, countPending }

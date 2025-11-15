@@ -1,4 +1,4 @@
-// Calestra — CompatProgressProvider
+// Calestra â€” CompatProgressProvider
 // Använder din central (via ccore-bridge) om den finns.
 // Fallback: localStorage + intern summering, så dev/offline funkar likadant.
 
@@ -15,7 +15,7 @@ export function CompatProgressProvider({ children }) {
     catch { return {}; }
   });
 
-  // Prenumerera på centrala snapshots → skriv in i state (oavsett buss)
+  // Prenumerera på centrala snapshots â†’ skriv in i state (oavsett buss)
   useEffect(() => {
     const unsub = Bus.subscribe(Topics.PROGRESS_SNAPSHOT, (payload) => {
       if (payload && payload.sources && typeof payload.sources === "object") {

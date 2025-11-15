@@ -15,7 +15,7 @@ export default function BookingStart() {
   return (
     <main className="container py-10">
       <h1 className="h1">Skapa din Calestra-resa</h1>
-      <p className="muted">Vi har förifyllt datum och gäster från förstasidan — du kan ändra när som helst.</p>
+      <p className="muted">Vi har förifyllt datum och gäster från förstasidan â€” du kan ändra när som helst.</p>
 
       <form onSubmit={next} className="stack gap-4">
         <fieldset>

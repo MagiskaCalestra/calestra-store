@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 const slides = [
   { id: "spring", title: "Vårglöd: upp till 20% på utvalda hotell", cta: "Visa erbjudande", to: "/deals/spring" },
-  { id: "wish",  title: "C-Wish® Moments: boka ett möte med en karaktär", cta: "Utforska", to: "/experiences/characters" },
-  { id: "dine",  title: "Matplan Stories – för dig som vill sitta ner och minnas", cta: "Jämför planer", to: "/dining/plans" },
+  { id: "wish",  title: "C-WishÂ® Moments: boka ett möte med en karaktär", cta: "Utforska", to: "/experiences/characters" },
+  { id: "dine",  title: "Matplan Stories â€“ för dig som vill sitta ner och minnas", cta: "Jämför planer", to: "/dining/plans" },
 ];
 
 export default function OfferBanner() {

@@ -16,7 +16,7 @@ export default function AdminIngest(){
 
   return (
     <div className="container section-lg">
-      <div className="h2">Admin – Ingest</div>
+      <div className="h2">Admin â€“ Ingest</div>
       <div className="row" style={{gap:8, marginTop:12}}>
         <button className="btn btn-acc" disabled={running} onClick={()=>run("soft")}>Kör soft ingest</button>
         <button className="btn" disabled={running} onClick={()=>run("full")}>Kör full ingest</button>

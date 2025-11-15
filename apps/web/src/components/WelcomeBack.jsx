@@ -7,10 +7,10 @@ export default function WelcomeBack() {
   const { user } = useAuth() || {};
   const nav = useNavigate();
 
-  // Demo: om ej inloggad – visa en mjuk, anonym variant (så layouten känns komplett)
+  // Demo: om ej inloggad â€“ visa en mjuk, anonym variant (så layouten känns komplett)
   const title = user?.firstName ? `Välkommen tillbaka, ${user.firstName}!` : "Välkommen tillbaka!";
   const body  = user?.firstName
-    ? "Din nästa parkresa börjar snart – vill du fortsätta där du slutade?"
+    ? "Din nästa parkresa börjar snart â€“ vill du fortsätta där du slutade?"
     : "Fortsätt din resa när du vill. Logga in för att hitta bokningar & minnen.";
 
   return (

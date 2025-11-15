@@ -1,5 +1,5 @@
 // apps/web/src/core/ccore/modules/journal.js
-// InnerJourney – enkel lokal journal (mock, lokalStorage). Ej medicinsk, ej server.
+// InnerJourney â€“ enkel lokal journal (mock, lokalStorage). Ej medicinsk, ej server.
 // API: listEntries, getEntry, createEntry, updateEntry, deleteEntry, exportJSON, importJSON
 
 import { emit } from "../eventBus";
