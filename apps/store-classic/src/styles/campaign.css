@@ -1,0 +1,12 @@
+/* Globala små hooks för pynt â€“ fungerar när CampaignProvider sitter i App.jsx */
+:root{
+  --btn-ghost-bg: rgba(0,0,0,.04);
+}
+.theme-dark :root { --btn-ghost-bg: rgba(255,255,255,.06); }
+
+/* Exempel: lätta accenter i butikens filterbälte */
+[data-campaign="xmas"] .chip.active { background: rgba(31,122,31,.14); border-color: rgba(31,122,31,.4); }
+[data-campaign="newyear"] .chip.active { background: rgba(245,158,11,.14); border-color: rgba(245,158,11,.4); }
+[data-campaign="valentine"] .chip.active { background: rgba(236,64,122,.14); border-color: rgba(236,64,122,.42); }
+
+/* Primära knappar följer --accent redan i din basdesign */

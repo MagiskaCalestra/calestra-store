@@ -1,0 +1,47 @@
+/* src/App.css */
+/* Reset + små layoutfixar. All bakgrund ligger nu på <body> via themes.css. */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+:root { --radius: 16px; }
+
+/* Headerknappen för tema följer tokens â€“ ingen hårdkodad färg */
+.theme-btn {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 10px;
+  font-weight: 800;
+}
+
+/* Hero & sektioner: inga egna bakgrundsytor som orsakar â€halveringarâ€. */
+.hero-wrap { background: transparent; }
+
+/* Sektioners standardkort â€“ använder tokens */
+.section-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* Checkout-form â€“ säkerställ spacing */
+.form-grid { display: grid; gap: 12px; }
+
+/* Progressbarens bakgrund ska inte skapa bandning över sidan */
+.progress { background: color-mix(in oklab, var(--primary) 30%, transparent); }
+.progress__bar { background: var(--primary); }
+
+/* Produktkortens â€pillâ€ i hörn får bra kontrast i båda teman */
+.pc__pill {
+  background: color-mix(in oklab, #000 86%, transparent);
+  color: #fff;
+}
+body.theme-light .pc__pill {
+  background: color-mix(in oklab, #111 90%, transparent);
+  color: #fff;
+}

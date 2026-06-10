@@ -1,0 +1,28 @@
+[
+  {
+    "id": "mn-001",
+    "date": "2025-10-10",
+    "title": "Maker Notes #01 â€“ Första skisserna",
+    "tags": ["Skiss", "Material"],
+    "summary": "Vi testar tyger, silhuetter och logoplacering för Star-serien.",
+    "cover": "/media/dev/dev-01.jpg",
+    "content": [
+      "Vi startade med tre tygbaser för att väga värme, fall och slitstyrka.",
+      "Silhuett-testet handlar om hur Harmonic Star bäst balanserar mot fickor och sömmar.",
+      "Nästa steg: långtvätt + pilling för att säkerställa livslängd."
+    ]
+  },
+  {
+    "id": "mn-002",
+    "date": "2025-10-14",
+    "title": "Batch & kvalitet â€“ varför små volymer",
+    "tags": ["Process", "Kvalitet"],
+    "summary": "Mindre batcher ger bättre kontroll, mindre spill och lugnare leverans.",
+    "cover": "/media/dev/dev-02.jpg",
+    "content": [
+      "Små batcher betyder att vi kan justera mönster och detaljer löpande.",
+      "Vi binder inte kapital i fel lager, och vi kan vara transparenta med datum.",
+      "Det är en rytm som gynnar både miljön och kundupplevelsen."
+    ]
+  }
+]

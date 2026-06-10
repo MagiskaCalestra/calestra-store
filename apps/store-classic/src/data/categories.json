@@ -1,0 +1,11 @@
+{
+  "id": "surprise-boxes",
+  "title": {
+    "sv": "Överraskningsboxar",
+    "en": "Surprise Boxes",
+    "tr": "Sürpriz Kutular"
+  },
+  "slug": "surprise-boxes",
+  "icon": "✨",
+  "sort": 7
+}

@@ -1,0 +1,34 @@
+.store-progress {
+  margin-bottom: 12px;
+}
+
+.store-progress__top {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.store-progress__bar {
+  position: relative;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.3);
+  overflow: hidden;
+}
+
+.store-progress__fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4f46e5, #a855f7);
+  transition: width 220ms ease-out;
+}
+
+body.theme-dark .store-progress__bar {
+  background: rgba(31, 41, 55, 0.9);
+}
+
+body.theme-dark .store-progress__fill {
+  background: linear-gradient(90deg, #818cf8, #f97316);
+}

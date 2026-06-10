@@ -1,0 +1,885 @@
+{
+  "brand": "Calestra Store",
+  "nav": {
+    "home": "Hem",
+    "shop": "Butik",
+    "cart": "Kundvagn",
+    "checkout": "Kassa"
+  },
+  "footer": {
+    "news": "Få nästa drop via e-post. Du behöver bekräfta via e-post.",
+    "fomo": "Mindre massmarknad. Mer releasekänsla.",
+    "cookiesLink": "Cookies & spårning",
+    "tag": "Calestra World — där magi, känslor och framtid möts.",
+    "aria": "Sidfotslänkar",
+    "billing": "Fakturering",
+    "shipping": "Frakt",
+    "about": "Företag",
+    "aboutWorld": "Om Calestra World",
+    "values": "Vision & Värderingar",
+    "sustainability": "Hållbarhet",
+    "press": "Press & Media",
+    "careers": "Karriär",
+    "contact": "Kontakt",
+    "legal": "Juridiskt",
+    "cookies": "Cookies & spårning",
+    "returns": "Returer & Ångerrätt",
+    "social": "Socialt",
+    "rights": "Alla rättigheter förbehållna.",
+    "shippingSoon": "Global frakt — kommer snart"
+  },
+  "home": {
+    "hero": {
+      "title": "Bär ljuset. Stöd resan.",
+      "lead": "Varje köp tar oss närmare Calestra World — en plats där magi, känslor och framtid möts. Du får produkter idag, och tillsammans bygger vi något större.",
+      "ctaPrimary": "Gå till första droppen",
+      "ctaSecondary": "Stöd resan",
+      "meta": "Global frakt — kommer snart"
+    },
+    "featured": "Utvalda favoriter",
+    "allProducts": "Alla produkter →",
+    "support": {
+      "title": "Stöd magin — Calestra World tillsammans"
+    },
+    "bullets": {
+      "secure": "Säker kassa (SSL)",
+      "ship": "Fri frakt över {{amount}}",
+      "returns": "Tillverkas på beställning • Trygg garanti vid fel",
+      "popular": "Populärt"
+    },
+    "milestones": {
+      "status": {
+        "reached": "Uppnått",
+        "open": "Pågår"
+      },
+      "fields": {
+        "target": "Mål",
+        "eta": "ETA",
+        "reward": "Belöning"
+      },
+      "meta": "Detaljer",
+      "cta": "Stöd delmålet",
+      "learnMore": "Läs mer",
+      "m1": {
+        "title": "Delmål 1 – Första tändningen",
+        "body": "Vi når fri frakt under lanseringsveckan…",
+        "reward": "Belöning: lanseringsbadge",
+        "eta": "v.42"
+      },
+      "m2": {
+        "title": "Delmål 2 – Community-boost",
+        "body": "Vi öppnar förrummet till dev-log och bjuder in…",
+        "reward": "Belöning: privat dev-log + röstning",
+        "eta": "v.45"
+      },
+      "m3": {
+        "title": "Delmål 3 – Maker-drop",
+        "body": "Exklusiv digital drop (bakgrunder/teman).",
+        "reward": "Belöning: digitalt Maker-paket",
+        "eta": "v.48"
+      },
+      "m4": {
+        "title": "Delmål 4 – Releasekliv",
+        "body": "Finansiera nästa sprint mot prototypen.",
+        "reward": "Belöning: supporter-credits",
+        "eta": "Q1"
+      }
+    }
+  },
+  "newsletter": {
+    "eyebrow": "Calestra World",
+    "title": "Gå med i cirkeln",
+    "lead": "Var först med droppar, framsteg och små bitar av magi — ett prydligt mejl då och då.",
+    "emailLabel": "E-post",
+    "emailGroup": "Anmälan nyhetsbrev",
+    "emailPlaceholder": "din@epost.se",
+    "cta": "Gå med",
+    "ctaBusy": "Går med…",
+    "consent": "Jag samtycker till e-post och accepterar integritetspolicyn.",
+    "validation": {
+      "email": "Ange en giltig e-postadress.",
+      "consent": "Godkänn villkoren för integritet."
+    },
+    "feedback": {
+      "success": "Tack! Kolla din inkorg.",
+      "error": "Något blev fel. Försök igen."
+    }
+  },
+  "badges": {
+    "limited": "Limited",
+    "support": "Support",
+    "out": "Slut"
+  },
+  "buttons": {
+    "buy": "Köp",
+    "view": "Visa",
+    "choose": "Välj storlek"
+  },
+  "card": {
+    "limited": "Limited",
+    "view": "Visa",
+    "choose": "Välj storlek",
+    "buy": "Köp"
+  },
+  "product": {
+    "open": "Öppna produkt",
+    "missing": "Produkten kunde inte hittas.",
+    "unpriced": "Ej prissatt",
+    "noPrice": "Ej prissatt",
+    "backToShop": "Tillbaka till butiken",
+    "gallery": "Produktbilder",
+    "thumbnails": "Miniatyrer",
+    "prevImage": "Föregående bild",
+    "nextImage": "Nästa bild",
+    "thumb": "Välj bild",
+    "size": "Storlek",
+    "color": "Färg",
+    "qty": "Antal",
+    "qtyInput": "Antal",
+    "decrease": "Minska antal",
+    "increase": "Öka antal",
+    "addToCart": "Lägg i kundvagn",
+    "goToCart": "Gå till kundvagn",
+    "out": "Slutsåld",
+    "outOfStock": "Slut i lager",
+    "inStock": "I lager: {{count}}",
+    "freeShippingNotice": "{{amount}} kvar till fri frakt",
+    "preorderBadge": "Reservation Queue",
+    "notifyBadge": "Meddela mig",
+    "kicker": "Utvald release",
+    "kickerPreorder": "Reservation Queue",
+    "kickerNotify": "Meddela när redo",
+    "kickerJewelry": "Bärbar symbol",
+    "taxHint": "Priser visas i",
+    "returnHint": "Tillverkas på beställning • Trygg garanti vid fel.",
+    "shippingHintDyn": "Fri frakt över {{amount}}.",
+    "shippingHint": "Fri frakt finns enligt villkor.",
+    "sticky": {
+      "aria": "Snabbköp"
+    },
+    "flag": {
+      "limited": "Limited",
+      "support": "Support",
+      "jewelry": "Smycke"
+    },
+    "stock": {
+      "out": "Slut",
+      "hot": "Sista ex!",
+      "warn": "Nästan slut"
+    },
+    "preorder": {
+      "defaultLabel": "PRE-ORDER",
+      "defaultNote": "Detta är en förhandsreservation. Produktion och leverans sker i en senare våg."
+    },
+    "notify": {
+      "defaultLabel": "Meddela mig",
+      "defaultNote": "Den här produkten är inte köpbar just nu. Lämna din e-post för att bli meddelad när den öppnar.",
+      "submit": "Meddela mig när den finns"
+    },
+    "urgency": {
+      "preorder": "Calestra Reservation Queue System är aktivt. Lämna din e-post för att säkra plats när vågen öppnar.",
+      "notify": "Den här produkten är inte öppen för köp just nu. Lämna din e-post så meddelar vi dig när den blir tillgänglig.",
+      "out": "Den här releasen är just nu slutsåld.",
+      "limitedVeryLow": "Endast {{count}} kvar – första droppen kan försvinna när som helst.",
+      "limitedLow": "Begränsad release – {{count}} kvar i denna våg.",
+      "limited": "Första droppen är live – nästa release är inte garanterad.",
+      "low": "Få kvar i lager – tidiga köp får första vågen.",
+      "default": "Utvald release med begränsad känsla – byggd för tidiga upptäckare."
+    },
+    "founder": {
+      "preorder": "Det här går nu via Calestra Reservation Queue System. Du skriver upp dig först — och vi kontaktar dig när platsen öppnar.",
+      "notify": "Den här produkten väntar fortfarande på rätt läge. När den öppnar vill vi kunna nå de som verkligen vill ha den först.",
+      "jewelry": "Det här är inte bara ett smycke. Det är Calestras symbol i bärbar form — ett stilla ljus att bära nära.",
+      "support": "Det här är mer än ett köp – det är ett tidigt stöd till det som byggs.",
+      "limited": "De som bär den här var där tidigt – innan resten av världen hunnit ikapp.",
+      "default": "Det här är inte bara en produkt. Det är en del av början."
+    },
+    "cta": {
+      "notifyMe": "Meddela mig",
+      "joinReservationQueue": "Gå med i kön",
+      "wearLight": "Bär ljuset",
+      "secure": "Säkra din",
+      "join": "Bli en av de första",
+      "moreInfo": "Läs mer",
+      "keepClose": "Ha den nära",
+      "takePlace": "Ta din plats"
+    },
+    "signal": {
+      "feel": "Känsla",
+      "drop": "Status",
+      "buy": "Nu",
+      "feelPreorder": "Mer kö än köp",
+      "feelNotify": "Mer väntelista",
+      "feelJewelry": "Mer symbolisk",
+      "feelLimited": "Mer sällsynt",
+      "feelValue": "Mer utvald",
+      "buyPreorder": "Reservation Queue öppen",
+      "buyNotify": "Mail-intresse",
+      "buyJewelry": "Bärbar ikon",
+      "buyLimited": "Första vågen",
+      "buyValue": "Snabb väg",
+      "preorderOpen": "Reservation Queue öppen",
+      "notifyOpen": "Mail-intresse öppet",
+      "stockCount": "{{count}} kvar",
+      "dropOut": "Slut i lager"
+    },
+    "jewelry": {
+      "note": "Passar som gåva, samlarobjekt eller som din egen lilla Harmonic Star att bära till vardags."
+    },
+    "queue": {
+      "titlePreorder": "Calestra Reservation Queue System",
+      "leadPreorder": "Skriv in din e-post så sparar vi din plats i kön och kontaktar dig när nästa våg öppnar.",
+      "leadNotify": "Lämna din e-post så skickar vi en notis när produkten blir tillgänglig.",
+      "placeholder": "din@email.com",
+      "loading": "…",
+      "join": "Gå med i kön",
+      "invalidEmail": "Skriv en giltig e-postadress.",
+      "alreadyPreorder": "Du står redan i kön. Kolla inkorgen om du behöver bekräfta.",
+      "alreadyNotify": "Du är redan registrerad. Kolla inkorgen om du behöver bekräfta.",
+      "errorWithStatus": "Något gick fel. Försök igen.",
+      "successPreorder": "Klart! Du står nu i Calestra Reservation Queue System. Bekräfta via mejlet vi skickade.",
+      "successNotify": "Klart! Kolla din e-post för att bekräfta.",
+      "networkError": "Nätverksfel. Försök igen.",
+      "hintPreorder": "Vi skickar ett bekräftelsemejl först. När nästa våg öppnar kan du få meddelande före den bredare publiken.",
+      "hintNotify": "Vi skickar ett bekräftelsemejl först så att du inte missar när produkten öppnar."
+    }
+  },
+  "pdp": {
+    "prev": "Föregående bild",
+    "next": "Nästa bild"
+  },
+  "form": {
+    "name": "Namn",
+    "email": "E-post",
+    "phone": "Telefon",
+    "address": "Adress",
+    "postcode": "Postnummer",
+    "city": "Ort",
+    "country": "Land"
+  },
+  "error": {
+    "required": "Detta fält är obligatoriskt.",
+    "email": "Ange en giltig e-postadress.",
+    "phone": "Ange ett giltigt telefonnummer.",
+    "zip": "Ange ett giltigt postnummer."
+  },
+  "cart": {
+    "title": "Kundvagn",
+    "empty": "Din kundvagn är tom",
+    "emptyHint": "Lägg till några produkter för att komma vidare till kassan.",
+    "continue": "Fortsätt handla",
+    "viewProduct": "Visa produkten",
+    "decrease": "Minska antal",
+    "increase": "Öka antal",
+    "remove": "Ta bort artikel",
+    "checkout": "Till kassan"
+  },
+  "thanks": {
+    "backHome": "Till startsidan",
+    "title": "Tack för ditt köp!",
+    "tip": "Tips: Spara kvittolänken — den fungerar även utan konto."
+  },
+  "checkout": {
+    "aria": {
+      "hero": "Checkout"
+    },
+    "title": "Slutför ditt köp",
+    "titlePreorder": "Förbeställning",
+    "titleMixed": "Blandad checkout",
+    "customer": "Kunduppgifter",
+    "shipping": "Leveransadress",
+    "billing": "Fakturaadress",
+    "billing.useSeparate": "Fakturaadress skiljer sig från leverans",
+    "shippingAddress": "Leveransadress",
+    "summary": "Orderöversikt",
+    "subtotal": "Delsumma",
+    "shippingFee": "Frakt",
+    "free": "Fri frakt",
+    "total": "Totalt",
+    "placeOrder": "Slutför köp",
+    "agreeLabel": "Jag godkänner villkoren",
+    "prefillActive": "Uppgifter är förifyllda",
+    "notifyGuard": {
+      "title": "Bevaka-produkt",
+      "text": "Den här korgen innehåller bara bevaka-produkter och ska inte slutföras som order."
+    },
+    "agree": {
+      "read": "Läs"
+    },
+    "and": "och",
+    "terms": "Köpvillkor",
+    "privacy": "Integritetspolicy",
+    "field": {
+      "company": "Företag",
+      "careOf": "c/o",
+      "address2": "Lägenhet/Suite",
+      "doorCode": "Portkod",
+      "region": "Region/Stat",
+      "deliveryNotes": "Leveransinstruktion",
+      "orgNumber": "Organisationsnummer",
+      "orgNumberHint": "Valfritt",
+      "vatId": "VAT-ID"
+    },
+    "hints": {
+      "company": "Valfritt",
+      "careOf": "Valfritt",
+      "address2": "Valfritt",
+      "doorCode": "Valfritt",
+      "region": "Valfritt",
+      "deliveryNotes": "Valfritt, kort text"
+    },
+    "progress": {
+      "toFree": "{{amount}} kvar till fri frakt",
+      "free": "Du har fri frakt!"
+    },
+    "trust": {
+      "ssl": "Säker kassa (SSL)",
+      "encrypted": "Krypterade betalningar"
+    },
+    "error": "Kunde inte genomföra köpet."
+  },
+  "trust": {
+    "returnsShort": "Tillverkas på beställning • Trygg garanti vid fel"
+  },
+  "shop": {
+    "search": "Sök produkter…",
+    "min": "Min",
+    "max": "Max",
+    "sortLabel": "Sortera",
+    "sortOptions": {
+      "featured": "Utvalda",
+      "priceAsc": "Pris: lägst först",
+      "priceDesc": "Pris: högst först",
+      "new": "Nyast"
+    },
+    "limited": "Limited",
+    "instock": "I lager",
+    "clear": "Rensa",
+    "live": "DROP MODE",
+    "found": "Du hittade hit. Nu börjar allt.",
+    "currencyNow": "Priser visas i",
+    "loading": "Laddar produkter…",
+    "error": "Kunde inte ladda produkter",
+    "emptyTitle": "Inga resultat just nu",
+    "empty": "Inga produkter matchar filtret ännu.",
+    "emptyTip": "Tips: testa att rensa filter eller byta kategori ✦",
+    "emptyCta": "Visa hela katalogen",
+    "top": "Till toppen",
+    "hero": {
+      "aria": "Calestra Store",
+      "titleLine1": "Någonstans…",
+      "titleLine2": "väntar det på dig.",
+      "leadLine1": "Du följer inte ljuset.",
+      "leadLine2": "Du blir det.",
+      "enterDrop": "Gå in i droppen",
+      "fullCatalog": "Se hela katalogen"
+    },
+    "dropIntro": {
+      "aria": "The First Drop",
+      "kicker": "The First Drop",
+      "title": "Symboler du kan bära.",
+      "body": "Sex utvalda produkter. Mindre massmarknad. Mer releasekänsla. När en våg säljer slut vet vi inte när den kommer tillbaka."
+    },
+    "previewPill": {
+      "title": "Kontrollerad förhandsvisning – allt är inte aktivt ännu.",
+      "label": "PREVIEW"
+    },
+    "catalog": {
+      "aria": "Katalog",
+      "kicker": "KATALOG",
+      "title": "Byggd för att växa",
+      "all": "Alla",
+      "firstDrop": "Första droppen",
+      "first-drop": "Första droppen",
+      "apparel": "Kläder",
+      "accessories": "Accessoarer",
+      "home": "Hem",
+      "jewelry": "Smycken",
+      "prints": "Prints",
+      "sets": "Set",
+      "support": "Support",
+      "collectors": "Samlarobjekt",
+      "surprise-boxes": "Surprise Boxes",
+      "digital": "Digitalt",
+      "other": "Övrigt"
+    },
+    "count": {
+      "zero": "Inga resultat",
+      "one": "Visar 1 produkt",
+      "many": "Visar {{x}} produkter",
+      "of": "Visar {{x}} av {{y}} produkter"
+    },
+    "hints": {
+      "firstDropCount": "Första droppen: 6 produkter",
+      "category": "Kategori: {{category}}",
+      "preorderActive": "Collector pre-order aktiv",
+      "notifyAvailable": "Bevaka-läge tillgängligt"
+    },
+    "quick": {
+      "aria": "Snabbval",
+      "inStock": "Visa i lager",
+      "limited": "Limited",
+      "preorder": "Collector pre-order",
+      "notify": "Meddela mig",
+      "support": "Support",
+      "clear": "Rensa"
+    },
+    "story": {
+      "aria": "Calestra Store story",
+      "kicker": "ETT STEG BORTOM DROPPEN",
+      "title": "Mer än en vanlig webbshop.",
+      "body": "Produkterna är rena och tydliga att sälja. Berättelsen runt dem bygger varumärket.",
+      "more": "Visa mer",
+      "card1": {
+        "kicker": "ALLTID CALESTRA",
+        "title": "Symbolen finns alltid nära.",
+        "body": "Du är aldrig ensam i känslan."
+      },
+      "card2": {
+        "kicker": "HARMONIC QUALITY",
+        "title": "Noggrant valda material.",
+        "body": "Byggt för att hålla och kännas bättre än en snabb trend."
+      },
+      "card3": {
+        "kicker": "MINDFUL PRODUCTION",
+        "title": "Produceras när det behövs.",
+        "body": "Mindre brus. Mer ansvar. Mer kontroll över första vågen."
+      }
+    },
+    "promo": {
+      "collectionCta": "Visa den begränsade kollektionen",
+      "collection": "Harmonic Star Collection ✦ – symbol, kläder och samlarprint i första droppen",
+      "cta": "Se mer"
+    },
+    "preorder": {
+      "defaultLabel": "PRE-ORDER",
+      "defaultNote": "Detta är en förhandsreservation. Produktion och leverans sker i en senare våg.",
+      "defaultLeadDays": "Detta är en förhandsreservation. Produktion och leverans sker i en senare våg, cirka {{days}} dagar.",
+      "firstDropNote": "Halsbandet i första droppen säljs som collector pre-order. Du säkrar din plats nu, och produktionsvågen följer efter validering."
+    },
+    "tools": {
+      "summary": "Filter och katalogläge",
+      "fullCatalogTitle": "Full Catalog v1",
+      "firstDropTitle": "First Drop v1",
+      "fullCatalogBody": "Full katalogläge är öppet. Kategorier byggs automatiskt från produkter, taggar och slugs.",
+      "firstDropBody": "Endast våra sex starkaste autoprodukter visas i denna våg. Fler releaser kommer senare.",
+      "showFirstDrop": "Visa bara första droppen",
+      "showFullCatalog": "Visa hela katalogen"
+    },
+    "previewNote": "Vissa funktioner byggs fortfarande. Det du ser är medvetet lanseringsklar preview — stabil, snabb och tydlig.",
+    "error": {
+      "loadFailed": "Laddning misslyckades"
+    }
+  },
+  "colors": {
+    "black": "svart",
+    "white": "vit",
+    "navy": "mörkblå",
+    "grey": "grå",
+    "gold": "guld",
+    "full color": "fullfärg"
+  },
+  "products": {
+    "black-star-tee": {
+      "title": "First Light – Tee",
+      "description": "En svart premium-t-shirt med The Harmonic Star nära hjärtat. Diskret, stark och skapad för vardagen innan Calestra öppnar världen."
+    },
+    "black-star-hoodie": {
+      "title": "Bearer of Light – Hoodie",
+      "description": "En svart hoodie med The Harmonic Star som stilla signal. Varm, urban och byggd för kvällar, resor och människor som bär något mer."
+    },
+    "black-star-tote": {
+      "title": "Path Carrier – Tote",
+      "description": "En svart totebag med The Harmonic Star. Enkel att bära, stark nog att synas och skapad för vardagens små vägar framåt."
+    },
+    "hidden-signal-mug": {
+      "title": "Hidden Signal Mug™",
+      "subtitle": "Heat reveal · Now you see it",
+      "description": "En svart värmekopp där The Harmonic Star vaknar när drycken blir varm. En stilla morgonritual för dem som ser mer än andra."
+    },
+    "black-star-mug": {
+      "title": "Hidden Signal Mug™",
+      "subtitle": "Heat reveal · Now you see it",
+      "description": "En svart värmekopp där The Harmonic Star vaknar när drycken blir varm. En stilla morgonritual för dem som ser mer än andra."
+    },
+    "calestra-harmonic-star-necklace": {
+      "title": "The Harmonic Star – Necklace",
+      "description": "Calestras bärbara symbol. Ett ljust stjärnhalsband inspirerat av det Lyra bär — skapat för hopp, närvaro och början.",
+      "subtitle": "Collector pre-order · första vågen reserveras nu",
+      "availabilityLabel": "Collector pre-order",
+      "preorderBadge": "PRE-ORDER",
+      "preorderLabel": "Collector pre-order",
+      "preorderText": "Reserveras nu och levereras i senare produktionsvåg.",
+      "preorderNote": "Detta är en förhandsreservation. Produktion och leverans sker i en senare våg när första batchen går live.",
+      "preorderEta": "Första produktionsvågen meddelas efter dropens validering."
+    },
+    "calestra-harmonic-star-collector-print": {
+      "title": "The Harmonic Star – Collector Print",
+      "description": "Ett samlartryck med Calestras ljusbärande symbol. Skapat för vägg, studio eller stilla hörn där början ska få synas."
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "Om Calestra World",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Calestra World är både en butik och ett långsiktigt skapande — produkter idag finansierar en större upplevelse imorgon. Vår estetik blandar magi, känslor och framtid. Communityt medskapar genom insikter, förköp och stödprodukter.",
+      "company": {
+        "name": "Calestra Holding & Resort AB",
+        "org": "559000-0000",
+        "hq": "Stockholm, Sverige",
+        "email": "support@calestra.com"
+      },
+      "leadership": {
+        "title": "Ledarskap & kultur",
+        "body": "Calestra drivs av ett erfaret team inom affärsutveckling, design och gästupplevelse. Beslut fattas med förvaltarskap, tydlighet och långsiktigt värde som ledstjärnor. Vi föredrar lugn, stabil leverans framför stora ord."
+      },
+      "advisory": {
+        "title": "Rådgivande krets",
+        "body": "En liten krets seniora rådgivare stöttar ledningen med erfarenhet inom handel, finans, juridik, teknik och kultur. Rådet hjälper oss balansera innovation med stabilitet och ansvarsfull tillväxt."
+      },
+      "governance": {
+        "title": "Styrning",
+        "items": [
+          "Tydliga ansvarsroller och dokumentation per projekt.",
+          "Kvartalsvisa avstämningar kopplade till delmål i roadmappen.",
+          "Pragmatisk riskhantering och konservativ budgetering."
+        ]
+      },
+      "sections": [
+        {
+          "title": "Hur vi jobbar",
+          "body": "• Små batcher, kvalitetsmaterial och transparent kommunikation.\n• Digitala och fysiska släpp kopplade till delmål i vår roadmap.\n• Överskott återinvesteras i utveckling och community-aktiviteter."
+        },
+        {
+          "title": "Varför en butik?",
+          "body": "Riktiga produkter håller oss jordade, finansierar bygget och låter supporters bära med sig en bit av världen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Tar ni in kapital?",
+          "a": "Vi växer med eftertanke. När externa partners tillför tydligt värde publicerar vi en notis på press-sidan."
+        },
+        {
+          "q": "Var sitter support?",
+          "a": "Support drivs från Sverige med täckning på svenska och engelska."
+        }
+      ]
+    },
+    "vision": {
+      "title": "Vision & Värderingar",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Vi bygger en värld där förundran känns praktisk och framtiden känns varm.",
+      "principles": [
+        "Omtanke — empati i hur vi designar och kommunicerar.",
+        "Hantverk — nördig noggrannhet i material och detaljer.",
+        "Tydlighet — enkla ord och ärliga tidslinjer."
+      ],
+      "sections": [
+        {
+          "title": "Kärnvärden",
+          "body": "Omtanke, Hantverk, Tydlighet. Vi levererar med empati, nördar detaljer och kommunicerar enkelt."
+        },
+        {
+          "title": "Löfte till communityt",
+          "body": "Öppna dev-anteckningar, ärliga tidslinjer och belöningar kopplade till framsteg."
+        },
+        {
+          "title": "Vad vi undviker",
+          "body": "Överlöften, slit-och-släng och uppmärksamhetsfällor. Vi föredrar hållbart värde."
+        }
+      ]
+    },
+    "sustainability": {
+      "title": "Hållbarhet",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Hellre färre men bättre saker. Vårt avtryck är litet från början och förbättras i takt med att vi växer.",
+      "sections": [
+        {
+          "title": "Material",
+          "body": "Organiskt eller återvunnet där det är möjligt. Vi väljer hållbara baser framför fast fashion."
+        },
+        {
+          "title": "Förpackning",
+          "body": "Minimal, återvinningsbar och anpassad efter produkten."
+        },
+        {
+          "title": "Transport",
+          "body": "Samordnade sändningar och lokala fulfillment-partners när det går."
+        },
+        {
+          "title": "Livslängd",
+          "body": "Vi designar för längre användning. Skötselråd följer där det är relevant."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Klimatkompensation?",
+          "a": "Först fokuserar vi på minskning. Eventuella kompensationer gäller kvarstående utsläpp efter reduktion."
+        }
+      ]
+    },
+    "press": {
+      "title": "Press & Media",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Logotyper, bilder och vinklar för journalister och kreatörer.",
+      "boilerplate": "Calestra World blandar design, musik och interaktiv berättelse. Butiken finansierar prototypen.",
+      "assets": {
+        "title": "Varumärkesmaterial",
+        "items": [
+          "Vektorlogotyp (ljus/mörk).",
+          "Foto: produkt & miljö.",
+          "Korta ledningspresentationer."
+        ]
+      },
+      "sections": [
+        {
+          "title": "Boilerplate",
+          "body": "Calestra World blandar design, musik och interaktiv berättelse. Butiken finansierar prototypen."
+        },
+        {
+          "title": "Kontakt",
+          "body": "Pressfrågor: press@calestra.com\nVarumärkesmaterial finns på begäran."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Får vi använda era bilder?",
+          "a": "Ja, för redaktionellt bruk med krediten ”Calestra World”. För kommersiellt bruk — kontakta oss först."
+        }
+      ]
+    },
+    "careers": {
+      "title": "Karriär",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Vi rekryterar sällan och noggrant. Älskar du små team och pricksäker leverans, hör av dig.",
+      "list": [
+        "Inga öppna roller just nu.",
+        "Spontanansökningar välkomnas — bifoga arbetsexempel."
+      ],
+      "benefits": [
+        "Flexibel, tillitsbaserad arbetskultur.",
+        "Tydliga ramar och fokus på hantverk.",
+        "Ärliga feedback-loopar och lugn planering."
+      ],
+      "sections": [
+        {
+          "title": "Så ansöker du",
+          "body": "Mejla careers@calestra.com med en kort presentation och länkar till ditt starkaste arbete."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Vi läser varje meddelande.",
+      "contact": {
+        "email": "support@calestra.com",
+        "response": "Vanligen svar inom 2–3 arbetsdagar."
+      },
+      "sections": [
+        {
+          "title": "Innan du skriver",
+          "body": "Orderfrågor? Ange ditt order-ID. Press? Använd press@calestra.com."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Har ni telefon?",
+          "a": "Vi arbetar primärt via e-post för träffsäkra och spårbara svar. Telefonsamtal bokas vid behov."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Köpvillkor",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Kort, läsbart och mänskligt. Lokala konsumentlagar gäller utöver dessa villkor.",
+      "sections": [
+        {
+          "title": "Köp",
+          "body": "En order blir bindande när betalning bekräftats. Priser inkluderar moms för EU-kunder."
+        },
+        {
+          "title": "Leverans",
+          "body": "Vi skickar från EU. Beräknade leveranstider visas i kassan."
+        },
+        {
+          "title": "Ångerrätt",
+          "body": "Tillverkas på beställning • Trygg garanti vid fel. Se Returer för detaljer."
+        },
+        {
+          "title": "Ansvar",
+          "body": "Vi ansvarar inte för indirekta skador. Dina lagstadgade rättigheter påverkas inte."
+        },
+        {
+          "title": "Fel & tillgänglighet",
+          "body": "Vid uppenbara fel i pris eller lager kan order annulleras med full återbetalning."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Integritetspolicy",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Vi samlar minsta möjliga data för att driva butiken och hålla ditt konto säkert.",
+      "legalBasis": [
+        "Avtal (för att fullfölja din order).",
+        "Berättigat intresse (säkerhet och bedrägeriförebyggande).",
+        "Samtycke (nyhetsbrev och cookies där så krävs)."
+      ],
+      "sections": [
+        {
+          "title": "Vad vi samlar in",
+          "body": "Kontaktuppgifter, orderdata och grundläggande analys. Inga känsliga kategorier."
+        },
+        {
+          "title": "Varför",
+          "body": "För att hantera ordrar, förebygga bedrägerier och förbättra sajten."
+        },
+        {
+          "title": "Lagring & säkerhet",
+          "body": "Data lagras inom EU när möjligt. Betalningar hanteras av PCI-certifierade leverantörer."
+        },
+        {
+          "title": "Dina rättigheter",
+          "body": "Tillgång, rättelse och radering. Mejla privacy@calestra.com."
+        }
+      ],
+      "processors": [
+        "Betalningsleverantörer (PCI).",
+        "E-postleverantör för orderbekräftelser.",
+        "Analysleverantör med anonymiserad IP."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies & spårning",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Cookies håller kundvagnen igång och hjälper oss förstå användning.",
+      "sections": [
+        {
+          "title": "Nödvändiga",
+          "body": "Sessions- och kundvagnscookies — krävs för att sajten ska fungera."
+        },
+        {
+          "title": "Analys",
+          "body": "Anonyma användningsmätningar. Du kan välja bort i cookie-bannern."
+        },
+        {
+          "title": "Marknadsföring",
+          "body": "Endast om du aktivt samtycker."
+        }
+      ],
+      "manage": {
+        "title": "Hantera val",
+        "body": "Öppna cookie-ikonen i footern för att uppdatera dina val när som helst."
+      },
+      "faq": [
+        {
+          "q": "Hur ändrar jag mitt val?",
+          "a": "Öppna cookie-bannern från ikonen i footern och uppdatera dina preferenser."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Leverans & frakt",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Vi skickar inom EU och utvalda regioner. Global frakt är på väg.",
+      "regions": [
+        "Europeiska unionen (flertalet länder).",
+        "UK & EES (utvalda produkter).",
+        "Fler regioner annonseras löpande."
+      ],
+      "sections": [
+        {
+          "title": "Priser & fri frakt",
+          "body": "Livesatser i kassan. Gräns för fri frakt beror på land och valuta."
+        },
+        {
+          "title": "Hanteringstid",
+          "body": "Ordrar skickas normalt inom 1–3 arbetsdagar."
+        },
+        {
+          "title": "Spårning",
+          "body": "Spårningslänk mejlas när beställningen lämnar lagret."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan jag ändra adress efter beställning?",
+          "a": "Kontakta support snabbt — vi kan justera om paketet inte lämnat lagret."
+        },
+        {
+          "q": "Tull & avgifter?",
+          "a": "Internationella köpare kan debiteras importavgifter av lokala myndigheter."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Returer & Ångerrätt",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Tillverkas på beställning • Trygg garanti vid fel.",
+      "sections": [
+        {
+          "title": "Villkor",
+          "body": "Varor ska vara oanvända, med tags och i originalskick. Hygienartiklar är plomberade."
+        },
+        {
+          "title": "Så gör du",
+          "body": "Mejla support@calestra.com med ditt order-ID för returetikett och instruktioner."
+        },
+        {
+          "title": "Återbetalning",
+          "body": "Återbetalning görs till ursprungligt betalmedel 5–10 dagar efter godkänd kontroll."
+        }
+      ],
+      "exceptions": [
+        "Personligt anpassade varor om de inte är felaktiga.",
+        "Öppnade hygienrelaterade produkter (av säkerhetsskäl)."
+      ],
+      "faq": [
+        {
+          "q": "Vad gör jag om produkten är felaktig?",
+          "a": "Kontakta support med order-ID och bilder så hjälper vi dig med ersättning eller återbetalning."
+        }
+      ]
+    },
+    "billing": {
+      "title": "Fakturering",
+      "updatedAt": "Senast uppdaterad: {{date}}",
+      "intro": "Vi accepterar de flesta betalkort och populära regionala metoder.",
+      "sections": [
+        {
+          "title": "Betalningsmetoder",
+          "body": "Visa, Mastercard, Amex, PayPal, Klarna (där tillgängligt), Swish (SE)."
+        },
+        {
+          "title": "Kvitton & fakturor",
+          "body": "Orderbekräftelse skickas automatiskt via e-post. Företagsfaktura kan ordnas vid behov."
+        },
+        {
+          "title": "Skatter & moms",
+          "body": "Visade priser inkluderar moms för EU-kunder. Internationella köpare kan debiteras importavgifter av lokala myndigheter."
+        }
+      ]
+    }
+  },
+  "receipt": {
+    "title": "Kvitto",
+    "order": "Order",
+    "customer": "Kund",
+    "shippingAddress": "Leveransadress",
+    "items": "Produkt",
+    "qty": "Antal",
+    "unit": "à-pris",
+    "sum": "Summa",
+    "subtotal": "Delsumma",
+    "shipping": "Frakt",
+    "tax": "Moms",
+    "total": "Totalt",
+    "viewPdf": "Visa PDF-version",
+    "toShop": "Till butiken",
+    "copyLink": "Kopiera kvittolänk",
+    "share": "Dela",
+    "print": "Skriv ut",
+    "pdf": "PDF-version"
+  }
+}

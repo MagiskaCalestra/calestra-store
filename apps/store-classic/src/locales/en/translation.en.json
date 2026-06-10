@@ -1,0 +1,885 @@
+{
+  "brand": "Calestra Store",
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "cart": "Cart",
+    "checkout": "Checkout"
+  },
+  "footer": {
+    "news": "Get notified when the next drop releases. You’ll need to confirm via email.",
+    "fomo": "Less mass market. More release feeling.",
+    "cookiesLink": "Cookies & tracking",
+    "tag": "Calestra World — where magic, feelings and the future meet.",
+    "aria": "Footer links",
+    "billing": "Billing",
+    "shipping": "Shipping",
+    "about": "Company",
+    "aboutWorld": "About Calestra World",
+    "values": "Vision & Values",
+    "sustainability": "Sustainability",
+    "press": "Press & Media",
+    "careers": "Careers",
+    "contact": "Contact",
+    "legal": "Legal",
+    "cookies": "Cookies & tracking",
+    "returns": "Returns & Right of Withdrawal",
+    "social": "Social",
+    "rights": "All rights reserved.",
+    "shippingSoon": "Worldwide shipping — coming soon"
+  },
+  "home": {
+    "hero": {
+      "title": "Carry the light. Support the journey.",
+      "lead": "Every purchase brings us closer to Calestra World — a place where magic, feelings and the future meet. You get products today, and together we build something bigger.",
+      "ctaPrimary": "Go to the first drop",
+      "ctaSecondary": "Support the journey",
+      "meta": "Worldwide shipping — coming soon"
+    },
+    "featured": "Selected favourites",
+    "allProducts": "View all products →",
+    "support": {
+      "title": "Support the magic — Calestra World together"
+    },
+    "bullets": {
+      "secure": "Secure checkout (SSL)",
+      "ship": "Free shipping over {{amount}}",
+      "returns": "Made to order • Safe guarantee for defects",
+      "popular": "Popular"
+    },
+    "milestones": {
+      "status": {
+        "reached": "Reached",
+        "open": "In progress"
+      },
+      "fields": {
+        "target": "Target",
+        "eta": "ETA",
+        "reward": "Reward"
+      },
+      "meta": "Details",
+      "cta": "Support this milestone",
+      "learnMore": "Learn more",
+      "m1": {
+        "title": "Milestone 1 – First spark",
+        "body": "We reach free shipping during launch week…",
+        "reward": "Reward: launch badge",
+        "eta": "wk 42"
+      },
+      "m2": {
+        "title": "Milestone 2 – Community boost",
+        "body": "We open the antechamber to the dev log and invite…",
+        "reward": "Reward: private dev log + voting",
+        "eta": "wk 45"
+      },
+      "m3": {
+        "title": "Milestone 3 – Maker drop",
+        "body": "Exclusive digital drop (backgrounds/themes).",
+        "reward": "Reward: digital Maker pack",
+        "eta": "wk 48"
+      },
+      "m4": {
+        "title": "Milestone 4 – Release step",
+        "body": "Finance the next sprint towards the prototype.",
+        "reward": "Reward: supporter credits",
+        "eta": "Q1"
+      }
+    }
+  },
+  "newsletter": {
+    "eyebrow": "Calestra World",
+    "title": "Join the circle",
+    "lead": "Be first to know about drops, progress and small pieces of magic — one tidy email now and then.",
+    "emailLabel": "Email",
+    "emailGroup": "Newsletter signup",
+    "emailPlaceholder": "your@email.com",
+    "cta": "Join",
+    "ctaBusy": "Joining…",
+    "consent": "I agree to receive emails and accept the Privacy Policy.",
+    "validation": {
+      "email": "Enter a valid email address.",
+      "consent": "Please accept the privacy terms."
+    },
+    "feedback": {
+      "success": "Thanks! Please check your inbox.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "badges": {
+    "limited": "Limited",
+    "support": "Support",
+    "out": "Out"
+  },
+  "buttons": {
+    "buy": "Buy",
+    "view": "View",
+    "choose": "Choose size"
+  },
+  "card": {
+    "limited": "Limited",
+    "view": "View",
+    "choose": "Choose size",
+    "buy": "Buy"
+  },
+  "product": {
+    "open": "Open product",
+    "missing": "The product could not be found.",
+    "unpriced": "Not priced",
+    "noPrice": "Not priced",
+    "backToShop": "Back to the shop",
+    "gallery": "Product images",
+    "thumbnails": "Thumbnails",
+    "prevImage": "Previous image",
+    "nextImage": "Next image",
+    "thumb": "Choose image",
+    "size": "Size",
+    "color": "Color",
+    "qty": "Quantity",
+    "qtyInput": "Quantity",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "addToCart": "Add to cart",
+    "goToCart": "Go to cart",
+    "out": "Sold out",
+    "outOfStock": "Out of stock",
+    "inStock": "In stock: {{count}}",
+    "freeShippingNotice": "{{amount}} to free shipping",
+    "preorderBadge": "Reservation Queue",
+    "notifyBadge": "Notify me",
+    "kicker": "Selected release",
+    "kickerPreorder": "Reservation Queue",
+    "kickerNotify": "Notify when ready",
+    "kickerJewelry": "Wearable symbol",
+    "taxHint": "Prices are shown in",
+    "returnHint": "Made on demand • Safe guarantee for defects.",
+    "shippingHintDyn": "Free shipping over {{amount}}.",
+    "shippingHint": "Free shipping is available according to terms.",
+    "sticky": {
+      "aria": "Quick buy"
+    },
+    "flag": {
+      "limited": "Limited",
+      "support": "Support",
+      "jewelry": "Jewelry"
+    },
+    "stock": {
+      "out": "Sold out",
+      "hot": "Last pieces!",
+      "warn": "Almost sold out"
+    },
+    "preorder": {
+      "defaultLabel": "PRE-ORDER",
+      "defaultNote": "This is a pre-reservation. Production and delivery happen in a later wave."
+    },
+    "notify": {
+      "defaultLabel": "Notify me",
+      "defaultNote": "This product is not available for purchase right now. Leave your email to be notified when it opens.",
+      "submit": "Notify me when available"
+    },
+    "urgency": {
+      "preorder": "The Calestra Reservation Queue System is active. Leave your email to secure your place when the wave opens.",
+      "notify": "This product is not open for purchase right now. Leave your email and we will notify you when it becomes available.",
+      "out": "This release is currently sold out.",
+      "limitedVeryLow": "Only {{count}} left — the first drop can disappear at any time.",
+      "limitedLow": "Limited release — {{count}} left in this wave.",
+      "limited": "The first drop is live — the next release is not guaranteed.",
+      "low": "Few left in stock — early purchases get the first wave.",
+      "default": "Selected release with a limited feeling — built for early discoverers."
+    },
+    "founder": {
+      "preorder": "This now goes through the Calestra Reservation Queue System. You sign up first — and we contact you when the place opens.",
+      "notify": "This product is still waiting for the right moment. When it opens, we want to reach those who truly want it first.",
+      "jewelry": "This is not just jewelry. It is Calestra’s symbol in wearable form — a quiet light to keep close.",
+      "support": "This is more than a purchase — it is early support for what is being built.",
+      "limited": "Those who wear this were there early — before the rest of the world caught up.",
+      "default": "This is not just a product. It is part of the beginning."
+    },
+    "cta": {
+      "notifyMe": "Notify me",
+      "joinReservationQueue": "Join the queue",
+      "wearLight": "Wear the light",
+      "secure": "Secure yours",
+      "join": "Become one of the first",
+      "moreInfo": "Read more",
+      "keepClose": "Keep it close",
+      "takePlace": "Take your place"
+    },
+    "signal": {
+      "feel": "Feeling",
+      "drop": "Status",
+      "buy": "Now",
+      "feelPreorder": "More queue than purchase",
+      "feelNotify": "More waitlist",
+      "feelJewelry": "More symbolic",
+      "feelLimited": "More rare",
+      "feelValue": "More selected",
+      "buyPreorder": "Reservation Queue open",
+      "buyNotify": "Email interest",
+      "buyJewelry": "Wearable icon",
+      "buyLimited": "First wave",
+      "buyValue": "Fast path",
+      "preorderOpen": "Reservation Queue open",
+      "notifyOpen": "Email interest open",
+      "stockCount": "{{count}} left",
+      "dropOut": "Out of stock"
+    },
+    "jewelry": {
+      "note": "Works as a gift, collector object, or your own small Harmonic Star to wear every day."
+    },
+    "queue": {
+      "titlePreorder": "Calestra Reservation Queue System",
+      "leadPreorder": "Enter your email and we will save your place in the queue and contact you when the next wave opens.",
+      "leadNotify": "Leave your email and we will notify you when the product becomes available.",
+      "placeholder": "your@email.com",
+      "loading": "…",
+      "join": "Join the queue",
+      "invalidEmail": "Enter a valid email address.",
+      "alreadyPreorder": "You are already in the queue. Check your inbox if you need to confirm.",
+      "alreadyNotify": "You are already registered. Check your inbox if you need to confirm.",
+      "errorWithStatus": "Something went wrong. Try again.",
+      "successPreorder": "Done! You are now in the Calestra Reservation Queue System. Confirm through the email we sent.",
+      "successNotify": "Done! Check your email to confirm.",
+      "networkError": "Network error. Try again.",
+      "hintPreorder": "We send a confirmation email first. When the next wave opens, you may be notified before the wider audience.",
+      "hintNotify": "We send a confirmation email first so you do not miss when the product opens."
+    }
+  },
+  "pdp": {
+    "prev": "Previous image",
+    "next": "Next image"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "postcode": "Postcode",
+    "city": "City",
+    "country": "Country"
+  },
+  "error": {
+    "required": "This field is required.",
+    "email": "Enter a valid email address.",
+    "phone": "Enter a valid phone number.",
+    "zip": "Enter a valid postcode."
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "emptyHint": "Add some products to proceed to checkout.",
+    "continue": "Continue shopping",
+    "viewProduct": "View product",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "remove": "Remove item",
+    "checkout": "Go to checkout"
+  },
+  "thanks": {
+    "backHome": "Back to home",
+    "title": "Thank you for your purchase!",
+    "tip": "Tip: Save the receipt link — it works even without an account."
+  },
+  "checkout": {
+    "aria": {
+      "hero": "Checkout"
+    },
+    "title": "Complete your purchase",
+    "titlePreorder": "Pre-order",
+    "titleMixed": "Mixed checkout",
+    "customer": "Customer details",
+    "shipping": "Shipping address",
+    "billing": "Billing address",
+    "billing.useSeparate": "Billing address differs from shipping",
+    "shippingAddress": "Shipping address",
+    "summary": "Order summary",
+    "subtotal": "Subtotal",
+    "shippingFee": "Shipping",
+    "free": "Free shipping",
+    "total": "Total",
+    "placeOrder": "Place order",
+    "agreeLabel": "I accept the terms",
+    "prefillActive": "Details are pre-filled",
+    "notifyGuard": {
+      "title": "Notify product",
+      "text": "This cart only contains notify products and should not be completed as an order."
+    },
+    "agree": {
+      "read": "Read"
+    },
+    "and": "and",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "field": {
+      "company": "Company",
+      "careOf": "c/o",
+      "address2": "Apartment/Suite",
+      "doorCode": "Door code",
+      "region": "Region/State",
+      "deliveryNotes": "Delivery instruction",
+      "orgNumber": "Organization number",
+      "orgNumberHint": "Optional",
+      "vatId": "VAT ID"
+    },
+    "hints": {
+      "company": "Optional",
+      "careOf": "Optional",
+      "address2": "Optional",
+      "doorCode": "Optional",
+      "region": "Optional",
+      "deliveryNotes": "Optional, short text"
+    },
+    "progress": {
+      "toFree": "{{amount}} to free shipping",
+      "free": "You have free shipping!"
+    },
+    "trust": {
+      "ssl": "Secure checkout (SSL)",
+      "encrypted": "Encrypted payments"
+    },
+    "error": "Could not complete the purchase."
+  },
+  "trust": {
+    "returnsShort": "Made to order • Safe guarantee for defects"
+  },
+  "shop": {
+    "search": "Search products…",
+    "min": "Min",
+    "max": "Max",
+    "sortLabel": "Sort",
+    "sortOptions": {
+      "featured": "Featured",
+      "priceAsc": "Price: lowest first",
+      "priceDesc": "Price: highest first",
+      "new": "Newest"
+    },
+    "limited": "Limited",
+    "instock": "In stock",
+    "clear": "Clear",
+    "live": "DROP MODE",
+    "found": "You found it. Now everything begins.",
+    "currencyNow": "Showing prices in",
+    "loading": "Loading products…",
+    "error": "Could not load products",
+    "emptyTitle": "No results right now",
+    "empty": "No products match the filter yet.",
+    "emptyTip": "Tip: try clearing filters or changing category ✦",
+    "emptyCta": "Show full catalog",
+    "top": "To top",
+    "hero": {
+      "aria": "Calestra Store",
+      "titleLine1": "Somewhere…",
+      "titleLine2": "it waits for you.",
+      "leadLine1": "You don’t follow the light.",
+      "leadLine2": "You become it.",
+      "enterDrop": "Enter the drop",
+      "fullCatalog": "See full catalog"
+    },
+    "dropIntro": {
+      "aria": "The First Drop",
+      "kicker": "The First Drop",
+      "title": "Symbols you can wear.",
+      "body": "Six selected products. Less mass market. More release feeling. When a wave sells out, we do not know when it returns."
+    },
+    "previewPill": {
+      "title": "Controlled preview – not everything is active yet.",
+      "label": "PREVIEW"
+    },
+    "catalog": {
+      "aria": "Catalog",
+      "kicker": "CATALOG",
+      "title": "Built to grow",
+      "all": "All",
+      "firstDrop": "First Drop",
+      "first-drop": "First Drop",
+      "apparel": "Apparel",
+      "accessories": "Accessories",
+      "home": "Home",
+      "jewelry": "Jewelry",
+      "prints": "Prints",
+      "sets": "Sets",
+      "support": "Support",
+      "collectors": "Collectors",
+      "surprise-boxes": "Surprise Boxes",
+      "digital": "Digital",
+      "other": "Other"
+    },
+    "count": {
+      "zero": "No results",
+      "one": "Showing 1 product",
+      "many": "Showing {{x}} products",
+      "of": "Showing {{x}} of {{y}} products"
+    },
+    "hints": {
+      "firstDropCount": "First Drop: 6 products",
+      "category": "Category: {{category}}",
+      "preorderActive": "Collector pre-order active",
+      "notifyAvailable": "Notify mode available"
+    },
+    "quick": {
+      "aria": "Quick choices",
+      "inStock": "Show in stock",
+      "limited": "Limited",
+      "preorder": "Collector pre-order",
+      "notify": "Notify me",
+      "support": "Support",
+      "clear": "Clear"
+    },
+    "story": {
+      "aria": "Calestra Store story",
+      "kicker": "STEP BEYOND THE DROP",
+      "title": "More than a regular webshop.",
+      "body": "The products are clean and clear to sell. The story surrounds them to build the brand.",
+      "more": "Show more",
+      "card1": {
+        "kicker": "ALWAYS CALESTRA",
+        "title": "The symbol is always present.",
+        "body": "You are never alone in the feeling."
+      },
+      "card2": {
+        "kicker": "HARMONIC QUALITY",
+        "title": "Carefully selected materials.",
+        "body": "Built to last and feel better than a fast trend."
+      },
+      "card3": {
+        "kicker": "MINDFUL PRODUCTION",
+        "title": "Produced when needed.",
+        "body": "Less noise. More responsibility. More control over the first wave."
+      }
+    },
+    "promo": {
+      "collectionCta": "Show the limited collection",
+      "collection": "Harmonic Star Collection ✦ – symbol, apparel and collector print in the first drop",
+      "cta": "See more"
+    },
+    "preorder": {
+      "defaultLabel": "PRE-ORDER",
+      "defaultNote": "This is a pre-reservation. Production and delivery happen in a later wave.",
+      "defaultLeadDays": "This is a pre-reservation. Production and delivery happen in a later wave, around {{days}} days.",
+      "firstDropNote": "The necklace in the first drop is sold as a collector pre-order. You secure your place now, and the production wave follows after validation."
+    },
+    "tools": {
+      "summary": "Filters and catalog mode",
+      "fullCatalogTitle": "Full Catalog v1",
+      "firstDropTitle": "First Drop v1",
+      "fullCatalogBody": "Full catalog mode is open. Categories are built automatically from products, tags and slugs.",
+      "firstDropBody": "Only our six strongest auto-products are shown in this wave. More releases will come later.",
+      "showFirstDrop": "Show only the first drop",
+      "showFullCatalog": "Show full catalog"
+    },
+    "previewNote": "Some features are still being built. What you see is intentionally launch-ready preview — stable, fast and clear.",
+    "error": {
+      "loadFailed": "Load failed"
+    }
+  },
+  "colors": {
+    "black": "black",
+    "white": "white",
+    "navy": "navy",
+    "grey": "grey",
+    "gold": "gold",
+    "full color": "full color"
+  },
+  "products": {
+    "black-star-tee": {
+      "title": "First Light – Tee",
+      "description": "A black premium T-shirt with The Harmonic Star close to the heart. Discreet, strong and made for everyday life before Calestra opens the world."
+    },
+    "black-star-hoodie": {
+      "title": "Bearer of Light – Hoodie",
+      "description": "A black hoodie with The Harmonic Star as a quiet signal. Warm, urban and made for evenings, journeys and people who carry something more."
+    },
+    "black-star-tote": {
+      "title": "Path Carrier – Tote",
+      "description": "A black tote bag with The Harmonic Star. Easy to carry, strong enough to be seen and made for the small paths of everyday life."
+    },
+    "hidden-signal-mug": {
+      "title": "Hidden Signal Mug™",
+      "subtitle": "Heat reveal · Now you see it",
+      "description": "A black heat-reveal mug where The Harmonic Star awakens when the drink turns warm. A quiet morning ritual for those who see more than others."
+    },
+    "black-star-mug": {
+      "title": "Hidden Signal Mug™",
+      "subtitle": "Heat reveal · Now you see it",
+      "description": "A black heat-reveal mug where The Harmonic Star awakens when the drink turns warm. A quiet morning ritual for those who see more than others."
+    },
+    "calestra-harmonic-star-necklace": {
+      "title": "The Harmonic Star – Necklace",
+      "description": "Calestra’s wearable symbol. A bright star necklace inspired by what Lyra carries — made for hope, presence and the beginning.",
+      "subtitle": "Collector pre-order · first wave is being reserved now",
+      "availabilityLabel": "Collector pre-order",
+      "preorderBadge": "PRE-ORDER",
+      "preorderLabel": "Collector pre-order",
+      "preorderText": "Reserved now and delivered in a later production wave.",
+      "preorderNote": "This is a pre-reservation. Production and delivery happen in a later wave when the first batch goes live.",
+      "preorderEta": "The first production wave will be announced after drop validation."
+    },
+    "calestra-harmonic-star-collector-print": {
+      "title": "The Harmonic Star – Collector Print",
+      "description": "A collector print with Calestra’s light-bearing symbol. Made for a wall, studio or quiet corner where the beginning should be visible."
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Calestra World",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Calestra World is both a store and a long-term creative project — products today help finance a larger experience tomorrow. Our aesthetic blends magic, feelings and the future. The community co-creates through insights, preorders and support products.",
+      "company": {
+        "name": "Calestra Holding & Resort AB",
+        "org": "559000-0000",
+        "hq": "Stockholm, Sweden",
+        "email": "support@calestra.com"
+      },
+      "leadership": {
+        "title": "Leadership & culture",
+        "body": "Calestra is managed by a seasoned team across business development, design and guest experience. Decisions are guided by stewardship, clarity and long-term value. We favour calm, stable delivery over big words."
+      },
+      "advisory": {
+        "title": "Advisory circle",
+        "body": "A small circle of senior advisors supports leadership with experience in commerce, finance, law, technology and culture. The council helps us balance innovation with stability and responsible growth."
+      },
+      "governance": {
+        "title": "Governance",
+        "items": [
+          "Clear responsibilities and documentation per project.",
+          "Quarterly reviews tied to roadmap milestones.",
+          "Pragmatic risk management and conservative budgeting."
+        ]
+      },
+      "sections": [
+        {
+          "title": "How we work",
+          "body": "• Small batches, quality materials and transparent communication.\n• Digital and physical drops tied to roadmap milestones.\n• Surplus is reinvested into development and community activities."
+        },
+        {
+          "title": "Why a store?",
+          "body": "Real products keep us grounded, fund the build, and let supporters carry a piece of the world with them."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are you raising capital?",
+          "a": "We grow with care. When external partners add clear value, we will publish a note on the press page."
+        },
+        {
+          "q": "Where is support based?",
+          "a": "Support is operated from Sweden with coverage in Swedish and English."
+        }
+      ]
+    },
+    "vision": {
+      "title": "Vision & Values",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We build a world where wonder feels practical and the future feels warm.",
+      "principles": [
+        "Care — empathy in how we design and communicate.",
+        "Craft — careful attention to materials and detail.",
+        "Clarity — simple words and honest timelines."
+      ],
+      "sections": [
+        {
+          "title": "Core values",
+          "body": "Care, Craft, Clarity. We deliver with empathy, care about the details and communicate simply."
+        },
+        {
+          "title": "Promise to the community",
+          "body": "Open dev notes, honest timelines and rewards tied to progress."
+        },
+        {
+          "title": "What we avoid",
+          "body": "Overpromising, throwaway products and attention traps. We prefer lasting value."
+        }
+      ]
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We prefer fewer, better things. Our footprint is small by design and improves as we grow.",
+      "sections": [
+        {
+          "title": "Materials",
+          "body": "Organic or recycled where possible. We select durable bases over fast fashion."
+        },
+        {
+          "title": "Packaging",
+          "body": "Minimal, recyclable and sized to fit the product."
+        },
+        {
+          "title": "Transport",
+          "body": "Consolidated shipments and local fulfillment partners when viable."
+        },
+        {
+          "title": "Longevity",
+          "body": "We design for longer use. Care guides are included where relevant."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do you offset emissions?",
+          "a": "Our first focus is reduction. Offsets may be used for residual emissions after reduction steps."
+        }
+      ]
+    },
+    "press": {
+      "title": "Press & Media",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Logos, images and story angles for journalists and creators.",
+      "boilerplate": "Calestra World blends design, music and interactive storytelling. The store funds the prototype.",
+      "assets": {
+        "title": "Brand assets",
+        "items": [
+          "Vector logo (light/dark).",
+          "Photography: product & environment.",
+          "Short leadership presentations."
+        ]
+      },
+      "sections": [
+        {
+          "title": "Boilerplate",
+          "body": "Calestra World blends design, music and interactive storytelling. The store funds the prototype."
+        },
+        {
+          "title": "Contact",
+          "body": "Press inquiries: press@calestra.com\nBrand assets available on request."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can we use your images?",
+          "a": "Yes, for editorial use with credit to “Calestra World”. For commercial use — contact us first."
+        }
+      ]
+    },
+    "careers": {
+      "title": "Careers",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We hire rarely and carefully. If you love small teams and precise delivery, say hello.",
+      "list": [
+        "No open roles right now.",
+        "Speculative applications are welcome — include work samples."
+      ],
+      "benefits": [
+        "Flexible, trust-based work culture.",
+        "Clear scope and focus on craft.",
+        "Honest feedback loops and calm planning."
+      ],
+      "sections": [
+        {
+          "title": "How to apply",
+          "body": "Email careers@calestra.com with a short introduction and links to your strongest work."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We read every message.",
+      "contact": {
+        "email": "support@calestra.com",
+        "response": "Typical response within 2–3 business days."
+      },
+      "sections": [
+        {
+          "title": "Before you write",
+          "body": "Order questions? Include your order ID. Press? Use press@calestra.com."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do you have a phone number?",
+          "a": "We primarily work by email to keep responses accurate and traceable. Phone calls can be scheduled when needed."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Short, readable and human. Local consumer laws apply in addition to these terms.",
+      "sections": [
+        {
+          "title": "Purchases",
+          "body": "An order becomes binding once payment has been confirmed. Prices include VAT for EU customers."
+        },
+        {
+          "title": "Delivery",
+          "body": "We ship from the EU. Estimated delivery windows are shown at checkout."
+        },
+        {
+          "title": "Right of withdrawal",
+          "body": "Made to order • Safe guarantee for defects. See Returns for details."
+        },
+        {
+          "title": "Liability",
+          "body": "We are not liable for indirect losses. Your statutory rights are not affected."
+        },
+        {
+          "title": "Misprints & availability",
+          "body": "If an obvious error occurs in price or stock, we may cancel the order with a full refund."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We collect the minimum data required to run the store and keep your account secure.",
+      "legalBasis": [
+        "Contract (to fulfil your order).",
+        "Legitimate interest (security and fraud prevention).",
+        "Consent (newsletter and cookies where required)."
+      ],
+      "sections": [
+        {
+          "title": "What we collect",
+          "body": "Contact details, order data and basic analytics. No sensitive categories."
+        },
+        {
+          "title": "Why",
+          "body": "To process orders, prevent fraud and improve the site."
+        },
+        {
+          "title": "Storage & security",
+          "body": "Data is stored in the EU when possible. Payments are processed by PCI-certified providers."
+        },
+        {
+          "title": "Your rights",
+          "body": "Access, correction and deletion. Email privacy@calestra.com."
+        }
+      ],
+      "processors": [
+        "Payment processors (PCI).",
+        "Email provider for order confirmations.",
+        "Analytics provider with anonymised IP."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies & Tracking",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Cookies keep the cart working and help us understand usage.",
+      "sections": [
+        {
+          "title": "Essential",
+          "body": "Session and cart cookies — required for the site to function."
+        },
+        {
+          "title": "Analytics",
+          "body": "Anonymous usage metrics. You can opt out in the cookie banner."
+        },
+        {
+          "title": "Marketing",
+          "body": "Only if you actively consent."
+        }
+      ],
+      "manage": {
+        "title": "Manage preferences",
+        "body": "Open the cookie icon in the footer to update your choices at any time."
+      },
+      "faq": [
+        {
+          "q": "How can I change my choice?",
+          "a": "Open the cookie banner from the footer icon and update your preferences."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Shipping",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We ship within the EU and selected regions. Global shipping is on the way.",
+      "regions": [
+        "European Union (most countries).",
+        "UK & EEA (selected products).",
+        "Additional regions will be announced over time."
+      ],
+      "sections": [
+        {
+          "title": "Rates & free shipping",
+          "body": "Live rates at checkout. Free shipping threshold depends on country and currency."
+        },
+        {
+          "title": "Handling time",
+          "body": "Orders usually ship within 1–3 business days."
+        },
+        {
+          "title": "Tracking",
+          "body": "A tracking link is emailed once your order leaves the warehouse."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I change my address after ordering?",
+          "a": "Contact support quickly — we can adjust it if the package has not left the warehouse."
+        },
+        {
+          "q": "Customs & fees?",
+          "a": "International buyers may be charged import fees by local authorities."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Returns & Right of Withdrawal",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "Made to order • Safe guarantee for defects.",
+      "sections": [
+        {
+          "title": "Conditions",
+          "body": "Items must be unused, with tags and in original condition. Hygiene items are sealed."
+        },
+        {
+          "title": "How to return",
+          "body": "Email support@calestra.com with your order ID to receive a return label and instructions."
+        },
+        {
+          "title": "Refunds",
+          "body": "Refunds are issued to the original payment method within 5–10 days after approved inspection."
+        }
+      ],
+      "exceptions": [
+        "Personalised items unless faulty.",
+        "Opened hygiene-related products (for safety reasons)."
+      ],
+      "faq": [
+        {
+          "q": "What should I do if the product is faulty?",
+          "a": "Contact support with your order ID and photos so we can help with a replacement or refund."
+        }
+      ]
+    },
+    "billing": {
+      "title": "Billing",
+      "updatedAt": "Last updated: {{date}}",
+      "intro": "We accept most payment cards and popular regional methods.",
+      "sections": [
+        {
+          "title": "Payment methods",
+          "body": "Visa, Mastercard, Amex, PayPal, Klarna (where supported), Swish (SE)."
+        },
+        {
+          "title": "Receipts & invoices",
+          "body": "Order confirmations are emailed automatically. Company invoices can be arranged when needed."
+        },
+        {
+          "title": "Taxes & VAT",
+          "body": "Displayed prices include VAT for EU customers. International buyers may be charged import fees by local authorities."
+        }
+      ]
+    }
+  },
+  "receipt": {
+    "title": "Receipt",
+    "order": "Order",
+    "customer": "Customer",
+    "shippingAddress": "Shipping address",
+    "items": "Product",
+    "qty": "Qty",
+    "unit": "Unit price",
+    "sum": "Amount",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "VAT",
+    "total": "Total",
+    "viewPdf": "View PDF version",
+    "toShop": "Back to shop",
+    "copyLink": "Copy receipt link",
+    "share": "Share",
+    "print": "Print",
+    "pdf": "PDF version"
+  }
+}

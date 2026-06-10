@@ -1,0 +1,29 @@
+{
+  "promoStrips": {
+    "eyebrow": "Spotlight",
+    "title": "More ways into the feeling.",
+    "lead": "Discover gates, worlds and pieces that carry the soul of Calestra forward.",
+    "shopCta": "Go to shop",
+
+    "cards": {
+      "gate": {
+        "title": "The Gate of Light",
+        "body": "Feel the pull of the glowing threshold where Calestra begins.",
+        "eyebrow": "Portal",
+        "cta": "View gallery"
+      },
+      "keep": {
+        "title": "Harmonic Keep",
+        "body": "Follow the journey, signals and levels building the next phase.",
+        "eyebrow": "Progress",
+        "cta": "Track progress"
+      },
+      "drop": {
+        "title": "Carry the Star",
+        "body": "Products, symbols and fragments of the world to carry with you.",
+        "eyebrow": "Collection",
+        "cta": "View products"
+      }
+    }
+  }
+}

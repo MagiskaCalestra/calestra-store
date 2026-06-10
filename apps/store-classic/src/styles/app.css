@@ -1,0 +1,28 @@
+﻿/* === Night-mode justeringar (override) === */
+
+.cw-app {
+  background: var(--cw-page-bg-soft);
+}
+
+.theme-dark .cw-app {
+  background: var(--cw-page-bg);
+}
+
+/* Standardkort som inte redan använder .card-klass */
+.theme-dark main {
+  background: var(--cw-page-bg-soft);
+}
+
+/* Formfält i mörkt läge som fortfarande är vita */
+.theme-dark input,
+.theme-dark textarea,
+.theme-dark select {
+  background: #020617;
+  border-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.theme-dark input::placeholder,
+.theme-dark textarea::placeholder {
+  color: #6b7280;
+}

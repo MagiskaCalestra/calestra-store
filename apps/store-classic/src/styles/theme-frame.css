@@ -1,0 +1,23 @@
+:root {
+  /* Grundfärger – kan fintrimmas sen */
+  --page-bg-light: #f5f5fb;
+  --page-bg-dark: #050816;
+  --page-text-light: #0f172a;
+  --page-text-dark: #e5e7eb;
+}
+
+.theme-light body {
+  background: var(--page-bg-light);
+  color: var(--page-text-light);
+}
+
+.theme-dark body {
+  background: radial-gradient(circle at top, #0b1024 0, #050816 55%, #02010c 100%);
+  color: var(--page-text-dark);
+}
+
+/* Säkerställ att root-containers tar bakgrund */
+.theme-light #root,
+.theme-dark #root {
+  min-height: 100vh;
+}

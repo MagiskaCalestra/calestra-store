@@ -1,0 +1,42 @@
+{
+  "id": "starlight-surprise-box-v1",
+  "slug": "starlight-surprise-box-v1",
+  "title": {
+    "sv": "Starlight Surprise Box ✦",
+    "en": "Starlight Surprise Box ✦",
+    "tr": "Starlight Sürpriz Kutusu ✦"
+  },
+  "description": {
+    "sv": "En magisk överraskningsbox där varje innehåll är unikt. Lyra Ljusvinds universum väljer slumpvis vad just du får: en mini-print, Harmonic Star™-klistermärke, en hemlig karaktärsbild, en digital wallpaper-kod och en Wish Token som låser upp en viskning från Celeste. Begränsad upplaga.",
+    "en": "A magical surprise box with unique contents in every box. Lyra's universe chooses for you: a mini print, a Harmonic Star™ sticker, a secret character art card, a digital wallpaper code, and a Wish Token that unlocks a Celeste whisper. Limited edition.",
+    "tr": "Her kutuda benzersiz içerik bulunan sihirli bir sürpriz kutu. Lyra evreni sizin için seçer: mini baskı, Harmonic Star™ etiketi, gizli karakter kartı, dijital duvar kağıdı kodu ve Celeste'in fısıltısını açan bir Wish Token. Sınırlı üretim."
+  },
+  "price": 199,
+  "currency": "SEK",
+  "type": "physical",
+  "requiresShipping": true,
+  "shipping": {
+    "weightGrams": 350,
+    "fromCountry": "SE"
+  },
+  "categories": ["surprise-boxes"],
+  "tags": ["limited", "surprise", "collectible"],
+  "images": [
+    { "type": "hero", "image": "/images/products/starlight-box-1.webp" },
+    { "type": "alt", "image": "/images/products/starlight-box-2.webp" }
+  ],
+  "variants": [
+    {
+      "id": "starlight-surprise-box-v1-default",
+      "sku": "CS-STARBX-199-SE",
+      "title": {
+        "sv": "Standard edition",
+        "en": "Standard edition",
+        "tr": "Standart sürüm"
+      },
+      "price": 199,
+      "stock": 50
+    }
+  ],
+  "stock": 50
+}

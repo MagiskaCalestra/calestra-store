@@ -1,0 +1,29 @@
+{
+  "promoStrips": {
+    "eyebrow": "Öne çıkan",
+    "title": "Duyguya açılan daha fazla yol.",
+    "lead": "Calestra’nın ruhunu taşıyan kapıları, dünyaları ve parçaları keşfet.",
+    "shopCta": "Mağazaya git",
+
+    "cards": {
+      "gate": {
+        "title": "Işık Kapısı",
+        "body": "Calestra’nın başladığı ışıklı eşiğin çekimini hisset.",
+        "eyebrow": "Portal",
+        "cta": "Galeriyi gör"
+      },
+      "keep": {
+        "title": "Harmonic Keep",
+        "body": "Bir sonraki aşamayı kuran yolculuğu ve sinyalleri takip et.",
+        "eyebrow": "İlerleme",
+        "cta": "İlerlemeyi takip et"
+      },
+      "drop": {
+        "title": "Yıldızı Taşı",
+        "body": "Yanında taşıyabileceğin ürünler ve dünyanın küçük parçaları.",
+        "eyebrow": "Koleksiyon",
+        "cta": "Ürünleri gör"
+      }
+    }
+  }
+}

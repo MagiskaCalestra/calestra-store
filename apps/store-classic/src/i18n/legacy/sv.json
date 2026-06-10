@@ -1,0 +1,92 @@
+{
+  "footer": {
+    "billing": "Fakturering",
+    "shipping": "Frakt",
+    "cookies": "Cookies & spårning"
+  },
+  "colors": {
+    "black": "svart"
+  },
+  "home": {
+    "hero": {
+      "title": "Bär ljuset. Stöd resan.",
+      "lead": "Varje köp tar oss närmare Calestra World â€” en plats där magi, känslor och framtid möts. Du får produkter idag, och tillsammans bygger vi något större.",
+      "ctaPrimary": "Till butiken",
+      "ctaSecondary": "Stöd magin â€” hjälp oss bygga Calestra World",
+      "meta": "Worldwide shipping â€” kommer snart"
+    },
+    "featured": "Utvalda favoriter",
+    "allProducts": "Alla produkter â†’",
+    "support": { "title": "Stöd magin â€” Calestra World tillsammans" },
+    "bullets": {
+      "secure": "Säker kassa (SSL)",
+      "ship": "Fri frakt över {{amount}}",
+      "returns": "Tillverkas på beställning • Trygg garanti vid fel",
+      "popular": "Populärt"
+    },
+    "milestones": {
+      "m1": {
+        "title": "Delmål 1 â€“ Första tändningen",
+        "body": "Vi når fri frakt under lanseringsveckanâ€¦",
+        "reward": "Belöning: lanseringsbadge"
+      },
+      "m2": {
+        "title": "Delmål 2 â€“ Community-boost",
+        "body": "Vi öppnar förrummet till dev-log och bjuder inâ€¦",
+        "reward": "Belöning: privat dev-log + röstning"
+      },
+      "m3": {
+        "title": "Delmål 3 â€“ Maker-drop",
+        "body": "Exklusiv digital drop (bakgrunder/teman).",
+        "reward": "Belöning: digitalt Maker-paket"
+      },
+      "m4": {
+        "title": "Delmål 4 â€“ Releasekliv",
+        "body": "Finansiera nästa sprint mot prototypen.",
+        "reward": "Belöning: supporter-credits"
+      }
+    }
+  },
+  "badges": {
+    "limited": "Limited",
+    "support": "Support",
+    "out": "Slut"
+  },
+  "buttons": {
+    "buy": "Köp",
+    "view": "Visa",
+    "choose": "Välj storlek"
+  },
+  "card": {
+    "limited": "Limited",
+    "view": "Visa",
+    "choose": "Välj storlek",
+    "buy": "Köp"
+  },
+  "product": { "open": "Öppna produkt" },
+  "shop": {
+    "search": "Sök produkterâ€¦",
+    "min": "Min",
+    "max": "Max",
+    "sortLabel": "Sortera",
+    "sortOptions": {
+      "featured": "Utvalda",
+      "priceAsc": "Pris: lägst först",
+      "priceDesc": "Pris: högst först",
+      "new": "Nyast"
+    },
+    "limited": "Limited",
+    "instock": "I lager",
+    "clear": "Rensa"
+  },
+  "products": {
+    "black-star-hoodie": {
+      "title": "Black Star Hoodie",
+      "description": "Varm hoodie med stjärnemblem â€” perfekt för kvällar och resor."
+    },
+    "black-star-tee": {
+      "title": "Black Star Tee",
+      "description": "Klassisk unisex-t-shirt med Harmonic Star."
+    }
+  }
+}

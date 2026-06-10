@@ -1,0 +1,92 @@
+{
+  "footer": {
+    "billing": "Billing",
+    "shipping": "Shipping",
+    "cookies": "Cookies & tracking"
+  },
+  "colors": {
+    "black": "black"
+  },
+  "home": {
+    "hero": {
+      "title": "Carry the light. Support the journey.",
+      "lead": "Every purchase brings Calestra World closer â€” a place where magic, feelings and future meet. You get products today, and together we build something bigger.",
+      "ctaPrimary": "Shop",
+      "ctaSecondary": "Support the magic â€” help us build Calestra World",
+      "meta": "Worldwide shipping â€” coming soon"
+    },
+    "featured": "Selected favourites",
+    "allProducts": "View all products â†’",
+    "support": { "title": "Support the magic â€” Calestra World together" },
+    "bullets": {
+      "secure": "Secure checkout (SSL)",
+      "ship": "Free shipping over {{amount}}",
+      "returns": "30 day returns",
+      "popular": "Popular"
+    },
+    "milestones": {
+      "m1": {
+        "title": "Milestone 1 â€” First spark",
+        "body": "We reach free shipping during launch weekâ€¦",
+        "reward": "Reward: launch badge"
+      },
+      "m2": {
+        "title": "Milestone 2 â€” Community boost",
+        "body": "We open the antechamber to the dev log and inviteâ€¦",
+        "reward": "Reward: private dev log + voting"
+      },
+      "m3": {
+        "title": "Milestone 3 â€” Maker drop",
+        "body": "Exclusive digital drop (backgrounds/themes).",
+        "reward": "Reward: digital Maker pack"
+      },
+      "m4": {
+        "title": "Milestone 4 â€” Release step",
+        "body": "Finance the next sprint towards the prototype.",
+        "reward": "Reward: supporter credits"
+      }
+    }
+  },
+  "badges": {
+    "limited": "Limited",
+    "support": "Support",
+    "out": "Out"
+  },
+  "buttons": {
+    "buy": "Buy",
+    "view": "View",
+    "choose": "Choose size"
+  },
+  "card": {
+    "limited": "Limited",
+    "view": "View",
+    "choose": "Choose size",
+    "buy": "Buy"
+  },
+  "product": { "open": "Open product" },
+  "shop": {
+    "search": "Search productsâ€¦",
+    "min": "Min",
+    "max": "Max",
+    "sortLabel": "Sort",
+    "sortOptions": {
+      "featured": "Featured",
+      "priceAsc": "Price: lowest first",
+      "priceDesc": "Price: highest first",
+      "new": "Newest"
+    },
+    "limited": "Limited",
+    "instock": "In stock",
+    "clear": "Clear"
+  },
+  "products": {
+    "black-star-hoodie": {
+      "title": "Black Star Hoodie",
+      "description": "Warm hoodie with the star emblem â€” perfect for evenings and trips."
+    },
+    "black-star-tee": {
+      "title": "Black Star Tee",
+      "description": "Classic unisex tee with Harmonic Star."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+/* Effekter, starburst, focus, zoom-on-hover (enkel) */
+.card .img-wrap{position:relative}
+.card .img-wrap::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 60px rgba(0,0,0,.25);pointer-events:none}
+.zoomable{overflow:hidden}
+.zoomable img{transition:transform .25s ease}
+.zoomable:hover img{transform:scale(1.04)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sound-dot{width:8px;height:8px;border-radius:999px;background:var(--err)}
+.sound-on .sound-dot{background:var(--ok)}

@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <title>Calestra Emergency Admin</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #050914;
+      --panel: rgba(15, 23, 42, 0.82);
+      --panel2: rgba(255, 255, 255, 0.065);
+      --line: rgba(148, 163, 184, 0.18);
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --soft: #facc15;
+      --blue: #60a5fa;
+      --green: #34d399;
+      --red: #f87171;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 18% 0%, rgba(79, 70, 229, 0.26), transparent 34%),
+        radial-gradient(circle at 100% 8%, rgba(250, 204, 21, 0.14), transparent 30%),
+        linear-gradient(180deg, #050914, #0b1020);
+      color: var(--text);
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    }
+
+    main {
+      min-height: 100vh;
+      padding: 18px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 18px;
+      padding: 20px;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: 0 22px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero.danger {
+      border-color: rgba(248, 113, 113, 0.48);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(248, 113, 113, 0.18), transparent 30%),
+        rgba(15, 23, 42, 0.86);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 9vw, 48px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 19px;
+      letter-spacing: -0.03em;
+    }
+
+    p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+      font-weight: 700;
+    }
+
+    .mode-card {
+      display: grid;
+      gap: 4px;
+      padding: 16px;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: var(--panel2);
+    }
+
+    .mode-card strong {
+      font-size: 28px;
+      letter-spacing: -0.04em;
+    }
+
+    .mode-card span {
+      color: #94a3b8;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .token-panel,
+    .status-panel {
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    .token-panel {
+      border-color: rgba(250, 204, 21, 0.28);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(250, 204, 21, 0.1), transparent 34%),
+        rgba(15, 23, 42, 0.82);
+    }
+
+    .token-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    input {
+      min-height: 48px;
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid rgba(148, 163, 184, 0.24);
+      background: rgba(2, 6, 23, 0.76);
+      color: var(--text);
+      padding: 0 12px;
+      font-weight: 800;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: rgba(250, 204, 21, 0.6);
+      box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.12);
+    }
+
+    .token-row button {
+      min-height: 48px;
+      border: 0;
+      border-radius: 14px;
+      background: var(--soft);
+      color: #111827;
+      font-weight: 1000;
+      cursor: pointer;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .action {
+      min-height: 96px;
+      padding: 16px;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.88);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
+    }
+
+    .action span {
+      display: block;
+      font-size: 22px;
+      font-weight: 1000;
+      letter-spacing: -0.04em;
+    }
+
+    .action small {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .action:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .action-soft {
+      border-color: rgba(251, 191, 36, 0.34);
+    }
+
+    .action-reserve {
+      border-color: rgba(96, 165, 250, 0.34);
+    }
+
+    .action-danger {
+      border-color: rgba(248, 113, 113, 0.58);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(248, 113, 113, 0.15), transparent 34%),
+        rgba(31, 10, 18, 0.92);
+    }
+
+    .action-neutral {
+      border-color: rgba(148, 163, 184, 0.24);
+    }
+
+    .notice {
+      margin-top: 14px;
+      padding: 13px 14px;
+      border-radius: 16px;
+      font-weight: 900;
+      font-size: 13px;
+      display: none;
+    }
+
+    .notice.show {
+      display: block;
+    }
+
+    .notice.busy {
+      background: rgba(59, 130, 246, 0.12);
+      border: 1px solid rgba(96, 165, 250, 0.28);
+      color: #bfdbfe;
+    }
+
+    .notice.ok {
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(52, 211, 153, 0.28);
+      color: #bbf7d0;
+    }
+
+    .notice.error {
+      background: rgba(248, 113, 113, 0.12);
+      border: 1px solid rgba(248, 113, 113, 0.34);
+      color: #fecaca;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 12px 0;
+      border-top: 1px solid rgba(148, 163, 184, 0.12);
+    }
+
+    .status-row span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .status-row strong {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 1000;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .reason-box {
+      display: none;
+      gap: 6px;
+      margin-top: 12px;
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid rgba(248, 113, 113, 0.28);
+      background: rgba(248, 113, 113, 0.08);
+    }
+
+    .reason-box.show {
+      display: grid;
+    }
+
+    .reason-box span {
+      color: #fecaca;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .reason-box strong {
+      color: #fff;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+      padding-bottom: 24px;
+    }
+
+    footer a,
+    footer button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    @media (min-width: 760px) {
+      main {
+        padding: 28px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr 280px;
+        align-items: center;
+      }
+
+      .token-row {
+        grid-template-columns: 1fr auto;
+      }
+
+      .token-row button {
+        padding: 0 18px;
+      }
+
+      .button-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .action {
+        min-height: 130px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="hero" class="hero">
+      <div>
+        <p class="eyebrow">Calestra Emergency Admin</p>
+        <h1>Fristående nödbrytare</h1>
+        <p>
+          Den här sidan ligger på livebutiken och fungerar även om lokal admin,
+          VS Code eller tunnel ligger nere. Den ändrar bara launchläget via skyddat API.
+        </p>
+      </div>
+
+      <div class="mode-card">
+        <span>Nuvarande läge</span>
+        <strong id="modeLabel">Hämtar…</strong>
+        <span id="updatedAt">Väntar på status</span>
+      </div>
+    </section>
+
+    <section id="tokenPanel" class="token-panel">
+      <h2>Admin-token</h2>
+      <p>
+        Skriv Calestras Admin API-token en gång på den här enheten.
+        Token sparas bara i webbläsarens localStorage.
+      </p>
+
+      <div class="token-row">
+        <input id="tokenInput" type="password" placeholder="Admin API-token" autocomplete="current-password" />
+        <button id="saveTokenBtn" type="button">Spara token</button>
+      </div>
+    </section>
+
+    <section class="button-grid" aria-label="Emergency actions">
+      <button class="action action-soft" type="button" data-mode="soft">
+        <span>Soft Launch</span>
+        <small>Öppna kontrollerat: checkout på, capture av, Printful manual.</small>
+      </button>
+
+      <button class="action action-reserve" type="button" data-mode="reserve">
+        <span>Reserve</span>
+        <small>Stäng köpflöde men håll intresse/reservation tryggt.</small>
+      </button>
+
+      <button class="action action-danger" type="button" data-mode="emergency">
+        <span>Emergency Pause</span>
+        <small>Stoppa checkout och riskfyllda flöden direkt.</small>
+      </button>
+
+      <button id="refreshBtn" class="action action-neutral" type="button">
+        <span>Refresh</span>
+        <small>Hämta senaste status från live-servern.</small>
+      </button>
+    </section>
+
+    <div id="busyNotice" class="notice busy" role="status"></div>
+    <div id="okNotice" class="notice ok" role="status"></div>
+    <div id="errorNotice" class="notice error" role="alert"></div>
+
+    <section class="status-panel">
+      <h2>Live-status</h2>
+
+      <div class="status-row">
+        <span>Mode</span>
+        <strong id="sMode">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Storefront</span>
+        <strong id="sStorefront">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Checkout</span>
+        <strong id="sCheckout">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Stripe armed</span>
+        <strong id="sStripe">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Payment capture</span>
+        <strong id="sCapture">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Printful</span>
+        <strong id="sPrintful">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Order queue</span>
+        <strong id="sQueue">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Recovery</span>
+        <strong id="sRecovery">–</strong>
+      </div>
+
+      <div class="status-row">
+        <span>Regions</span>
+        <strong id="sRegions">–</strong>
+      </div>
+
+      <div id="reasonBox" class="reason-box">
+        <span>Reason</span>
+        <strong id="sReason"></strong>
+      </div>
+    </section>
+
+    <footer>
+      <a href="/">Till butiken</a>
+      <a href="/api/status" target="_blank" rel="noreferrer">Visa rå status</a>
+      <button id="clearTokenBtn" type="button">Rensa token</button>
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const STATUS_URL = "/api/status";
+      const LAUNCH_CONTROL_URL = "/api/admin/launch-control";
+      const TOKEN_KEY = "cw.admin.token";
+      const AUTH_KEY = "cw.admin";
+      const EMAIL_KEY = "cw.admin.email";
+
+      const state = {
+        status: null,
+        busy: false,
+      };
+
+      const $ = (id) => document.getElementById(id);
+
+      function cleanString(value, fallback = "") {
+        const s = value == null ? fallback : String(value);
+        return s.trim();
+      }
+
+      function normalizeMode(value) {
+        const s = cleanString(value || "preview").toLowerCase().replace(/\s+/g, "_");
+        if (s === "soft_launch") return "soft";
+        if (["preview", "reserve", "soft", "live", "emergency"].includes(s)) return s;
+        return "preview";
+      }
+
+      function modeLabel(mode) {
+        const m = normalizeMode(mode);
+        if (m === "preview") return "Preview";
+        if (m === "reserve") return "Reserve";
+        if (m === "soft") return "Soft Launch";
+        if (m === "live") return "Live";
+        if (m === "emergency") return "Emergency Pause";
+        return "Preview";
+      }
+
+      function boolText(value) {
+        return value ? "ON" : "OFF";
+      }
+
+      function getToken() {
+        try {
+          return cleanString(localStorage.getItem(TOKEN_KEY) || "");
+        } catch {
+          return "";
+        }
+      }
+
+      function setToken(token) {
+        try {
+          localStorage.setItem(TOKEN_KEY, token);
+          localStorage.setItem(AUTH_KEY, "1");
+          localStorage.setItem(EMAIL_KEY, "admin@calestra.local");
+        } catch {
+          // ignore
+        }
+      }
+
+      function clearToken() {
+        try {
+          localStorage.removeItem(TOKEN_KEY);
+          localStorage.removeItem(AUTH_KEY);
+          localStorage.removeItem(EMAIL_KEY);
+        } catch {
+          // ignore
+        }
+      }
+
+      function headers(extra = {}) {
+        const token = getToken();
+        const h = {
+          Accept: "application/json",
+          ...extra,
+        };
+
+        if (token) {
+          h.Authorization = `Bearer ${token}`;
+          h["x-admin-token"] = token;
+          h["X-Admin-Token"] = token;
+        }
+
+        return h;
+      }
+
+      async function readJsonSafe(res) {
+        const text = await res.text().catch(() => "");
+        try {
+          return text ? JSON.parse(text) : {};
+        } catch {
+          return { message: text };
+        }
+      }
+
+      function normalizeStatus(raw) {
+        const input = raw && typeof raw === "object" ? raw : {};
+        const launch = input.launch && typeof input.launch === "object" ? input.launch : {};
+        const mode = normalizeMode(launch.mode || input.mode || "preview");
+
+        return {
+          ok: !!input.ok,
+          mode,
+          paused: !!input.paused,
+          reason: cleanString(input.reason || ""),
+          storefrontVisible: launch.storefrontVisible !== false,
+          previewBadge: launch.previewBadge !== false,
+          reserveMessaging: launch.reserveMessaging !== false,
+          checkoutEnabled: launch.checkoutEnabled === true || input.checkoutEnabled === true,
+          allowedRegions: cleanString(launch.allowedRegions || "SE"),
+          launchCollectionOnly: launch.launchCollectionOnly !== false,
+          stripeArmed: launch.stripeArmed === true,
+          manualPaymentMode: launch.manualPaymentMode !== false,
+          paymentCaptureActive:
+            launch.paymentCaptureActive === true || input.paymentCaptureActive === true,
+          printfulDispatchMode: cleanString(
+            launch.printfulDispatchMode || input.printfulDispatchMode || "off"
+          ).toLowerCase(),
+          orderQueueActive: launch.orderQueueActive !== false,
+          recoveryEngineEnabled:
+            launch.recoveryEngineEnabled !== false && input.recoveryEngineEnabled !== false,
+          notes: cleanString(launch.notes || ""),
+          updatedAt: cleanString(launch.updatedAt || input.updatedAt || ""),
+          generatedAt: cleanString(input.generatedAt || ""),
+          raw: input,
+        };
+      }
+
+      function buildPayloadForMode(mode, currentStatus) {
+        const current = currentStatus && typeof currentStatus === "object" ? currentStatus : {};
+        const nextMode = normalizeMode(mode);
+
+        const base = {
+          mode: nextMode,
+          storefrontVisible: true,
+          previewBadge: true,
+          reserveMessaging: true,
+          allowedRegions: cleanString(current.allowedRegions || "SE") || "SE",
+          launchCollectionOnly: true,
+          stripeArmed: !!current.stripeArmed,
+          manualPaymentMode: true,
+          paymentCaptureActive: false,
+          printfulDispatchMode: "manual",
+          orderQueueActive: true,
+          recoveryEngineEnabled: true,
+          notes: cleanString(current.notes || ""),
+        };
+
+        if (nextMode === "preview") {
+          return {
+            ...base,
+            mode: "preview",
+            checkoutEnabled: false,
+            stripeArmed: false,
+            paymentCaptureActive: false,
+            printfulDispatchMode: "off",
+            orderQueueActive: true,
+            recoveryEngineEnabled: true,
+            previewBadge: true,
+            reserveMessaging: true,
+          };
+        }
+
+        if (nextMode === "reserve") {
+          return {
+            ...base,
+            mode: "reserve",
+            checkoutEnabled: false,
+            stripeArmed: false,
+            paymentCaptureActive: false,
+            printfulDispatchMode: "off",
+            orderQueueActive: true,
+            recoveryEngineEnabled: true,
+            previewBadge: true,
+            reserveMessaging: true,
+          };
+        }
+
+        if (nextMode === "soft") {
+          return {
+            ...base,
+            mode: "soft",
+            checkoutEnabled: true,
+            stripeArmed: true,
+            manualPaymentMode: true,
+            paymentCaptureActive: false,
+            printfulDispatchMode: "manual",
+            orderQueueActive: true,
+            recoveryEngineEnabled: true,
+            previewBadge: false,
+            reserveMessaging: true,
+            launchCollectionOnly: true,
+          };
+        }
+
+        if (nextMode === "live") {
+          return {
+            ...base,
+            mode: "live",
+            checkoutEnabled: true,
+            stripeArmed: true,
+            manualPaymentMode: true,
+            paymentCaptureActive: false,
+            printfulDispatchMode: "manual",
+            orderQueueActive: true,
+            recoveryEngineEnabled: true,
+            previewBadge: false,
+            reserveMessaging: false,
+            launchCollectionOnly: false,
+          };
+        }
+
+        return {
+          ...base,
+          mode: "emergency",
+          checkoutEnabled: false,
+          stripeArmed: false,
+          manualPaymentMode: true,
+          paymentCaptureActive: false,
+          printfulDispatchMode: "off",
+          orderQueueActive: false,
+          recoveryEngineEnabled: false,
+          previewBadge: true,
+          reserveMessaging: true,
+          notes:
+            cleanString(current.notes || "") ||
+            "Emergency pause activated from standalone emergency page.",
+        };
+      }
+
+      function showNotice(type, message) {
+        $("busyNotice").className = "notice busy";
+        $("okNotice").className = "notice ok";
+        $("errorNotice").className = "notice error";
+
+        if (!message) return;
+
+        if (type === "busy") {
+          $("busyNotice").textContent = message;
+          $("busyNotice").classList.add("show");
+        } else if (type === "ok") {
+          $("okNotice").textContent = message;
+          $("okNotice").classList.add("show");
+        } else {
+          $("errorNotice").textContent = message;
+          $("errorNotice").classList.add("show");
+        }
+      }
+
+      function setBusy(isBusy, label = "") {
+        state.busy = !!isBusy;
+        document.querySelectorAll("button").forEach((btn) => {
+          if (btn.id === "saveTokenBtn" || btn.id === "clearTokenBtn") return;
+          btn.disabled = state.busy;
+        });
+
+        if (isBusy) showNotice("busy", `Jobbar… ${label}`);
+      }
+
+      function updateTokenPanel() {
+        const hasToken = !!getToken();
+        $("tokenPanel").style.display = hasToken ? "none" : "block";
+        $("tokenInput").value = getToken();
+      }
+
+      function updateUi(status) {
+        const s = status || normalizeStatus({});
+        state.status = s;
+
+        $("hero").classList.toggle("danger", s.mode === "emergency");
+
+        $("modeLabel").textContent = modeLabel(s.mode);
+        $("updatedAt").textContent = s.updatedAt || s.generatedAt || "Ingen tid";
+
+        $("sMode").textContent = modeLabel(s.mode);
+        $("sStorefront").textContent = s.storefrontVisible ? "Visible" : "Hidden";
+        $("sCheckout").textContent = s.checkoutEnabled ? "Enabled" : "Paused";
+        $("sStripe").textContent = boolText(s.stripeArmed);
+        $("sCapture").textContent = boolText(s.paymentCaptureActive);
+        $("sPrintful").textContent = s.printfulDispatchMode || "off";
+        $("sQueue").textContent = boolText(s.orderQueueActive);
+        $("sRecovery").textContent = boolText(s.recoveryEngineEnabled);
+        $("sRegions").textContent = s.allowedRegions || "SE";
+
+        if (s.reason) {
+          $("sReason").textContent = s.reason;
+          $("reasonBox").classList.add("show");
+        } else {
+          $("sReason").textContent = "";
+          $("reasonBox").classList.remove("show");
+        }
+
+        updateTokenPanel();
+      }
+
+      async function fetchStatus() {
+        const res = await fetch(STATUS_URL, {
+          method: "GET",
+          headers: { Accept: "application/json" },
+          cache: "no-store",
+        });
+
+        const data = await readJsonSafe(res);
+
+        if (!res.ok) {
+          throw new Error(data?.error || data?.message || `Status failed (${res.status})`);
+        }
+
+        return normalizeStatus(data);
+      }
+
+      async function saveLaunchMode(mode) {
+        const payload = buildPayloadForMode(mode, state.status);
+
+        const res = await fetch(LAUNCH_CONTROL_URL, {
+          method: "POST",
+          headers: headers({
+            "Content-Type": "application/json",
+          }),
+          body: JSON.stringify(payload),
+        });
+
+        const data = await readJsonSafe(res);
+
+        if (!res.ok || data?.ok === false) {
+          throw new Error(data?.error || data?.message || `Save failed (${res.status})`);
+        }
+
+        return normalizeStatus(data);
+      }
+
+      async function load() {
+        showNotice("", "");
+        setBusy(true, "refresh");
+
+        try {
+          const status = await fetchStatus();
+          updateUi(status);
+          showNotice("ok", "Status uppdaterad.");
+        } catch (err) {
+          showNotice("error", String(err?.message || err || "Kunde inte hämta status."));
+        } finally {
+          setBusy(false);
+        }
+      }
+
+      async function applyMode(mode) {
+        const nextMode = normalizeMode(mode);
+
+        if (!getToken()) {
+          updateTokenPanel();
+          showNotice("error", "Den här enheten saknar Admin API-token. Skriv token först.");
+          return;
+        }
+
+        if (nextMode === "emergency") {
+          const ok = window.confirm("Aktivera Emergency Pause? Checkout och riskflöden stoppas.");
+          if (!ok) return;
+        }
+
+        showNotice("", "");
+        setBusy(true, nextMode);
+
+        try {
+          const status = await saveLaunchMode(nextMode);
+          updateUi(status);
+          showNotice("ok", `${modeLabel(nextMode)} aktiverat.`);
+        } catch (err) {
+          const msg = String(err?.message || err || "Kunde inte spara launch-läge.");
+          showNotice("error", msg);
+
+          if (msg.toLowerCase().includes("unauthorized") || msg.includes("401")) {
+            clearToken();
+            updateTokenPanel();
+          }
+        } finally {
+          setBusy(false);
+        }
+      }
+
+      $("saveTokenBtn").addEventListener("click", () => {
+        const token = cleanString($("tokenInput").value || "");
+
+        if (!token) {
+          showNotice("error", "Skriv Admin API-token först.");
+          return;
+        }
+
+        setToken(token);
+        updateTokenPanel();
+        showNotice("ok", "Admin-token sparad på den här enheten.");
+      });
+
+      $("clearTokenBtn").addEventListener("click", () => {
+        const ok = window.confirm("Rensa sparad Admin API-token på den här enheten?");
+        if (!ok) return;
+
+        clearToken();
+        updateTokenPanel();
+        showNotice("ok", "Token rensad.");
+      });
+
+      $("refreshBtn").addEventListener("click", load);
+
+      document.querySelectorAll("[data-mode]").forEach((btn) => {
+        btn.addEventListener("click", () => applyMode(btn.getAttribute("data-mode")));
+      });
+
+      updateTokenPanel();
+      load();
+    })();
+  </script>
+</body>
+</html>

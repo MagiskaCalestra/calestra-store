@@ -1,0 +1,92 @@
+{
+  "footer": {
+    "billing": "FaturalandÄ±rma",
+    "shipping": "Kargo",
+    "cookies": "Ã‡erezler & izleme"
+  },
+  "colors": {
+    "black": "siyah"
+  },
+  "home": {
+    "hero": {
+      "title": "IÅŸÄ±ÄŸÄ± taÅŸÄ±. YolculuÄŸu destekle.",
+      "lead": "Her alÄ±ÅŸveriÅŸ Calestra Worldâ€™Ã¼ daha da yakÄ±nlaÅŸtÄ±rÄ±r â€” mucizenin, duygularÄ±n ve geleceÄŸin buluÅŸtuÄŸu bir yer. BugÃ¼n Ã¼rÃ¼nlerini alÄ±r, birlikte daha bÃ¼yÃ¼k bir ÅŸey inÅŸa ederiz.",
+      "ctaPrimary": "MaÄŸaza",
+      "ctaSecondary": "Mucizeyi destekle â€” Calestra Worldâ€™Ã¼ birlikte kuralÄ±m",
+      "meta": "DÃ¼nya Ã§apÄ±nda kargo â€” yakÄ±nda"
+    },
+    "featured": "SeÃ§ili favoriler",
+    "allProducts": "TÃ¼m Ã¼rÃ¼nleri gör â†’",
+    "support": { "title": "Mucizeyi destekle â€” Calestra World birlikte" },
+    "bullets": {
+      "secure": "GÃ¼venli ödeme (SSL)",
+      "ship": "{{amount}} Ã¼zeri Ã¼cretsiz kargo",
+      "returns": "30 gÃ¼n iade",
+      "popular": "PopÃ¼ler"
+    },
+    "milestones": {
+      "m1": {
+        "title": "AÅŸama 1 â€” Ä°lk kÄ±vÄ±lcÄ±m",
+        "body": "Lansman haftasÄ±nda Ã¼cretsiz kargoya ulaÅŸÄ±yoruzâ€¦",
+        "reward": "ÖdÃ¼l: lansman rozeti"
+      },
+      "m2": {
+        "title": "AÅŸama 2 â€” Topluluk desteÄŸi",
+        "body": "GÃ¼nlÃ¼k ön odasÄ±nÄ± aÃ§Ä±yor ve davet ediyoruzâ€¦",
+        "reward": "ÖdÃ¼l: özel gÃ¼nlÃ¼k + oylama"
+      },
+      "m3": {
+        "title": "AÅŸama 3 â€” Maker drop",
+        "body": "Özel dijital drop (arkaplan/tema).",
+        "reward": "ÖdÃ¼l: dijital Maker paketi"
+      },
+      "m4": {
+        "title": "AÅŸama 4 â€” YayÄ±n adÄ±mÄ±",
+        "body": "Prototipe giden sonraki sprinti finanse edin.",
+        "reward": "ÖdÃ¼l: destekÃ§i kredileri"
+      }
+    }
+  },
+  "badges": {
+    "limited": "SÄ±nÄ±rlÄ±",
+    "support": "Destek",
+    "out": "TÃ¼kendi"
+  },
+  "buttons": {
+    "buy": "SatÄ±n al",
+    "view": "Göster",
+    "choose": "Beden seÃ§"
+  },
+  "card": {
+    "limited": "SÄ±nÄ±rlÄ±",
+    "view": "Göster",
+    "choose": "Beden seÃ§",
+    "buy": "SatÄ±n al"
+  },
+  "product": { "open": "ÃœrÃ¼nÃ¼ aÃ§" },
+  "shop": {
+    "search": "ÃœrÃ¼n araâ€¦",
+    "min": "Min",
+    "max": "Maks",
+    "sortLabel": "SÄ±rala",
+    "sortOptions": {
+      "featured": "Öne Ã§Ä±kanlar",
+      "priceAsc": "Fiyat: artan",
+      "priceDesc": "Fiyat: azalan",
+      "new": "En yeni"
+    },
+    "limited": "SÄ±nÄ±rlÄ±",
+    "instock": "Stokta",
+    "clear": "Temizle"
+  },
+  "products": {
+    "black-star-hoodie": {
+      "title": "Black Star Hoodie",
+      "description": "YÄ±ldÄ±z amblemli sÄ±cak hoodie â€” akÅŸamlar ve yolculuklar iÃ§in ideal."
+    },
+    "black-star-tee": {
+      "title": "Black Star Tee",
+      "description": "Harmonic Star baskÄ±lÄ± klasik uniseks tiÅŸört."
+    }
+  }
+}

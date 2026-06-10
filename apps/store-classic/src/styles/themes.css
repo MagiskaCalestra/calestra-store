@@ -1,0 +1,89 @@
+﻿/* themes.css v3 – mjukare light & riktig night-mode */
+
+:root {
+  color-scheme: light;
+
+  /* Basfärger – light */
+  --cw-page-bg: #f4f4f8;
+  --cw-page-bg-soft: #f9fafb;
+  --cw-page-text: #020617;
+
+  --cw-card-bg: #ffffff;
+  --cw-card-border: #e5e7eb;
+
+  --cw-accent: #4b6bfa;
+  --cw-accent-soft: rgba(75, 107, 250, 0.08);
+
+  --cw-muted: #6b7280;
+  --cw-muted-soft: #9ca3af;
+
+  --cw-danger: #b91c1c;
+  --cw-success: #059669;
+}
+
+.theme-dark {
+  color-scheme: dark;
+
+  /* Basfärger – dark (kvällsläge) */
+  --cw-page-bg: #030617;        /* bakgrund runt allt */
+  --cw-page-bg-soft: #050922;   /* ytor som main */
+  --cw-page-text: #e5e7eb;
+
+  --cw-card-bg: #070d20;        /* paneler/kort */
+  --cw-card-border: #1e293b;
+
+  --cw-accent: #8b9bff;         /* lite mjukare accent i mörkt läge */
+  --cw-accent-soft: rgba(139, 155, 255, 0.16);
+
+  --cw-muted: #9ca3af;
+  --cw-muted-soft: #6b7280;
+
+  --cw-danger: #f97373;
+  --cw-success: #34d399;
+}
+
+/* Global bakgrund / text */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--cw-page-bg);
+  color: var(--cw-page-text);
+}
+
+/* Huvud-app-container får samma bakgrund som sidan */
+.cw-app {
+  background: var(--cw-page-bg-soft);
+  min-height: 100vh;
+}
+
+/* “Kort”-ytor kan använda dessa variabler */
+.card {
+  background: var(--cw-card-bg);
+  border: 1px solid var(--cw-card-border);
+  border-radius: 16px;
+}
+
+/* Bas-typografi (kan komplettera din App.css) */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* Små helpers om du vill använda dem i komponenter */
+.text-muted {
+  color: var(--cw-muted);
+}
+
+.theme-dark .text-muted {
+  color: var(--cw-muted-soft);
+}
+
+.badge-accent {
+  background: var(--cw-accent-soft);
+  color: var(--cw-accent);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 700;
+}

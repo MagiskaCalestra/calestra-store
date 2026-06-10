@@ -1,0 +1,342 @@
+{
+  "brand": "Calestra Store",
+  "brand.aria": "Ana sayfaya git",
+  "a11y": { "skipToContent": "Ä°Ã§eriÄŸe geÃ§" },
+  "ally": { "skipToContent": "Ä°Ã§eriÄŸe geÃ§" },
+
+  "ui": {
+    "title": "BaÅŸlÄ±k",
+    "lead": "Özet",
+    "body": "Gövde",
+    "description": "AÃ§Ä±klama",
+    "raised": "Toplanan",
+    "goal": "Hedef",
+    "yes": "Evet",
+    "no": "HayÄ±r"
+  },
+
+  "common": {
+    "loading": "ÃœrÃ¼nler yÃ¼kleniyorâ€¦",
+    "offline": "Ã‡evrimdÄ±ÅŸÄ±: yerel Ã¼rÃ¼nleri gösteriyoruz.",
+    "fallback": "yerel veri",
+    "backToShop": "MaÄŸazaya dön",
+    "print": "YazdÄ±r",
+    "viewAll": "TÃ¼mÃ¼nÃ¼ gör",
+    "close": "Kapat"
+  },
+
+  "nav": {
+    "main": "Ana menÃ¼",
+    "home": "Ana sayfa",
+    "shop": "MaÄŸaza",
+    "cart": "Sepet",
+    "checkout": "Ödeme",
+    "language": { "label": "Dil" },
+    "currency": { "label": "Para birimi" },
+    "theme": { "toggle": "Tema deÄŸiÅŸtir" },
+    "sound": { "on": "Sesi aÃ§", "off": "Sesi kapat" },
+    "itemsInCart": "Sepetteki Ã¼rÃ¼n",
+    "shopBy": "Åžuna göre alÄ±ÅŸveriÅŸ yap",
+    "byGender": "cinsiyet",
+    "department": "BölÃ¼m",
+    "features": "Öne Ã§Ä±kanlar",
+    "newIn": "Yeni",
+    "sets": "Setler",
+    "limited": "Limited"
+  },
+
+  "home": {
+    "progress": { "raised": "Toplanan", "goal": "Hedef" },
+    "hero": {
+      "title": "IÅŸÄ±ÄŸÄ± taÅŸÄ±. YolculuÄŸu destekle.",
+      "lead": "Her alÄ±ÅŸ Calestra Worldâ€™e biraz daha yaklaÅŸtÄ±rÄ±r â€” ilhamÄ±n, hayal gÃ¼cÃ¼nÃ¼n ve geleceÄŸin buluÅŸtuÄŸu bir yer. BugÃ¼n verdiÄŸin sipariÅŸle birlikte daha bÃ¼yÃ¼k bir ÅŸey inÅŸa ediyoruz.",
+      "ctaPrimary": "MaÄŸazaya git",
+      "ctaSecondary": "Ä°lhamÄ± destekle â€” Calestra Worldâ€™Ã¼ birlikte kuralÄ±m",
+      "meta": "DÃ¼nya Ã§apÄ±nda gönderim â€” yakÄ±nda"
+    },
+    "milestones": {
+      "m1": { "title": "AÅŸama 1 â€“ Ä°lk kÄ±vÄ±lcÄ±m", "reward": "ÖdÃ¼l: lansman rozeti" },
+      "m2": { "title": "AÅŸama 2 â€“ Topluluk desteÄŸi", "reward": "ÖdÃ¼l: özel dev-log + oylama" },
+      "m3": { "title": "AÅŸama 3 â€“ Maker drop", "reward": "ÖdÃ¼l: dijital Maker paketi" },
+      "m4": { "title": "AÅŸama 4 â€“ Prototip", "reward": "ÖdÃ¼l: destekÃ§i kredileri" },
+      "m5": { "title": "AÅŸama 5 â€“ Pilot", "reward": "ÖdÃ¼l: erken eriÅŸim programÄ±" },
+      "m6": { "title": "AÅŸama 6 â€“ SÃ¼rÃ¼m A", "reward": "ÖdÃ¼l: özel drop A" },
+      "m7": { "title": "AÅŸama 7 â€“ SÃ¼rÃ¼m B", "reward": "ÖdÃ¼l: özel drop B" },
+      "m8": { "title": "AÅŸama 8 â€“ GeniÅŸleme", "reward": "ÖdÃ¼l: topluluk ayrÄ±calÄ±ÄŸÄ±" },
+      "m9": { "title": "AÅŸama 9 â€“ Global v1", "reward": "ÖdÃ¼l: özel seri" },
+      "m10": { "title": "AÅŸama 10 â€“ Global v2", "reward": "ÖdÃ¼l: VIP ayrÄ±calÄ±k" },
+      "m11": { "title": "Nihai hedef â€“ Calestra World", "reward": "ÖdÃ¼l: Kurucular Salonu" }
+    },
+    "featured": "SeÃ§ilmiÅŸ favoriler",
+    "allProducts": "TÃ¼m Ã¼rÃ¼nler â†’",
+    "support": { "title": "Ä°lhamÄ± destekle â€” Calestra Worldâ€™Ã¼ birlikte kuralÄ±m", "close": "Kapat" },
+    "bullets": {
+      "secure": "GÃ¼venli kasa (SSL)",
+      "ship": "{{amount}} Ã¼zeri Ã¼cretsiz kargo",
+      "returns": "30 gÃ¼n iade",
+      "popular": "PopÃ¼ler"
+    },
+    "controls": { "shop": "MaÄŸaza", "learn": "Daha fazla bilgi" },
+
+    "method": {
+      "title": "Calestra Method â€” vicdanlÄ± ticaret",
+      "lead": "Bir maÄŸazadan fazlasÄ±nÄ± kuruyoruz. Duygunun, zanaatin ve geleceÄŸin buluÅŸtuÄŸu bir yer. Her alÄ±ÅŸ bir kÄ±vÄ±lcÄ±m yakar.",
+      "cards": {
+        "emotion": { "title": "Duygu", "body": "Seni harekete geÃ§iren deneyim. Her piksel, hareket ve ton sadece görÃ¼lmek iÃ§in deÄŸil hissedilmek iÃ§in tasarlanÄ±r." },
+        "ethic":   { "title": "Etik",  "body": "Adil ve net. KÄ±sa vadeli heyecan yerine uzun vadeli saygÄ±yÄ± öne koyarÄ±z." },
+        "elegance":{ "title": "Zarafet", "body": "YumuÅŸak hissettiren teknoloji. Zamanla deÄŸerini koruyan zamansÄ±z tasarÄ±m." }
+      }
+    }
+  },
+
+  "shop": {
+    "title": "MaÄŸaza",
+    "lead": "BölÃ¼mleri keÅŸfet ve stilini bul.",
+    "noResults": "SonuÃ§ yok",
+    "search": "ÃœrÃ¼n araâ€¦",
+    "min": "Min",
+    "max": "Maks",
+    "sortLabel": "SÄ±rala",
+    "limited": "Limited",
+    "instock": "Stokta",
+    "clear": "Temizle",
+    "filters": {
+      "search": "Ara",
+      "searchPlaceholder": "ÃœrÃ¼n araâ€¦",
+      "priceRange": "Fiyat aralÄ±ÄŸÄ±",
+      "minPricePlaceholder": "Min",
+      "maxPricePlaceholder": "Maks",
+      "boundsHint": "Ä°steÄŸe baÄŸlÄ± min/maks (tam sayÄ±).",
+      "sortBy": "SÄ±rala",
+      "onlyLimited": "Sadece Limited",
+      "onlySupport": "Sadece Support",
+      "inStockOnly": "Sadece stokta"
+    },
+    "tags": "Duygu",
+    "sortOptions": {
+      "featured": "Öne Ã§Ä±kanlar",
+      "new": "En yeni",
+      "priceAsc": "Fiyat: artan",
+      "priceDesc": "Fiyat: azalan"
+    },
+    "reset": "Filtreleri sÄ±fÄ±rla",
+    "results": "sonuÃ§",
+    "pageSize": "Sayfa baÅŸÄ±na",
+    "loadMore": "Daha fazla göster",
+    "facets": {
+      "gender": "Cinsiyet",
+      "age": "YaÅŸ",
+      "category": "Kategori",
+      "any": "TÃ¼mÃ¼",
+      "values": {
+        "gender": { "men": "Erkek", "women": "KadÄ±n", "unisex": "Uniseks", "kids": "Ã‡ocuk" },
+        "age": { "baby": "Bebek", "kids": "Ã‡ocuk", "teen": "GenÃ§", "adult": "YetiÅŸkin", "all": "TÃ¼mÃ¼" },
+        "category": {
+          "clothing": "Giyim",
+          "toys": "Oyuncak",
+          "accessories": "Aksesuar",
+          "home": "Ev",
+          "digital": "Dijital",
+          "sets": "Set",
+          "misc": "DiÄŸer"
+        }
+      }
+    }
+  },
+
+  "dept": { "apparel": "Giyim", "accessories": "Aksesuar", "home": "Ev", "digital": "Dijital", "sets": "Set" },
+
+  "cat": {
+    "hoodies": "Hoodie",
+    "tees": "TiÅŸört",
+    "sweats": "Sweat",
+    "outerwear": "DÄ±ÅŸ giyim",
+    "bags": "Ã‡antalar",
+    "hats": "Åžapkalar",
+    "mugs": "Kupalar",
+    "prints": "BaskÄ±lar",
+    "wallpapers": "Duvar kÃ¢ÄŸÄ±tlarÄ±",
+    "bundles": "Paketler"
+  },
+
+  "feel": { "joy": "sÄ±cak", "dreamy": "rÃ¼ya gibi", "practical": "pratik", "present": "hediye", "cozy": "sÄ±cacÄ±k", "warm": "Ä±lÄ±k" },
+
+  "buttons": { "view": "GörÃ¼ntÃ¼le", "buy": "SatÄ±n al", "choose": "Beden seÃ§", "backToShop": "MaÄŸazaya dön", "print": "YazdÄ±r" },
+  "card": { "limited": "Limited", "choose": "Beden seÃ§", "view": "GörÃ¼ntÃ¼le", "buy": "SatÄ±n al" },
+
+  "productCard": {
+    "hover": { "default": "DetaylarÄ±, görselleri ve stok durumunu keÅŸfet." },
+    "badges": { "limited": "Limited", "support": "Support", "outOfStock": "Stok yok" },
+    "buttons": {
+      "chooseSize": "Beden seÃ§",
+      "chooseSizeAria": "Beden seÃ§",
+      "chooseSizeTitle": "Bir beden seÃ§in",
+      "view": "GörÃ¼ntÃ¼le",
+      "viewAria": "ÃœrÃ¼n sayfasÄ±nÄ± aÃ§",
+      "viewTitle": "ÃœrÃ¼n sayfasÄ±nÄ± aÃ§",
+      "buy": "SatÄ±n al",
+      "buyAria": "Sepete ekle",
+      "buyTitle": "Sepete ekle",
+      "quickView": "HÄ±zlÄ± bakÄ±ÅŸ"
+    },
+    "openProductAria": "{{name}}"
+  },
+
+  "product": {
+    "backToShop": "MaÄŸazaya dön",
+    "gallery": "ÃœrÃ¼n görselleri",
+    "thumbnails": "KÃ¼Ã§Ã¼k resimler",
+    "size": "Beden",
+    "color": "Renk",
+    "qty": "Adet",
+    "description": "AÃ§Ä±klama",
+    "unpriced": "Fiyat yok",
+    "addToCart": "Sepete ekle",
+    "goToCart": "Sepete git",
+    "freeShippingNotice": "{{amount}} Ã¼zeri Ã¼cretsiz kargo"
+  },
+
+  "cart": {
+    "title": "Sepet",
+    "empty": "Sepetin boÅŸ",
+    "emptyHint": "Devam etmek iÃ§in Ã¼rÃ¼n ekle.",
+    "continue": "AlÄ±ÅŸveriÅŸe devam",
+    "viewProduct": "ÃœrÃ¼nÃ¼ görÃ¼ntÃ¼le",
+    "decrease": "Adeti azalt",
+    "increase": "Adeti artÄ±r",
+    "remove": "KaldÄ±r",
+    "clear": "Sepeti temizle",
+    "checkout": "Kasaya git"
+  },
+
+  "form": {
+    "name": "Ä°sim",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "postcode": "Posta kodu",
+    "city": "Åžehir",
+    "country": "Ãœlke"
+  },
+
+  "checkout": {
+    "title": "Ödeme",
+    "customer": "MÃ¼ÅŸteri bilgileri",
+    "shipping": "Teslimat adresi",
+    "billing": "Fatura adresi",
+    "billing.useSeparate": "Fatura adresi farklÄ±",
+    "field": {
+      "company": "Åžirket",
+      "careOf": "c/o",
+      "address2": "Daire/Suit",
+      "doorCode": "KapÄ± kodu",
+      "region": "Eyalet/Bölge",
+      "deliveryNotes": "Teslimat notu",
+      "orgNumber": "Vergi/Åžirket no",
+      "vatId": "KDV No"
+    },
+    "hints": {
+      "company": "Ä°steÄŸe baÄŸlÄ±",
+      "careOf": "Ä°steÄŸe baÄŸlÄ±",
+      "address2": "Ä°steÄŸe baÄŸlÄ±",
+      "doorCode": "Ä°steÄŸe baÄŸlÄ±",
+      "region": "Ä°steÄŸe baÄŸlÄ±",
+      "deliveryNotes": "Ä°steÄŸe baÄŸlÄ±, kÄ±sa not"
+    },
+    "agreeLabel": "KoÅŸullarÄ± kabul ediyorum",
+    "agree": "KoÅŸullarÄ± kabul ediyorum",
+    "terms": "KoÅŸullar",
+    "privacy": "Gizlilik",
+    "and": "ve",
+    "summary": "SipariÅŸ özeti",
+    "subtotal": "Ara toplam",
+    "shippingFee": "Kargo",
+    "free": "Ãœcretsiz",
+    "total": "Genel toplam",
+    "progress": {
+      "toFree": "Ãœcretsiz kargo iÃ§in {{amount}} kaldÄ±",
+      "free": "Ãœcretsiz kargoyu aÃ§tÄ±nÄ±z!"
+    },
+    "placeOrder": "SipariÅŸi ver",
+    "trust": { "ssl": "GÃ¼venli kasa (SSL)", "encrypted": "Åžifreli ödemeler" }
+  },
+
+  "error": { "required": "Zorunlu alan", "email": "GeÃ§ersiz e-posta", "phone": "GeÃ§ersiz telefon", "zip": "GeÃ§ersiz posta kodu" },
+
+  "thanks": {
+    "title": "SipariÅŸiniz iÃ§in teÅŸekkÃ¼rler! âœ¨",
+    "subtitle": "SipariÅŸiniz alÄ±ndÄ± ve iÅŸleniyor.",
+    "orderNumber": "SipariÅŸ no",
+    "date": "Tarih",
+    "summaryTitle": "Özet",
+    "subtotal": "Ara toplam",
+    "shipping": "Kargo",
+    "total": "Toplam",
+    "backToShop": "MaÄŸazaya dön",
+    "print": "YazdÄ±r",
+    "shippingAddress": "Teslimat adresi",
+    "billingAddress": "Fatura adresi",
+    "viewReceipt": "FiÅŸi görÃ¼ntÃ¼le",
+    "continue": "AlÄ±ÅŸveriÅŸe devam",
+    "shippingTo": "Teslimat adresi",
+    "notFoundTitle": "SipariÅŸ bulunamadÄ±",
+    "notFoundBody": "BaÄŸlantÄ± hatalÄ± olabilir veya sipariÅŸ temizlenmiÅŸ olabilir.",
+    "backHome": "Ana sayfaya dön"
+  },
+
+  "receipt": {
+    "notFoundTitle": "FiÅŸ bulunamadÄ±",
+    "notFoundBody": "SipariÅŸe ulaÅŸÄ±lamadÄ±.",
+    "payment": "Ödeme",
+    "method": { "placeholder": "Kart/PayPal (mock)" },
+    "customer": "MÃ¼ÅŸteri",
+    "shippingAddress": "Teslimat adresi",
+    "billingAddress": "Fatura adresi",
+    "items": "ÃœrÃ¼nler",
+    "item": "ÃœrÃ¼n",
+    "unitPrice": "Birim fiyat",
+    "qty": "Adet",
+    "line": "SatÄ±r toplamÄ±",
+    "print": "YazdÄ±r / PDF kaydet",
+    "backToThanks": "TeÅŸekkÃ¼r sayfasÄ±na dön",
+    "note": "Fiyatlara varÄ±ÅŸ Ã¼lkesindeki vergi/gÃ¼mrÃ¼k dahil deÄŸildir.",
+    "policy": " Stok Ã¼rÃ¼nlerinde 30 gÃ¼n iade. PoD/özel sipariÅŸler hatalÄ±ysa yenisiyle deÄŸiÅŸtirilir.",
+    "contact": " Destek: hello@calestra.store"
+  },
+
+  "footer": {
+    "rights": "TÃ¼m haklarÄ± saklÄ±dÄ±r.",
+    "about": "Åžirket",
+    "aboutWorld": "Calestra World HakkÄ±nda",
+    "values": "Vizyon & DeÄŸerler",
+    "returns": "Ä°ade & Cayma HakkÄ±",
+    "legal": "Hukuk",
+    "social": "Sosyal",
+    "shippingSoon": "DÃ¼nya Ã§apÄ±nda gönderim â€” yakÄ±nda"
+  },
+
+  "trust": { "returnsShort": "30 gÃ¼n iade" },
+
+  "countries": { "Sweden": "Ä°sveÃ§", "Turkiye": "TÃ¼rkiye", "Germany": "Almanya" },
+
+  "search": { "input": "Ara", "clear": "Temizle" },
+
+  "newsletter": {
+    "title": "Yenilikleri ilk sen al",
+    "lead": "SÃ¼rÃ¼mler, kamera arkasÄ± ve erken ayrÄ±calÄ±klar â€” ayda en fazla 1â€“2.",
+    "placeholder": "sen@example.com",
+    "cta": "Abone ol",
+    "loading": "Abone yapÄ±lÄ±yorâ€¦",
+    "success": "TeÅŸekkÃ¼rler! Onaylamak iÃ§in e-postanÄ± kontrol et.",
+    "consent": "Calestraâ€™nÄ±n bana e-posta göndermesini kabul ediyorum. Gizlilik politikasÄ±nÄ± oku.",
+    "smallprint": "E-postalarÄ±mÄ±zdaki baÄŸlantÄ±dan istediÄŸin zaman ayrÄ±labilirsin.",
+    "errors": {
+      "bot": "Bir ÅŸeyler ters gitti. LÃ¼tfen tekrar dene.",
+      "consent": "LÃ¼tfen gizlilik politikasÄ±nÄ± kabul et.",
+      "generic": "Åžu anda abone yapÄ±lamadÄ±."
+    }
+  },
+
+  "shippingNote": "DÃ¼nya Ã§apÄ±nda gönderim â€” yakÄ±nda",
+  "ShippingNote": "DÃ¼nya Ã§apÄ±nda gönderim â€” yakÄ±nda"
+}

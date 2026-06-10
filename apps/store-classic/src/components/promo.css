@@ -1,0 +1,39 @@
+/* apps/store-classic/src/components/promo.css */
+.promo-grid {
+  margin-top: 24px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 980px) {
+  .promo-grid { grid-template-columns: 1fr; }
+}
+
+.promo-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #0a0f1a;
+  text-decoration: none;
+  color: #fff;
+}
+.promo-card > img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  transition: transform .5s ease;
+}
+.promo-card:hover > img { transform: scale(1.03); }
+
+.promo-txt {
+  position: absolute;
+  inset-inline: 16px;
+  bottom: 14px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.0), rgba(0,0,0,0.55));
+  padding: 10px 12px 12px;
+  border-radius: 10px;
+}
+.promo-txt h3 { margin: 0 0 4px 0; font-size: 18px; }
+.promo-txt p { margin: 0; opacity: .9; font-size: 14px; }

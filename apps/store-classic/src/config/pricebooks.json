@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "markets": {
+    "SE": { "name": "Sweden", "currency": "SEK", "vat": 0.25, "freeShippingThresholdSEK": 499 },
+    "TR": { "name": "TÃ¼rkiye", "currency": "TRY", "vat": 0.20, "freeShippingThresholdSEK": 1200 },
+    "EU": { "name": "Eurozone", "currency": "EUR", "vat": 0.20, "freeShippingThresholdSEK": 599 },
+    "US": { "name": "United States", "currency": "USD", "vat": 0.00, "freeShippingThresholdSEK": 699 },
+    "GB": { "name": "United Kingdom", "currency": "GBP", "vat": 0.20, "freeShippingThresholdSEK": 649 }
+  },
+  "defaults": {
+    "market": "SE",
+    "currency": "SEK",
+    "freeShippingThresholdSEK": 499
+  }
+}

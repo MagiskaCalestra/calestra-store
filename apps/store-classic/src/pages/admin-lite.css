@@ -1,0 +1,223 @@
+/* D:\WebProjects\Calestra\apps\store-classic\src\pages\admin-lite.css */
+
+.al-wrap{
+  max-width: 1100px;
+  margin: 24px auto 48px;
+  padding: 0 18px;
+  color: #0f172a;
+}
+
+.al-top{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.al-hgroup h1{
+  margin:0;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  color:#0b1220;
+}
+
+.al-sub{
+  margin-top: 6px;
+  color:#334155;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.al-sub code{
+  background: rgba(2,6,23,.06);
+  border: 1px solid rgba(2,6,23,.10);
+  padding: 2px 6px;
+  border-radius: 8px;
+  color:#0f172a;
+}
+
+.al-actions{
+  display:flex;
+  gap:10px;
+}
+
+.al-btn{
+  appearance:none;
+  border: 1px solid rgba(15,23,42,.14);
+  background: #0b1220;
+  color:#fff;
+  font-weight: 900;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor:pointer;
+}
+
+.al-btn:disabled{
+  opacity:.6;
+  cursor: default;
+}
+
+.al-btn--ghost{
+  background:#fff;
+  color:#0b1220;
+}
+
+.al-btn--warn{
+  background: #be123c;
+  border-color: rgba(190,18,60,.35);
+}
+
+.al-btn--good{
+  background: #0f766e;
+  border-color: rgba(15,118,110,.35);
+}
+
+.al-grid{
+  display:grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 980px){
+  .al-grid{ grid-template-columns: 1fr; }
+  .al-top{ align-items:flex-start; flex-direction:column; }
+}
+
+.al-card{
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,.10);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(2,6,23,.08);
+  overflow:hidden;
+}
+
+.al-card__head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 12px;
+  padding: 14px 14px 8px;
+  background: linear-gradient(180deg, rgba(2,6,23,.03), rgba(2,6,23,0));
+}
+
+.al-card__body{
+  padding: 12px 14px 14px;
+}
+
+.al-kicker{
+  font-size: 11px;
+  font-weight: 1000;
+  color:#334155;
+  letter-spacing: .08em;
+}
+
+.al-title{
+  margin: 6px 0 0;
+  font-size: 18px;
+  color:#0b1220;
+}
+
+.al-right{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+}
+
+.al-badge{
+  display:inline-flex;
+  align-items:center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 1000;
+  border: 1px solid rgba(15,23,42,.15);
+  background: rgba(2,6,23,.03);
+  color:#0b1220;
+}
+
+.al-badge--good{
+  background: rgba(16,185,129,.12);
+  border-color: rgba(16,185,129,.30);
+  color:#065f46;
+}
+
+.al-badge--warn{
+  background: rgba(244,63,94,.12);
+  border-color: rgba(244,63,94,.30);
+  color:#9f1239;
+}
+
+.al-badge--neutral{
+  background: rgba(59,130,246,.10);
+  border-color: rgba(59,130,246,.25);
+  color:#1d4ed8;
+}
+
+.al-rows{
+  display:grid;
+  gap: 10px;
+}
+
+.al-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap: 10px;
+}
+
+.al-label{
+  color:#334155;
+  font-weight: 900;
+}
+
+.al-value{
+  color:#0b1220;
+  font-weight: 1000;
+}
+
+.al-muted{
+  color:#475569;
+}
+
+.al-small{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.al-divider{
+  height:1px;
+  background: rgba(15,23,42,.10);
+  margin: 12px 0;
+}
+
+.al-alert{
+  border: 1px solid rgba(244,63,94,.35);
+  background: rgba(244,63,94,.08);
+  padding: 12px 14px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  color:#0b1220;
+}
+
+.al-alert__msg{
+  margin-top: 4px;
+  color:#9f1239;
+  font-weight: 900;
+}
+
+.al-pause{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap: 12px;
+}
+
+.al-pause__actions{
+  display:flex;
+  gap: 10px;
+  align-items:center;
+}
+
+.al-footnote{
+  margin-top: 10px;
+}

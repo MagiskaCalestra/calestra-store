@@ -1,0 +1,36 @@
+/* ===============================
+   ADMIN-LITE CONTRAST PATCH
+   =============================== */
+
+.admin-lite,
+.admin-lite * {
+  color: #0f172a; /* slate-900 */
+}
+
+.admin-lite h1,
+.admin-lite h2,
+.admin-lite h3 {
+  color: #020617; /* nästan svart */
+}
+
+.admin-lite .muted,
+.admin-lite .hint {
+  color: #475569; /* slate-600 */
+}
+
+.admin-lite .card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.admin-lite .error {
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  color: #7f1d1d;
+}
+
+.admin-lite pre,
+.admin-lite code {
+  background: #020617;
+  color: #e5e7eb;
+}

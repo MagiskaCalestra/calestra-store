@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "toggle": "Menüyü aç",
+    "close": "Kapat",
+    "home": "Calestra – Ana sayfa",
+    "primary": "Ana menü",
+    "shop": "Mağaza",
+    "gallery": "Galeri",
+    "progress": "İlerleme",
+    "press": "Basın",
+    "publicReleases": "Resmi Yayınlar",
+    "surpriseBoxes": "Sürpriz Kutular",
+    "assoc": "Associate Ol",
+    "search": "Ara",
+    "cart": "Sepet",
+    "member": "Benim Calestra",
+    "language": { "label": "Dil" },
+    "currency": { "label": "Para birimi" },
+    "theme": { "toggle": "Tema değiştir" },
+    "sound": {
+      "on": "Sesi aç",
+      "off": "Sesi kapat"
+    }
+  },
+  "hdr": {
+    "tagline": "Harmonic Drops",
+    "brandBadge": "Early Access",
+    "panelCopy": "Seçili drop’lar, duygusal tasarım ve sınırlı dalgalar.",
+    "settings": "Ayarlar",
+    "freeShipDynamic": "{{amount}} üzeri ücretsiz kargo",
+    "limited": "Seçili drop’lar yayında",
+    "memberSub": {
+      "tier": "Özel alan • {{tier}} • DreamPoints",
+      "loggedIn": "Özel alan • giriş yapıldı • DreamPoints",
+      "member": "Özel alan • üye • DreamPoints",
+      "saved": "Özel alan • kayıtlı bilgiler • DreamPoints",
+      "default": "Kayıtlı bilgiler ve gelecekteki avantajlar için özel alan"
+    },
+    "memberState": {
+      "loggedIn": "Giriş yapıldı",
+      "saved": "Özel alan",
+      "guest": "Misafir"
+    }
+  },
+  "promo": {
+    "shopNow": "Şimdi satın al",
+    "default": "Şu anda: mağazada sınırlı lansman.",
+    "defaultHot": "Sınırlı üretim • seçili drop’lar • erken keşfedenler için",
+    "xmas": "🎄 Yılbaşı drop’u yayında — sınırlı sayıda.",
+    "blackWeek": "🌓 Black Week — kısa süreli fırsatlar.",
+    "valentines": "❤️ Anlamlı bir şey hediye et."
+  },
+  "portal": {
+    "cta": "Calestra World"
+  },
+  "search": {
+    "placeholder": "Bir sonraki favorini ara…",
+    "aria": "Mağazada ara",
+    "go": "Ara",
+    "recent": "Son aramalar",
+    "clear": "Temizle"
+  },
+  "a11y": {
+    "skip": "İçeriğe geç"
+  }
+}

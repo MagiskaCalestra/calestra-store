@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "toggle": "Open menu",
+    "close": "Close",
+    "home": "Calestra – Home",
+    "primary": "Main menu",
+    "shop": "Shop",
+    "gallery": "Gallery",
+    "progress": "Progress",
+    "press": "Press",
+    "publicReleases": "Public Releases",
+    "surpriseBoxes": "Surprise Boxes",
+    "assoc": "Become an Associate",
+    "search": "Search",
+    "cart": "Cart",
+    "member": "My Calestra",
+    "language": { "label": "Language" },
+    "currency": { "label": "Currency" },
+    "theme": { "toggle": "Toggle theme" },
+    "sound": {
+      "on": "Turn sound on",
+      "off": "Mute sound"
+    }
+  },
+  "hdr": {
+    "tagline": "Harmonic Drops",
+    "brandBadge": "Early Access",
+    "panelCopy": "Curated drops, emotional design and limited waves.",
+    "settings": "Settings",
+    "freeShipDynamic": "Free shipping over {{amount}}",
+    "limited": "Selected drops live now",
+    "memberSub": {
+      "tier": "Private space • {{tier}} • DreamPoints",
+      "loggedIn": "Private space • logged in • DreamPoints",
+      "member": "Private space • member • DreamPoints",
+      "saved": "Private space • saved details • DreamPoints",
+      "default": "Private space for saved details and future perks"
+    },
+    "memberState": {
+      "loggedIn": "Logged in",
+      "saved": "Private space",
+      "guest": "Guest"
+    }
+  },
+  "promo": {
+    "shopNow": "Shop now",
+    "default": "Currently: limited release in store.",
+    "defaultHot": "Limited runs • curated drops • built for early discoverers",
+    "xmas": "🎄 Christmas drop live — limited editions.",
+    "blackWeek": "🌓 Black Week — short windows, big drops.",
+    "valentines": "❤️ Give something meaningful."
+  },
+  "portal": {
+    "cta": "Calestra World"
+  },
+  "search": {
+    "placeholder": "Search for your next favorite…",
+    "aria": "Search the store",
+    "go": "Search",
+    "recent": "Recent searches",
+    "clear": "Clear"
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  }
+}

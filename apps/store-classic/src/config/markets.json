@@ -1,0 +1,6 @@
+{
+  "SE": { "currency": "SEK", "freeShipping": 600 },
+  "EU": { "currency": "EUR", "freeShipping": 60 },
+  "US": { "currency": "USD", "freeShipping": 60 },
+  "TR": { "currency": "TRY", "freeShipping": 1200 }
+}

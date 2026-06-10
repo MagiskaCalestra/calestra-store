@@ -1,0 +1,45 @@
+/* === Butikssida (Shop) – sid-layout, inte korten === */
+
+.page-shop .shop-wrap {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+.shop-header {
+  margin-bottom: 1.5rem;
+}
+
+.shop-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.shop-subtitle {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+
+.shop-empty {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .page-shop .shop-wrap {
+    padding-inline: 0.75rem;
+  }
+
+  .shop-title {
+    font-size: 1.6rem;
+  }
+}

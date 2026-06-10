@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "toggle": "Öppna meny",
+    "close": "Stäng",
+    "home": "Calestra – Hem",
+    "primary": "Huvudmeny",
+    "shop": "Butik",
+    "gallery": "Galleri",
+    "progress": "Progress",
+    "press": "Press",
+    "publicReleases": "Public Releases",
+    "surpriseBoxes": "Surprise Boxes",
+    "assoc": "Bli Associate",
+    "search": "Sök",
+    "cart": "Varukorg",
+    "member": "Mitt Calestra",
+    "language": { "label": "Språk" },
+    "currency": { "label": "Valuta" },
+    "theme": { "toggle": "Byt tema" },
+    "sound": {
+      "on": "Slå på ljud",
+      "off": "Stäng av ljud"
+    }
+  },
+  "hdr": {
+    "tagline": "Harmonic Drops",
+    "brandBadge": "Early Access",
+    "panelCopy": "Utvalda drop’ar, känslodriven design och begränsade vågor.",
+    "settings": "Inställningar",
+    "freeShipDynamic": "Fri frakt över {{amount}}",
+    "limited": "Utvalda släpp live nu",
+    "memberSub": {
+      "tier": "Privat rum • {{tier}} • DreamPoints",
+      "loggedIn": "Privat rum • inloggad • DreamPoints",
+      "member": "Privat rum • medlem • DreamPoints",
+      "saved": "Privat rum • sparade uppgifter • DreamPoints",
+      "default": "Privat rum för sparade uppgifter och framtida förmåner"
+    },
+    "memberState": {
+      "loggedIn": "Inloggad",
+      "saved": "Privat rum",
+      "guest": "Gäst"
+    }
+  },
+  "promo": {
+    "shopNow": "Handla nu",
+    "default": "Just nu: begränsad release i butiken.",
+    "defaultHot": "Limited runs • utvalda drops • byggd för tidiga upptäckare",
+    "xmas": "🎄 Juldrop live — begränsade upplagor.",
+    "blackWeek": "🌓 Black Week — korta fönster, stora drops.",
+    "valentines": "❤️ Ge bort något som känns."
+  },
+  "portal": {
+    "cta": "Calestra World"
+  },
+  "search": {
+    "placeholder": "Sök efter nästa favorit…",
+    "aria": "Sök i butiken",
+    "go": "Sök",
+    "recent": "Senaste sökningar",
+    "clear": "Rensa"
+  },
+  "a11y": {
+    "skip": "Hoppa till innehåll"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "eyebrow": "Season 01",
+    "titleKey": "home.hero.title",
+    "leadKey": "home.hero.lead",
+    "ctaPrimaryKey": "home.hero.ctaPrimary",
+    "ctaSecondaryKey": "home.hero.ctaSecondary",
+    "metaKey": "home.hero.meta"
+  },
+  "stories": [
+    {
+      "badge": "SÄSONG",
+      "title": "Första tändningen",
+      "lead": "Små steg, stora känslor. Säsongens tema utforskar ljus som bärs vidare.",
+      "to": "/vision",
+      "image": "/media/season-01/cover.jpg",
+      "cta": "Se säsongen"
+    },
+    {
+      "badge": "DEV-LOG",
+      "title": "Maker Notes #01",
+      "lead": "Skisser, materialtester och varför vi väljer små batcher.",
+      "to": "/dev-log",
+      "image": "/media/dev/dev-01.jpg",
+      "cta": "Läs anteckningarna"
+    },
+    {
+      "badge": "DROP",
+      "title": "Digital maker-drop",
+      "lead": "Bakgrunder & teman â€” en liten tackpresent till cirkeln.",
+      "to": "/shop",
+      "image": "/media/drops/drop-01.jpg",
+      "cta": "Hämta paketet"
+    }
+  ],
+  "milestones": [
+    { "label": "Delmål 1", "title": "Första tändningen", "eta": "v.42", "status": "open" },
+    { "label": "Delmål 2", "title": "Community-boost", "eta": "v.45", "status": "open" },
+    { "label": "Delmål 3", "title": "Maker-drop", "eta": "v.48", "status": "open" },
+    { "label": "Delmål 4", "title": "Releasekliv", "eta": "Q1",  "status": "open" }
+  ],
+  "makerNotes": [
+    "â€¢ Små batcher, kvalitetsmaterial och transparent kommunikation.",
+    "â€¢ Överskott återinvesteras i utveckling och community-aktiviteter."
+  ]
+}

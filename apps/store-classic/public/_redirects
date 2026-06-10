@@ -1,0 +1,11 @@
+﻿# --- API: låt Pages Functions sköta /api/*
+# (Ingen regel här!)
+
+# Admin-lite (om du har)
+ /_admin-lite*  /_admin-lite/index.html  200
+
+# Stats (om du har)
+ /stats*        /stats/index.html        200
+
+# SPA fallback sist
+ /*             /index.html              200

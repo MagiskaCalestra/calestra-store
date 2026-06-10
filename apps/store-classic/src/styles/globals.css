@@ -1,0 +1,24 @@
+/* apps/store-classic/src/styles/globals.css */
+
+/* Baslayout */
+@import "./themes.css";
+@import "./patches.css";
+@import "./product-card-pro.css";
+
+/* Body + root */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.cw-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

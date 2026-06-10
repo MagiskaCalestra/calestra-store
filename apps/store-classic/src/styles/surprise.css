@@ -1,0 +1,131 @@
+/* Surprise Boxes – hero + layout */
+
+.surprise-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.surprise-page header {
+  margin-bottom: 2rem;
+}
+
+/* ALT 2 – Mystisk Premium hero */
+
+.surprise-hero {
+  background: radial-gradient(circle at 50% 30%, #0b1020 0%, #050611 40%, #020308 100%);
+  color: #f9fafb;
+  border-radius: 18px;
+  padding: 3.5rem 1.75rem;
+  text-align: center;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+  position: relative;
+  overflow: hidden;
+}
+
+.surprise-hero::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(251, 191, 36, 0.18), transparent 55%),
+    radial-gradient(circle at 90% 100%, rgba(129, 140, 248, 0.2), transparent 55%);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.surprise-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.surprise-hero h1 {
+  font-size: 2.4rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.surprise-hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1.75rem;
+}
+
+.surprise-hero-sub {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.surprise-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #6366f1, #fbbf24);
+  color: #020617;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.95rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
+  cursor: pointer;
+  transition: transform 0.12s ease-out, box-shadow 0.12s ease-out, filter 0.12s ease-out;
+}
+
+.surprise-hero-cta:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.95);
+}
+
+/* Liten rad om begränsad upplaga */
+
+.surprise-hero-meta {
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* Sektion för highlights under hero */
+
+.surprise-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.surprise-highlights .card {
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  font-size: 0.93rem;
+}
+
+.theme-dark .surprise-highlights .card {
+  background: #020617;
+  border-color: #111827;
+  color: #e5e7eb;
+}
+
+.surprise-highlights .card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Responsivt */
+
+@media (max-width: 640px) {
+  .surprise-hero {
+    padding: 2.6rem 1.4rem;
+  }
+  .surprise-hero h1 {
+    font-size: 1.9rem;
+  }
+}

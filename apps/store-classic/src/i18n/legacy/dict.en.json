@@ -1,0 +1,343 @@
+{
+  "brand": "Calestra Store",
+  "brand.aria": "Go to home",
+  "a11y": { "skipToContent": "Skip to content" },
+  "ally": { "skipToContent": "Skip to content" },
+
+  "ui": {
+    "title": "Title",
+    "lead": "Lead",
+    "body": "Body",
+    "description": "Description",
+    "raised": "Raised",
+    "goal": "Goal",
+    "yes": "Yes",
+    "no": "No"
+  },
+
+  "common": {
+    "loading": "Loading productsâ€¦",
+    "offline": "Offline mode: showing local products.",
+    "fallback": "local data",
+    "backToShop": "Back to shop",
+    "print": "Print",
+    "viewAll": "View all",
+    "close": "Close"
+  },
+
+  "nav": {
+    "main": "Main navigation",
+    "home": "Home",
+    "shop": "Shop",
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "language": { "label": "Language" },
+    "currency": { "label": "Currency" },
+    "theme": { "toggle": "Toggle theme" },
+    "sound": { "on": "Turn sound on", "off": "Mute sound" },
+    "itemsInCart": "Items in cart",
+    "shopBy": "Shop by",
+    "byGender": "by gender",
+    "department": "Department",
+    "features": "Highlights",
+    "newIn": "New in",
+    "sets": "Sets",
+    "limited": "Limited"
+  },
+
+  "home": {
+    "progress": { "raised": "Raised", "goal": "Goal" },
+    "hero": {
+      "title": "Carry the light. Support the journey.",
+      "lead": "Every purchase brings Calestra World closer â€” a place where magic, feelings and future meet. You get products today, and together we build something bigger.",
+      "ctaPrimary": "Go to shop",
+      "ctaSecondary": "Support the magic â€” help us build Calestra World",
+      "meta": "Worldwide shipping â€” coming soon"
+    },
+    "milestones": {
+      "m1":  { "title": "Milestone 1 â€“ First spark",   "reward": "Reward: launch badge" },
+      "m2":  { "title": "Milestone 2 â€“ Community boost","reward": "Reward: private dev-log + voting" },
+      "m3":  { "title": "Milestone 3 â€“ Maker drop",     "reward": "Reward: digital Maker pack" },
+      "m4":  { "title": "Milestone 4 â€“ Prototype",      "reward": "Reward: supporter credits" },
+      "m5":  { "title": "Milestone 5 â€“ Pilot",          "reward": "Reward: early access program" },
+      "m6":  { "title": "Milestone 6 â€“ Release A",      "reward": "Reward: exclusive drop A" },
+      "m7":  { "title": "Milestone 7 â€“ Release B",      "reward": "Reward: exclusive drop B" },
+      "m8":  { "title": "Milestone 8 â€“ Expansion",      "reward": "Reward: community perk" },
+      "m9":  { "title": "Milestone 9 â€“ Global v1",      "reward": "Reward: special edition" },
+      "m10": { "title": "Milestone 10 â€“ Global v2",     "reward": "Reward: VIP perk" },
+      "m11": { "title": "End goal â€“ Calestra World",    "reward": "Reward: Hall of Founders" }
+    },
+    "featured": "Selected favourites",
+    "allProducts": "View all products â†’",
+    "support": { "title": "Support the magic â€” build Calestra World together", "close": "Close" },
+    "bullets": {
+      "secure": "Secure checkout (SSL)",
+      "ship": "Free shipping over {{amount}}",
+      "returns": "30-day returns",
+      "popular": "Popular"
+    },
+    "controls": { "shop": "Shop", "learn": "Learn" },
+
+    "method": {
+      "title": "Calestra Method â€” commerce with conscience",
+      "lead": "Weâ€™re building more than a store. Weâ€™re building a place where feelings, craft and future meet. Every purchase lights a spark.",
+      "cards": {
+        "emotion": { "title": "Emotion", "body": "An experience that moves. Every pixel, motion and tone is designed to be felt â€” not just seen." },
+        "ethic":   { "title": "Ethic",   "body": "Fair and clear. We prioritise long-term respect over short-term hype." },
+        "elegance":{ "title": "Elegance","body": "Tech that feels soft. Timeless design that holds up over time." }
+      }
+    }
+  },
+
+  "shop": {
+    "title": "Shop",
+    "lead": "Explore departments and find your style.",
+    "noResults": "No results",
+    "search": "Search productsâ€¦",
+    "min": "Min",
+    "max": "Max",
+    "sortLabel": "Sort",
+    "limited": "Limited",
+    "instock": "In stock",
+    "clear": "Clear",
+    "filters": {
+      "search": "Search",
+      "searchPlaceholder": "Search productsâ€¦",
+      "priceRange": "Price range",
+      "minPricePlaceholder": "Min",
+      "maxPricePlaceholder": "Max",
+      "boundsHint": "Optional min/max (integers).",
+      "sortBy": "Sort by",
+      "onlyLimited": "Only Limited",
+      "onlySupport": "Only Support",
+      "inStockOnly": "Only in stock"
+    },
+    "tags": "Mood",
+    "sortOptions": {
+      "featured": "Featured",
+      "new": "Newest",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low"
+    },
+    "reset": "Reset filters",
+    "results": "results",
+    "pageSize": "Per page",
+    "loadMore": "Load more",
+    "facets": {
+      "gender": "Gender",
+      "age": "Age",
+      "category": "Category",
+      "any": "Any",
+      "values": {
+        "gender": { "men": "Men", "women": "Women", "unisex": "Unisex", "kids": "Kids" },
+        "age": { "baby": "Baby", "kids": "Kids", "teen": "Teen", "adult": "Adult", "all": "All" },
+        "category": {
+          "clothing": "Clothing",
+          "toys": "Toys",
+          "accessories": "Accessories",
+          "home": "Home",
+          "digital": "Digital",
+          "sets": "Sets",
+          "misc": "Misc"
+        }
+      }
+    }
+  },
+
+  "dept": { "apparel": "Apparel", "accessories": "Accessories", "home": "Home", "digital": "Digital", "sets": "Sets" },
+
+  "cat": {
+    "hoodies": "Hoodies",
+    "tees": "T-shirts",
+    "sweats": "Sweats",
+    "outerwear": "Outerwear",
+    "bags": "Bags",
+    "hats": "Hats",
+    "mugs": "Mugs",
+    "prints": "Prints",
+    "wallpapers": "Wallpapers",
+    "bundles": "Bundles"
+  },
+
+  "feel": { "joy": "cozy", "dreamy": "dreamy", "practical": "practical", "present": "gift", "cozy": "cozy", "warm": "warm" },
+
+  "buttons": { "view": "View", "buy": "Buy", "choose": "Choose size", "backToShop": "Back to shop", "print": "Print" },
+
+  "card": { "limited": "Limited", "choose": "Choose size", "view": "View", "buy": "Buy" },
+
+  "productCard": {
+    "hover": { "default": "Explore details, images and stock status." },
+    "badges": { "limited": "Limited", "support": "Support", "outOfStock": "Out" },
+    "buttons": {
+      "chooseSize": "Choose size",
+      "chooseSizeAria": "Choose size",
+      "chooseSizeTitle": "Choose a size",
+      "view": "View",
+      "viewAria": "Open product page",
+      "viewTitle": "Open product page",
+      "buy": "Buy",
+      "buyAria": "Add to cart",
+      "buyTitle": "Add to cart",
+      "quickView": "Quick view"
+    },
+    "openProductAria": "{{name}}"
+  },
+
+  "product": {
+    "backToShop": "Back to shop",
+    "gallery": "Product images",
+    "thumbnails": "Thumbnails",
+    "size": "Size",
+    "color": "Color",
+    "qty": "Quantity",
+    "description": "Description",
+    "unpriced": "Unpriced",
+    "addToCart": "Add to cart",
+    "goToCart": "Go to cart",
+    "freeShippingNotice": "Free shipping over {{amount}}"
+  },
+
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "emptyHint": "Add some products to proceed to checkout.",
+    "continue": "Continue shopping",
+    "viewProduct": "View product",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "remove": "Remove",
+    "clear": "Clear cart",
+    "checkout": "Go to checkout"
+  },
+
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "postcode": "ZIP",
+    "city": "City",
+    "country": "Country"
+  },
+
+  "checkout": {
+    "title": "Checkout",
+    "customer": "Customer details",
+    "shipping": "Shipping address",
+    "billing": "Billing address",
+    "billing.useSeparate": "Billing address is different",
+    "field": {
+      "company": "Company",
+      "careOf": "c/o",
+      "address2": "Apartment/Suite",
+      "doorCode": "Door code",
+      "region": "Region/State",
+      "deliveryNotes": "Delivery note",
+      "orgNumber": "Organization number",
+      "vatId": "VAT ID"
+    },
+    "hints": {
+      "company": "Optional",
+      "careOf": "Optional",
+      "address2": "Optional",
+      "doorCode": "Optional",
+      "region": "Optional",
+      "deliveryNotes": "Optional, short note"
+    },
+    "agreeLabel": "I accept the terms",
+    "agree": "I accept the terms",
+    "terms": "Terms",
+    "privacy": "Privacy policy",
+    "and": "and",
+    "summary": "Order summary",
+    "subtotal": "Subtotal",
+    "shippingFee": "Shipping",
+    "free": "Free",
+    "total": "Total",
+    "progress": {
+      "toFree": "{{amount}} left to free shipping",
+      "free": "You unlocked free shipping!"
+    },
+    "placeOrder": "Place order",
+    "trust": { "ssl": "Secure checkout (SSL)", "encrypted": "Encrypted payments" }
+  },
+
+  "error": { "required": "Required field", "email": "Invalid email address", "phone": "Invalid phone number", "zip": "Invalid postal code" },
+
+  "thanks": {
+    "title": "Thanks for your order! âœ¨",
+    "subtitle": "Your order has been received and is being processed.",
+    "orderNumber": "Order number",
+    "date": "Date",
+    "summaryTitle": "Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "backToShop": "Back to shop",
+    "print": "Print",
+    "shippingAddress": "Shipping address",
+    "billingAddress": "Billing address",
+    "viewReceipt": "View receipt",
+    "continue": "Continue shopping",
+    "shippingTo": "Shipping to",
+    "notFoundTitle": "We canâ€™t find your order",
+    "notFoundBody": "The link may be wrong or the order was cleared.",
+    "backHome": "Back to home"
+  },
+
+  "receipt": {
+    "notFoundTitle": "Receipt missing",
+    "notFoundBody": "The order could not be found.",
+    "payment": "Payment",
+    "method": { "placeholder": "Card/PayPal (mock)" },
+    "customer": "Customer",
+    "shippingAddress": "Shipping address",
+    "billingAddress": "Billing address",
+    "items": "Items",
+    "item": "Item",
+    "unitPrice": "Unit price",
+    "qty": "Qty",
+    "line": "Line total",
+    "print": "Print / Save as PDF",
+    "backToThanks": "Back to thank-you",
+    "note": "Prices exclude customs/duties in the destination country unless stated.",
+    "policy": " 30-day returns on stock items. PoD/special printed on demand and replaced if defective.",
+    "contact": " Support: hello@calestra.store"
+  },
+
+  "footer": {
+    "rights": "All rights reserved.",
+    "about": "Company",
+    "aboutWorld": "About Calestra World",
+    "values": "Vision & Values",
+    "returns": "Returns & Right of withdrawal",
+    "legal": "Legal",
+    "social": "Social",
+    "shippingSoon": "Worldwide shipping â€” coming soon"
+  },
+
+  "trust": { "returnsShort": "30-day returns" },
+
+  "countries": { "Sweden": "Sweden", "Turkiye": "TÃ¼rkiye", "Germany": "Germany" },
+
+  "search": { "input": "Search", "clear": "Clear" },
+
+  "newsletter": {
+    "title": "Get the news first",
+    "lead": "Join our newsletter for releases, behind-the-scenes and early perks â€” max 1â€“2/month.",
+    "placeholder": "you@example.com",
+    "cta": "Subscribe",
+    "loading": "Subscribingâ€¦",
+    "success": "Thanks! Please check your inbox to confirm.",
+    "consent": "I accept that Calestra may email me. Read our privacy policy.",
+    "smallprint": "You can unsubscribe anytime via a link in our emails.",
+    "errors": {
+      "bot": "Something went wrong. Please try again.",
+      "consent": "Please accept the privacy policy.",
+      "generic": "Could not subscribe right now."
+    }
+  },
+
+  "shippingNote": "Worldwide shipping â€” coming soon",
+  "ShippingNote": "Worldwide shipping â€” coming soon"
+}

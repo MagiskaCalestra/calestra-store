@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "tee-001",
+    "slug": "black-star-tee",
+    "ctaMode": "buy",
+    "fulfillmentType": "ready_for_fulfillment",
+    "availabilityType": "in_stock",
+    "printfulEligible": true,
+    "title": "First Light – Tee",
+    "description": "En svart premium-t-shirt med The Harmonic Star nära hjärtat. Diskret, stark och skapad för vardagen innan Calestra öppnar världen.",
+    "i18n": {
+      "sv": {
+        "title": "First Light – Tee",
+        "description": "En svart premium-t-shirt med The Harmonic Star nära hjärtat. Diskret, stark och skapad för vardagen innan Calestra öppnar världen."
+      },
+      "en": {
+        "title": "First Light – Tee",
+        "description": "A black premium T-shirt with The Harmonic Star close to the heart. Discreet, strong and made for everyday life before Calestra opens the world."
+      },
+      "tr": {
+        "title": "First Light – Tee",
+        "description": "Kalbe yakın The Harmonic Star sembolüyle siyah premium tişört. Sade, güçlü ve Calestra dünyası açılmadan önce günlük hayat için tasarlandı."
+      }
+    },
+    "price": 299,
+    "currency": "SEK",
+    "feelings": [
+      "everyday",
+      "dreamy",
+      "symbolic"
+    ],
+    "limited": false,
+    "popularity": 94,
+    "stock": 4,
+    "launchWave": "first-drop-v1",
+    "season": "all",
+    "createdAt": "2026-04-28T18:00:00.000Z",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.25,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/tee/black-star-tee-hero.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/tee/black-star-tee-hero.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/tee/black-star-tee-model.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/tee/black-star-tee-lifestyle.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "S",
+        "color": "black",
+        "sku": "TEE001-S-BLK",
+        "qty": 1
+      },
+      {
+        "size": "M",
+        "color": "black",
+        "sku": "TEE001-M-BLK",
+        "qty": 1
+      },
+      {
+        "size": "L",
+        "color": "black",
+        "sku": "TEE001-L-BLK",
+        "qty": 1
+      },
+      {
+        "size": "XL",
+        "color": "black",
+        "sku": "TEE001-XL-BLK",
+        "qty": 1
+      }
+    ],
+    "tags": [
+      "tee",
+      "t-shirt",
+      "harmonic-star",
+      "black-star",
+      "founder-drop",
+      "everyday"
+    ],
+    "categories": [
+      "first-drop",
+      "apparel"
+    ],
+    "stockGuard": {
+      "enabled": true,
+      "dropKey": "first-drop-v1",
+      "mode": "server_countdown",
+      "soldOutCta": "notify",
+      "note": "Servern stoppar order när stock/variant-qty är 0. Frontend kan visa static stock som fallback."
+    }
+  },
+  {
+    "id": "hoodie-001",
+    "slug": "black-star-hoodie",
+    "ctaMode": "buy",
+    "fulfillmentType": "ready_for_fulfillment",
+    "availabilityType": "in_stock",
+    "printfulEligible": true,
+    "title": "Bearer of Light – Hoodie",
+    "description": "En svart hoodie med The Harmonic Star som stilla signal. Varm, urban och byggd för kvällar, resor och människor som bär något mer.",
+    "i18n": {
+      "sv": {
+        "title": "Bearer of Light – Hoodie",
+        "description": "En svart hoodie med The Harmonic Star som stilla signal. Varm, urban och byggd för kvällar, resor och människor som bär något mer."
+      },
+      "en": {
+        "title": "Bearer of Light – Hoodie",
+        "description": "A black hoodie with The Harmonic Star as a quiet signal. Warm, urban and made for evenings, journeys and people who carry something more."
+      },
+      "tr": {
+        "title": "Bearer of Light – Hoodie",
+        "description": "The Harmonic Star sembolüyle siyah hoodie. Sıcak, şehirli ve akşamlar, yolculuklar ve içinde daha fazlasını taşıyan insanlar için tasarlandı."
+      }
+    },
+    "price": 599,
+    "currency": "SEK",
+    "feelings": [
+      "cozy",
+      "warm",
+      "symbolic"
+    ],
+    "limited": true,
+    "popularity": 97,
+    "stock": 1,
+    "launchWave": "first-drop-v1",
+    "season": "all",
+    "createdAt": "2026-04-28T18:05:00.000Z",
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.6,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/hoodie/black-star-hoodie-model.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/hoodie/black-star-hoodie-model.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/hoodie/black-star-hoodie-lifestyle.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/hoodie/black-star-hoodie-hero.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "M",
+        "color": "black",
+        "sku": "HD001-M-BLK",
+        "qty": 1
+      }
+    ],
+    "tags": [
+      "hoodie",
+      "harmonic-star",
+      "black-star",
+      "founder-drop",
+      "streetwear"
+    ],
+    "categories": [
+      "first-drop",
+      "apparel"
+    ],
+    "stockGuard": {
+      "enabled": true,
+      "dropKey": "first-drop-v1",
+      "mode": "server_countdown",
+      "soldOutCta": "notify",
+      "note": "Servern stoppar order när stock/variant-qty är 0. Frontend kan visa static stock som fallback."
+    }
+  },
+  {
+    "id": "tote-001",
+    "slug": "black-star-tote",
+    "ctaMode": "buy",
+    "fulfillmentType": "ready_for_fulfillment",
+    "availabilityType": "in_stock",
+    "printfulEligible": true,
+    "title": "Path Carrier – Tote",
+    "description": "En svart totebag med The Harmonic Star. Enkel att bära, stark nog att synas och skapad för vardagens små vägar framåt.",
+    "i18n": {
+      "sv": {
+        "title": "Path Carrier – Tote",
+        "description": "En svart totebag med The Harmonic Star. Enkel att bära, stark nog att synas och skapad för vardagens små vägar framåt."
+      },
+      "en": {
+        "title": "Path Carrier – Tote",
+        "description": "A black tote bag with The Harmonic Star. Easy to carry, strong enough to be seen and made for the small paths of everyday life."
+      },
+      "tr": {
+        "title": "Path Carrier – Tote",
+        "description": "The Harmonic Star sembollü siyah tote çanta. Taşıması kolay, görünür olacak kadar güçlü ve günlük küçük yollar için tasarlandı."
+      }
+    },
+    "price": 199,
+    "currency": "SEK",
+    "feelings": [
+      "practical",
+      "everyday",
+      "symbolic"
+    ],
+    "limited": false,
+    "popularity": 88,
+    "stock": 3,
+    "launchWave": "first-drop-v1",
+    "season": "all",
+    "createdAt": "2026-04-28T18:10:00.000Z",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.35,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/tote/black-star-tote-model.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/tote/black-star-tote-model.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/tote/black-star-tote-lifestyle.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/tote/black-star-tote-hero.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "One size",
+        "color": "black",
+        "sku": "TOTE001-OS-BLK",
+        "qty": 3
+      }
+    ],
+    "tags": [
+      "tote",
+      "bag",
+      "harmonic-star",
+      "black-star",
+      "travel",
+      "everyday"
+    ],
+    "categories": [
+      "first-drop",
+      "accessories"
+    ],
+    "stockGuard": {
+      "enabled": true,
+      "dropKey": "first-drop-v1",
+      "mode": "server_countdown",
+      "soldOutCta": "notify",
+      "note": "Servern stoppar order när stock/variant-qty är 0. Frontend kan visa static stock som fallback."
+    }
+  },
+  {
+    "id": "mug-001",
+    "slug": "hidden-signal-mug",
+    "ctaMode": "buy",
+    "fulfillmentType": "ready_for_fulfillment",
+    "availabilityType": "in_stock",
+    "printfulEligible": true,
+    "title": "Hidden Signal Mug™",
+    "description": "En svart värmekopp där The Harmonic Star vaknar när drycken blir varm. En stilla morgonritual för dem som ser mer än andra.",
+    "subtitle": "Heat reveal · Now you see it",
+    "i18n": {
+      "sv": {
+        "title": "Hidden Signal Mug™",
+        "description": "En svart värmekopp där The Harmonic Star vaknar när drycken blir varm. En stilla morgonritual för dem som ser mer än andra.",
+        "subtitle": "Heat reveal · Now you see it"
+      },
+      "en": {
+        "title": "Hidden Signal Mug™",
+        "description": "A black heat-reveal mug where The Harmonic Star awakens when the drink turns warm. A quiet morning ritual for those who see more than others.",
+        "subtitle": "Heat reveal · Now you see it"
+      },
+      "tr": {
+        "title": "Hidden Signal Mug™",
+        "description": "Sıcak içecekle The Harmonic Star’ın belirdiği siyah ısı kupası. Başkalarının görmediğini görenler için sessiz bir sabah ritüeli.",
+        "subtitle": "Isıyla belirir · Artık görüyorsun"
+      }
+    },
+    "price": 199,
+    "currency": "SEK",
+    "feelings": [
+      "cozy",
+      "gift",
+      "mystic"
+    ],
+    "limited": true,
+    "popularity": 96,
+    "stock": 2,
+    "launchWave": "first-drop-v1",
+    "season": "all",
+    "createdAt": "2026-04-28T18:15:00.000Z",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.4,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/mug/black-star-mug-model.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/mug/black-star-mug-model.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/mug/black-star-mug-lifestyle.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/mug/black-star-mug-hero.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "One size",
+        "color": "black",
+        "sku": "MUG001-OS-BLK",
+        "qty": 2
+      }
+    ],
+    "tags": [
+      "mug",
+      "heat-mug",
+      "hidden-signal",
+      "harmonic-star",
+      "gift",
+      "cozy"
+    ],
+    "categories": [
+      "first-drop",
+      "home",
+      "collectors"
+    ],
+    "stockGuard": {
+      "enabled": true,
+      "dropKey": "first-drop-v1",
+      "mode": "server_countdown",
+      "soldOutCta": "notify",
+      "note": "Servern stoppar order när stock/variant-qty är 0. Frontend kan visa static stock som fallback."
+    }
+  },
+  {
+    "id": "necklace-001",
+    "slug": "calestra-harmonic-star-necklace",
+    "ctaMode": "preorder",
+    "printfulEligible": false,
+    "title": "The Harmonic Star – Necklace",
+    "description": "Calestras bärbara symbol. Ett ljust stjärnhalsband inspirerat av det Lyra bär — skapat för hopp, närvaro och början.",
+    "subtitle": "Collector pre-order · första vågen reserveras nu",
+    "i18n": {
+      "sv": {
+        "title": "The Harmonic Star – Necklace",
+        "description": "Calestras bärbara symbol. Ett ljust stjärnhalsband inspirerat av det Lyra bär — skapat för hopp, närvaro och början.",
+        "subtitle": "Collector pre-order · första vågen reserveras nu",
+        "availabilityLabel": "Collector pre-order",
+        "preorderBadge": "PRE-ORDER",
+        "preorderLabel": "Collector pre-order",
+        "preorderText": "Reserveras nu och levereras i senare produktionsvåg.",
+        "preorderNote": "Detta är en förhandsreservation. Produktion och leverans sker i en senare våg när första batchen går live.",
+        "preorderEta": "Första produktionsvågen meddelas efter dropens validering."
+      },
+      "en": {
+        "title": "The Harmonic Star – Necklace",
+        "description": "Calestra’s wearable symbol. A bright star necklace inspired by what Lyra carries — made for hope, presence and the beginning.",
+        "subtitle": "Collector pre-order · first wave is being reserved now",
+        "availabilityLabel": "Collector pre-order",
+        "preorderBadge": "PRE-ORDER",
+        "preorderLabel": "Collector pre-order",
+        "preorderText": "Reserved now and delivered in a later production wave.",
+        "preorderNote": "This is a pre-reservation. Production and delivery happen in a later wave when the first batch goes live.",
+        "preorderEta": "The first production wave will be announced after drop validation."
+      },
+      "tr": {
+        "title": "The Harmonic Star – Necklace",
+        "description": "Calestra’nın taşınabilir sembolü. Lyra’nın taşıdığı ışıktan ilham alan yıldız kolye — umut, varlık ve başlangıç için tasarlandı.",
+        "subtitle": "Collector pre-order · ilk dalga şimdi rezerve ediliyor",
+        "availabilityLabel": "Collector pre-order",
+        "preorderBadge": "PRE-ORDER",
+        "preorderLabel": "Collector pre-order",
+        "preorderText": "Şimdi rezerve edilir, sonraki üretim dalgasında teslim edilir.",
+        "preorderNote": "Bu bir ön rezervasyondur. Üretim ve teslimat, ilk parti canlıya geçtiğinde sonraki bir dalgada gerçekleşir.",
+        "preorderEta": "İlk üretim dalgası drop doğrulamasından sonra duyurulur."
+      }
+    },
+    "price": 399,
+    "currency": "SEK",
+    "feelings": [
+      "dreamy",
+      "gift",
+      "warm"
+    ],
+    "limited": true,
+    "preorder": true,
+    "isPreorder": true,
+    "preorderOnly": true,
+    "preorderActive": true,
+    "fulfillmentType": "preorder",
+    "availabilityType": "preorder",
+    "availabilityLabel": "Collector pre-order",
+    "status": "pre-order",
+    "badge": "PRE-ORDER",
+    "preorderBadge": "PRE-ORDER",
+    "preorderLabel": "Collector pre-order",
+    "preorderText": "Reserveras nu och levereras i senare produktionsvåg.",
+    "preorderNote": "Detta är en förhandsreservation. Produktion och leverans sker i en senare våg när första batchen går live.",
+    "preorderEta": "Första produktionsvågen meddelas efter dropens validering.",
+    "preorderLeadDays": 21,
+    "collectible": true,
+    "popularity": 100,
+    "stock": 1,
+    "launchWave": "first-drop-v1",
+    "season": "all",
+    "createdAt": "2026-04-19T16:30:00.000Z",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "gold"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.08,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-hero.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-close.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-worn.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-close.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-cosmic.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-signature.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-box.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "One size",
+        "color": "gold",
+        "sku": "NECK001-OS-GLD",
+        "qty": 1
+      }
+    ],
+    "tags": [
+      "jewelry",
+      "necklace",
+      "harmonic-star",
+      "lyra",
+      "gift",
+      "symbol",
+      "preorder",
+      "collector"
+    ],
+    "categories": [
+      "first-drop",
+      "jewelry",
+      "collectors"
+    ],
+    "stockGuard": {
+      "enabled": true,
+      "dropKey": "first-drop-v1",
+      "mode": "server_countdown",
+      "soldOutCta": "notify",
+      "note": "Servern stoppar order när stock/variant-qty är 0. Frontend kan visa static stock som fallback."
+    }
+  },
+  {
+    "id": "print-001",
+    "slug": "calestra-harmonic-star-collector-print",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Den här produkten är inte köpbar just nu. Lämna din e-post så meddelar vi dig när den öppnar.",
+    "title": "The Harmonic Star – Collector Print",
+    "description": "Ett samlartryck med Calestras ljusbärande symbol. Skapat för vägg, studio eller stilla hörn där början ska få synas.",
+    "i18n": {
+      "sv": {
+        "title": "The Harmonic Star – Collector Print",
+        "description": "Ett samlartryck med Calestras ljusbärande symbol. Skapat för vägg, studio eller stilla hörn där början ska få synas.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Den här produkten är inte köpbar just nu. Lämna din e-post så meddelar vi dig när den öppnar."
+      },
+      "en": {
+        "title": "The Harmonic Star – Collector Print",
+        "description": "A collector print with Calestra’s light-bearing symbol. Made for a wall, studio or quiet corner where the beginning should be visible.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "This product is not available for purchase right now. Leave your email and we will notify you when it opens."
+      },
+      "tr": {
+        "title": "The Harmonic Star – Collector Print",
+        "description": "Calestra’nın ışık taşıyan sembolüyle koleksiyon baskısı. Başlangıcın görünür olması gereken duvar, stüdyo veya sakin köşe için tasarlandı.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Bu ürün şu anda satın alınamıyor. Açıldığında haber almak için e-postanızı bırakın."
+      }
+    },
+    "price": 249,
+    "currency": "SEK",
+    "feelings": [
+      "dreamy",
+      "gift",
+      "symbolic"
+    ],
+    "limited": true,
+    "popularity": 96,
+    "stock": 0,
+    "launchWave": "first-drop-v1",
+    "season": "all",
+    "createdAt": "2026-04-19T17:20:00.000Z",
+    "sizes": [
+      "30x40 cm",
+      "50x70 cm"
+    ],
+    "colors": [
+      "full color"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.12,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-signature.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-signature.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-cosmic.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-hero.jpg"
+      },
+      {
+        "type": "gallery",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-box.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "30x40 cm",
+        "color": "full color",
+        "sku": "PRINT001-30X40-FULL",
+        "qty": 0
+      },
+      {
+        "size": "50x70 cm",
+        "color": "full color",
+        "sku": "PRINT001-50X70-FULL",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "print",
+      "prints",
+      "poster",
+      "collector",
+      "collectors",
+      "harmonic-star",
+      "wall-art",
+      "gift",
+      "notify"
+    ],
+    "categories": [
+      "first-drop",
+      "prints",
+      "collectors"
+    ],
+    "stockGuard": {
+      "enabled": true,
+      "dropKey": "first-drop-v1",
+      "mode": "server_countdown",
+      "soldOutCta": "notify",
+      "note": "Servern stoppar order när stock/variant-qty är 0. Frontend kan visa static stock som fallback."
+    }
+  },
+  {
+    "id": "cap-001",
+    "slug": "harmonic-star-cap",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Den här produkten testas i Market Lab. Lämna din e-post så mäter vi intresset inför nästa våg.",
+    "title": "Harmonic Star – Cap",
+    "description": "En svart keps med diskret Harmonic Star-symbol. Byggd för vardag, stad och första Calestra-känslan utan att bli för mycket.",
+    "i18n": {
+      "sv": {
+        "title": "Harmonic Star – Cap",
+        "description": "En svart keps med diskret Harmonic Star-symbol. Byggd för vardag, stad och första Calestra-känslan utan att bli för mycket.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Den här produkten testas i Market Lab. Lämna din e-post så mäter vi intresset inför nästa våg."
+      },
+      "en": {
+        "title": "Harmonic Star – Cap",
+        "description": "A black cap with a discreet Harmonic Star symbol. Made for everyday life, the city and the first Calestra feeling without being too much.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "This product is being tested in Market Lab. Leave your email so we can measure interest for the next wave."
+      },
+      "tr": {
+        "title": "Harmonic Star – Cap",
+        "description": "Sade Harmonic Star sembollü siyah şapka. Günlük hayat, şehir ve abartısız ilk Calestra hissi için tasarlandı.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Bu ürün Market Lab’de test ediliyor. Sonraki dalga için ilgiyi ölçebilmemiz adına e-postanı bırak."
+      }
+    },
+    "price": 249,
+    "currency": "SEK",
+    "feelings": [
+      "everyday",
+      "streetwear",
+      "symbolic"
+    ],
+    "limited": false,
+    "popularity": 91,
+    "stock": 0,
+    "launchWave": "market-lab-v1",
+    "season": "all",
+    "createdAt": "2026-05-03T12:00:00.000Z",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.18,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/tee/black-star-tee-hero.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/tee/black-star-tee-hero.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "One size",
+        "color": "black",
+        "sku": "CAP001-OS-BLK",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "cap",
+      "hat",
+      "harmonic-star",
+      "black-star",
+      "market-lab",
+      "notify",
+      "streetwear"
+    ],
+    "categories": [
+      "market-lab",
+      "accessories",
+      "apparel"
+    ]
+  },
+  {
+    "id": "sweatshirt-001",
+    "slug": "first-light-sweatshirt",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Sweatshirten öppnas bara om tillräckligt många visar intresse.",
+    "title": "First Light – Sweatshirt",
+    "description": "En ren svart sweatshirt för dem som vill bära Calestra mer diskret än hoodie men starkare än en vanlig tröja.",
+    "i18n": {
+      "sv": {
+        "title": "First Light – Sweatshirt",
+        "description": "En ren svart sweatshirt för dem som vill bära Calestra mer diskret än hoodie men starkare än en vanlig tröja.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Sweatshirten öppnas bara om tillräckligt många visar intresse."
+      },
+      "en": {
+        "title": "First Light – Sweatshirt",
+        "description": "A clean black sweatshirt for those who want to wear Calestra more discreetly than a hoodie but stronger than a regular shirt.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "The sweatshirt opens only if enough people show interest."
+      },
+      "tr": {
+        "title": "First Light – Sweatshirt",
+        "description": "Calestra’yı hoodieden daha sade ama sıradan bir üstten daha güçlü taşımak isteyenler için siyah sweatshirt.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Sweatshirt yeterli ilgi oluşursa açılır."
+      }
+    },
+    "price": 449,
+    "currency": "SEK",
+    "feelings": [
+      "cozy",
+      "everyday",
+      "premium"
+    ],
+    "limited": false,
+    "popularity": 93,
+    "stock": 0,
+    "launchWave": "market-lab-v1",
+    "season": "all",
+    "createdAt": "2026-05-03T12:05:00.000Z",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.48,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/hoodie/black-star-hoodie-hero.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/hoodie/black-star-hoodie-hero.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "S",
+        "color": "black",
+        "sku": "SWEAT001-S-BLK",
+        "qty": 0
+      },
+      {
+        "size": "M",
+        "color": "black",
+        "sku": "SWEAT001-M-BLK",
+        "qty": 0
+      },
+      {
+        "size": "L",
+        "color": "black",
+        "sku": "SWEAT001-L-BLK",
+        "qty": 0
+      },
+      {
+        "size": "XL",
+        "color": "black",
+        "sku": "SWEAT001-XL-BLK",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "sweatshirt",
+      "harmonic-star",
+      "black-star",
+      "market-lab",
+      "notify",
+      "apparel"
+    ],
+    "categories": [
+      "market-lab",
+      "apparel"
+    ]
+  },
+  {
+    "id": "notebook-001",
+    "slug": "calestra-field-notebook",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Notebook testas som vardagsprodukt och framtida B2B-/teamprodukt.",
+    "title": "Calestra Field Notebook",
+    "description": "En enkel anteckningsbok för idéer, planer och små början. Tänkt för både kreativa kunder och framtida team-/B2B-paket.",
+    "i18n": {
+      "sv": {
+        "title": "Calestra Field Notebook",
+        "description": "En enkel anteckningsbok för idéer, planer och små början. Tänkt för både kreativa kunder och framtida team-/B2B-paket.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Notebook testas som vardagsprodukt och framtida B2B-/teamprodukt."
+      },
+      "en": {
+        "title": "Calestra Field Notebook",
+        "description": "A simple notebook for ideas, plans and small beginnings. Designed for creative customers and future team/B2B bundles.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "The notebook is being tested as an everyday product and future B2B/team product."
+      },
+      "tr": {
+        "title": "Calestra Field Notebook",
+        "description": "Fikirler, planlar ve küçük başlangıçlar için sade bir defter. Yaratıcı müşteriler ve gelecekteki ekip/B2B paketleri için düşünüldü.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Defter günlük ürün ve gelecekteki B2B/ekip ürünü olarak test ediliyor."
+      }
+    },
+    "price": 149,
+    "currency": "SEK",
+    "feelings": [
+      "creative",
+      "everyday",
+      "calm"
+    ],
+    "limited": false,
+    "popularity": 84,
+    "stock": 0,
+    "launchWave": "market-lab-v1",
+    "season": "all",
+    "createdAt": "2026-05-03T12:10:00.000Z",
+    "sizes": [
+      "A5"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.28,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-signature.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-signature.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "A5",
+        "color": "black",
+        "sku": "NOTE001-A5-BLK",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "notebook",
+      "journal",
+      "stationery",
+      "market-lab",
+      "notify",
+      "b2b"
+    ],
+    "categories": [
+      "market-lab",
+      "home",
+      "accessories",
+      "supply"
+    ]
+  },
+  {
+    "id": "keychain-001",
+    "slug": "harmonic-star-keychain",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Nyckelringen används för att testa billig symbolprodukt med hög spridningspotential.",
+    "title": "Harmonic Star – Keychain",
+    "description": "En liten bärbar Calestra-symbol för nycklar, väska eller vardag. Låg tröskel, hög igenkänning.",
+    "i18n": {
+      "sv": {
+        "title": "Harmonic Star – Keychain",
+        "description": "En liten bärbar Calestra-symbol för nycklar, väska eller vardag. Låg tröskel, hög igenkänning.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Nyckelringen används för att testa billig symbolprodukt med hög spridningspotential."
+      },
+      "en": {
+        "title": "Harmonic Star – Keychain",
+        "description": "A small wearable Calestra symbol for keys, bags or everyday life. Low threshold, high recognition.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "The keychain is used to test an affordable symbol product with strong spread potential."
+      },
+      "tr": {
+        "title": "Harmonic Star – Keychain",
+        "description": "Anahtarlar, çanta veya günlük kullanım için küçük taşınabilir Calestra sembolü. Düşük eşik, yüksek tanınma.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Anahtarlık, yayılma potansiyeli yüksek uygun fiyatlı sembol ürünü test etmek için kullanılıyor."
+      }
+    },
+    "price": 99,
+    "currency": "SEK",
+    "feelings": [
+      "symbolic",
+      "gift",
+      "everyday"
+    ],
+    "limited": false,
+    "popularity": 89,
+    "stock": 0,
+    "launchWave": "market-lab-v1",
+    "season": "all",
+    "createdAt": "2026-05-03T12:15:00.000Z",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "black",
+      "gold"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.04,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-close.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/calestra-harmonic-star-necklace/calestra-harmonic-star-close.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "One size",
+        "color": "black",
+        "sku": "KEY001-OS-BLK",
+        "qty": 0
+      },
+      {
+        "size": "One size",
+        "color": "gold",
+        "sku": "KEY001-OS-GLD",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "keychain",
+      "harmonic-star",
+      "symbol",
+      "market-lab",
+      "notify",
+      "gift"
+    ],
+    "categories": [
+      "market-lab",
+      "accessories",
+      "collectors"
+    ]
+  },
+  {
+    "id": "pouch-001",
+    "slug": "calestra-travel-pouch",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Travel Pouch testas för framtida resesortiment och Calestra Travel Light.",
+    "title": "Calestra Travel Pouch",
+    "description": "En liten reseväska/pouch för kablar, småsaker eller parkresan. En praktisk produkt som kan växa in i Calestra Travel.",
+    "i18n": {
+      "sv": {
+        "title": "Calestra Travel Pouch",
+        "description": "En liten reseväska/pouch för kablar, småsaker eller parkresan. En praktisk produkt som kan växa in i Calestra Travel.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Travel Pouch testas för framtida resesortiment och Calestra Travel Light."
+      },
+      "en": {
+        "title": "Calestra Travel Pouch",
+        "description": "A small travel pouch for cables, essentials or a future park journey. A practical product that can grow into Calestra Travel.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "The Travel Pouch is being tested for future travel products and Calestra Travel Light."
+      },
+      "tr": {
+        "title": "Calestra Travel Pouch",
+        "description": "Kablolar, küçük eşyalar veya gelecekteki park yolculuğu için küçük seyahat pouch’u. Calestra Travel’a büyüyebilecek pratik ürün.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Travel Pouch gelecekteki seyahat ürünleri ve Calestra Travel Light için test ediliyor."
+      }
+    },
+    "price": 179,
+    "currency": "SEK",
+    "feelings": [
+      "travel",
+      "practical",
+      "everyday"
+    ],
+    "limited": false,
+    "popularity": 87,
+    "stock": 0,
+    "launchWave": "market-lab-v1",
+    "season": "all",
+    "createdAt": "2026-05-03T12:20:00.000Z",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 0.12,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/tote/black-star-tote-lifestyle.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/tote/black-star-tote-lifestyle.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "One size",
+        "color": "black",
+        "sku": "POUCH001-OS-BLK",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "pouch",
+      "travel",
+      "bag",
+      "market-lab",
+      "notify",
+      "utility"
+    ],
+    "categories": [
+      "market-lab",
+      "accessories",
+      "travel"
+    ]
+  },
+  {
+    "id": "supply-tee-001",
+    "slug": "calestra-team-tee-supply-pack",
+    "ctaMode": "notify",
+    "fulfillmentType": "notify",
+    "availabilityType": "notify",
+    "printfulEligible": false,
+    "notifyOnly": true,
+    "notifyMe": true,
+    "backInStockOnly": true,
+    "notifyLabel": "Meddela mig",
+    "notifyNote": "Detta är ett B2B-/Supply-test. Lämna intresse om du vill ha team-, förenings- eller personalplagg.",
+    "title": "Calestra Team Tee – Supply Pack",
+    "description": "Ett framtida paket för team, föreningar, event och organisationer. Byggt för att testa Calestra Supply OS och smartare textilflöden.",
+    "i18n": {
+      "sv": {
+        "title": "Calestra Team Tee – Supply Pack",
+        "description": "Ett framtida paket för team, föreningar, event och organisationer. Byggt för att testa Calestra Supply OS och smartare textilflöden.",
+        "notifyLabel": "Meddela mig",
+        "notifyNote": "Detta är ett B2B-/Supply-test. Lämna intresse om du vill ha team-, förenings- eller personalplagg."
+      },
+      "en": {
+        "title": "Calestra Team Tee – Supply Pack",
+        "description": "A future pack for teams, associations, events and organizations. Built to test Calestra Supply OS and smarter textile flows.",
+        "notifyLabel": "Notify me",
+        "notifyNote": "This is a B2B/Supply test. Leave interest if you need team, association or staff apparel."
+      },
+      "tr": {
+        "title": "Calestra Team Tee – Supply Pack",
+        "description": "Ekipler, dernekler, etkinlikler ve organizasyonlar için gelecekteki paket. Calestra Supply OS ve daha akıllı tekstil akışlarını test etmek için tasarlandı.",
+        "notifyLabel": "Bana haber ver",
+        "notifyNote": "Bu bir B2B/Supply testidir. Ekip, dernek veya personel kıyafeti ihtiyacın varsa ilgini bırak."
+      }
+    },
+    "price": 7490,
+    "currency": "SEK",
+    "feelings": [
+      "professional",
+      "team",
+      "supply"
+    ],
+    "limited": false,
+    "popularity": 90,
+    "stock": 0,
+    "launchWave": "supply-lab-v1",
+    "season": "all",
+    "createdAt": "2026-05-03T12:25:00.000Z",
+    "sizes": [
+      "25 pack",
+      "50 pack",
+      "100 pack"
+    ],
+    "colors": [
+      "black"
+    ],
+    "type": "physical",
+    "isDigital": false,
+    "requiresShipping": true,
+    "shipping": {
+      "mode": "physical",
+      "requires": true,
+      "weight": 6.25,
+      "feeSEK": null
+    },
+    "images": [
+      {
+        "type": "hero",
+        "image": "/images/tee/black-star-tee-model.jpg"
+      },
+      {
+        "type": "thumb",
+        "image": "/images/tee/black-star-tee-model.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "size": "25 pack",
+        "color": "black",
+        "sku": "SUPTEE001-25-BLK",
+        "qty": 0
+      },
+      {
+        "size": "50 pack",
+        "color": "black",
+        "sku": "SUPTEE001-50-BLK",
+        "qty": 0
+      },
+      {
+        "size": "100 pack",
+        "color": "black",
+        "sku": "SUPTEE001-100-BLK",
+        "qty": 0
+      }
+    ],
+    "tags": [
+      "supply",
+      "b2b",
+      "team",
+      "event",
+      "uniform",
+      "textile",
+      "market-lab",
+      "notify"
+    ],
+    "categories": [
+      "supply",
+      "market-lab",
+      "apparel"
+    ]
+  }
+]

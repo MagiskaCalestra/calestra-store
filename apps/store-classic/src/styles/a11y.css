@@ -1,0 +1,36 @@
+/* Bättre kontrast i ljusa läget */
+:root {
+  --c-input-border: rgba(0,0,0,.18);
+  --c-input-border-hover: rgba(0,0,0,.28);
+  --c-input-placeholder: rgba(0,0,0,.55);
+  --c-input-text: #0b0b0b;
+  --c-focus: #375dfb;
+}
+
+.light input[type="text"],
+.light input[type="search"],
+.light .SearchInput input {
+  color: var(--c-input-text);
+  border: 1px solid var(--c-input-border);
+  background: #fff;
+}
+
+.light input[type="text"]::placeholder,
+.light input[type="search"]::placeholder,
+.light .SearchInput input::placeholder {
+  color: var(--c-input-placeholder);
+  opacity: 1;
+}
+
+.light input[type="text"]:hover,
+.light input[type="search"]:hover,
+.light .SearchInput input:hover {
+  border-color: var(--c-input-border-hover);
+}
+
+.light input[type="text"]:focus,
+.light input[type="search"]:focus,
+.light .SearchInput input:focus {
+  outline: 3px solid color-mix(in srgb, var(--c-focus) 45%, transparent);
+  border-color: var(--c-focus);
+}

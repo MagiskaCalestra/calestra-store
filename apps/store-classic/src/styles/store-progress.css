@@ -1,0 +1,177 @@
+/* D:\WebProjects\Calestra\apps\store-classic\src\styles\store-progress.css */
+
+.store-progress {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(185, 215, 255, 0.20), transparent 34%),
+    radial-gradient(circle at 96% 18%, rgba(241, 220, 167, 0.13), transparent 34%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.90), rgba(248, 250, 252, 0.98));
+  border: 1px solid rgba(185, 215, 255, 0.22);
+  box-shadow:
+    0 14px 28px rgba(15, 23, 42, 0.05),
+    0 0 0 1px rgba(255, 255, 255, 0.62) inset;
+}
+
+.store-progress::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(110deg, rgba(185, 215, 255, 0.12), transparent 36%, transparent 72%, rgba(241, 220, 167, 0.08));
+  opacity: 0.9;
+}
+
+.theme-dark .store-progress {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(127, 180, 255, 0.16), transparent 34%),
+    radial-gradient(circle at 96% 18%, rgba(214, 168, 79, 0.11), transparent 34%),
+    linear-gradient(135deg, rgba(2, 6, 23, 0.92), rgba(11, 18, 32, 0.98));
+  border-color: rgba(185, 215, 255, 0.16);
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.42),
+    0 0 0 1px rgba(185, 215, 255, 0.05) inset;
+}
+
+.store-progress__top {
+  position: relative;
+  z-index: 1;
+}
+
+.store-progress__label {
+  font-size: 0.9rem;
+  color: #334155;
+  font-weight: 900;
+  opacity: 0.94;
+}
+
+.theme-dark .store-progress__label {
+  color: #dbeafe;
+}
+
+/* Baslinje */
+.store-progress__glow-line {
+  position: relative;
+  z-index: 1;
+  margin-top: 8px;
+  height: 5px;
+  width: 100%;
+  background:
+    linear-gradient(90deg, rgba(15, 23, 42, 0.06), rgba(185, 215, 255, 0.15));
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(185, 215, 255, 0.18);
+}
+
+.theme-dark .store-progress__glow-line {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(185, 215, 255, 0.09));
+  border-color: rgba(185, 215, 255, 0.12);
+}
+
+/* Fylld del med glow */
+.store-progress__glow-fill {
+  position: relative;
+  height: 100%;
+  background:
+    linear-gradient(90deg, #1e3a5f 0%, #7fb4ff 50%, #f1dca7 100%);
+  box-shadow:
+    0 0 8px rgba(127, 180, 255, 0.62),
+    0 0 18px rgba(185, 215, 255, 0.34);
+  transition: width 1.2s ease;
+  border-radius: 999px;
+}
+
+/* Harmonic Star – liten, mjuk, vandrar i linjen */
+.store-progress__star {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #ffffff 0%, #e8edf7 34%, rgba(185, 215, 255, 0.58) 50%, transparent 72%);
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.95),
+    0 0 18px rgba(122, 184, 255, 0.82),
+    0 0 28px rgba(241, 220, 167, 0.22);
+  pointer-events: none;
+  animation: store-progress-star-drift 4s ease-in-out infinite;
+}
+
+.store-progress__star::before,
+.store-progress__star::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background:
+    linear-gradient(90deg, transparent 47%, rgba(255, 255, 255, 0.85) 49%, rgba(185, 215, 255, 0.78) 51%, transparent 53%),
+    linear-gradient(0deg, transparent 47%, rgba(255, 255, 255, 0.85) 49%, rgba(241, 220, 167, 0.62) 51%, transparent 53%);
+  opacity: 0.84;
+  filter: drop-shadow(0 0 8px rgba(185, 215, 255, 0.58));
+}
+
+.store-progress__star::after {
+  transform: rotate(45deg);
+  opacity: 0.46;
+}
+
+/* Stjärnan rör sig från vänster till höger inom fillen */
+@keyframes store-progress-star-drift {
+  0% {
+    transform: translate(-50%, -50%) scale(0.92);
+  }
+
+  50% {
+    transform: translate(calc(50% - 50%), -50%) scale(1.08);
+  }
+
+  100% {
+    transform: translate(calc(100% - 50%), -50%) scale(0.92);
+  }
+}
+
+.store-progress > div:last-child {
+  position: relative;
+  z-index: 1;
+  color: #475569;
+  font-weight: 800;
+}
+
+.theme-dark .store-progress > div:last-child {
+  color: #a9bad2;
+}
+
+.store-progress b {
+  color: #0f172a;
+  font-weight: 1000;
+}
+
+.theme-dark .store-progress b {
+  color: #f8fafc;
+}
+
+@media (max-width: 640px) {
+  .store-progress {
+    padding: 13px 14px;
+    border-radius: 16px;
+  }
+
+  .store-progress__label {
+    font-size: 0.82rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .store-progress__glow-fill,
+  .store-progress__star {
+    transition: none;
+    animation: none;
+  }
+}

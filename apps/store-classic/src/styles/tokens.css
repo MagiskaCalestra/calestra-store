@@ -1,0 +1,30 @@
+/* Globala tokens som komponenter använder â€“ trygg kontrast */
+:root{
+  /* Primary button */
+  --btn-primary-bg: #111;
+  --btn-primary-text: #fff;
+  --btn-primary-border: #111;
+
+  /* Ghost/alt button (ljus grund-läge) */
+  --btn-ghost-bg: #f9fafb;
+  --btn-ghost-text: #111;
+  --btn-ghost-border: #d0d3d9;
+
+  /* Card + border (används i flera komponenter) */
+  --card: #fff;
+  --border: #e6eaf0;
+}
+
+/* Dark mode default */
+.theme-dark{
+  --btn-primary-bg: #fff;
+  --btn-primary-text: #000;
+  --btn-primary-border: #e5e7eb;
+
+  --btn-ghost-bg: #2b3546;
+  --btn-ghost-text: #e6e7ea;
+  --btn-ghost-border: #2b3546;
+
+  --card: #0b0f17;
+  --border: #1c2533;
+}

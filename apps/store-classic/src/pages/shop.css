@@ -1,0 +1,85 @@
+/* apps/store-classic/src/styles/shop.css */
+
+.shop {
+  padding: 24px 0 80px;
+}
+
+.shop .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.shop .top-hints {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0 18px;
+}
+
+.shop .mini-hint {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.shop .grid {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.shop .grid > li {
+  min-width: 0;
+}
+
+.shop .msg {
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f3f4f6;
+  color: #111827;
+  margin-top: 12px;
+}
+
+.shop .msg.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* dark */
+
+body[data-theme="dark"] .shop .mini-hint,
+body.theme-dark .shop .mini-hint {
+  color: #9ca3af;
+}
+
+body[data-theme="dark"] .shop .msg,
+body.theme-dark .shop .msg {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body[data-theme="dark"] .shop .msg.error,
+body.theme-dark .shop .msg.error {
+  background: #7f1d1d;
+  color: #fee2e2;
+}
+/* Gör att shop följer globala bakgrunden utan att tvinga vit/svart */
+.shop {
+  background: transparent;
+}
+
+/* Se till att text inte blir grå och “död” i dark */
+body[data-theme="dark"] .shop .title,
+body.theme-dark .shop .title {
+  color: #e5e7eb;
+}
+
+body[data-theme="dark"] .shop .mini-hint,
+body.theme-dark .shop .mini-hint {
+  color: #9ca3af;
+}

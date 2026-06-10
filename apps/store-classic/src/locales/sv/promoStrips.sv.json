@@ -1,0 +1,29 @@
+{
+  "promoStrips": {
+    "eyebrow": "Spotlight",
+    "title": "Fler vägar in i känslan.",
+    "lead": "Upptäck portar, världar och detaljer som bär Calestras själ vidare.",
+    "shopCta": "Till butiken",
+
+    "cards": {
+      "gate": {
+        "title": "The Gate of Light",
+        "body": "Känn dragningen från porten där Calestras värld börjar lysa.",
+        "eyebrow": "Portal",
+        "cta": "Se galleriet"
+      },
+      "keep": {
+        "title": "Harmonic Keep",
+        "body": "Följ resan, signalerna och nivåerna som bygger nästa fas.",
+        "eyebrow": "Utveckling",
+        "cta": "Följ utvecklingen"
+      },
+      "drop": {
+        "title": "Carry the Star",
+        "body": "Produkter, symboler och små delar av världen att bära med sig.",
+        "eyebrow": "Kollektion",
+        "cta": "Se produkterna"
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+/* apps/store-classic/src/styles/z-index.css */
+/*
+  Calestra Store – global z-index map
+  Syfte:
+  - Förhindra osynliga overlays som fångar klick.
+  - Ge header, drawer, checkoutbar, Celeste och modaler tydlig prioritet.
+  - Undvika extrema z-index-värden överallt.
+*/
+
+:root {
+  --z-bg: 0;
+  --z-page: 10;
+  --z-card: 20;
+  --z-local: 50;
+
+  --z-sticky-page: 120;
+  --z-launch-banner: 220;
+
+  --z-header: 700;
+  --z-header-popover: 900;
+
+  --z-drawer-backdrop: 1200;
+  --z-drawer-panel: 1300;
+
+  --z-sticky-checkout: 3000;
+
+  --z-feedback: 4200;
+  --z-cookie: 4300;
+
+  --z-celeste: 5200;
+  --z-toast: 6200;
+
+  --z-modal: 7200;
+  --z-payment: 8200;
+  --z-pause: 9200;
+}
+
+/* Baslager */
+.cw-app {
+  position: relative;
+  isolation: isolate;
+  z-index: var(--z-page);
+}
+
+.cw-app-main,
+#main {
+  position: relative;
+  z-index: var(--z-page);
+}
+
+/* Header */
+.cw-header {
+  z-index: var(--z-header) !important;
+}
+
+/* Headerns interna popups */
+.cw-header .search,
+.cw-header .search-form {
+  z-index: var(--z-header-popover) !important;
+}
+
+/* Launch/status banner ska inte ligga ovanpå klickbara sidor på mobil */
+.launchBanner {
+  z-index: var(--z-launch-banner) !important;
+}
+
+/* Mobile drawer */
+.drawer {
+  z-index: var(--z-drawer-panel) !important;
+}
+
+.drawer .backdrop {
+  z-index: var(--z-drawer-backdrop) !important;
+}
+
+.drawer .panel {
+  z-index: var(--z-drawer-panel) !important;
+}
+
+/* Checkout mobilbar */
+.sticky-bar {
+  z-index: var(--z-sticky-checkout) !important;
+}
+
+/* Feedback / cookies */
+.feedback-button,
+.feedbackButton,
+.cw-feedback-button {
+  z-index: var(--z-feedback) !important;
+}
+
+.cookie-banner,
+.cookieBanner,
+.cw-cookie-banner {
+  z-index: var(--z-cookie) !important;
+}
+
+/* Celeste */
+.celeste-overlay,
+.celesteOverlay,
+.cw-celeste-overlay {
+  z-index: var(--z-celeste) !important;
+}
+
+/* Modaler */
+.modal,
+.dialog,
+[role="dialog"] {
+  z-index: var(--z-modal);
+}
+
+/* Pause / emergency */
+.pause-overlay {
+  z-index: var(--z-pause) !important;
+}
+
+/*
+  Viktigt:
+  Dolda desktop/mobile-element får aldrig ligga kvar och fånga klick.
+*/
+@media (max-width: 980px) {
+  .desktop {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .mobile {
+    display: inline-flex !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  .cw-header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-header) !important;
+  }
+
+  .launchBanner {
+    position: relative !important;
+    top: auto !important;
+    z-index: var(--z-launch-banner) !important;
+  }
+}
+
+@media (min-width: 981px) {
+  .mobile {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .desktop {
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+
+/*
+  Extra säkerhet:
+  När drawer inte är öppen ska den aldrig kunna fånga klick.
+*/
+.drawer:not(.open) {
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+.drawer:not(.open) .backdrop,
+.drawer:not(.open) .panel {
+  pointer-events: none !important;
+}
+
+/*
+  När drawer är öppen ska bara drawer fånga klick över sidan.
+*/
+.drawer.open {
+  pointer-events: auto !important;
+  visibility: visible !important;
+}
+
+.drawer.open .backdrop,
+.drawer.open .panel {
+  pointer-events: auto !important;
+}
+
+/*
+  Checkout-säkerhet:
+  Formulär och knappar i checkout ska alltid vara klickbara över dekor/summary-effekter.
+*/
+.checkout-page,
+.checkout-page .form-col,
+.checkout-page .card,
+.checkout-page .fieldset,
+.checkout-page .field,
+.checkout-page .input,
+.checkout-page label,
+.checkout-page button,
+.checkout-page a {
+  position: relative;
+  z-index: var(--z-page);
+}
+
+.checkout-page .summary-star,
+.checkout-page .checkout-live-dot,
+.checkout-page .cta-glow {
+  pointer-events: none !important;
+}
+
+/*
+  Sticky checkoutbar på mobil:
+  Den får synas över checkout-innehåll, men inte över drawer/modaler.
+*/
+@media (max-width: 760px) {
+  .sticky-bar {
+    position: sticky;
+    bottom: 0;
+    z-index: var(--z-sticky-checkout) !important;
+    pointer-events: auto !important;
+  }
+
+  .sticky-bar * {
+    pointer-events: auto;
+  }
+
+  .sticky-total {
+    pointer-events: none;
+  }
+
+  .sticky-bar .cta,
+  .sticky-bar button,
+  .sticky-bar a {
+    pointer-events: auto !important;
+    position: relative;
+    z-index: calc(var(--z-sticky-checkout) + 1);
+  }
+}

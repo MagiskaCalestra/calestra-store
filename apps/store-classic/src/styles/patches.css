@@ -1,0 +1,321 @@
+/* apps/store-classic/src/styles/patches.css */
+/* ===========================================
+   Calestra Store – Launch Patches v1.0
+   Här lägger vi alla småfixar, overrides
+   och justeringar som inte hör till en
+   specifik komponent.
+   =========================================== */
+
+/* Baslayout / container */
+:root {
+  --cw-max-width: 1120px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: #f5f5f8;
+  color: #111827;
+}
+
+/* Gemensam container (används i header, shop, footer) */
+.container {
+  width: 100%;
+  max-width: var(--cw-max-width);
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+/* Håll ihop toppsektioner på /shop och andra huvudsidor */
+main {
+  min-height: 60vh;
+}
+
+/* Shop-sidan – extra luft över rubriken "Butik" */
+.page-shop .page-header,
+.page-shop h1 {
+  margin-top: 24px;
+}
+
+/* Produktkort – säkerställ snygg grid-spacing på små skärmar */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* =============================
+   Header – sök / kontroller
+   ============================= */
+
+/* Om du lägger className="cw-header-search-input" på inputen i Header */
+.cw-header-search-input {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  background: #ffffff;
+  color: #111827;
+}
+
+.cw-header-search-input::placeholder {
+  color: rgba(75, 85, 99, 0.9);
+}
+
+/* Dark mode-variant */
+.theme-dark .cw-header-search-input {
+  background: #020617;
+  border-color: #1e293b;
+  color: #e5e7eb;
+}
+.theme-dark .cw-header-search-input::placeholder {
+  color: #64748b;
+}
+
+/* =============================
+   Footer – småjusteringar
+   ============================= */
+
+.site-footer {
+  font-size: 14px;
+}
+
+/* Se till att footern inte “klättrar upp”
+   när det är lite innehåll på sidan */
+html,
+body,
+#root {
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+.cw-app {
+  flex: 1 0 auto;
+}
+.site-footer {
+  flex-shrink: 0;
+}
+
+/* =============================
+   Promo bar / FOMO
+   ============================= */
+
+.promo-bar {
+  font-size: 13px;
+}
+
+.promo-bar .container {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* =============================
+   Respekt för reduced motion
+   ============================= */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition: none !important;
+  }
+}
+/* Exempel: ändra färg per kampanj */
+.cw-app[data-campaign="xmas"] .topbar--campaign {
+  background: #111827;
+  color: #f9fafb;
+}
+.cw-app[data-campaign="black-week"] .topbar--campaign {
+  background: #000;
+  color: #fef08a;
+}
+.cw-app[data-campaign="valentines"] .topbar--campaign {
+  background: #be123c;
+  color: #fff1f2;
+}
+/* patches.css
+ * Global finjusteringar – särskilt för mörkt tema
+ * Säkert att override:a, importeras sist i App.jsx
+ */
+
+/* ===== Basljus / typografi =================================== */
+
+body {
+  color: #020617;
+}
+
+/* Allt i mörkt läge får ljus text & mjuk bakgrund */
+.theme-dark,
+.theme-dark body {
+  background-color: #020617;
+  color: #e5ecff;
+}
+
+/* Grundtext & rubriker i mörkt läge */
+.theme-dark main,
+.theme-dark .page,
+.theme-dark .page-inner,
+.theme-dark .content,
+.theme-dark article {
+  color: #dbe6ff;
+}
+
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5 {
+  color: #f9fbff;
+}
+
+/* Vanlig text / listor */
+.theme-dark p,
+.theme-dark li,
+.theme-dark small,
+.theme-dark span {
+  color: #c9d5ff;
+}
+
+/* Länkar – lite ljusare än kroppen */
+.theme-dark a {
+  color: #e0ecff;
+}
+.theme-dark a:hover {
+  color: #ffffff;
+}
+
+/* ===== Kort / paneler / kvitton =============================== */
+
+.theme-dark .card,
+.theme-dark .panel,
+.theme-dark .paper,
+.theme-dark .box,
+.theme-dark .sheet,
+.theme-dark .order-card,
+.theme-dark .summary-card,
+.theme-dark .receipt-card {
+  background: radial-gradient(circle at top left, #0b1220 0, #020617 55%, #000 100%);
+  border-color: #1f2937;
+  color: #e5ecff;
+}
+
+/* “Lätta” kort som tidigare var nästan svarta mot svart bakgrund */
+.theme-dark .card--soft,
+.theme-dark .panel--soft {
+  background: #050b17;
+}
+
+/* Gridkort på progress/press mm som hade för svag kontrast */
+.theme-dark .milestone-card,
+.theme-dark .press-card,
+.theme-dark .gallery-card,
+.theme-dark .product-card {
+  background: #050b17;
+  border-color: #1f2937;
+  color: inherit;
+}
+
+/* ===== Formulär / inputs / knappar ============================ */
+
+.theme-dark input,
+.theme-dark select,
+.theme-dark textarea {
+  background-color: #020718;
+  border-color: #1f2937;
+  color: #e5ecff;
+}
+
+.theme-dark input::placeholder,
+.theme-dark textarea::placeholder {
+  color: #6b7280;
+}
+
+/* Sekundära knappar i mörkt läge – bättre kontrast */
+.theme-dark button,
+.theme-dark .btn {
+  color: #e5ecff;
+}
+
+/* Ghost/outline-knappar */
+.theme-dark .btn-ghost,
+.theme-dark .ghost,
+.theme-dark button.ghost {
+  border-color: #374151;
+  color: #cbd5f5;
+}
+
+/* Primära call-to-action (t.ex. Skicka intresse, Till kassan) */
+.theme-dark .btn-primary,
+.theme-dark .cta,
+.theme-dark button.cta,
+.theme-dark .checkout-btn,
+.theme-dark .newsletter-btn {
+  background: #4b6bfa;
+  border-color: #4b6bfa;
+  color: #ffffff;
+}
+
+/* ===== Tabellen/kvitto-specifik text ========================= */
+
+.theme-dark table,
+.theme-dark th,
+.theme-dark td {
+  color: #dde7ff;
+  border-color: #1f2937;
+}
+
+/* Små etiketter i kvitto, progress osv */
+.theme-dark .tag,
+.theme-dark .badge,
+.theme-dark .pill {
+  color: #e5ecff;
+  border-color: #4b6bfa;
+}
+
+/* ===== Footer / copy ========================================== */
+
+.theme-dark footer,
+.theme-dark .site-footer {
+  background: #020617;
+  color: #9ca3c7;
+}
+
+.theme-dark footer a,
+.theme-dark .site-footer a {
+  color: #e0ecff;
+}
+
+/* “Copyright-raden” längst ner som blev för mörk */
+.theme-dark .footer-bottom,
+.theme-dark .footer-meta {
+  border-top-color: #1f2937;
+  color: #6b7280;
+}
+
+/* ===== Små visuella boosts ==================================== */
+
+/* Lätt glow runt aktiva kort i mörkt läge (ex. vald Associate-nivå) */
+.theme-dark .assoc-tier.is-active,
+.theme-dark .card.is-active,
+.theme-dark .milestone-card.is-current {
+  box-shadow: 0 0 60px rgba(79, 70, 229, 0.45);
+  border-color: #6366f1;
+}
+
+/* Progress-stapeln – lite tydligare mot mörk bakgrund */
+.theme-dark .progress-track {
+  background: #020617;
+}
+.theme-dark .progress-bar {
+  background: linear-gradient(90deg, #22c55e, #bef264);
+}
+
+/* Vanliga sektioners rubrik – lite mer luft */
+.theme-dark section h2 {
+  margin-bottom: 6px;
+}

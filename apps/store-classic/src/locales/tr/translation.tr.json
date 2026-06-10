@@ -1,0 +1,885 @@
+{
+  "brand": "Calestra Store",
+  "nav": {
+    "home": "Ana sayfa",
+    "shop": "Mağaza",
+    "cart": "Sepet",
+    "checkout": "Ödeme"
+  },
+  "footer": {
+    "news": "Bir sonraki drop çıktığında e-posta ile haber al. E-posta üzerinden onaylaman gerekir.",
+    "fomo": "Daha az seri pazar. Daha çok lansman hissi.",
+    "cookiesLink": "Çerezler & izleme",
+    "tag": "Calestra World — mucize, duygular ve geleceğin buluştuğu yer.",
+    "aria": "Alt bilgi bağlantıları",
+    "billing": "Faturalandırma",
+    "shipping": "Kargo",
+    "about": "Şirket",
+    "aboutWorld": "Calestra World Hakkında",
+    "values": "Vizyon & Değerler",
+    "sustainability": "Sürdürülebilirlik",
+    "press": "Basın & Medya",
+    "careers": "Kariyer",
+    "contact": "İletişim",
+    "legal": "Hukuk",
+    "cookies": "Çerezler & izleme",
+    "returns": "İade & Cayma Hakkı",
+    "social": "Sosyal",
+    "rights": "Tüm hakları saklıdır.",
+    "shippingSoon": "Dünya çapında gönderim — yakında"
+  },
+  "home": {
+    "hero": {
+      "title": "Işığı taşı. Yolculuğu destekle.",
+      "lead": "Her alışveriş bizi Calestra World’e biraz daha yaklaştırır — mucizenin, duyguların ve geleceğin buluştuğu bir yer. Bugün ürünlerini alırsın, birlikte daha büyük bir şey inşa ederiz.",
+      "ctaPrimary": "İlk drop’a git",
+      "ctaSecondary": "Yolculuğu destekle",
+      "meta": "Dünya çapında gönderim — yakında"
+    },
+    "featured": "Seçili favoriler",
+    "allProducts": "Tüm ürünleri gör →",
+    "support": {
+      "title": "Mucizeyi destekle — Calestra World birlikte"
+    },
+    "bullets": {
+      "secure": "Güvenli ödeme (SSL)",
+      "ship": "{{amount}} üzeri ücretsiz kargo",
+      "returns": "Sipariş üzerine üretilir • Hatalarda güvenli garanti",
+      "popular": "Popüler"
+    },
+    "milestones": {
+      "status": {
+        "reached": "Tamamlandı",
+        "open": "Devam ediyor"
+      },
+      "fields": {
+        "target": "Hedef",
+        "eta": "ETA",
+        "reward": "Ödül"
+      },
+      "meta": "Detaylar",
+      "cta": "Bu aşamayı destekle",
+      "learnMore": "Daha fazla bilgi",
+      "m1": {
+        "title": "Aşama 1 – İlk kıvılcım",
+        "body": "Lansman haftasında ücretsiz kargo hedefine ulaşıyoruz…",
+        "reward": "Ödül: lansman rozeti",
+        "eta": "hf.42"
+      },
+      "m2": {
+        "title": "Aşama 2 – Topluluk desteği",
+        "body": "Dev-log ön odasını açıyor ve davet ediyoruz…",
+        "reward": "Ödül: özel dev-log + oylama",
+        "eta": "hf.45"
+      },
+      "m3": {
+        "title": "Aşama 3 – Maker drop",
+        "body": "Özel dijital drop (arka planlar/temalar).",
+        "reward": "Ödül: dijital Maker paketi",
+        "eta": "hf.48"
+      },
+      "m4": {
+        "title": "Aşama 4 – Yayın adımı",
+        "body": "Prototipe giden sonraki sprinti finanse edin.",
+        "reward": "Ödül: destekçi kredileri",
+        "eta": "Q1"
+      }
+    }
+  },
+  "newsletter": {
+    "eyebrow": "Calestra World",
+    "title": "Daireye katıl",
+    "lead": "Drop’lar, ilerleme ve küçük mucize parçalarından ilk sen haberdar ol — ara sıra tek, derli toplu bir e-posta.",
+    "emailLabel": "E-posta",
+    "emailGroup": "Bülten kaydı",
+    "emailPlaceholder": "sen@eposta.com",
+    "cta": "Katıl",
+    "ctaBusy": "Katılıyor…",
+    "consent": "E-posta almayı kabul ediyor ve Gizlilik Politikasını onaylıyorum.",
+    "validation": {
+      "email": "Geçerli bir e-posta adresi gir.",
+      "consent": "Lütfen gizlilik şartlarını kabul et."
+    },
+    "feedback": {
+      "success": "Teşekkürler! Lütfen gelen kutunu kontrol et.",
+      "error": "Bir sorun oluştu. Lütfen tekrar dene."
+    }
+  },
+  "badges": {
+    "limited": "Sınırlı",
+    "support": "Destek",
+    "out": "Tükendi"
+  },
+  "buttons": {
+    "buy": "Satın al",
+    "view": "Göster",
+    "choose": "Beden seç"
+  },
+  "card": {
+    "limited": "Sınırlı",
+    "view": "Göster",
+    "choose": "Beden seç",
+    "buy": "Satın al"
+  },
+  "product": {
+    "open": "Ürünü aç",
+    "missing": "Ürün bulunamadı.",
+    "unpriced": "Fiyatlandırılmamış",
+    "noPrice": "Fiyatlandırılmamış",
+    "backToShop": "Mağazaya dön",
+    "gallery": "Ürün görselleri",
+    "thumbnails": "Küçük görseller",
+    "prevImage": "Önceki görsel",
+    "nextImage": "Sonraki görsel",
+    "thumb": "Görsel seç",
+    "size": "Beden",
+    "color": "Renk",
+    "qty": "Adet",
+    "qtyInput": "Adet",
+    "decrease": "Adedi azalt",
+    "increase": "Adedi artır",
+    "addToCart": "Sepete ekle",
+    "goToCart": "Sepete git",
+    "out": "Tükendi",
+    "outOfStock": "Stokta yok",
+    "inStock": "Stokta: {{count}}",
+    "freeShippingNotice": "Ücretsiz kargo için kalan: {{amount}}",
+    "preorderBadge": "Rezervasyon Kuyruğu",
+    "notifyBadge": "Bana haber ver",
+    "kicker": "Seçili release",
+    "kickerPreorder": "Rezervasyon Kuyruğu",
+    "kickerNotify": "Hazır olunca haber ver",
+    "kickerJewelry": "Taşınabilir sembol",
+    "taxHint": "Fiyatlar şu para biriminde gösterilir:",
+    "returnHint": "Sipariş üzerine üretilir • Hata durumunda güvenli garanti.",
+    "shippingHintDyn": "{{amount}} üzeri ücretsiz kargo.",
+    "shippingHint": "Ücretsiz kargo koşullara göre mevcuttur.",
+    "sticky": {
+      "aria": "Hızlı alışveriş"
+    },
+    "flag": {
+      "limited": "Sınırlı",
+      "support": "Destek",
+      "jewelry": "Takı"
+    },
+    "stock": {
+      "out": "Tükendi",
+      "hot": "Son parçalar!",
+      "warn": "Neredeyse tükendi"
+    },
+    "preorder": {
+      "defaultLabel": "ÖN SİPARİŞ",
+      "defaultNote": "Bu bir ön rezervasyondur. Üretim ve teslimat daha sonraki bir dalgada gerçekleşir."
+    },
+    "notify": {
+      "defaultLabel": "Bana haber ver",
+      "defaultNote": "Bu ürün şu anda satın alınamıyor. Açıldığında haber almak için e-postanızı bırakın.",
+      "submit": "Açıldığında bana haber ver"
+    },
+    "urgency": {
+      "preorder": "Calestra Rezervasyon Kuyruğu Sistemi aktif. Dalga açıldığında yerinizi ayırmak için e-postanızı bırakın.",
+      "notify": "Bu ürün şu anda satın almaya açık değil. E-postanızı bırakın, açıldığında size haber verelim.",
+      "out": "Bu release şu anda tükendi.",
+      "limitedVeryLow": "Yalnızca {{count}} kaldı — ilk drop her an tükenebilir.",
+      "limitedLow": "Sınırlı release — bu dalgada {{count}} kaldı.",
+      "limited": "İlk drop yayında — sonraki release garanti değil.",
+      "low": "Stokta az kaldı — erken alışverişler ilk dalgaya girer.",
+      "default": "Sınırlı hissi taşıyan seçili release — erken keşfedenler için tasarlandı."
+    },
+    "founder": {
+      "preorder": "Bu artık Calestra Rezervasyon Kuyruğu Sistemi üzerinden ilerliyor. Önce kaydolursunuz — yer açıldığında sizinle iletişime geçeriz.",
+      "notify": "Bu ürün hâlâ doğru zamanı bekliyor. Açıldığında onu gerçekten isteyenlere önce ulaşmak istiyoruz.",
+      "jewelry": "Bu sadece bir takı değil. Calestra’nın taşınabilir sembolü — yanında taşıyabileceğin sessiz bir ışık.",
+      "support": "Bu bir alışverişten fazlası — inşa edilen şeye erken bir destek.",
+      "limited": "Bunu taşıyanlar erkenden oradaydı — dünya yetişmeden önce.",
+      "default": "Bu sadece bir ürün değil. Başlangıcın bir parçası."
+    },
+    "cta": {
+      "notifyMe": "Bana haber ver",
+      "joinReservationQueue": "Kuyruğa katıl",
+      "wearLight": "Işığı taşı",
+      "secure": "Kendininkini ayır",
+      "join": "İlklerden biri ol",
+      "moreInfo": "Daha fazla bilgi",
+      "keepClose": "Yakınında taşı",
+      "takePlace": "Yerini al"
+    },
+    "signal": {
+      "feel": "His",
+      "drop": "Durum",
+      "buy": "Şimdi",
+      "feelPreorder": "Alışverişten çok sıra",
+      "feelNotify": "Daha çok bekleme listesi",
+      "feelJewelry": "Daha sembolik",
+      "feelLimited": "Daha nadir",
+      "feelValue": "Daha seçkin",
+      "buyPreorder": "Rezervasyon kuyruğu açık",
+      "buyNotify": "E-posta ilgisi",
+      "buyJewelry": "Taşınabilir ikon",
+      "buyLimited": "İlk dalga",
+      "buyValue": "Hızlı yol",
+      "preorderOpen": "Rezervasyon kuyruğu açık",
+      "notifyOpen": "E-posta ilgisi açık",
+      "stockCount": "{{count}} kaldı",
+      "dropOut": "Stokta yok"
+    },
+    "jewelry": {
+      "note": "Hediye, koleksiyon parçası veya günlük taşıyabileceğin küçük Harmonic Star olarak uygundur."
+    },
+    "queue": {
+      "titlePreorder": "Calestra Rezervasyon Kuyruğu Sistemi",
+      "leadPreorder": "E-postanızı yazın, sıradaki yerinizi kaydedelim ve sonraki dalga açıldığında sizinle iletişime geçelim.",
+      "leadNotify": "E-postanızı bırakın, ürün açıldığında size bildirim gönderelim.",
+      "placeholder": "sen@eposta.com",
+      "loading": "…",
+      "join": "Kuyruğa katıl",
+      "invalidEmail": "Geçerli bir e-posta adresi yazın.",
+      "alreadyPreorder": "Zaten kuyruktasınız. Onay gerekiyorsa gelen kutunuzu kontrol edin.",
+      "alreadyNotify": "Zaten kayıtlısınız. Onay gerekiyorsa gelen kutunuzu kontrol edin.",
+      "errorWithStatus": "Bir sorun oluştu. Tekrar deneyin.",
+      "successPreorder": "Tamam! Artık Calestra Rezervasyon Kuyruğu Sistemindesiniz. Gönderdiğimiz e-posta ile onaylayın.",
+      "successNotify": "Tamam! Onaylamak için e-postanızı kontrol edin.",
+      "networkError": "Ağ hatası. Tekrar deneyin.",
+      "hintPreorder": "Önce bir onay e-postası göndeririz. Sonraki dalga açıldığında daha geniş kitleden önce haber alabilirsiniz.",
+      "hintNotify": "Ürün açıldığında kaçırmamanız için önce onay e-postası göndeririz."
+    }
+  },
+  "pdp": {
+    "prev": "Önceki görsel",
+    "next": "Sonraki görsel"
+  },
+  "form": {
+    "name": "Ad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "postcode": "Posta kodu",
+    "city": "Şehir",
+    "country": "Ülke"
+  },
+  "error": {
+    "required": "Bu alan zorunludur.",
+    "email": "Geçerli bir e-posta adresi gir.",
+    "phone": "Geçerli bir telefon numarası gir.",
+    "zip": "Geçerli bir posta kodu gir."
+  },
+  "cart": {
+    "title": "Sepet",
+    "empty": "Sepetin boş",
+    "emptyHint": "Ödeme adımına geçmek için birkaç ürün ekle.",
+    "continue": "Alışverişe devam et",
+    "viewProduct": "Ürünü görüntüle",
+    "decrease": "Adedi azalt",
+    "increase": "Adedi artır",
+    "remove": "Ürünü kaldır",
+    "checkout": "Ödemeye git"
+  },
+  "thanks": {
+    "backHome": "Ana sayfaya dön",
+    "title": "Satın alma için teşekkürler!",
+    "tip": "İpucu: Makbuz bağlantısını kaydet — hesap olmadan da çalışır."
+  },
+  "checkout": {
+    "aria": {
+      "hero": "Ödeme"
+    },
+    "title": "Satın alma işlemini tamamla",
+    "titlePreorder": "Ön sipariş",
+    "titleMixed": "Karışık ödeme",
+    "customer": "Müşteri bilgileri",
+    "shipping": "Teslimat adresi",
+    "billing": "Fatura adresi",
+    "billing.useSeparate": "Fatura adresi teslimattan farklı",
+    "shippingAddress": "Teslimat adresi",
+    "summary": "Sipariş özeti",
+    "subtotal": "Ara toplam",
+    "shippingFee": "Kargo",
+    "free": "Ücretsiz kargo",
+    "total": "Toplam",
+    "placeOrder": "Siparişi tamamla",
+    "agreeLabel": "Şartları kabul ediyorum",
+    "prefillActive": "Bilgiler önceden dolduruldu",
+    "notifyGuard": {
+      "title": "Bevaka ürünü",
+      "text": "Bu sepette yalnızca haber verilecek ürünler var ve sipariş olarak tamamlanmamalıdır."
+    },
+    "agree": {
+      "read": "Oku"
+    },
+    "and": "ve",
+    "terms": "Satın alma koşulları",
+    "privacy": "Gizlilik politikası",
+    "field": {
+      "company": "Şirket",
+      "careOf": "c/o",
+      "address2": "Daire/Suite",
+      "doorCode": "Kapı kodu",
+      "region": "Bölge/Eyalet",
+      "deliveryNotes": "Teslimat notu",
+      "orgNumber": "Kuruluş numarası",
+      "orgNumberHint": "İsteğe bağlı",
+      "vatId": "KDV No"
+    },
+    "hints": {
+      "company": "İsteğe bağlı",
+      "careOf": "İsteğe bağlı",
+      "address2": "İsteğe bağlı",
+      "doorCode": "İsteğe bağlı",
+      "region": "İsteğe bağlı",
+      "deliveryNotes": "İsteğe bağlı, kısa metin"
+    },
+    "progress": {
+      "toFree": "Ücretsiz kargo için kalan: {{amount}}",
+      "free": "Ücretsiz kargoyu kazandın!"
+    },
+    "trust": {
+      "ssl": "Güvenli ödeme (SSL)",
+      "encrypted": "Şifreli ödemeler"
+    },
+    "error": "Satın alma tamamlanamadı."
+  },
+  "trust": {
+    "returnsShort": "Sipariş üzerine üretilir • Hatalarda güvenli garanti"
+  },
+  "shop": {
+    "search": "Ürün ara…",
+    "min": "Min",
+    "max": "Maks",
+    "sortLabel": "Sırala",
+    "sortOptions": {
+      "featured": "Öne çıkanlar",
+      "priceAsc": "Fiyat: düşükten yükseğe",
+      "priceDesc": "Fiyat: yüksekten düşüğe",
+      "new": "En yeni"
+    },
+    "limited": "Sınırlı",
+    "instock": "Stokta",
+    "clear": "Temizle",
+    "live": "DROP MODE",
+    "found": "Burayı buldun. Şimdi her şey başlıyor.",
+    "currencyNow": "Fiyatlar şu para biriminde gösterilir:",
+    "loading": "Ürünler yükleniyor…",
+    "error": "Ürünler yüklenemedi",
+    "emptyTitle": "Şu anda sonuç yok",
+    "empty": "Hiçbir ürün bu filtreyle eşleşmiyor.",
+    "emptyTip": "İpucu: filtreleri temizlemeyi veya kategori değiştirmeyi dene ✦",
+    "emptyCta": "Tüm kataloğu göster",
+    "top": "Yukarı",
+    "hero": {
+      "aria": "Calestra Store",
+      "titleLine1": "Bir yerlerde…",
+      "titleLine2": "seni bekliyor.",
+      "leadLine1": "Işığı takip etmiyorsun.",
+      "leadLine2": "Işığın kendisi oluyorsun.",
+      "enterDrop": "Drop’a gir",
+      "fullCatalog": "Tüm kataloğu gör"
+    },
+    "dropIntro": {
+      "aria": "The First Drop",
+      "kicker": "The First Drop",
+      "title": "Taşıyabileceğin semboller.",
+      "body": "Altı seçili ürün. Daha az seri pazar. Daha çok release hissi. Bir dalga tükendiğinde ne zaman geri döneceğini bilmiyoruz."
+    },
+    "previewPill": {
+      "title": "Kontrollü ön izleme – her şey henüz aktif değil.",
+      "label": "PREVIEW"
+    },
+    "catalog": {
+      "aria": "Katalog",
+      "kicker": "KATALOG",
+      "title": "Büyümek için tasarlandı",
+      "all": "Tümü",
+      "firstDrop": "İlk drop",
+      "first-drop": "İlk drop",
+      "apparel": "Giyim",
+      "accessories": "Aksesuarlar",
+      "home": "Ev",
+      "jewelry": "Takılar",
+      "prints": "Baskılar",
+      "sets": "Setler",
+      "support": "Destek",
+      "collectors": "Koleksiyon",
+      "surprise-boxes": "Sürpriz kutular",
+      "digital": "Dijital",
+      "other": "Diğer"
+    },
+    "count": {
+      "zero": "Sonuç yok",
+      "one": "1 ürün gösteriliyor",
+      "many": "{{x}} ürün gösteriliyor",
+      "of": "{{y}} üründen {{x}} tanesi gösteriliyor"
+    },
+    "hints": {
+      "firstDropCount": "İlk drop: 6 ürün",
+      "category": "Kategori: {{category}}",
+      "preorderActive": "Collector pre-order aktif",
+      "notifyAvailable": "Haber ver modu mevcut"
+    },
+    "quick": {
+      "aria": "Hızlı seçimler",
+      "inStock": "Stoktakileri göster",
+      "limited": "Sınırlı",
+      "preorder": "Collector pre-order",
+      "notify": "Bana haber ver",
+      "support": "Destek",
+      "clear": "Temizle"
+    },
+    "story": {
+      "aria": "Calestra Store hikâyesi",
+      "kicker": "DROP’UN BİR ADIM ÖTESİ",
+      "title": "Sıradan bir web mağazasından fazlası.",
+      "body": "Ürünler sade ve satışa hazır. Etrafındaki hikâye markayı inşa eder.",
+      "more": "Daha fazlasını göster",
+      "card1": {
+        "kicker": "HER ZAMAN CALESTRA",
+        "title": "Sembol her zaman yakında.",
+        "body": "Bu histe asla yalnız değilsin."
+      },
+      "card2": {
+        "kicker": "HARMONIC QUALITY",
+        "title": "Özenle seçilmiş malzemeler.",
+        "body": "Hızlı bir trendden daha uzun ömürlü ve daha iyi hissettirmek için tasarlandı."
+      },
+      "card3": {
+        "kicker": "MINDFUL PRODUCTION",
+        "title": "İhtiyaç olduğunda üretilir.",
+        "body": "Daha az gürültü. Daha çok sorumluluk. İlk dalga üzerinde daha fazla kontrol."
+      }
+    },
+    "promo": {
+      "collectionCta": "Sınırlı koleksiyonu göster",
+      "collection": "Harmonic Star Collection ✦ – ilk dropta sembol, giyim ve koleksiyon baskısı",
+      "cta": "Daha fazlasını gör"
+    },
+    "preorder": {
+      "defaultLabel": "ÖN SİPARİŞ",
+      "defaultNote": "Bu bir ön rezervasyondur. Üretim ve teslimat daha sonraki bir dalgada gerçekleşir.",
+      "defaultLeadDays": "Bu bir ön rezervasyondur. Üretim ve teslimat daha sonraki bir dalgada, yaklaşık {{days}} gün içinde gerçekleşir.",
+      "firstDropNote": "İlk droptaki kolye collector pre-order olarak sunulur. Yerini şimdi ayırırsın, üretim dalgası doğrulamadan sonra başlar."
+    },
+    "tools": {
+      "summary": "Filtreler ve katalog modu",
+      "fullCatalogTitle": "Full Catalog v1",
+      "firstDropTitle": "First Drop v1",
+      "fullCatalogBody": "Tam katalog modu açık. Kategoriler ürünlerden, etiketlerden ve slug’lardan otomatik oluşturulur.",
+      "firstDropBody": "Bu dalgada yalnızca en güçlü altı autoprodukt gösterilir. Daha fazla release sonra gelir.",
+      "showFirstDrop": "Sadece ilk drop’u göster",
+      "showFullCatalog": "Tüm kataloğu göster"
+    },
+    "previewNote": "Bazı özellikler hâlâ yapılıyor. Gördüğün şey bilinçli olarak lansmana hazır bir preview — stabil, hızlı ve net.",
+    "error": {
+      "loadFailed": "Yükleme başarısız oldu"
+    }
+  },
+  "colors": {
+    "black": "siyah",
+    "white": "beyaz",
+    "navy": "lacivert",
+    "grey": "gri",
+    "gold": "altın",
+    "full color": "tam renk"
+  },
+  "products": {
+    "black-star-tee": {
+      "title": "First Light – Tee",
+      "description": "Kalbe yakın The Harmonic Star sembolüyle siyah premium tişört. Sade, güçlü ve Calestra dünyası açılmadan önce günlük hayat için tasarlandı."
+    },
+    "black-star-hoodie": {
+      "title": "Bearer of Light – Hoodie",
+      "description": "The Harmonic Star sembolüyle siyah hoodie. Sıcak, şehirli ve akşamlar, yolculuklar ve içinde daha fazlasını taşıyan insanlar için tasarlandı."
+    },
+    "black-star-tote": {
+      "title": "Path Carrier – Tote",
+      "description": "The Harmonic Star sembollü siyah tote çanta. Taşıması kolay, görünür olacak kadar güçlü ve günlük küçük yollar için tasarlandı."
+    },
+    "hidden-signal-mug": {
+      "title": "Hidden Signal Mug™",
+      "subtitle": "Isıyla belirir · Artık görüyorsun",
+      "description": "Sıcak içecekle The Harmonic Star’ın belirdiği siyah ısı kupası. Başkalarının görmediğini görenler için sessiz bir sabah ritüeli."
+    },
+    "black-star-mug": {
+      "title": "Hidden Signal Mug™",
+      "subtitle": "Isıyla belirir · Artık görüyorsun",
+      "description": "Sıcak içecekle The Harmonic Star’ın belirdiği siyah ısı kupası. Başkalarının görmediğini görenler için sessiz bir sabah ritüeli."
+    },
+    "calestra-harmonic-star-necklace": {
+      "title": "The Harmonic Star – Necklace",
+      "description": "Calestra’nın taşınabilir sembolü. Lyra’nın taşıdığı ışıktan ilham alan yıldız kolye — umut, varlık ve başlangıç için tasarlandı.",
+      "subtitle": "Collector pre-order · ilk dalga şimdi rezerve ediliyor",
+      "availabilityLabel": "Collector pre-order",
+      "preorderBadge": "PRE-ORDER",
+      "preorderLabel": "Collector pre-order",
+      "preorderText": "Şimdi rezerve edilir, sonraki üretim dalgasında teslim edilir.",
+      "preorderNote": "Bu bir ön rezervasyondur. Üretim ve teslimat, ilk parti canlıya geçtiğinde sonraki bir dalgada gerçekleşir.",
+      "preorderEta": "İlk üretim dalgası drop doğrulamasından sonra duyurulur."
+    },
+    "calestra-harmonic-star-collector-print": {
+      "title": "The Harmonic Star – Collector Print",
+      "description": "Calestra’nın ışık taşıyan sembolüyle koleksiyon baskısı. Başlangıcın görünür olması gereken duvar, stüdyo veya sakin köşe için tasarlandı."
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "Calestra World Hakkında",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Calestra World hem bir mağaza hem de uzun vadeli bir üretimdir — bugün satılan ürünler yarının daha büyük deneyimini finanse eder. Estetiğimiz mucizeyi, duyguları ve geleceği birleştirir. Topluluk; içgörüler, ön siparişler ve destek ürünleriyle birlikte üretir.",
+      "company": {
+        "name": "Calestra Holding & Resort AB",
+        "org": "559000-0000",
+        "hq": "Stockholm, İsveç",
+        "email": "support@calestra.com"
+      },
+      "leadership": {
+        "title": "Liderlik & kültür",
+        "body": "Calestra; iş geliştirme, tasarım ve misafir deneyiminde deneyimli bir ekip tarafından yönetilir. Kararlar; emanet bilinci, açıklık ve uzun vadeli değer rehberliğinde alınır. Büyük sözler yerine sakin ve istikrarlı teslimatı tercih ederiz."
+      },
+      "advisory": {
+        "title": "Danışma çevresi",
+        "body": "Kıdemli danışmanlardan oluşan küçük bir çevre; ticaret, finans, hukuk, teknoloji ve kültür alanlarındaki deneyimiyle yönetime destek verir. Bu kurul, yenilik ile istikrarı ve sorumlu büyümeyi dengelememize yardımcı olur."
+      },
+      "governance": {
+        "title": "Yönetişim",
+        "items": [
+          "Proje bazında net sorumluluklar ve dokümantasyon.",
+          "Yol haritası kilometre taşlarına bağlı üç aylık kontrol noktaları.",
+          "Pragmatik risk yönetimi ve dikkatli bütçeleme."
+        ]
+      },
+      "sections": [
+        {
+          "title": "Nasıl çalışıyoruz",
+          "body": "• Küçük partiler, kaliteli malzemeler ve şeffaf iletişim.\n• Yol haritası kilometre taşlarına bağlı dijital ve fiziksel drop’lar.\n• Artan kaynaklar geliştirme ve topluluk aktivitelerine yeniden yatırılır."
+        },
+        {
+          "title": "Neden mağaza?",
+          "body": "Gerçek ürünler bizi yere basar, üretimi finanse eder ve destekçilere bu dünyadan küçük bir parçayı taşıma imkânı verir."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sermaye alıyor musunuz?",
+          "a": "Dikkatli büyüyoruz. Dış ortaklar net değer kattığında basın sayfasında kısa bir not yayınlarız."
+        },
+        {
+          "q": "Destek nereden yönetiliyor?",
+          "a": "Destek İsveç’ten yürütülür ve İsveççe ile İngilizce kapsama sunar."
+        }
+      ]
+    },
+    "vision": {
+      "title": "Vizyon & Değerler",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Hayretin pratik, geleceğin sıcak hissettirdiği bir dünya kuruyoruz.",
+      "principles": [
+        "Özen — tasarım ve iletişimde empati.",
+        "İşçilik — malzeme ve detaylarda titizlik.",
+        "Açıklık — sade sözler ve dürüst zaman çizelgeleri."
+      ],
+      "sections": [
+        {
+          "title": "Temel değerler",
+          "body": "Özen, İşçilik, Açıklık. Empatiyle teslim eder, detaylara önem verir ve sade iletişim kurarız."
+        },
+        {
+          "title": "Topluluğa sözümüz",
+          "body": "Açık geliştirme notları, dürüst zaman çizelgeleri ve ilerlemeye bağlı ödüller."
+        },
+        {
+          "title": "Nelerden kaçınırız",
+          "body": "Aşırı vaatlerden, kullan-at ürünlerden ve dikkat tuzaklarından kaçınırız. Kalıcı değeri tercih ederiz."
+        }
+      ]
+    },
+    "sustainability": {
+      "title": "Sürdürülebilirlik",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Az ama daha iyi şeyleri tercih ederiz. Etkimiz baştan küçük tasarlanır ve büyüdükçe iyileştirilir.",
+      "sections": [
+        {
+          "title": "Malzemeler",
+          "body": "Mümkün olduğunda organik veya geri dönüştürülmüş malzemeler. Hızlı moda yerine dayanıklı temeller seçeriz."
+        },
+        {
+          "title": "Paketleme",
+          "body": "Minimum, geri dönüştürülebilir ve ürüne göre uyarlanmış paketleme."
+        },
+        {
+          "title": "Taşıma",
+          "body": "Uygun olduğunda birleştirilmiş sevkiyatlar ve yerel fulfillment ortakları."
+        },
+        {
+          "title": "Ömür",
+          "body": "Daha uzun kullanım için tasarlarız. Gerekli olduğunda bakım önerileri eklenir."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Karbon dengelemesi yapıyor musunuz?",
+          "a": "İlk odak noktamız azaltmadır. Dengelemeler, azaltma adımlarından sonra kalan emisyonlar için kullanılabilir."
+        }
+      ]
+    },
+    "press": {
+      "title": "Basın & Medya",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Gazeteciler ve içerik üreticileri için logolar, görseller ve hikâye başlıkları.",
+      "boilerplate": "Calestra World tasarım, müzik ve interaktif anlatıyı harmanlar. Mağaza prototipi finanse eder.",
+      "assets": {
+        "title": "Marka materyalleri",
+        "items": [
+          "Vektör logo (açık/koyu).",
+          "Fotoğraf: ürün & ortam.",
+          "Kısa yönetim sunumları."
+        ]
+      },
+      "sections": [
+        {
+          "title": "Kısa tanım",
+          "body": "Calestra World tasarım, müzik ve interaktif anlatıyı harmanlar. Mağaza prototipi finanse eder."
+        },
+        {
+          "title": "İletişim",
+          "body": "Basın soruları: press@calestra.com\nMarka materyalleri talep üzerine paylaşılır."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Görsellerinizi kullanabilir miyiz?",
+          "a": "Evet, editoryal kullanımda “Calestra World” kredisiyle. Ticari kullanım için önce bizimle iletişime geçin."
+        }
+      ]
+    },
+    "careers": {
+      "title": "Kariyer",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Nadiren ve özenle işe alıyoruz. Küçük ekipleri ve net teslimatı seviyorsan bize ulaş.",
+      "list": [
+        "Şu anda açık pozisyon yok.",
+        "Açık başvurulara açığız — iş örneklerini ekle."
+      ],
+      "benefits": [
+        "Esnek ve güvene dayalı çalışma kültürü.",
+        "Net çerçeveler ve işçilik odağı.",
+        "Dürüst geri bildirim döngüleri ve sakin planlama."
+      ],
+      "sections": [
+        {
+          "title": "Nasıl başvurulur",
+          "body": "careers@calestra.com adresine kısa bir tanıtım ve en güçlü işlerine bağlantılar gönder."
+        }
+      ]
+    },
+    "contact": {
+      "title": "İletişim",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Her mesajı okuyoruz.",
+      "contact": {
+        "email": "support@calestra.com",
+        "response": "Genellikle 2–3 iş günü içinde dönüş yaparız."
+      },
+      "sections": [
+        {
+          "title": "Yazmadan önce",
+          "body": "Sipariş sorusu mu? Sipariş numaranı ekle. Basın? press@calestra.com kullan."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Telefon numaranız var mı?",
+          "a": "Daha doğru ve izlenebilir yanıtlar için öncelikle e-posta ile çalışıyoruz. Telefon görüşmeleri gerektiğinde planlanabilir."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Satın alma koşulları",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Kısa, okunabilir ve insani. Yerel tüketici yasaları bu koşullara ek olarak geçerlidir.",
+      "sections": [
+        {
+          "title": "Satın alma",
+          "body": "Ödeme onaylandığında sipariş bağlayıcı olur. AB müşterileri için fiyatlara KDV dahildir."
+        },
+        {
+          "title": "Teslimat",
+          "body": "Gönderimler AB’den yapılır. Tahmini teslimat süreleri ödeme adımında gösterilir."
+        },
+        {
+          "title": "Cayma hakkı",
+          "body": "Sipariş üzerine üretilir • Hatalarda güvenli garanti. Detaylar için İade sayfasına bak."
+        },
+        {
+          "title": "Sorumluluk",
+          "body": "Dolaylı zararlardan sorumlu değiliz. Yasal hakların etkilenmez."
+        },
+        {
+          "title": "Hatalar & bulunabilirlik",
+          "body": "Açık fiyat veya stok hatalarında sipariş tam iade ile iptal edilebilir."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik politikası",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Mağazayı çalıştırmak ve hesabını güvenli tutmak için gereken en az veriyi toplarız.",
+      "legalBasis": [
+        "Sözleşme (siparişini yerine getirmek için).",
+        "Meşru menfaat (güvenlik ve dolandırıcılığı önleme).",
+        "Açık rıza (bülten ve gerekli olduğunda çerezler)."
+      ],
+      "sections": [
+        {
+          "title": "Topladıklarımız",
+          "body": "İletişim bilgileri, sipariş verileri ve temel analiz. Hassas kategoriler yok."
+        },
+        {
+          "title": "Neden",
+          "body": "Siparişleri işlemek, dolandırıcılığı önlemek ve siteyi geliştirmek için."
+        },
+        {
+          "title": "Saklama & güvenlik",
+          "body": "Veriler mümkün olduğunda AB içinde saklanır. Ödemeler PCI sertifikalı sağlayıcılarca işlenir."
+        },
+        {
+          "title": "Hakların",
+          "body": "Erişim, düzeltme ve silme. privacy@calestra.com adresine yaz."
+        }
+      ],
+      "processors": [
+        "Ödeme sağlayıcıları (PCI).",
+        "Sipariş onayları için e-posta sağlayıcısı.",
+        "Anonimleştirilmiş IP ile analiz sağlayıcısı."
+      ]
+    },
+    "cookies": {
+      "title": "Çerezler & İzleme",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Çerezler sepeti çalıştırır ve kullanımı anlamamıza yardım eder.",
+      "sections": [
+        {
+          "title": "Zorunlu",
+          "body": "Oturum ve sepet çerezleri — sitenin çalışması için gereklidir."
+        },
+        {
+          "title": "Analitik",
+          "body": "Anonim kullanım ölçümleri. Çerez banner’ından vazgeçebilirsin."
+        },
+        {
+          "title": "Pazarlama",
+          "body": "Yalnızca aktif olarak onay verirsen."
+        }
+      ],
+      "manage": {
+        "title": "Tercihleri yönet",
+        "body": "Tercihlerini istediğin zaman güncellemek için footer’daki çerez ikonunu aç."
+      },
+      "faq": [
+        {
+          "q": "Tercihimi nasıl değiştirebilirim?",
+          "a": "Footer ikonundan çerez banner’ını aç ve tercihlerini güncelle."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Teslimat & kargo",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "AB içinde ve seçili bölgelere gönderim yapıyoruz. Global gönderim yolda.",
+      "regions": [
+        "Avrupa Birliği (çoğu ülke).",
+        "BK & AEA (seçili ürünler).",
+        "Yeni bölgeler zamanla duyurulur."
+      ],
+      "sections": [
+        {
+          "title": "Ücretler & ücretsiz kargo",
+          "body": "Canlı oranlar ödeme adımında gösterilir. Ücretsiz kargo limiti ülke ve para birimine göre değişir."
+        },
+        {
+          "title": "Hazırlık süresi",
+          "body": "Siparişler genellikle 1–3 iş günü içinde gönderilir."
+        },
+        {
+          "title": "Takip",
+          "body": "Sipariş depodan çıktıktan sonra takip bağlantısı e-posta ile gönderilir."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Siparişten sonra adresimi değiştirebilir miyim?",
+          "a": "Hızlıca destekle iletişime geç — paket depodan çıkmadıysa düzenleyebiliriz."
+        },
+        {
+          "q": "Gümrük & ücretler?",
+          "a": "Uluslararası alıcılar yerel makamlar tarafından ithalat ücretlerine tabi tutulabilir."
+        }
+      ]
+    },
+    "returns": {
+      "title": "İade & Cayma Hakkı",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Sipariş üzerine üretilir • Hatalarda güvenli garanti.",
+      "sections": [
+        {
+          "title": "Koşullar",
+          "body": "Ürünler kullanılmamış, etiketli ve orijinal durumda olmalıdır. Hijyen ürünleri mühürlüdür."
+        },
+        {
+          "title": "Nasıl yapılır",
+          "body": "İade etiketi ve talimatları almak için support@calestra.com adresine sipariş numaranla yaz."
+        },
+        {
+          "title": "Geri ödeme",
+          "body": "Onaylı kontrolden sonra 5–10 gün içinde orijinal ödeme yöntemine iade yapılır."
+        }
+      ],
+      "exceptions": [
+        "Hatalı olmadıkça kişiye özel ürünler.",
+        "Açılmış hijyenle ilgili ürünler (güvenlik nedeniyle)."
+      ],
+      "faq": [
+        {
+          "q": "Ürün hatalıysa ne yapmalıyım?",
+          "a": "Sipariş numaran ve fotoğraflarla destek ekibine yaz; değişim veya iade konusunda yardımcı olalım."
+        }
+      ]
+    },
+    "billing": {
+      "title": "Faturalandırma",
+      "updatedAt": "Son güncelleme: {{date}}",
+      "intro": "Çoğu ödeme kartını ve popüler bölgesel yöntemleri kabul ediyoruz.",
+      "sections": [
+        {
+          "title": "Ödeme yöntemleri",
+          "body": "Visa, Mastercard, Amex, PayPal, Klarna (desteklenen yerlerde), Swish (SE)."
+        },
+        {
+          "title": "Makbuzlar & faturalar",
+          "body": "Sipariş onayı otomatik olarak e-posta ile gönderilir. Kurumsal fatura gerektiğinde düzenlenebilir."
+        },
+        {
+          "title": "Vergiler & KDV",
+          "body": "Gösterilen fiyatlara AB müşterileri için KDV dahildir. Uluslararası alıcılar yerel makamlar tarafından ithalat ücretlerine tabi tutulabilir."
+        }
+      ]
+    }
+  },
+  "receipt": {
+    "title": "Makbuz",
+    "order": "Sipariş",
+    "customer": "Müşteri",
+    "shippingAddress": "Teslimat adresi",
+    "items": "Ürün",
+    "qty": "Adet",
+    "unit": "Birim fiyat",
+    "sum": "Tutar",
+    "subtotal": "Ara toplam",
+    "shipping": "Kargo",
+    "tax": "KDV",
+    "total": "Toplam",
+    "viewPdf": "PDF sürümünü gör",
+    "toShop": "Mağazaya dön",
+    "copyLink": "Makbuz bağlantısını kopyala",
+    "share": "Paylaş",
+    "print": "Yazdır",
+    "pdf": "PDF sürümü"
+  }
+}

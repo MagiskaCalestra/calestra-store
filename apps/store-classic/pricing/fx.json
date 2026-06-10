@@ -1,0 +1,15 @@
+{
+  "base": "SEK",
+  "rates": {
+    "SEK": 1,
+    "EUR": 0.089,
+    "GBP": 0.076,
+    "TRY": 3.0
+  },
+  "rounding": {
+    "SEK": "int",
+    "EUR": "xx.95",
+    "GBP": "xx.95",
+    "TRY": "xx.99"
+  }
+}

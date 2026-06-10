@@ -1,0 +1,9 @@
+<!-- apps/store-classic/public/images/logo/calestra-logo-light.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" aria-label="Calestra Store">
+  <!-- Symbol: svart för ljus bakgrund -->
+  <polygon points="50,5 56,44 95,50 56,56 50,95 44,56 5,50 44,44" fill="#000"/>
+  <!-- Wordmark (systemfont, enkel & robust) -->
+  <text x="120" y="64" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="32" fill="#000">
+    Calestra Store
+  </text>
+</svg>

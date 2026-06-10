@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "pricebooks": {
+    "SEK": {
+      "products": {
+        "black-star-hoodie": 599,
+        "black-star-tee": 299
+      }
+    },
+    "EUR": {
+      "products": {
+        "black-star-hoodie": 59.95,
+        "black-star-tee": 29.95
+      }
+    },
+    "GBP": {
+      "products": {
+        "black-star-hoodie": 52.95,
+        "black-star-tee": 26.95
+      }
+    }
+  }
+}

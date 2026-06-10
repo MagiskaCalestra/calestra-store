@@ -1,0 +1,343 @@
+{
+  "brand": "Calestra Store",
+  "brand.aria": "Gå till startsidan",
+  "a11y": { "skipToContent": "Hoppa till innehåll" },
+  "ally": { "skipToContent": "Hoppa till innehåll" },
+
+  "ui": {
+    "title": "Titel",
+    "lead": "Ingress",
+    "body": "Brödtext",
+    "description": "Beskrivning",
+    "raised": "Insamlat",
+    "goal": "Mål",
+    "yes": "Ja",
+    "no": "Nej"
+  },
+
+  "common": {
+    "loading": "Laddar produkterâ€¦",
+    "offline": "Offline-läge: visar lokala produkter.",
+    "fallback": "lokal data",
+    "backToShop": "Tillbaka till butiken",
+    "print": "Skriv ut",
+    "viewAll": "Visa alla",
+    "close": "Stäng"
+  },
+
+  "nav": {
+    "main": "Huvudmeny",
+    "home": "Hem",
+    "shop": "Butik",
+    "cart": "Kundvagn",
+    "checkout": "Kassa",
+    "language": { "label": "Språk" },
+    "currency": { "label": "Valuta" },
+    "theme": { "toggle": "Byt tema" },
+    "sound": { "on": "Slå på ljud", "off": "Stäng av ljud" },
+    "itemsInCart": "Artiklar i kundvagn",
+    "shopBy": "Handla efter",
+    "byGender": "kön",
+    "department": "Avdelning",
+    "features": "Höjdpunkter",
+    "newIn": "Nyheter",
+    "sets": "Paket",
+    "limited": "Limited"
+  },
+
+  "home": {
+    "progress": { "raised": "Insamlat", "goal": "Mål" },
+    "hero": {
+      "title": "Bär ljuset. Stöd resan.",
+      "lead": "Varje köp tar oss närmare Calestra World â€” en plats där magi, känslor och framtid möts. Du får produkter idag, och tillsammans bygger vi något större.",
+      "ctaPrimary": "Till butiken",
+      "ctaSecondary": "Stöd magin â€” hjälp oss bygga Calestra World",
+      "meta": "Worldwide shipping â€” kommer snart"
+    },
+    "milestones": {
+      "m1":  { "title": "Delmål 1 â€“ Första tändningen", "reward": "Belöning: lanseringsbadge" },
+      "m2":  { "title": "Delmål 2 â€“ Community-boost",   "reward": "Belöning: privat dev-log + röstning" },
+      "m3":  { "title": "Delmål 3 â€“ Maker-drop",         "reward": "Belöning: digitalt Maker-paket" },
+      "m4":  { "title": "Delmål 4 â€“ Prototyp",           "reward": "Belöning: supporter-credits" },
+      "m5":  { "title": "Delmål 5 â€“ Pilot",              "reward": "Belöning: tidigt accessprogram" },
+      "m6":  { "title": "Delmål 6 â€“ Release A",          "reward": "Belöning: exklusiv drop A" },
+      "m7":  { "title": "Delmål 7 â€“ Release B",          "reward": "Belöning: exklusiv drop B" },
+      "m8":  { "title": "Delmål 8 â€“ Expansion",          "reward": "Belöning: community-förmån" },
+      "m9":  { "title": "Delmål 9 â€“ Global v1",          "reward": "Belöning: specialedition" },
+      "m10": { "title": "Delmål 10 â€“ Global v2",         "reward": "Belöning: VIP-förmån" },
+      "m11": { "title": "Slutmål â€“ Calestra World",      "reward": "Belöning: Hall of Founders" }
+    },
+    "featured": "Utvalda favoriter",
+    "allProducts": "Alla produkter â†’",
+    "support": { "title": "Stöd magin â€” Calestra World tillsammans", "close": "Stäng" },
+    "bullets": {
+      "secure": "Säker kassa (SSL)",
+      "ship": "Fri frakt över {{amount}}",
+      "returns": "Tillverkas på beställning • Trygg garanti vid fel",
+      "popular": "Populärt"
+    },
+    "controls": { "shop": "Handla", "learn": "Läs mer" },
+
+    "method": {
+      "title": "Calestra Method â€” handel med samvete",
+      "lead": "Vi bygger mer än en butik. Vi bygger en plats där känslor, hantverk och framtid möts. Varje köp tänder ett ljus.",
+      "cards": {
+        "emotion": { "title": "Emotion", "body": "En upplevelse som berör. Varje pixel, rörelse och ton designas för att kännas â€” inte bara synas." },
+        "ethic":   { "title": "Ethic",   "body": "Rättvist och tydligt. Vi prioriterar långsiktig respekt framför kortsiktig hype." },
+        "elegance":{ "title": "Elegance","body": "Teknik som känns mjuk. Tidlös formgivning som håller över tid." }
+      }
+    }
+  },
+
+  "shop": {
+    "title": "Butik",
+    "lead": "Utforska avdelningar och hitta din stil.",
+    "noResults": "Inga resultat",
+    "search": "Sök produkterâ€¦",
+    "min": "Min",
+    "max": "Max",
+    "sortLabel": "Sortera",
+    "limited": "Limited",
+    "instock": "I lager",
+    "clear": "Rensa",
+    "filters": {
+      "search": "Sök",
+      "searchPlaceholder": "Sök produkterâ€¦",
+      "priceRange": "Prisintervall",
+      "minPricePlaceholder": "Min",
+      "maxPricePlaceholder": "Max",
+      "boundsHint": "Ange valfri min/max (heltal).",
+      "sortBy": "Sortera",
+      "onlyLimited": "Endast Limited",
+      "onlySupport": "Endast Support",
+      "inStockOnly": "Endast i lager"
+    },
+    "tags": "Känsla",
+    "sortOptions": {
+      "featured": "Utvalda",
+      "new": "Nyast",
+      "priceAsc": "Pris: lägst först",
+      "priceDesc": "Pris: högst först"
+    },
+    "reset": "Rensa filter",
+    "results": "resultat",
+    "pageSize": "Per sida",
+    "loadMore": "Visa fler",
+    "facets": {
+      "gender": "Kön",
+      "age": "Ålder",
+      "category": "Kategori",
+      "any": "Alla",
+      "values": {
+        "gender": { "men": "Herr", "women": "Dam", "unisex": "Unisex", "kids": "Barn" },
+        "age": { "baby": "Baby", "kids": "Barn", "teen": "Tonår", "adult": "Vuxen", "all": "Alla" },
+        "category": {
+          "clothing": "Kläder",
+          "toys": "Leksaker",
+          "accessories": "Accessoarer",
+          "home": "Hem",
+          "digital": "Digitalt",
+          "sets": "Paket",
+          "misc": "Övrigt"
+        }
+      }
+    }
+  },
+
+  "dept": { "apparel": "Kläder", "accessories": "Accessoarer", "home": "Hem", "digital": "Digitalt", "sets": "Paket" },
+
+  "cat": {
+    "hoodies": "Hoodies",
+    "tees": "T-shirts",
+    "sweats": "Sweats",
+    "outerwear": "Ytterplagg",
+    "bags": "Väskor",
+    "hats": "Kepsar & mössor",
+    "mugs": "Muggar",
+    "prints": "Prints",
+    "wallpapers": "Bakgrunder",
+    "bundles": "Bundles"
+  },
+
+  "feel": { "joy": "mysig", "dreamy": "drömsk", "practical": "praktisk", "present": "present", "cozy": "mysig", "warm": "varm" },
+
+  "buttons": { "view": "Visa", "buy": "Köp", "choose": "Välj storlek", "backToShop": "Tillbaka till butiken", "print": "Skriv ut" },
+
+  "card": { "limited": "Limited", "choose": "Välj storlek", "view": "Visa", "buy": "Köp" },
+
+  "productCard": {
+    "hover": { "default": "Utforska detaljer, bilder och lagerstatus." },
+    "badges": { "limited": "Limited", "support": "Support", "outOfStock": "Slut" },
+    "buttons": {
+      "chooseSize": "Välj storlek",
+      "chooseSizeAria": "Välj storlek",
+      "chooseSizeTitle": "Välj en storlek",
+      "view": "Visa",
+      "viewAria": "Visa produktsida",
+      "viewTitle": "Visa produktsida",
+      "buy": "Köp",
+      "buyAria": "Lägg i kundvagn",
+      "buyTitle": "Lägg i kundvagn",
+      "quickView": "Snabbvy"
+    },
+    "openProductAria": "{{name}}"
+  },
+
+  "product": {
+    "backToShop": "Tillbaka till butiken",
+    "gallery": "Produktbilder",
+    "thumbnails": "Miniatyrer",
+    "size": "Storlek",
+    "color": "Färg",
+    "qty": "Kvantitet",
+    "description": "Beskrivning",
+    "unpriced": "Ej prissatt",
+    "addToCart": "Lägg i kundvagn",
+    "goToCart": "Gå till kundvagn",
+    "freeShippingNotice": "Fri frakt över {{amount}}"
+  },
+
+  "cart": {
+    "title": "Kundvagn",
+    "empty": "Din kundvagn är tom",
+    "emptyHint": "Lägg till några produkter för att komma vidare till kassan.",
+    "continue": "Fortsätt handla",
+    "viewProduct": "Visa produkten",
+    "decrease": "Minska antal",
+    "increase": "Öka antal",
+    "remove": "Ta bort",
+    "clear": "Töm kundvagnen",
+    "checkout": "Till kassan"
+  },
+
+  "form": {
+    "name": "Namn",
+    "email": "E-post",
+    "phone": "Telefon",
+    "address": "Adress",
+    "postcode": "Postnummer",
+    "city": "Ort",
+    "country": "Land"
+  },
+
+  "checkout": {
+    "title": "Kassa",
+    "customer": "Kunduppgifter",
+    "shipping": "Leveransadress",
+    "billing": "Fakturaadress",
+    "billing.useSeparate": "Fakturaadress skiljer sig från leverans",
+    "field": {
+      "company": "Företag",
+      "careOf": "c/o",
+      "address2": "Lägenhet/Suite",
+      "doorCode": "Portkod",
+      "region": "Region/Stat",
+      "deliveryNotes": "Leveransinstruktion",
+      "orgNumber": "Organisationsnummer",
+      "vatId": "VAT-ID"
+    },
+    "hints": {
+      "company": "Valfritt",
+      "careOf": "Valfritt",
+      "address2": "Valfritt",
+      "doorCode": "Valfritt",
+      "region": "Valfritt",
+      "deliveryNotes": "Valfritt, kort text"
+    },
+    "agreeLabel": "Jag godkänner villkoren",
+    "agree": "Jag godkänner villkoren",
+    "terms": "Köpvillkor",
+    "privacy": "Integritetspolicy",
+    "and": "och",
+    "summary": "Orderöversikt",
+    "subtotal": "Delsumma",
+    "shippingFee": "Frakt",
+    "free": "Fri frakt",
+    "total": "Totalt",
+    "progress": {
+      "toFree": "{{amount}} kvar till fri frakt",
+      "free": "Du har fri frakt!"
+    },
+    "placeOrder": "Slutför köp",
+    "trust": { "ssl": "Säker kassa (SSL)", "encrypted": "Krypterade betalningar" }
+  },
+
+  "error": { "required": "Obligatoriskt fält", "email": "Ogiltig e-postadress", "phone": "Ogiltigt telefonnummer", "zip": "Ogiltigt postnummer" },
+
+  "thanks": {
+    "title": "Tack för din beställning! âœ¨",
+    "subtitle": "Din order har mottagits och bearbetas just nu.",
+    "orderNumber": "Ordernummer",
+    "date": "Datum",
+    "summaryTitle": "Översikt",
+    "subtotal": "Delsumma",
+    "shipping": "Frakt",
+    "total": "Totalt",
+    "backToShop": "Tillbaka till butiken",
+    "print": "Skriv ut",
+    "shippingAddress": "Leveransadress",
+    "billingAddress": "Fakturaadress",
+    "viewReceipt": "Visa kvitto",
+    "continue": "Fortsätt handla",
+    "shippingTo": "Levereras till",
+    "notFoundTitle": "Vi hittar inte din beställning",
+    "notFoundBody": "Länken kan vara fel eller så har beställningen rensats.",
+    "backHome": "Till startsidan"
+  },
+
+  "receipt": {
+    "notFoundTitle": "Kvitto saknas",
+    "notFoundBody": "Beställningen kunde inte hittas.",
+    "payment": "Betalning",
+    "method": { "placeholder": "Kort/PayPal (mock)" },
+    "customer": "Kund",
+    "shippingAddress": "Leveransadress",
+    "billingAddress": "Fakturaadress",
+    "items": "Artiklar",
+    "item": "Artikel",
+    "unitPrice": "Ã -pris",
+    "qty": "Antal",
+    "line": "Rad",
+    "print": "Skriv ut / Spara som PDF",
+    "backToThanks": "Till tack-sidan",
+    "note": "Priserna inkluderar inte nödvändiga tullar/skatter i mottagarlandet om inte annat anges.",
+    "policy": " Tillverkas på beställning • Trygg garanti vid fel på lagerförda varor. PoD/special trycks på beställning och ersätts vid defekt.",
+    "contact": " Support: hello@calestra.store"
+  },
+
+  "footer": {
+    "rights": "Alla rättigheter förbehållna.",
+    "about": "Företag",
+    "aboutWorld": "Om Calestra World",
+    "values": "Vision & Värderingar",
+    "returns": "Returer & Ångerrätt",
+    "legal": "Juridiskt",
+    "social": "Socialt",
+    "shippingSoon": "Worldwide shipping â€” kommer snart"
+  },
+
+  "trust": { "returnsShort": "Tillverkas på beställning • Trygg garanti vid fel" },
+
+  "countries": { "Sweden": "Sverige", "Turkiye": "Turkiet", "Germany": "Tyskland" },
+
+  "search": { "input": "Sök", "clear": "Rensa" },
+
+  "newsletter": {
+    "title": "Få nyheterna först",
+    "lead": "Lanseringar, bakom kulisserna och erbjudanden â€” max 1â€“2/månad.",
+    "placeholder": "du@example.com",
+    "cta": "Prenumerera",
+    "loading": "Prenumererarâ€¦",
+    "success": "Tack! Kontrollera din inkorg för att bekräfta.",
+    "consent": "Jag godkänner att Calestra får mejla mig. Läs vår integritetspolicy.",
+    "smallprint": "Du kan avsluta när som helst via länk i våra mejl.",
+    "errors": {
+      "bot": "Något gick fel. Försök igen.",
+      "consent": "Godkänn integritetspolicyn för att fortsätta.",
+      "generic": "Kunde inte genomföra prenumerationen just nu."
+    }
+  },
+
+  "shippingNote": "Worldwide shipping â€” kommer snart",
+  "ShippingNote": "Worldwide shipping â€” kommer snart"
+}

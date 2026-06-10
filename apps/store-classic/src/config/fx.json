@@ -1,0 +1,12 @@
+{
+  "base": "SEK",
+  "asOf": "2025-10-01",
+  "note": "Mock rates for local dev. Replace from gateway when ready.",
+  "rates": {
+    "SEK": 1,
+    "EUR": 0.086,
+    "USD": 0.093,
+    "GBP": 0.074,
+    "TRY": 3.05
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "payments": [
+    { "label": "VISA",       "href": "https://www.visa.se/" },
+    { "label": "Mastercard", "href": "https://www.mastercard.se/" },
+    { "label": "AMEX",       "title": "American Express", "href": "https://www.americanexpress.com/se/" },
+    { "label": "Klarna",     "href": "https://www.klarna.com/se/" },
+    { "label": "Swish",      "href": "https://www.getswish.se/" },
+    { "label": "PayPal",     "href": "https://www.paypal.com/se/home" }
+  ],
+  "shipping": [
+    { "label": "Instabox", "href": "https://instabox.io/se" },
+    { "label": "PostNord", "href": "https://www.postnord.se/" },
+    { "label": "DHL",      "href": "https://www.dhl.com/se-sv/home.html" },
+    { "label": "UPS",      "href": "https://www.ups.com/se/sv/Home.page" }
+  ]
+}
